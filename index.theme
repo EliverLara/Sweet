@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Aqua
+Comment=A light theme with some gradients
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Aqua
+MetacityTheme=Aqua
+IconTheme=Boston
+ButtonLayout=:minimize,maximize,close
