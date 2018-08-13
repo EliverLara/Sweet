@@ -151,7 +151,7 @@ scale {
   $_scale_disabled_bg: darken($_scale_bg, 15%);
   slider {
     border-color: $base_color;
-    border: 2px solid $selected_bg_color;
+    border: 2px solid #00f17d;
     border-radius: 12px;
 
     background-color: $_scale_bg;
@@ -283,7 +283,7 @@ scale {
               min-height: 15px;
               min-width: 15px;
               margin: -7px;
-              border: 2px solid $selected_bg_color;
+              border: 2px solid #00f17d;
               border-radius: 50%;
 
               background-color: $_scale_bg;

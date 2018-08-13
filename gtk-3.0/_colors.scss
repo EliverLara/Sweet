@@ -22,7 +22,8 @@ $slider: #7b7bbd;
 $teal: #00e8c6;
 
 $selected_fg_color: #fefefe;
-$selected_bg_color: #00D3A7;
+$selected_bg_color: #c50ed2;
+//$selected_bg_color: #f7005a;
 /*$selected_bg_color: #00e8c6;06d6a0*/
 $selected_borders_color: darken($selected_bg_color, 10%);
 $borders_color: if($variant == 'light', transparentize(black,0.87), transparentize(#eee,0.9));
