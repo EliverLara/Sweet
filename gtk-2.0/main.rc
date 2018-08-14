@@ -92,7 +92,7 @@ style "default" {
   # Set this because some apps read it
   GtkTreeView::odd-row-color        = @base_color
   GtkTreeView::even-row-color       = @base_color
-  GtkTreeView::odd_row_color        = shade(0.97, @base_color)
+  GtkTreeView::odd_row_color        = shade(0.90, @base_color)
 
   GtkExpander::expander-size = 16
 
