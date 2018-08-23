@@ -1330,7 +1330,7 @@ StScrollBar {
   background-color: #00ffdd;
   border-radius: 10px !important;
   box-shadow: 0px 0px 5px 4px rgba(0, 255, 221, 0.8);
-  margin-bottom: 2px; }
+  margin-bottom: 0px; }
 
 .search-provider-icon,
 .list-search-result, .app-well-app .overview-icon,
