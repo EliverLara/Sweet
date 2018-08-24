@@ -165,10 +165,15 @@ placessidebar{
 						color: #ffffff;
 						background-color: rgba(0,0,0,0.24);
 						.sidebar-icon {
-				
 							color: #ffffff;
 						}
-					}
+          }
+          &:backdrop{
+            color: rgba(0,0,0,0.54);;
+            background-color: transparent;
+            background-image:linear-gradient(to right, #00e8b7 40px,
+                                  rgba(65,67,75,0) 36px, rgba(65,67,75,0)97%);
+          }
 
 					.sidebar-icon {
 						-gtk-icon-shadow: 0 1px transparentize(#fff, 0.2);

@@ -3030,10 +3030,6 @@ assistant {
 /*************
  * Notebooks *
  *************/
-notebook .frame *:selected, notebook .frame *:selected:backdrop {
-  background: transparent;
-  color: #00D3A7; }
-
 notebook > header {
   padding: 1px;
   border-color: rgba(238, 238, 238, 0.1);
@@ -4085,6 +4081,10 @@ placessidebar.sidebar {
         background-color: rgba(0, 0, 0, 0.24); }
         placessidebar.sidebar row.sidebar-row:selected:hover .sidebar-icon {
           color: #ffffff; }
+      placessidebar.sidebar row.sidebar-row:selected:backdrop {
+        color: rgba(0, 0, 0, 0.54);
+        background-color: transparent;
+        background-image: linear-gradient(to right, #00e8b7 40px, rgba(65, 67, 75, 0) 36px, rgba(65, 67, 75, 0) 97%); }
       placessidebar.sidebar row.sidebar-row:selected .sidebar-icon {
         -gtk-icon-shadow: 0 1px rgba(255, 255, 255, 0.8);
         color: inherit; }
@@ -5477,6 +5477,12 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
 /************
  * Nautilus *
  ************/
+.nautilus-window .frame *:selected, .nautilus-window .frame *:selected:backdrop {
+  background: transparent;
+  color: #00D3A7; }
+  .nautilus-window .frame *:selected label, .nautilus-window .frame *:selected:backdrop label {
+    color: #00D3A7; }
+
 .nautilus-window paned > separator {
   background-image: none; }
 
