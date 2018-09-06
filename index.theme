@@ -5,7 +5,7 @@ Comment=Light and dark colorful Gtk3.20+ theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Aqua
-MetacityTheme=Aqua
+GtkTheme=Sweet
+MetacityTheme=Sweet
 IconTheme=Boston
 ButtonLayout=:minimize,maximize,close
