@@ -121,10 +121,10 @@ stacksidebar {
 /*--*/
 
 placessidebar{
-  $_sidebar_color: if($variant == 'light', #222e39, #161925);
+  $_sidebar_color: if($variant == 'light', darken($main_dark_color, 3%), $main_dark_color);
 	&.sidebar{
 		background-color: transparent;
-		background-image:linear-gradient(to right, #171e27 40px,
+		background-image:linear-gradient(to right, darken($main_dark_color, 5%) 40px,
 												$_sidebar_color 35px,$_sidebar_color 36px,
 												$_sidebar_color 36px,$_sidebar_color 99%, 
 												$_sidebar_color 100%);
@@ -157,9 +157,9 @@ placessidebar{
 				}
 
 				&:selected{
-					color: rgba(0,0,0,0.54);
+					color: #fff;
 					background-color: transparent;
-					background-image:linear-gradient(to right, #00e8b7 40px,
+					background-image:linear-gradient(to right, $selected_bg_color 40px,
 																rgba(65,67,75,0) 36px, rgba(65,67,75,0)97%);
 					&:hover{
 						color: #ffffff;
@@ -171,7 +171,7 @@ placessidebar{
           &:backdrop{
             color: rgba(0,0,0,0.54);;
             background-color: transparent;
-            background-image:linear-gradient(to right, #00e8b7 40px,
+            background-image:linear-gradient(to right, $selected_bg_color 40px,
                                   rgba(65,67,75,0) 36px, rgba(65,67,75,0)97%);
           }
 

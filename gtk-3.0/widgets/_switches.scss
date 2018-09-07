@@ -30,13 +30,13 @@ switch {
   &:active,
   &:checked {
    // border: 1px solid $teal;
-   background:  linear-gradient(to right, #ff9200, #fadd00);
+   background:  linear-gradient(to right, #56CCF2, #2F80ED);
     slider{
       background: #fff;
     }
     &:backdrop {
       //border: 1px solid $teal;
-      background:  linear-gradient(to right, darken(#ff9200, 5%), darken(#fadd00, 5%));
+      background:  linear-gradient(to right, darken(#56CCF2, 5%), darken(#2F80ED, 5%));
       slider {
         &:backdrop {
           box-shadow:none;

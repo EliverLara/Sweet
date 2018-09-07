@@ -19,11 +19,33 @@
   <defs
      id="defs2859">
     <linearGradient
+       id="linearGradient851">
+      <stop
+         id="stop847"
+         offset="0"
+         style="stop-color:#56ccf2;stop-opacity:1" />
+      <stop
+         id="stop849"
+         offset="1"
+         style="stop-color:#2f80ed;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient845">
+      <stop
+         style="stop-color:#56ccf2;stop-opacity:1"
+         offset="0"
+         id="stop841" />
+      <stop
+         style="stop-color:#2f80ed;stop-opacity:1"
+         offset="1"
+         id="stop843" />
+    </linearGradient>
+    <linearGradient
        id="linearGradient844">
       <stop
          id="stop840"
          offset="0"
-         style="stop-color:#ff9200;stop-opacity:1" />
+         style="stop-color:#56ccf2;stop-opacity:1" />
       <stop
          id="stop842"
          offset="1"
@@ -111,7 +133,7 @@
     </filter>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient844"
+       xlink:href="#linearGradient851"
        id="linearGradient838"
        x1="462.14285"
        y1="792.86218"
@@ -120,7 +142,7 @@
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient844"
+       xlink:href="#linearGradient851"
        id="linearGradient852"
        x1="462.14285"
        y1="792.86218"
@@ -135,8 +157,8 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.826962"
-     inkscape:cx="30.007788"
+     inkscape:zoom="8.7222695"
+     inkscape:cx="20.928046"
      inkscape:cy="9.1634726"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -187,7 +209,7 @@
        transform="translate(444.64286,782.36218)"
        id="path900" />
     <path
-       style="fill:url(#linearGradient838);fill-opacity:1;stroke:url(#linearGradient852);stroke-opacity:1"
+       style="fill:url(#linearGradient838);fill-opacity:1.0;stroke:url(#linearGradient852);stroke-opacity:1"
        d="m 472.14286,783.36218 a 9.5,9.5 0 0 0 -9.5,9.5 9.5,9.5 0 0 0 9.5,9.5 h 7.5 2 7.5 a 9.5,9.5 0 0 0 9.5,-9.5 9.5,9.5 0 0 0 -9.5,-9.5 h -7.5 -2 z"
        id="path872"
        inkscape:connector-curvature="0" />
