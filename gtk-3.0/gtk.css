@@ -2620,7 +2620,8 @@ headerbar separator {
 
 headerbar switch {
   margin-top: 10px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  box-shadow: none; }
 
 headerbar separator {
   background: transparent; }
