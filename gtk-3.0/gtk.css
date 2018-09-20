@@ -4317,8 +4317,7 @@ switch {
   border-radius: 14px;
   color: transparent;
   padding: 2.3px 0px;
-  background: linear-gradient(to right, #859398, #859398);
-  box-shadow: 0px 2px 3px rgba(138, 138, 138, 0.753); }
+  background: linear-gradient(to right, #859398, #859398); }
   switch:disabled {
     background-color: #171a26; }
   switch:backdrop {
