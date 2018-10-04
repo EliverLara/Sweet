@@ -224,10 +224,8 @@
   //
     font-weight: bold;
     color: $tc;
-   // outline-color: transparentize($tc, 0.7);
-    background-color: mix($bg_color, $base_color, 15%);;
+    background-color: mix($bg_color, $base_color, 15%);
     text-shadow: none;
-    @include _shadows(inset 0px 1px 0px 0px $top_highlight,inset 0px -1px 0px 0px $bottom_highlight);
   }
 
   @else if $t==hover {
@@ -238,7 +236,6 @@
     outline-color: transparentize($tc, 0.7);
     background-color: $c;
     text-shadow: none;
-    //@include _shadows(inset 0px 1px 0px 0px $top_highlight,inset 0px -1px 0px 0px $bottom_highlight);
   }
 
   @if $t==normal-header {
@@ -246,17 +243,10 @@
   // normal button headerbar look
   //
   color: if($tc==$text_color, #8b8b8b, $tc);
-  // background-color: transparent;
-  // border-radius: 4px;
   text-shadow: none;
   box-shadow: none;
   background: transparent;
-   border: none;
-
-  // background: if( $variant == 'light', 
-  //                     linear-gradient(to bottom, $base_color, $bg_color),
-  //                     linear-gradient(to bottom, lighten($base_color, 12%), darken($bg_color, 2%))
-  //                 );
+  border: none;
 }
 
   @else if $t==hover-header {
@@ -264,15 +254,9 @@
   // hovered button headerbar look
   //
   color: if($tc==$text_color, $selected_bg_color, $tc);
-  //background-color: transparent;
   border-radius: 0;
   text-shadow: none;
   border:none;
-//   background-image: if( $variant == 'light', 
-//   linear-gradient(to bottom, $base_color, $bg_color),
-//   linear-gradient(to bottom, lighten($base_color, 12%), darken($bg_color, 2%))
-// );
-  //@include lines(up);
 }
 
 @else if $t==backdrop-header {
@@ -281,7 +265,6 @@
 //
 color: if($tc==$text_color, transparentize($tc, 0.6), $tc);
 background-color: transparent;
-
 border-radius: 0;
 text-shadow: none;
 box-shadow: none;
@@ -296,7 +279,6 @@ box-shadow: none;
   outline-color: transparentize($tc, 0.7);
   background-color: if($c==$base_color, $selected_bg_color, $c);
   text-shadow: none;
- // @include _shadows(inset 0px 1px 0px 0px $top_highlight,inset 0px -1px 0px 0px $bottom_highlight);
 }
   @else if $t==insensitive {
   //
@@ -306,7 +288,6 @@ box-shadow: none;
   outline-color: transparentize($tc, 0.7);
   background-color: if($c==$base_color, $insensitive_bg_color, $c);
   text-shadow: none;
-  @include _shadows(inset 0px 1px 0px 0px $top_highlight,inset 0px -1px 0px 0px $bottom_highlight);
 }
   @else if $t==insensitive-active {
   //
@@ -316,7 +297,6 @@ box-shadow: none;
   outline-color: transparentize($tc, 0.7);
   background-color: if($c==$base_color, $selected_bg_color, $c);
   text-shadow: none;
-  @include _shadows(inset 0px 1px 0px 0px $top_highlight,inset 0px -1px 0px 0px $bottom_highlight);
   label { color: transparentize($selected_fg_color, 0.3); }
 }
   @else if $t==backdrop {
@@ -327,7 +307,6 @@ box-shadow: none;
   outline-color: transparentize($tc, 0.7);
   background-color: if($c==$base_color, $backdrop_base_color, $c);
   text-shadow: none;
-  @include _shadows(inset 0px 1px 0px 0px $top_highlight,inset 0px -1px 0px 0px $bottom_highlight);
 }
 
   @else if $t==backdrop-active {
@@ -338,7 +317,6 @@ box-shadow: none;
   outline-color: transparentize($tc, 0.7);
   background-color: $selected_bg_color;
   text-shadow: none;
-  @include _shadows(inset 0px 1px 0px 0px $top_highlight,inset 0px -1px 0px 0px $bottom_highlight);
   label { color: transparentize($selected_fg_color, 0.3); }
 }
 
@@ -350,7 +328,6 @@ box-shadow: none;
   outline-color: transparentize($tc, 0.7);
   background-color: if($c==$base_color, $insensitive_bg_color, $c);
   text-shadow: none;
-  @include _shadows(inset 0px 1px 0px 0px $top_highlight,inset 0px -1px 0px 0px $bottom_highlight);
 }
 
   @else if $t==backdrop-insensitive-active {
@@ -361,7 +338,6 @@ box-shadow: none;
   outline-color: transparentize($tc, 0.7);
   background-color: $selected_bg_color;
   text-shadow: none;
-  @include _shadows(inset 0px 1px 0px 0px $top_highlight,inset 0px -1px 0px 0px $bottom_highlight);
 }
 
   @else if $t==osd {
