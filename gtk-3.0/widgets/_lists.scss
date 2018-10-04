@@ -41,6 +41,10 @@ row {
 
       &:backdrop { background-color: $backdrop_selected_bg_color; }
     }
+    
+    button:not(.image-button){
+      background-color: transparent;
+    }
   }
 
   &:selected { @extend %selected_items; }

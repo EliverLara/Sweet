@@ -121,7 +121,6 @@ stacksidebar {
 /*--*/
 
 placessidebar{
-  $_sidebar_color: if($variant == 'light', darken($main_dark_color, 3%), $main_dark_color);
 	&.sidebar{
 		background-color: transparent;
 		background-image:linear-gradient(to right, darken($main_dark_color, 5%) 40px,
@@ -130,10 +129,8 @@ placessidebar{
 												$_sidebar_color 100%);
 		row{
 			&.sidebar-row {
-				margin-right: -14px;
 				&.sidebar-row{
 					.sidebar-icon {
-			
 						margin-left:-14px;
 						margin-right: 12px;
 						padding-left: 14px;
@@ -143,7 +140,6 @@ placessidebar{
 				}
 				&:hover{
 					transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-				
 					color: rgba(0,0,0,0.76);
 					background-color: transparent; /*rgba(65,67,75,0.4); */
 					background-image:linear-gradient(to right, rgba(65,67,75,0) 40px, rgba(0,0,0,0.12) 40px,rgba(0,0,0,0.12) 97%);
@@ -186,7 +182,6 @@ placessidebar{
 	}
 	list{ 
 		background-color: transparent; 
-
 		&:backdrop { background-color: transparent; }
 	}
   
