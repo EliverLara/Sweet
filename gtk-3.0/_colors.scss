@@ -8,6 +8,7 @@ $bg_color: if($variant == 'light', darken( #EEEEEE, 3%), #161925);
 $fg_color: if($variant == 'light', #31363d, #C3C7D1);
 $switch_bg: if($variant == 'light', #ffffff, transparentize(black,1));
 $shadow_color: rgba(162, 162, 165, 0.21);
+$_sidebar_color: if($variant == 'light', #222e39, #161925);
 
 // Primary colors
 $lime: #71f79f;

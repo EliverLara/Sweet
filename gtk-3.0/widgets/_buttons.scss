@@ -94,12 +94,20 @@ button {
       min-width: 24px;
       padding-left: 4px;
       padding-right: 4px;
+      &.circular,&.sidebar-button{
+        padding: 6px 4px;
+        border-radius: 50px;
+        box-shadow: none;
+       }
+      &.sidebar-button {
+        background-color: lighten($_sidebar_color, 7.77%); 
+        color: #fff;
+        &:hover{
+          background-color: $selected_bg_color;
+        }
+      }
     }
-    &.image-button.circular,&.image-button.sidebar-button{
-      padding: 6px 4px;
-      border-radius: 50px;
-      box-shadow: none;
-     }
+    
 
     &.text-button {
       padding-left: 16px;
@@ -543,7 +551,7 @@ button.color {
     &, overlay { border-radius: 0; }
 
     @if $variant == 'light' {
-      box-shadow: 0 1px _text_shadow_color();
+      box-shadow: none;
 
       &:disabled,
       &:backdrop { box-shadow: none; }
@@ -553,9 +561,9 @@ button.color {
 
 notebook, list, .view, popover {
   button {
-    box-shadow: inset 0px 0px 0px 1px $borders_color;
+    box-shadow: none;
     &:backdrop {
-      box-shadow: inset 0px 0px 0px 1px $borders_color;
+      box-shadow: none;
     }
   }
   .linked > button {
