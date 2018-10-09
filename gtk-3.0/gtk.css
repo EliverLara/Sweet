@@ -5569,6 +5569,10 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   border: 0;
   background-color: #e6e6e6; }
 
+.xfce4-panel.panel {
+  background-color: #ebf0f5;
+  color: #31363d; }
+
 /********
  * Gala *
  *******/
@@ -5652,24 +5656,34 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
  ********/
 .panel {
   background-color: transparent;
-  transition: all 100ms ease-in-out;
-  color: white; }
+  transition: all 100ms ease-in-out; }
   .panel.maximized {
     background-color: #000; }
   .panel.translucent {
     background-color: rgba(0, 0, 0, 0.5); }
 
-.composited-indicator > GtkRevealer,
-.composited-indicator > GtkRevealer GtkImage,
-.composited-indicator > GtkRevealer GtkLabel {
-  color: white;
-  font-weight: bold;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.1);
-  -gtk-icon-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.1); }
+menubar.panel,
+.panel menubar {
+  box-shadow: none;
+  border: none; }
 
-.panel.color-light .composited-indicator > GtkRevealer,
-.panel.color-light .composited-indicator > GtkRevealer GtkImage,
-.panel.color-light .composited-indicator > GtkRevealer GtkLabel {
+.composited-indicator > revealer,
+.composited-indicator > revealer image,
+.composited-indicator > revealer label,
+.composited-indicator > revealer spinner {
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.5);
+  transition: all 200ms ease-in-out;
+  -gtk-icon-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.5); }
+
+.composited-indicator > revealer image:first-child + label {
+  margin-left: 5px; }
+
+.panel.color-light .composited-indicator > revealer,
+.panel.color-light .composited-indicator > revealer image,
+.panel.color-light .composited-indicator > revealer label,
+.panel.color-light .composited-indicator > revealer spinner {
   color: rgba(0, 0, 0, 0.6);
   text-shadow: 0 1px rgba(255, 255, 255, 0.1);
   -gtk-icon-shadow: 0 1px rgba(255, 255, 255, 0.1); }
@@ -5730,6 +5744,14 @@ LibraryWindow .the-button-in-the-combobox {
 
 .checkboard-layout .item {
   background-color: #31363d; }
+
+/*********
+* Avatar *
+*********/
+.avatar {
+  border: 1px solid rgba(0, 0, 0, 0.65);
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.95), inset 0 1px 0 0 rgba(255, 255, 255, 0.55), inset 0 -1px 0 0 rgba(255, 255, 255, 0.85), 0 1px 3px rgba(0, 0, 0, 0.88), 0 1px 2px rgba(0, 0, 0, 0.76); }
 
 /********
 * Unity *
