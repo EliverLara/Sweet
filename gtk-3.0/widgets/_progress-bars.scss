@@ -13,8 +13,8 @@ progressbar {
     progress { min-width: 6px; }
   }
 
-  &.horizontal progress { margin: 0; } // the progress node is positioned after the trough border
-  &.vertical progress { margin: 0; }   // this moves it over it.
+  &.horizontal progress { margin: 0;} // the progress node is positioned after the trough border
+  &.vertical progress { margin: 0; @include scale-highlight(bottom);}   // this moves it over it.
 
 
   // FIXME: insensitive state missing and some other state should be set probably
