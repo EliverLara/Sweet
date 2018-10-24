@@ -593,3 +593,7 @@ box-shadow: none;
   border: none;
   box-shadow: none;
 }
+
+@mixin scale-highlight($dir) {
+  background: linear-gradient(to $dir, #fed349, #ff7800);
+}

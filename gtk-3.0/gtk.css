@@ -3318,7 +3318,8 @@ progressbar {
   progressbar.horizontal progress {
     margin: 0; }
   progressbar.vertical progress {
-    margin: 0; }
+    margin: 0;
+    background: linear-gradient(to bottom, #fed349, #ff7800); }
   progressbar:backdrop {
     box-shadow: none;
     transition: 200ms ease-out; }
@@ -3375,6 +3376,8 @@ scale {
   scale.vertical trough,
   scale.vertical progress {
     min-width: 6px; }
+  scale.vertical highlight {
+    background: linear-gradient(to bottom, #fed349, #ff7800); }
   scale slider {
     min-height: 15px;
     min-width: 15px;

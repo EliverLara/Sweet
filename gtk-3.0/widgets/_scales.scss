@@ -19,7 +19,7 @@
 
 %scale_highlight {
   border: none;
-  background: linear-gradient(to right, #fed349, #ff7800);
+  @include scale-highlight(right);
   border-radius: 3px;
   margin: 0;
 
@@ -54,7 +54,8 @@ scale {
 
   &.vertical {
     trough,
-    progress { min-width: 6px; }
+    progress { min-width: 6px;}
+    highlight { @include scale-highlight(bottom); }
   }
 
   // the slider is inside the trough, so to have make it bigger there's a negative margin
