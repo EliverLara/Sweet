@@ -5500,6 +5500,25 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
 .nautilus-window .searchbar-container {
   margin-top: -1px; }
 
+.nautilus-window .titlebar .path-bar-box .dim-label, .nautilus-window .titlebar .path-bar-box label.separator, .nautilus-window .titlebar .path-bar-box .subtitle {
+  color: transparent; }
+
+.nautilus-window .titlebar .path-bar-box button:active, .nautilus-window .titlebar .path-bar-box button:checked {
+  border-radius: 23px;
+  background: linear-gradient(to right, #eee90a, #f7b922);
+  box-shadow: 0px 2px 4px rgba(247, 185, 34, 0.98);
+  color: #fafafa; }
+  .nautilus-window .titlebar .path-bar-box button:active:backdrop, .nautilus-window .titlebar .path-bar-box button:checked:backdrop {
+    color: #f0f0f0; }
+    .nautilus-window .titlebar .path-bar-box button:active:backdrop label, .nautilus-window .titlebar .path-bar-box button:checked:backdrop label {
+      color: #f0f0f0; }
+
+.nautilus-window .titlebar .linked button:active, .nautilus-window .titlebar .linked button:checked, .nautilus-window .titlebar .linked button:active:backdrop, .nautilus-window .titlebar .linked button:checked:backdrop {
+  background: transparent;
+  color: #f7b922;
+  box-shadow: none;
+  border: none; }
+
 .nautilus-circular-button {
   border-radius: 20px;
   -gtk-outline-radius: 20px; }

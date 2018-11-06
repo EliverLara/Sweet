@@ -68,6 +68,38 @@
  .searchbar-container {
     margin-top: -1px;
   }
+
+  .titlebar {
+    .path-bar-box {
+      .dim-label {
+        color:transparent;
+      }
+      button {
+        &:active, &:checked {
+          border-radius: 23px;
+          background: linear-gradient(to right, #eee90a, $selected_bg_color) ;
+          box-shadow: 0px 2px 4px transparentize($selected_bg_color, 0.02);
+          color: rgb(250, 250, 250);
+          &:backdrop{
+            color: darken(rgb(250, 250, 250), 4%);
+            label{
+              color: darken(rgb(250, 250, 250), 4%);;
+            }
+          }
+        }
+        
+      }
+    }
+    .linked {
+      button {
+        &:active, &:checked, &:active:backdrop, &:checked:backdrop {
+          background: transparent;
+          color: $selected_bg_color;
+          box-shadow: none;
+          border: none;      }
+      }
+    }
+  }
 }
 
 .nautilus-circular-button {
