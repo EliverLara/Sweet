@@ -2858,6 +2858,7 @@ menubar,
 menu,
 .menu,
 .context-menu {
+  font: initial;
   margin: 4px;
   padding: 2px 0px;
   background: linear-gradient(to bottom, #dde6ee 20%, #dde6ee);

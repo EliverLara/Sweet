@@ -27,6 +27,7 @@ menubar,
 menu,
 .menu,
 .context-menu {
+  font: initial;
   margin: 4px;
   padding: 2px 0px;
   background: if( $variant == 'light',  linear-gradient(to bottom, darken($base_color, 4%)  20%, darken($base_color, 4%) ), linear-gradient(to bottom, lighten($bg_color, 2%), darken($bg_color, 2%)));
