@@ -6,7 +6,7 @@ notebook {
     padding: 1px;
     border-color: $borders_color;
     border-width: 1px;
-    background-color: $base_color;
+    background-color: $bg_color;
 
     &:backdrop {
       border-color: $backdrop_borders_color;
@@ -25,8 +25,8 @@ notebook {
           &:backdrop { box-shadow: none; }
 
           &:checked {
-              background-color: $base_color;
-              &:hover{background-color: $base_color;}
+              background-color: $bg_color;
+              &:hover{background-color: $bg_color;}
           }
         }
       }
@@ -42,7 +42,7 @@ notebook {
           &:backdrop { box-shadow: none; }
 
           &:checked { 
-            background-color: $base_color; 
+            background-color: $bg_color; 
             box-shadow: -1px 0 0 $borders_color,
             0px 1px 0 $borders_color,
             1px 0 0 $borders_color;
@@ -61,7 +61,7 @@ notebook {
           &:backdrop { box-shadow: none; }
 
           &:checked { 
-            background-color: $base_color; 
+            background-color: $bg_color; 
             box-shadow: 0px 1px 0 $borders_color,
             0px -1px 0 $borders_color,
             0px 1px 0 $borders_color;
@@ -80,7 +80,7 @@ notebook {
           &:backdrop { box-shadow: none; }
 
           &:checked { 
-            background-color: $base_color; 
+            background-color: $bg_color; 
             box-shadow: 0px 1px 0 $borders_color,
             0px -1px 0 $borders_color,
             1px 0 0 $borders_color;
@@ -203,7 +203,7 @@ notebook {
         color: $backdrop_fg_color;
         &.reorderable-page {
           border-color: $backdrop_borders_color;
-          background-color: $backdrop_base_color;
+          background-color: $backdrop_bg_color;
         }
       }
 
@@ -288,8 +288,8 @@ notebook {
   }
 
   > stack:not(:only-child) { // the :not(:only-child) is for "hidden" notebooks
-    background-color: $base_color;
+    background-color: $bg_color;
 
-    &:backdrop { background-color: $backdrop_base_color; }
+    &:backdrop { background-color: $backdrop_bg_color; }
   }
 }

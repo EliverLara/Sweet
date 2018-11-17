@@ -30,8 +30,8 @@
 
   &:backdrop,
   &:active:backdrop {
-    border-color: lighten($selected_bg_color, 5%);
-    background-color: lighten($selected_bg_color, 5%);
+    border-color: lighten(#ff8b26, 5%);
+    background-color: lighten(#ff8b26, 5%);
     &:disabled {
       background-color: $scale_disabled_bg;
     }
@@ -74,7 +74,7 @@ scale {
     transition-property: background, border, box-shadow;
 
     &:active {
-      background-color: $selected_bg_color;
+      background-color: #ff8b26;
 
       &:disabled {
         background-color: $insensitive_bg_color;
@@ -152,7 +152,7 @@ scale {
   $_scale_disabled_bg: darken($_scale_bg, 15%);
   slider {
     border-color: $base_color;
-    border: 2px solid #00f17d;
+    border: 2px solid #ff8b26;
     border-radius: 12px;
 
     background-color: $_scale_bg;
@@ -284,7 +284,7 @@ scale {
               min-height: 15px;
               min-width: 15px;
               margin: -7px;
-              border: 2px solid #00f17d;
+              border: 2px solid #ff8b26;
               border-radius: 50%;
 
               background-color: $_scale_bg;

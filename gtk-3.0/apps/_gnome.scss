@@ -2,15 +2,6 @@
  * Nautilus *
  ************/
 .nautilus-window {
-  .frame{
-    *:selected, *:selected:backdrop{
-      background: transparent;
-      color: $selected_bg_color;
-      label {
-        color: $selected_bg_color;
-      }
-    } 
-  }
   paned {
     > separator { background-image: none; }
   }
@@ -59,6 +50,13 @@
         background-color: $base_color;
         &:backdrop { background-color: $backdrop_base_color; }
     }
+    *:selected, *:selected:backdrop{
+      background: transparent;
+      color: $selected_bg_color;
+      label {
+        color: $selected_bg_color;
+      }
+    } 
   }
 
   searchbar {
@@ -77,13 +75,13 @@
       button {
         &:active, &:checked {
           border-radius: 23px;
-          background: linear-gradient(to right, #c50ed2, #8500f7);
-          box-shadow: 0px 0px 5px transparentize(#c50ed2, 0.02);
-          color: rgb(250, 250, 250);
+          background: linear-gradient(to right, $red, $yellow);
+          color: $selected_fg_color;
+          text-shadow: 0px 0px 2px rgba(87, 87, 87, 0.9);
           &:backdrop{
-            color: darken(rgb(250, 250, 250), 4%);
+            color: darken($selected_fg_color, 4%);
             label{
-              color: darken(rgb(250, 250, 250), 4%);;
+              color: darken($selected_fg_color, 4%);;
             }
           }
         }

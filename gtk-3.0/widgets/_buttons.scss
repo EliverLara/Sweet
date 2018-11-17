@@ -246,24 +246,24 @@ button {
         //color: $b_color; //FIXME: does it work on the dark variant?
       }
 
-      &:hover { @include button(hover, $b_color, white); }
+      &:hover { @include button(hover, transparent, white); }
 
       &:active,
-      &:checked { @include button(active, $b_color, white); }
+      &:checked { @include button(active, transparent, white); }
 
       &:backdrop,
       &.flat:backdrop {
-        @include button(backdrop, $b_color, white);
+        @include button(backdrop, transparent, white);
         label { color: transparentize(white, 0.5);}
         &:active,
-        &:checked { @include button(backdrop-active, $b_color, white); }
+        &:checked { @include button(backdrop-active, transparent, white); }
 
         &:disabled {
-          @include button(backdrop-insensitive, $b_color, white);
+          @include button(backdrop-insensitive, transparent, white);
           label { color: transparentize(white, 0.5);}
 
           &:active,
-          &:checked { @include button(backdrop-insensitive-active, $b_color, white); }
+          &:checked { @include button(backdrop-insensitive-active, transparent, white); }
         }
       }
 
@@ -276,10 +276,12 @@ button {
       }
 
       &:disabled {
-        @include button(insensitive, $b_color, white);
-
+        @include button(insensitive, transparent, white);
+        label {
+          color:transparentize(#ffffff, 0.7);
+        }
         &:active,
-        &:checked { @include button(insensitive-active, $b_color, white); }
+        &:checked { @include button(insensitive-active, transparent, white); }
       }
 
       .osd & {

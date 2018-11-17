@@ -16,7 +16,7 @@
    version="1.1"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="maximize_prelight.svg"
-   inkscape:export-filename="/home/lara/github/Blitz/assets/maximize_prelight.png"
+   inkscape:export-filename="/home/lara/github/shell/assets/maximize_prelight.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
@@ -35,11 +35,11 @@
        inkscape:collect="always"
        id="linearGradient822">
       <stop
-         style="stop-color:#d300dc;stop-opacity:1"
+         style="stop-color:#a0c1b9;stop-opacity:1"
          offset="0"
          id="stop818" />
       <stop
-         style="stop-color:#8700ff;stop-opacity:1"
+         style="stop-color:#98b7af;stop-opacity:1"
          offset="1"
          id="stop820" />
     </linearGradient>
@@ -51,9 +51,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="16.875"
-     inkscape:cx="5.3647948"
-     inkscape:cy="3.2140049"
+     inkscape:zoom="26.595424"
+     inkscape:cx="9.026514"
+     inkscape:cy="9.9563917"
      inkscape:document-units="px"
      inkscape:current-layer="g4092"
      showgrid="true"
@@ -62,7 +62,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1366"
-     inkscape:window-height="713"
+     inkscape:window-height="712"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1" />
@@ -92,7 +92,7 @@
          id="g4092">
         <path
            id="path4289"
-           style="fill:#b800d2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1"
+           style="fill:#536460;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1"
            d="m 565.94519,-50.875303 c 305.456,0 553.08141,247.625793 553.08141,553.085743 0,305.46122 -247.62541,553.08676 -553.08141,553.08676 -305.4651,0 -553.091405,-247.62554 -553.091405,-553.08676 0,-305.45995 247.626305,-553.085743 553.091405,-553.085743"
            inkscape:connector-curvature="0" />
         <path
@@ -107,7 +107,7 @@
           <path
              inkscape:connector-curvature="0"
              d="m 317.36351,650.00117 267.199,0 c 35.579,0 64.692,-29.113 64.692,-64.695 l 0,-267.196 -331.891,331.891 z m 232.324,-436.211 -268.253,0 c -35.583,0 -64.692,29.109 -64.692,64.691 l 0,268.254 332.945,-332.945"
-             style="fill:#432f52;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             style="fill:#536460;fill-opacity:1;fill-rule:evenodd;stroke:none"
              id="path4293" />
         </g>
       </g>

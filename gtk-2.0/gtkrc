@@ -1,10 +1,10 @@
 
 # Text/base colors
-gtk-color-scheme = "text_color:#C3C7D1\nbase_color:#181b28"
+gtk-color-scheme = "text_color:#5D5E60\nbase_color:#1c2124"
 # Foreground/background colors
-gtk-color-scheme = "fg_color:#C3C7D1\nbg_color:#161925"
+gtk-color-scheme = "fg_color:#5D5E60\nbg_color:#1A1E21"
 # Selection colors
-gtk-color-scheme = "selected_fg_color:#fefefe\nselected_bg_color:#c50ed2"
+gtk-color-scheme = "selected_fg_color:#f7f7f7\nselected_bg_color:#F67E7D"
 # Tooltip colors
 gtk-color-scheme = "tooltip_fg_color:#2d2d2d\ntooltip_bg_color:#fefefe"
 # Window colors
@@ -12,11 +12,11 @@ gtk-color-scheme = "wm_color:#31363d\nunfocused_wm_color:#31363d"
 # Panel colors
 gtk-color-scheme = "panel_bg_color:#263238\npanel_fg_color:#ffffff"
 # Dark Theme - Text/base colors
-gtk-color-scheme = "dark_text_color:#C3C7D1\ndark_base_color:#181b28"
+gtk-color-scheme = "dark_text_color:#5D5E60\ndark_base_color:#1c2124"
 # Dark Theme - Foreground/background colors
-gtk-color-scheme = "dark_fg_color:#C3C7D1\ndark_bg_color:#161925"
-gtk-color-scheme = "sidebar_bg:#161925"
-gtk-color-scheme = "sidebar_fg:#98abb2"
+gtk-color-scheme = "dark_fg_color:#5D5E60\ndark_bg_color:#1A1E21"
+gtk-color-scheme = "sidebar_bg:#111416"
+gtk-color-scheme = "sidebar_fg:#5D5E60"
 gtk-auto-mnemonics = 1
 gtk-primary-button-warps-slider = 1
 

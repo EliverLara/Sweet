@@ -31,30 +31,7 @@
     transition: $backdrop_transition;
   }
 
-  row{
-    padding: 8px 12px;
-    transition: all .12s ease-in;
-    label{
-      color: #98abb2;
-    }
-    &:selected{
-      color: #fff;
-      // border-left: 4px solid $selected_bg_color;
-      &:backdrop{
-        color: $backdrop_selected_bg_color;
-        background: transparent;
-        label{
-          color: #fff;
-        }  
-      }
-      &:hover{
-        // background-color: transparentize($selected_bg_color, 0.8);
-      }
-      label{
-        color: #fff;
-      }
-    }
-  }
+
 
     //elementary os file manager
     &.source-list{
@@ -84,6 +61,33 @@
   paned & { &.left, &.right, &.left:dir(rtl), &:dir(rtl), &:dir(ltr), & {
     border-style: none;
     border-color: $borders_color;
+    list {
+      row{
+        padding: 8px 12px;
+        transition: all .12s ease-in;
+        label{
+          color: $fg_color;
+        }
+        &:selected{
+          color: lighten($fg_color, 20%);
+          // border-left: 4px solid $selected_bg_color;
+          &:backdrop{
+            color: $backdrop_selected_bg_color;
+            background: transparent;
+            label{
+              color: lighten($fg_color, 20%);
+            }  
+          }
+          &:hover{
+            // background-color: transparentize($selected_bg_color, 0.8);
+          }
+          label{
+            color: lighten($fg_color, 20%);
+          }
+        }
+      }
+
+    }
   }
 }
 }
@@ -119,11 +123,10 @@ stacksidebar {
 /*******************************************************************/
 
 /*--*/
-
 placessidebar{
 	&.sidebar{
 		background-color: transparent;
-		background-image:linear-gradient(to right, #171e27 40px,
+		background-image:linear-gradient(to right, darken($main_dark_color, 2%) 40px,
 												$_sidebar_color 35px,$_sidebar_color 36px,
 												$_sidebar_color 36px,$_sidebar_color 99%, 
 												$_sidebar_color 100%);
@@ -135,7 +138,7 @@ placessidebar{
 						margin-right: 12px;
 						padding-left: 14px;
 						padding-right: 12px;
-						color: #9ecfa2;
+						color: $fg_color;
 					}
 				}
 				&:hover{
@@ -153,9 +156,9 @@ placessidebar{
 				}
 
 				&:selected{
-					color: rgba(255, 255, 255, 0.938);
+					color: $selected_fg_color;
 					background-color: transparent;
-					background-image:linear-gradient(to right, $selected_bg_color 40px,
+					background-image:linear-gradient(to right, darken($main_dark_color, 5%) 40px,
 																rgba(65,67,75,0) 36px, rgba(65,67,75,0)97%);
 					&:hover{
 						color: #ffffff;
@@ -165,14 +168,14 @@ placessidebar{
 						}
           }
           &:backdrop{
-            color: rgba(0,0,0,0.54);;
+            color: rgba(0,0,0,0.54);
             background-color: transparent;
-            background-image:linear-gradient(to right, $selected_bg_color 40px,
+            background-image:linear-gradient(to right, darken($main_dark_color, 5%) 40px,
                                   rgba(65,67,75,0) 36px, rgba(65,67,75,0)97%);
           }
 
 					.sidebar-icon {
-						-gtk-icon-shadow: 0 1px transparentize(#fff, 0.2);
+						-gtk-icon-shadow: 0 1px transparentize($selected_fg_color, 0.2);
 						color: inherit; 
 					}
 				}

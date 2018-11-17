@@ -2,19 +2,22 @@
 // it gets @if ed depending on $variant
 
 // Main definitions
-$base_color: if($variant == 'light', #ebf0f5, lighten(#161925, 1%));
-$text_color: if($variant == 'light', #31363D, #C3C7D1);
-$bg_color: if($variant == 'light', darken( #EEEEEE, 3%), #161925);
-$fg_color: if($variant == 'light', #31363d, #C3C7D1);
+$base_color: if($variant == 'light', #ebf0f5, lighten(#1A1E21, 1%));
+$text_color: if($variant == 'light', #31363D, #5D5E60);
+$bg_color: if($variant == 'light', darken( #EEEEEE, 3%), #1A1E21);
+$fg_color: if($variant == 'light', #31363d, #5D5E60);
 $switch_bg: if($variant == 'light', #ffffff, transparentize(black,1));
 $shadow_color: rgba(162, 162, 165, 0.21);
-$_sidebar_color: if($variant == 'light', #222e39, #161925);
+$main_dark_color:darken($bg_color, 2%);
+$_sidebar_color: if($variant == 'light', darken($main_dark_color, 3%), $main_dark_color);
 
 // Primary colors
-$lime: #71f79f;
-$red: #ed254e;
-$orange: #ff6a00;
-$yellow: #f9dc5c;
+$lime: #CAE7B9;
+$red: #F67E7D;
+$purple: #D7BCC8;
+$cyan: #A0C1B9;
+$yellow: #E1DD8F;
+$orange: #F79F79;
 $purple: #c74ded;
 $darkpurple: #7b7bbd;
 $blue: #7cb7ff;
@@ -22,8 +25,8 @@ $cyan: #00c1e4;
 $slider: #7b7bbd;
 $teal: #00e8c6;
 
-$selected_fg_color: #fefefe;
-$selected_bg_color: #c50ed2;
+$selected_fg_color: #f7f7f7;
+$selected_bg_color: $red;
 //$selected_bg_color: #f7005a;
 /*$selected_bg_color: #00e8c6;06d6a0*/
 $selected_borders_color: darken($selected_bg_color, 10%);
@@ -107,6 +110,6 @@ $backdrop_menu_color: if($variant == 'light', $backdrop_base_color, mix($backdro
 
 $scale_bg: if($variant == 'light', transparentize(black,0.86) ,transparentize(white,0.86));
 $scale_disabled_bg: if($variant == 'light', transparentize(black, 0.94) ,transparentize(white, 0.94));
-$suggested_bg_color: linear-gradient(to right, #654ea3 0%, #eaafc8 100%);
-$destructive_bg_color: linear-gradient(to right, #FF416C, #FF4B2B);
+$suggested_bg_color: linear-gradient(to right, #485563 0%, #29323c 100%);
+$destructive_bg_color: linear-gradient(to right, $red, $orange);
 $menu_shadow_color: if($variant == 'light', transparentize(rgb(122, 122, 122), 0.6), transparent);

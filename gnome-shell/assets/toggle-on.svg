@@ -19,15 +19,16 @@
   <defs
      id="defs2859">
     <linearGradient
-       id="linearGradient844">
+       inkscape:collect="always"
+       id="linearGradient836">
       <stop
-         id="stop840"
+         style="stop-color:#f67e7d;stop-opacity:1"
          offset="0"
-         style="stop-color:#ff9200;stop-opacity:1" />
+         id="stop832" />
       <stop
-         id="stop842"
+         style="stop-color:#e1dd8f;stop-opacity:1"
          offset="1"
-         style="stop-color:#fadd00;stop-opacity:1" />
+         id="stop834" />
     </linearGradient>
     <linearGradient
        id="linearGradient3864">
@@ -111,20 +112,11 @@
     </filter>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient844"
+       xlink:href="#linearGradient836"
        id="linearGradient838"
-       x1="462.14285"
+       x1="481.64285"
        y1="792.86218"
-       x2="499.14285"
-       y2="792.86218"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient844"
-       id="linearGradient852"
-       x1="462.14285"
-       y1="792.86218"
-       x2="499.14285"
+       x2="496.64285"
        y2="792.86218"
        gradientUnits="userSpaceOnUse" />
   </defs>
@@ -136,7 +128,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="11.826962"
-     inkscape:cx="30.007788"
+     inkscape:cx="29.678955"
      inkscape:cy="9.1634726"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -187,7 +179,7 @@
        transform="translate(444.64286,782.36218)"
        id="path900" />
     <path
-       style="fill:url(#linearGradient838);fill-opacity:1;stroke:url(#linearGradient852);stroke-opacity:1"
+       style="fill:#0e1011;fill-opacity:1;stroke:#0a0b0c;stroke-opacity:1"
        d="m 472.14286,783.36218 a 9.5,9.5 0 0 0 -9.5,9.5 9.5,9.5 0 0 0 9.5,9.5 h 7.5 2 7.5 a 9.5,9.5 0 0 0 9.5,-9.5 9.5,9.5 0 0 0 -9.5,-9.5 h -7.5 -2 z"
        id="path872"
        inkscape:connector-curvature="0" />
@@ -208,7 +200,7 @@
        id="rect912"
        style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#000000;fill-opacity:0.2;fill-rule:nonzero;stroke:none;stroke-width:1.76470685;stroke-opacity:1;marker:none;enable-background:new;filter:url(#filter930)" />
     <rect
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.76470685;stroke-opacity:1;marker:none;enable-background:new"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:url(#linearGradient838);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.76470685;stroke-opacity:1;marker:none;enable-background:new"
        id="rect3872"
        width="15"
        height="15"
