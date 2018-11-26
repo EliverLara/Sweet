@@ -3,9 +3,9 @@
 
 // Main definitions
 $base_color: if($variant == 'light', #ebf0f5, lighten(#1A1E21, 1%));
-$text_color: if($variant == 'light', #31363D, #5D5E60);
+$text_color: if($variant == 'light', rgb(223, 226, 231), #76777A);
 $bg_color: if($variant == 'light', darken( #EEEEEE, 3%), #1A1E21);
-$fg_color: if($variant == 'light', #31363d, #5D5E60);
+$fg_color: if($variant == 'light', #e69317, #76777A);
 $switch_bg: if($variant == 'light', #ffffff, transparentize(black,1));
 $shadow_color: rgba(162, 162, 165, 0.21);
 $main_dark_color:darken($bg_color, 2%);
