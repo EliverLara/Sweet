@@ -56,6 +56,8 @@ read if you used those and something break with a version upgrade you're on your
 @define-color wm_button_active_color_b shade(#161925, 0.89);
 @define-color wm_button_active_color_c shade(#161925, 0.9);
 @define-color content_view_bg #181b28;
+@define-color budgie_tasklist_indicator_color #c50ed2;
+@define-color budgie_tasklist_indicator_color_active #c50ed2;
 /*****************
 * Drawing mixins *
 *****************/
@@ -4693,10 +4695,10 @@ entry selection, row:selected, treeview.view:selected:focus, treeview.view:selec
 .budgie-popover.background {
   border-radius: 2px;
   padding: 0;
-  background: linear-gradient(to bottom, #2d334b, #12151f);
+  background: #0c0e14;
   background-clip: border-box;
   box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.35);
-  border: 1px solid @borders; }
+  border: 1px solid #030305; }
   .budgie-popover list:hover,
   .budgie-popover row:hover,
   .budgie-popover.background list:hover,
@@ -4706,71 +4708,80 @@ entry selection, row:selected, treeview.view:selected:focus, treeview.view:selec
   .budgie-popover.background > frame.container {
     margin: 0 -1px -1px;
     padding: 2px 0 0; }
+  .budgie-popover button,
+  .budgie-popover.background button {
+    color: #C3C7D1;
+    border: none;
+    background: transparent; }
+    .budgie-popover button:hover,
+    .budgie-popover.background button:hover {
+      color: #c50ed2; }
 
 .budgie-popover > .container {
   padding: 2px; }
 
-.budgie-menu .container {
-  padding: 0; }
-
-.budgie-menu button:hover {
-  -gtk-icon-effect: none; }
-
-.budgie-menu entry.search {
-  border: none;
-  background: none;
-  padding: 5px 2px;
-  border-bottom: 1px solid @borders;
-  border-radius: 0;
-  font-size: 120%;
-  box-shadow: none; }
-  .budgie-menu entry.search image:dir(ltr) {
-    padding-left: 8px;
-    padding-right: 12px; }
-  .budgie-menu entry.search image:dir(rtl) {
-    padding-left: 12px;
-    padding-right: 8px; }
-
-.budgie-menu .categories {
-  border-width: 0;
-  margin-left: 3px;
-  background-color: transparent; }
-  .budgie-menu .categories:dir(ltr) {
-    border-right: 1px solid @borders; }
-  .budgie-menu .categories:dir(rtl) {
-    border-left: 1px solid @borders; }
-
-.budgie-menu .category-button {
-  padding: 7px;
-  border-radius: 2px 0 0 2px; }
-  .budgie-menu .category-button:hover {
-    background-color: rgba(195, 199, 209, 0.05);
+.budgie-menu {
+  color: #C3C7D1; }
+  .budgie-menu .container {
+    padding: 0; }
+  .budgie-menu button:hover {
+    -gtk-icon-effect: none; }
+  .budgie-menu entry.search {
+    border: none;
+    background: none;
+    padding: 5px 2px;
+    border-bottom: 1px solid #030305;
+    border-radius: 0;
+    font-size: 120%;
+    box-shadow: none;
     color: #C3C7D1; }
-  .budgie-menu .category-button:active {
-    box-shadow: inset 0 2px 2px -2px rgba(0, 0, 0, 0.2); }
-  .budgie-menu .category-button:checked {
-    color: #fefefe;
-    background: linear-gradient(to right, #654ea3 0%, #eaafc8 100%); }
-  .budgie-menu .category-button:checked:disabled {
-    opacity: 0.5; }
-    .budgie-menu .category-button:checked:disabled label {
-      color: rgba(254, 254, 254, 0.7); }
-
-.budgie-menu scrollbar {
-  background-color: transparent;
-  border-color: transparent; }
-
-.budgie-menu button:not(.category-button) {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-radius: 0;
-  box-shadow: none; }
-
-.budgie-menu button {
-  border: none; }
-
-.budgie-menu undershoot, .budgie-menu overshoot {
-  background: none; }
+    .budgie-menu entry.search image:dir(ltr) {
+      padding-left: 8px;
+      padding-right: 12px; }
+    .budgie-menu entry.search image:dir(rtl) {
+      padding-left: 12px;
+      padding-right: 8px; }
+  .budgie-menu .categories {
+    border-width: 0;
+    margin-left: 3px;
+    background: transparent; }
+    .budgie-menu .categories:dir(ltr) {
+      border-right: 1px solid #030305; }
+    .budgie-menu .categories:dir(rtl) {
+      border-left: 1px solid #030305; }
+  .budgie-menu .category-button {
+    padding: 7px;
+    border-radius: 2px 0 0 2px; }
+    .budgie-menu .category-button:hover {
+      background-color: rgba(195, 199, 209, 0.05);
+      color: #C3C7D1; }
+    .budgie-menu .category-button:active {
+      box-shadow: inset 0 2px 2px -2px rgba(0, 0, 0, 0.2); }
+    .budgie-menu .category-button:checked {
+      color: #fefefe;
+      background: linear-gradient(to right, #654ea3 0%, #eaafc8 100%); }
+      .budgie-menu .category-button:checked:hover {
+        color: rgba(254, 254, 254, 0.9); }
+    .budgie-menu .category-button:checked:disabled {
+      opacity: 0.5; }
+      .budgie-menu .category-button:checked:disabled label {
+        color: rgba(254, 254, 254, 0.7); }
+  .budgie-menu scrollbar {
+    background-color: transparent;
+    border-color: #030305; }
+  .budgie-menu button:not(.category-button) {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 0;
+    box-shadow: none;
+    background: yellow; }
+  .budgie-menu button {
+    border: none;
+    background: transparent; }
+  .budgie-menu undershoot, .budgie-menu overshoot {
+    background: none; }
+  .budgie-menu list {
+    color: rgba(195, 199, 209, 0.7); }
 
 button.budgie-menu-launcher {
   padding: 0 2px;
@@ -4802,7 +4813,7 @@ button.budgie-menu-launcher {
 .user-menu > box.vertical row.activatable:first-child .indicator-item,
 .user-menu > frame.container > box.vertical row.activatable:first-child .indicator-item {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.2), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
-  background-color: #00c1e4;
+  background-color: #c50ed2;
   transition-duration: 0.2s; }
   .user-menu > box.vertical row.activatable:first-child .indicator-item:dir(ltr),
   .user-menu > frame.container > box.vertical row.activatable:first-child .indicator-item:dir(ltr) {
@@ -4873,7 +4884,7 @@ button.raven-trigger {
 
 .places-menu .places-section-header {
   padding: 0px;
-  border-bottom: 1px solid rgba(12, 14, 21, 0.75);
+  border-bottom: 1px solid rgba(3, 3, 5, 0.95);
   box-shadow: 0px 1px 1px alpha(@theme_fg_color, 0.03); }
 
 .places-menu .places-section-header > button {
@@ -4884,11 +4895,11 @@ button.raven-trigger {
 
 .places-menu .places-list {
   background: rgba(195, 199, 209, 0.04);
-  border-bottom: 1px solid rgba(12, 14, 21, 0.75); }
+  border-bottom: 1px solid rgba(3, 3, 5, 0.95); }
 
 .places-menu .unlock-area {
-  border-top: 1px solid rgba(12, 14, 21, 0.65);
-  border-bottom: 1px solid rgba(12, 14, 21, 0.65); }
+  border-top: 1px solid rgba(3, 3, 5, 0.85);
+  border-bottom: 1px solid rgba(3, 3, 5, 0.85); }
 
 .places-menu .unlock-area entry {
   border-radius: 0;
@@ -4897,7 +4908,7 @@ button.raven-trigger {
 .places-menu .unlock-area button {
   border-radius: 0;
   border: 0;
-  border-left: 1px solid rgba(12, 14, 21, 0.65); }
+  border-left: 1px solid rgba(3, 3, 5, 0.85); }
 
 .places-menu .alternative-label {
   font-size: 15px;
@@ -4940,6 +4951,12 @@ button.raven-trigger {
     border-top-width: 0;
     border-bottom-width: 0;
     border-radius: 0; }
+    .budgie-panel button.flat {
+      background: transparent;
+      border: 1px solid rgba(3, 3, 5, 0.95); }
+      .budgie-panel button.flat:hover, .budgie-panel button.flat:active, .budgie-panel button.flat:checked {
+        background: transparent;
+        color: #c50ed2; }
   .budgie-panel popover list,
   .budgie-panel popover row {
     padding: 0;
@@ -5072,56 +5089,56 @@ button.raven-trigger {
     border-right: 2px solid #c50ed2; }
 
 .top .budgie-panel {
-  border-bottom: 1px solid rgba(9, 10, 15, 0.92); }
+  border-bottom: 1px solid rgba(3, 3, 5, 0.92); }
 
 .top .raven-frame {
   padding: 0;
   background: none; }
   .top .raven-frame border {
     border: none;
-    border-bottom: 1px solid rgba(22, 25, 37, 0.92); }
+    border-bottom: 1px solid rgba(3, 3, 5, 0.92); }
 
 .top .shadow-block {
   background-color: transparent;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), transparent); }
 
 .bottom .budgie-panel {
-  border-top: 1px solid rgba(9, 10, 15, 0.92); }
+  border-top: 1px solid rgba(3, 3, 5, 0.92); }
 
 .bottom .raven-frame {
   padding: 0;
   background: none; }
   .bottom .raven-frame border {
     border: none;
-    border-top: 1px solid rgba(22, 25, 37, 0.92); }
+    border-top: 1px solid rgba(3, 3, 5, 0.92); }
 
 .bottom .shadow-block {
   background-color: transparent;
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), transparent); }
 
 .left .budgie-panel {
-  border-right: 1px solid rgba(9, 10, 15, 0.92); }
+  border-right: 1px solid rgba(3, 3, 5, 0.92); }
 
 .left .raven-frame {
   padding: 0;
   background: none; }
   .left .raven-frame border {
     border: none;
-    border-right: 1px solid rgba(22, 25, 37, 0.92); }
+    border-right: 1px solid rgba(3, 3, 5, 0.92); }
 
 .left .shadow-block {
   background-color: transparent;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), transparent); }
 
 .right .budgie-panel {
-  border-left: 1px solid rgba(9, 10, 15, 0.92); }
+  border-left: 1px solid rgba(3, 3, 5, 0.92); }
 
 .right .raven-frame {
   padding: 0;
   background: none; }
   .right .raven-frame border {
     border: none;
-    border-left: 1px solid rgba(22, 25, 37, 0.92); }
+    border-left: 1px solid rgba(3, 3, 5, 0.92); }
 
 .right .shadow-block {
   background-color: transparent;
@@ -5135,9 +5152,9 @@ button.raven-trigger {
   .raven .raven-header {
     min-height: 32px;
     color: #C3C7D1;
-    border: solid rgba(12, 14, 21, 0.75);
+    border: solid rgba(3, 3, 5, 0.95);
     border-width: 1px 0;
-    background-color: rgba(22, 25, 37, 0.2); }
+    background-color: rgba(9, 10, 15, 0.45); }
     .raven .raven-header * {
       padding-top: 0;
       padding-bottom: 0; }
@@ -5166,31 +5183,40 @@ button.raven-trigger {
     .raven .raven-header.bottom {
       border-bottom-style: none; }
     .raven .raven-header button {
-      background-image: linear-gradient(to bottom, #2f354f, #12151f);
-      border: 1px solid rgba(12, 14, 21, 0.8);
-      color: #C3C7D1;
-      border-radius: 0;
+      color: #8b8b8b;
+      text-shadow: none;
       box-shadow: none;
-      margin-top: -4px;
-      margin-bottom: -4px;
-      min-height: 24px; }
+      background: transparent;
+      border: none;
+      border-radius: 0; }
       .raven .raven-header button:hover {
-        border-radius: 0;
-        background-color: transparent;
-        color: #c50ed2; }
-      .raven .raven-header button:active, .raven .raven-header button:checked {
         color: #c50ed2;
         border-radius: 0;
-        background: #181b28; }
+        text-shadow: none;
+        border: none;
+        border-radius: 0; }
       .raven .raven-header button:disabled {
         color: #6d707b; }
+      .raven .raven-header button.text-button.radio {
+        margin: 5px 0px;
+        min-height: 20px;
+        padding: 3px; }
+        .raven .raven-header button.text-button.radio:active, .raven .raven-header button.text-button.radio:checked {
+          border-radius: 23px;
+          background: linear-gradient(to right, #c50ed2, #8500f7);
+          box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
+          color: snow; }
   .raven list {
+    color: #C3C7D1;
     background-color: transparent; }
     .raven list:selected {
       background-color: rgba(197, 14, 210, 0.9); }
     .raven list row,
     .raven list row.activatable {
       background-color: transparent; }
+      .raven list row:hover,
+      .raven list row.activatable:hover {
+        background-color: rgba(32, 36, 53, 0.25); }
       .raven list row:selected,
       .raven list row.activatable:selected {
         background-color: rgba(197, 14, 210, 0.9); }
@@ -5209,29 +5235,27 @@ button.raven-trigger {
     min-width: 32px;
     min-height: 32px;
     margin-bottom: 3px;
-    background: linear-gradient(to right, #8f94fb, #4e54c8);
+    background: #c74ded;
     color: #fefefe;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.2), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
     border: none;
     font-size: 100%; }
     .raven .powerstrip button.image-button:hover {
-      transition: 170ms ease all;
-      background: rgba(123, 123, 189, 0.85);
+      background: rgba(199, 77, 237, 0.85);
       color: #fefefe; }
     .raven .powerstrip button.image-button:active {
-      transition: 170ms ease all;
-      background: #7b7bbd;
+      background: #c74ded;
       color: #fefefe; }
     .raven .powerstrip button.image-button:first-child {
       background: linear-gradient(to right, #654ea3 0%, #eaafc8 100%); }
       .raven .powerstrip button.image-button:first-child:hover {
-        background: #00c1e4; }
+        background: rgba(197, 14, 210, 0.85); }
       .raven .powerstrip button.image-button:first-child:active {
-        background: #00c1e4; }
+        background: #c50ed2; }
     .raven .powerstrip button.image-button:last-child {
       background: linear-gradient(to right, #FF416C, #FF4B2B); }
       .raven .powerstrip button.image-button:last-child:hover {
-        background: #ed254e; }
+        background: rgba(237, 37, 78, 0.85); }
       .raven .powerstrip button.image-button:last-child:active {
         background: #ed254e; }
   .raven .option-subtitle {
@@ -5289,14 +5313,14 @@ calendar.raven-calendar {
   background: none;
   border-radius: 1px; }
   .budgie-notification-window button, .budgie-osd-window button, .budgie-switcher-window button {
-    background-color: #00c1e4;
+    background-color: #c50ed2;
     color: #fefefe;
     border: none; }
     .budgie-notification-window button:hover, .budgie-osd-window button:hover, .budgie-switcher-window button:hover {
-      background-color: #00abcb;
+      background-color: #af0cba;
       border: none; }
     .budgie-notification-window button:active, .budgie-osd-window button:active, .budgie-switcher-window button:active, .budgie-notification-window button:checked, .budgie-osd-window button:checked, .budgie-switcher-window button:checked {
-      background-color: #00abcb; }
+      background-color: #af0cba; }
 
 .budgie-notification.background, .background.budgie-osd, .background.budgie-switcher {
   border-radius: 1px; }
@@ -5360,8 +5384,9 @@ calendar.raven-calendar {
     margin-bottom: 0;
     min-height: 32px;
     border-bottom: none;
+    border-color: #030305;
     border-radius: 0;
-    color: #C3C7D1;
+    color: #fff;
     background-color: transparent;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06), inset 0 1px 2px rgba(0, 0, 0, 0.2); }
     .budgie-session-dialog .linked.horizontal > button label, .budgie-polkit-dialog .linked.horizontal > button label, .budgie-run-dialog .linked.horizontal > button label {
@@ -5377,11 +5402,11 @@ calendar.raven-calendar {
       .budgie-session-dialog .linked.horizontal > button:hover:backdrop label, .budgie-polkit-dialog .linked.horizontal > button:hover:backdrop label, .budgie-run-dialog .linked.horizontal > button:hover:backdrop label {
         color: rgba(255, 255, 255, 0.5); }
     .budgie-session-dialog .linked.horizontal > button.suggested-action, .budgie-polkit-dialog .linked.horizontal > button.suggested-action, .budgie-run-dialog .linked.horizontal > button.suggested-action {
-      background-color: rgba(0, 193, 228, 0.9); }
+      background-color: rgba(197, 14, 210, 0.9); }
       .budgie-session-dialog .linked.horizontal > button.suggested-action:hover, .budgie-polkit-dialog .linked.horizontal > button.suggested-action:hover, .budgie-run-dialog .linked.horizontal > button.suggested-action:hover {
-        background-color: rgba(0, 215, 254, 0.9); }
+        background-color: rgba(219, 16, 234, 0.9); }
       .budgie-session-dialog .linked.horizontal > button.suggested-action:active, .budgie-polkit-dialog .linked.horizontal > button.suggested-action:active, .budgie-run-dialog .linked.horizontal > button.suggested-action:active, .budgie-session-dialog .linked.horizontal > button.suggested-action:checked, .budgie-polkit-dialog .linked.horizontal > button.suggested-action:checked, .budgie-run-dialog .linked.horizontal > button.suggested-action:checked {
-        background-color: rgba(0, 215, 254, 0.9); }
+        background-color: rgba(219, 16, 234, 0.9); }
     .budgie-session-dialog .linked.horizontal > button.destructive-action, .budgie-polkit-dialog .linked.horizontal > button.destructive-action, .budgie-run-dialog .linked.horizontal > button.destructive-action {
       background-color: rgba(206, 17, 56, 0.9); }
       .budgie-session-dialog .linked.horizontal > button.destructive-action:hover, .budgie-polkit-dialog .linked.horizontal > button.destructive-action:hover, .budgie-run-dialog .linked.horizontal > button.destructive-action:hover {
