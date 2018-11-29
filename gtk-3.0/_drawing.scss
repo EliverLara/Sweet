@@ -259,6 +259,13 @@
   border:none;
 }
 
+@else if $t==active-header {
+  border-radius: 23px;
+  background: linear-gradient(to right, #eee90a, $selected_bg_color) ;
+  box-shadow: 0px 2px 4px transparentize($selected_bg_color, 0.02);
+  color: rgb(250, 250, 250);
+}
+
 @else if $t==backdrop-header {
 //
 // backdrop button headerbar look
@@ -508,7 +515,10 @@ box-shadow: none;
     $_big_gradient_size: $_big_gradient_length 100%;
   }
 
-  @else if $p==left {
+  @else if $p==left { border-radius: 23px;
+    background: linear-gradient(to right, #eee90a, $selected_bg_color) ;
+    box-shadow: 0px 2px 4px transparentize($selected_bg_color, 0.02);
+    color: rgb(255, 250, 250);
     $_position: left center;
     $_small_gradient_size: $_small_gradient_length 100%;
     $_big_gradient_size: $_big_gradient_length 100%;
