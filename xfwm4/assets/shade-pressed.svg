@@ -14,28 +14,28 @@
    viewBox="0 0 28 32.000001"
    id="svg4142"
    version="1.1"
-   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
-   sodipodi:docname="shade-prelight.svg">
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="shade-pressed.svg">
   <defs
      id="defs4144" />
   <sodipodi:namedview
      id="base"
-     pagecolor="#ffffff"
+     pagecolor="#101013"
      bordercolor="#666666"
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="42.2629"
-     inkscape:cx="10.906216"
+     inkscape:zoom="90.799199"
+     inkscape:cx="8.373154"
      inkscape:cy="11.730789"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      units="px"
      inkscape:window-width="1366"
-     inkscape:window-height="656"
+     inkscape:window-height="714"
      inkscape:window-x="0"
-     inkscape:window-y="31"
+     inkscape:window-y="22"
      inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
@@ -59,14 +59,14 @@
      id="layer1"
      transform="translate(0,-1020.3622)">
     <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.74499989;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:478.43673706;stroke-opacity:1"
+       style="opacity:1;fill:#101013;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.74499989;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:478.43673706;stroke-opacity:1"
        id="rect4741"
        width="28"
        height="32"
        x="0"
        y="1020.3622" />
     <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:0.07;fill-rule:evenodd;stroke:none;stroke-width:2.74499989;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:478.43673706;stroke-opacity:1"
+       style="opacity:1;fill:#101013;fill-opacity:0.07;fill-rule:evenodd;stroke:none;stroke-width:2.74499989;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:478.43673706;stroke-opacity:1"
        id="rect4959"
        width="28"
        height="1"
@@ -77,6 +77,6 @@
        d="m 18,1038.3622 -4,-4 -4,4 z"
        id="path6400"
        sodipodi:nodetypes="cccc"
-       style="display:inline;fill:#00D3A7;fill-opacity:1;stroke:none" />
+       style="display:inline;fill:#f7b922;fill-opacity:1;stroke:none" />
   </g>
 </svg>
