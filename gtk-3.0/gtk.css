@@ -5572,7 +5572,7 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
     .nautilus-window .titlebar .path-bar-box button:active:backdrop label, .nautilus-window .titlebar .path-bar-box button:checked:backdrop label {
       color: #f0f0f0; }
 
-.nautilus-window .titlebar .linked button:active, .nautilus-window .titlebar .linked button:checked, .nautilus-window .titlebar .linked button:active:backdrop, .nautilus-window .titlebar .linked button:checked:backdrop {
+.nautilus-window .titlebar .linked:not(.path-bar) button:active, .nautilus-window .titlebar .linked:not(.path-bar) button:checked, .nautilus-window .titlebar .linked:not(.path-bar) button:active:backdrop, .nautilus-window .titlebar .linked:not(.path-bar) button:checked:backdrop {
   background: transparent;
   color: #f7b922;
   box-shadow: none;
