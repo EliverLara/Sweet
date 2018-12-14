@@ -90,7 +90,7 @@
         
       }
     }
-    .linked {
+    .linked:not(.path-bar) {
       button {
         &:active, &:checked, &:active:backdrop, &:checked:backdrop {
           background: transparent;
