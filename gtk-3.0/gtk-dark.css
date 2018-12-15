@@ -2302,7 +2302,7 @@ GraniteWidgetsWelcome {
 headerbar {
   padding: 0px 13px;
   min-height: 34px;
-  background: #0c0e14;
+  background: #07080c;
   color: white;
   border-radius: 0; }
   .titlebar:backdrop,
@@ -2841,7 +2841,7 @@ row {
  *********/
 menubar,
 .menubar {
-  background-color: #161925;
+  background-color: #101013;
   color: white;
   -GtkWidget-window-dragging: true;
   padding: 0px;
@@ -6023,7 +6023,7 @@ ConversationListView {
   padding-top: 20px;
   padding-bottom: 0px;
   border-style: none;
-  background-color: #161925;
+  background-color: #101013;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   border: solid rgba(0, 0, 0, 0.1);
