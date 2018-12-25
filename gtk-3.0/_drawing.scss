@@ -605,5 +605,5 @@ box-shadow: none;
 }
 
 @mixin scale-highlight($dir) {
-  background: linear-gradient(to $dir, #fed349, #ff7800);
+  background: linear-gradient(to $dir, #00c6ff, $selected_bg_color);
 }
