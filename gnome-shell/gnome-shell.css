@@ -906,7 +906,10 @@ StScrollBar {
   .calendar-day-base:active, .calendar-day-base:selected {
     color: #f7f7f7;
     background-color: #c50ed2;
-    border-color: transparent; }
+    background-gradient-start: #c50ed2;
+    background-gradient-end: #8500f7;
+    background-gradient-direction: horizontal;
+    border-color: black; }
   .calendar-day-base.calendar-day-heading {
     color: #7b939c;
     margin-top: 1em;
@@ -994,7 +997,7 @@ StScrollBar {
   background: transparent; }
   .message:hover, .message:focus {
     background-color: #161925;
-    box-shadow: 3px 0px 0px 0px #c50ed2 inset; }
+    box-shadow: 2px 0px 0px 0px #8500f7 inset; }
 
 .message-icon-bin {
   padding: 10px 3px 10px 10px; }
@@ -1282,6 +1285,7 @@ StScrollBar {
   color: white;
   background-color: rgba(22, 25, 37, 0.65);
   text-align: center;
+  border: 1px solid #12151e;
   -x-offset: 8px; }
 
 /* App Vault/Grid */
@@ -1986,4 +1990,4 @@ StScrollBar {
   background: transparent; }
 
 .openweather-current-databox-captions, .openweather-forecast-day {
-  color: #00e8b7; }
+  color: #c50ed2; }
