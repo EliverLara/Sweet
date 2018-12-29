@@ -906,7 +906,10 @@ StScrollBar {
   .calendar-day-base:active, .calendar-day-base:selected {
     color: #f7f7f7;
     background-color: #F67E7D;
-    border-color: transparent; }
+    background-gradient-start: #F67E7D;
+    background-gradient-end: #E1DD8F;
+    background-gradient-direction: horizontal;
+    border-color: black; }
   .calendar-day-base.calendar-day-heading {
     color: #5d5e60;
     margin-top: 1em;
@@ -994,7 +997,7 @@ StScrollBar {
   background: transparent; }
   .message:hover, .message:focus {
     background-color: #181b1e;
-    box-shadow: 3px 0px 0px 0px #F67E7D inset; }
+    box-shadow: 2px 0px 0px 0px #E1DD8F inset; }
 
 .message-icon-bin {
   padding: 10px 3px 10px 10px; }
@@ -1282,6 +1285,7 @@ StScrollBar {
   color: #aaaaac;
   background-color: rgba(30, 35, 38, 0.65);
   text-align: center;
+  border: 1px solid #161819;
   -x-offset: 8px; }
 
 /* App Vault/Grid */
