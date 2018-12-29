@@ -988,7 +988,8 @@ StScrollBar {
       &:active,&:selected {
         color: $selected_fg_color;
         background-color: $selected_bg_color;
-        border-color: transparent; //avoid jumparound due to today
+        @include gradient();
+        border-color: black; //avoid jumparound due to today
       }
       &.calendar-day-heading {  //day of week heading
         color: darken($fg_color, 10%);
@@ -1078,7 +1079,7 @@ StScrollBar {
           &:hover,&:focus { 
             background-color: darken($bg_color, 1%);
             //@include gradient();
-            box-shadow: 3px 0px 0px 0px $selected_bg_color inset;
+            box-shadow: 2px 0px 0px 0px $g2 inset;
            }
           border-radius: 1px;
           background: transparent;
@@ -1389,6 +1390,7 @@ StScrollBar {
     color: $topbar_color;
     background-color: $topbar_bg_color;
     text-align: center;
+    border: 1px solid $borders_color;
     -x-offset: 8px;
   }
 
