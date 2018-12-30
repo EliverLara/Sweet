@@ -135,7 +135,10 @@ placessidebar{
 						margin-right: 12px;
 						padding-left: 14px;
 						padding-right: 12px;
-						color: #9ecfa2;
+            color: #9ecfa2;
+            &:first-child {
+              background: #171e27;
+            }
 					}
 				}
 				&:hover{
@@ -169,11 +172,19 @@ placessidebar{
             background-color: transparent;
             background-image:linear-gradient(to right, $selected_bg_color 40px,
                                   rgba(65,67,75,0) 36px, rgba(65,67,75,0)97%);
+            .sidebar-icon {
+              &:first-child {
+                background: $selected_bg_color;
+              }
+            }
           }
 
 					.sidebar-icon {
 						-gtk-icon-shadow: 0 1px transparentize(#fff, 0.2);
-						color: inherit; 
+            color: inherit; 
+            &:first-child {
+              background: $selected_bg_color;
+            }
 					}
 				}
 
