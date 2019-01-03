@@ -15,7 +15,7 @@ decoration {
     // lamefun trick to get rounded borders regardless of CSD use
   border-width: 0px;
 
-  box-shadow: 0 4px 10px 2px transparentize(#211A1E, 0.6);
+  box-shadow: 0 4px 10px 2px transparentize($borders_color, 0.2);
   // FIXME rationalize shadows
 
   // this is used for the resize cursor area
@@ -26,7 +26,7 @@ decoration {
     // change when we go to backdrop, to prevent jumping windows.
     // The biggest shadow should be in the same order then in the active state
     // or the jumping will happen during the transition.
-    box-shadow: 0 4px 10px 2px transparentize(#211A1E, 0.8);
+    box-shadow: 0 4px 10px 2px transparentize($borders_color, 0.4);
     transition: $backdrop_transition;
   }
 
