@@ -4022,7 +4022,7 @@ treeview ~ scrollbar.vertical {
     padding: 8px 12px;
     transition: all .12s ease-in; }
     .sidebar row label {
-      color: #98abb2; }
+      color: #31363D; }
     .sidebar row:selected {
       color: #fefefe; }
       .sidebar row:selected:backdrop {
@@ -4069,6 +4069,8 @@ stacksidebar row {
 placessidebar.sidebar {
   background-color: transparent;
   background-image: linear-gradient(to right, #151519 40px, #191a1f 35px, #191a1f 36px, #191a1f 36px, #191a1f 99%, #191a1f 100%); }
+  placessidebar.sidebar row.sidebar-row label {
+    color: #98abb2; }
   placessidebar.sidebar row.sidebar-row.sidebar-row .sidebar-icon {
     margin-left: -14px;
     margin-right: 12px;
