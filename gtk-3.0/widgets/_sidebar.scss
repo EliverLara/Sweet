@@ -35,7 +35,7 @@
     padding: 8px 12px;
     transition: all .12s ease-in;
     label{
-      color: #98abb2;
+      color: $text_color;
     }
     &:selected{
       color: $selected_fg_color;
@@ -129,6 +129,9 @@ placessidebar{
 												$_sidebar_color 100%);
 		row{
 			&.sidebar-row {
+        label {
+          color: #98abb2;
+        }
 				&.sidebar-row{
 					.sidebar-icon {
 						margin-left:-14px;
