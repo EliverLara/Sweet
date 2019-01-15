@@ -1417,7 +1417,13 @@ StScrollBar {
   }
   .app-view-control { //favorties | all toggle button
     padding: 4px 32px;
-    &:checked { @include button(active); }
+    &:checked { 
+      @include gradient();
+      color: #fff;
+    }
+    &:hover {
+      border: none;
+    }
     &:first-child {
       border-right-width: 0;
       border-radius: 3px 0 0 3px;
