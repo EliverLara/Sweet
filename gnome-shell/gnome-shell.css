@@ -1308,11 +1308,12 @@ StScrollBar {
 .app-view-control {
   padding: 4px 32px; }
   .app-view-control:checked {
-    color: #00e8b7;
-    background-color: rgba(34, 46, 57, 0.95);
-    border: 1px solid #161819;
-    text-shadow: none;
-    icon-shadow: none; }
+    background-gradient-start: #00e8b7;
+    background-gradient-end: #00e8b7;
+    background-gradient-direction: horizontal;
+    color: #000; }
+  .app-view-control:hover {
+    border: none; }
   .app-view-control:first-child {
     border-right-width: 0;
     border-radius: 3px 0 0 3px; }
