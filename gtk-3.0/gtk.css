@@ -1805,6 +1805,9 @@ entry {
     box-shadow: none; }
   spinbutton.error:not(.vertical),
   entry.error {
+    color: #31363D;
+    border-color: rgba(0, 0, 0, 0.13);
+    background-color: #ebf0f5;
     color: #ed254e;
     border-color: #ed254e; }
     spinbutton.error:focus:not(.vertical),
@@ -1816,6 +1819,9 @@ entry {
       background-color: #ed254e; }
   spinbutton.warning:not(.vertical),
   entry.warning {
+    color: #31363D;
+    border-color: rgba(0, 0, 0, 0.13);
+    background-color: #ebf0f5;
     color: #ff9200;
     border-color: #ff9200; }
     spinbutton.warning:focus:not(.vertical),
