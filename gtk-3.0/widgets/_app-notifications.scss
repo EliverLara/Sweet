@@ -17,12 +17,7 @@
     transition: $backdrop_transition;
   }
 
-  button, button.flat { 
-    @include button(osd);
-    &:hover {
-      background: lighten($osd_bg_color, 12%);
-    }
-  }
+  button { @extend %osd_button; }
 
   border { border: none; }
 }
