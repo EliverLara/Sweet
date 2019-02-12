@@ -206,7 +206,7 @@ button {
     &:backdrop { @include button(osd-backdrop); }
 
     &.flat {
-      @include button(undecorated);
+      @include button(osd);
 
       box-shadow: none; //FIXME respect no edge on the button mixin
       text-shadow: 0 1px black;
@@ -221,7 +221,7 @@ button {
         box-shadow: none;
       }
 
-      &:backdrop { @include button(undecorated); }
+      &:backdrop { @include button(osd); }
 
       &:active,
       &:checked { @include button(osd-active); }
