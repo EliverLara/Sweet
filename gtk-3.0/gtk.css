@@ -2338,7 +2338,8 @@ headerbar {
     padding-right: 12px; }
   .titlebar:not(headerbar) entry, .titlebar entry,
   headerbar entry {
-    min-height: 24px; }
+    min-height: 24px;
+    background: #17181c; }
   .titlebar:not(headerbar) button, .titlebar button,
   headerbar button {
     color: #8b8b8b;
