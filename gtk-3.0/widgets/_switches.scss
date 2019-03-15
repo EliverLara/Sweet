@@ -7,12 +7,11 @@ switch {
   outline-offset: -4px;
   transition: all 200ms ease-in;
 
-  border: none;
+  border: 1px solid $borders_color;
   border-radius: 14px;
   color: transparent;
   padding: 2.3px 0px;
-
-  background:  linear-gradient(to right, #859398, #859398);
+  background:  linear-gradient(to right, #1E2233, #1E2233);
  // border: 1px solid rgba(170, 170, 170, 0.4);
   &:disabled {
     background-color: $insensitive_bg_color;
@@ -28,14 +27,12 @@ switch {
 
   &:active,
   &:checked {
-   // border: 1px solid $teal;
-   background:  linear-gradient(to right, #ff9200, #fadd00);
+   background:  linear-gradient(to right, #f7005a, #fadd00);
     slider{
       background: #fff;
     }
     &:backdrop {
-      //border: 1px solid $teal;
-      background:  linear-gradient(to right, darken(#ff9200, 5%), darken(#fadd00, 5%));
+      background:  linear-gradient(to right, darken(#f7005a, 5%), darken(#fadd00, 5%));
       slider {
         &:backdrop {
           box-shadow:none;
@@ -48,14 +45,14 @@ switch {
 
   // Handle
   slider {
-    padding:2px;
+    padding: 2px;
     margin: 0 2.3px;
     min-width: 12px;
     min-height: 12px;
 
     border-radius: 100%;
     transition: $button_transition;
-    background-color: lighten(#859398, 20%);
+    background-color: darken(#1E2233, 5%);
 
     &:backdrop {
       padding:2px;
