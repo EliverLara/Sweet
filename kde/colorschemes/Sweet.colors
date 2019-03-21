@@ -86,7 +86,7 @@ ForegroundNegative=237,37,78
 ForegroundNeutral=255,106,0
 ForegroundNormal=211,218,227
 ForegroundPositive=113,247,159
-ForegroundVisited=82,148,226
+ForegroundVisited=179,13,191
 
 [General]
 ColorScheme=Sweet
