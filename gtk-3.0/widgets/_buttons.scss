@@ -215,6 +215,9 @@ button {
       text-shadow: 0 1px black;
       -gtk-icon-shadow: 0 1px black;
 
+      &.image-button {
+        @include button(osd); 
+      } 
       &:hover { @include button(osd-hover); }
 
       &:disabled {
