@@ -562,6 +562,17 @@ button {
     box-shadow: none;
     text-shadow: 0 1px black;
     -gtk-icon-shadow: 0 1px black; }
+    .app-notification button.flat.image-button, popover.background.touch-selection button.flat.image-button, popover.background.magnifier button.flat.image-button,
+    .osd
+    button.flat.image-button {
+      color: #fefefe;
+      border-color: rgba(0, 0, 0, 0.7);
+      background-color: rgba(20, 23, 26, 0.8);
+      background-clip: padding-box;
+      box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
+      text-shadow: 0 1px black;
+      -gtk-icon-shadow: 0 1px black;
+      outline-color: rgba(254, 254, 254, 0.3); }
     .app-notification button.flat:hover, popover.background.touch-selection button.flat:hover, popover.background.magnifier button.flat:hover,
     .osd
     button.flat:hover {
