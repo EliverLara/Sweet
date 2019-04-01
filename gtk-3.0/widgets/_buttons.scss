@@ -45,8 +45,11 @@ button {
       &:hover {
         transition: $button_transition;
         transition-duration: 500ms;
-
         &:active { transition: $button_transition; }
+      }
+      &.image-button:hover {
+        background-color: $selected_bg_color;
+        color: $selected_fg_color;
       }
     }
 
