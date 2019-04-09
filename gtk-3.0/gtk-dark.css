@@ -3230,6 +3230,14 @@ notebook > stack:not(:only-child) {
   notebook > stack:not(:only-child):backdrop {
     background-color: #1a1d2b; }
 
+notebook button.flat {
+  padding: 2px 4px; }
+  notebook button.flat, notebook button.flat:backdrop {
+    border: none;
+    background-color: transparent; }
+  notebook button.flat:hover, notebook button.flat:active, notebook button.flat:checked {
+    background: #00D3A7; }
+
 /*********
  * Paned *
  *********/
