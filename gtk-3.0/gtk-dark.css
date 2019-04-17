@@ -3207,7 +3207,7 @@ notebook button.flat {
     border: none;
     background-color: transparent; }
   notebook button.flat:hover, notebook button.flat:active, notebook button.flat:checked {
-    background: #00D3A7; }
+    background: #c50ed2; }
 
 /*********
  * Paned *
