@@ -5618,6 +5618,16 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   background-color: #1c2124;
   color: #76777A; }
 
+#whiskermenu-window button {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  font-weight: normal;
+  padding: 2px;
+  margin: 1px 0px; }
+  #whiskermenu-window button:hover, #whiskermenu-window button:checked {
+    background-color: #F67E7D; }
+
 /********
  * Gala *
  *******/
