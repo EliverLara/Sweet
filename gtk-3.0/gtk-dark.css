@@ -5627,8 +5627,37 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   background-color: #161925; }
 
 .xfce4-panel.panel {
-  background-color: #181b28;
-  color: #C3C7D1; }
+  background-color: rgba(24, 27, 40, 0.7);
+  text-shadow: none;
+  -gtk-icon-shadow: none; }
+
+#tasklist-button {
+  color: rgba(195, 199, 209, 0.8);
+  border-radius: 0;
+  border: none;
+  background-color: rgba(24, 27, 40, 0); }
+  #tasklist-button:hover {
+    color: #e0e2e7;
+    background-color: rgba(0, 0, 0, 0.17); }
+  #tasklist-button:checked {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 -2px #00D3A7; }
+
+.xfce4-panel.panel button.flat {
+  color: #C3C7D1;
+  border-radius: 0;
+  border: none;
+  background-color: rgba(24, 27, 40, 0); }
+  .xfce4-panel.panel button.flat:hover {
+    border: none;
+    background-color: rgba(43, 49, 72, 0.7); }
+  .xfce4-panel.panel button.flat:active, .xfce4-panel.panel button.flat:checked {
+    color: #fefefe;
+    border: none;
+    background-color: #00D3A7; }
+    .xfce4-panel.panel button.flat:active label, .xfce4-panel.panel button.flat:active image, .xfce4-panel.panel button.flat:checked label, .xfce4-panel.panel button.flat:checked image {
+      color: inherit; }
 
 #whiskermenu-window button {
   background-color: transparent;
@@ -5995,19 +6024,19 @@ ConversationListView {
  * LightDm *
  ***********/
 #panel_window {
-  background-color: rgba(0, 0, 0, 0.7);
-  color: white;
+  background-color: rgba(24, 27, 40, 0.7);
+  color: #C3C7D1;
   font-weight: bold;
-  box-shadow: inset 0 -1px rgba(0, 0, 0, 0.7); }
+  box-shadow: inset 0 -1px rgba(11, 12, 18, 0.7); }
   #panel_window .menubar,
   #panel_window .menubar > .menuitem menubar,
   #panel_window menubar > menuitem {
     background-color: transparent;
-    color: white;
+    color: #C3C7D1;
     font-weight: bold; }
   #panel_window .menubar .menuitem:disabled,
   #panel_window menubar menuitem:disabled {
-    color: rgba(255, 255, 255, 0.5); }
+    color: rgba(195, 199, 209, 0.5); }
     #panel_window .menubar .menuitem:disabled GtkLabel,
     #panel_window menubar menuitem:disabled GtkLabel {
       color: inherit; }
