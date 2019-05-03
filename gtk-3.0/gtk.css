@@ -5677,7 +5677,7 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   #tasklist-button:checked {
     color: white;
     background-color: rgba(0, 0, 0, 0.25);
-    box-shadow: inset 0 -2px #f7b922; }
+    box-shadow: inset 0 -2px #0072ff; }
 
 .xfce4-panel.panel button.flat {
   color: white;
@@ -5690,7 +5690,7 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   .xfce4-panel.panel button.flat:active, .xfce4-panel.panel button.flat:checked {
     color: #fefefe;
     border: none;
-    background-color: #f7b922; }
+    background-color: #0072ff; }
     .xfce4-panel.panel button.flat:active label, .xfce4-panel.panel button.flat:active image, .xfce4-panel.panel button.flat:checked label, .xfce4-panel.panel button.flat:checked image {
       color: inherit; }
 
@@ -5702,7 +5702,7 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   padding: 2px;
   margin: 1px 0px; }
   #whiskermenu-window button:hover, #whiskermenu-window button:checked {
-    background-color: #f7b922; }
+    background-color: #0072ff; }
 
 /********
  * Gala *
