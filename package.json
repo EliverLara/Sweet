@@ -4,7 +4,7 @@
   "description": "Light and dark colorful Gtk3.20+ theme",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "git push && sh install.sh"
   },
   "repository": {
     "type": "git",
