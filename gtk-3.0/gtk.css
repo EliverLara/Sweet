@@ -5544,15 +5544,16 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
 .nautilus-window .titlebar .path-bar-box .dim-label, .nautilus-window .titlebar .path-bar-box label.separator, .nautilus-window .titlebar .path-bar-box .subtitle {
   color: transparent; }
 
+.nautilus-window .titlebar .path-bar-box widget > .text-button:last-child,
 .nautilus-window .titlebar .path-bar-box button:active, .nautilus-window .titlebar .path-bar-box button:checked {
   border-radius: 23px;
   background: linear-gradient(to right, #c50ed2, #8500f7);
   box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
-  color: #fafafa; }
-  .nautilus-window .titlebar .path-bar-box button:active:backdrop, .nautilus-window .titlebar .path-bar-box button:checked:backdrop {
+  color: snow; }
+  .nautilus-window .titlebar .path-bar-box widget > .text-button:last-child:backdrop, .nautilus-window .titlebar .path-bar-box widget > .text-button:last-child:backdrop label,
+  .nautilus-window .titlebar .path-bar-box button:active:backdrop,
+  .nautilus-window .titlebar .path-bar-box button:active:backdrop label, .nautilus-window .titlebar .path-bar-box button:checked:backdrop, .nautilus-window .titlebar .path-bar-box button:checked:backdrop label {
     color: #f0f0f0; }
-    .nautilus-window .titlebar .path-bar-box button:active:backdrop label, .nautilus-window .titlebar .path-bar-box button:checked:backdrop label {
-      color: #f0f0f0; }
 
 .nautilus-window .titlebar .linked:not(.path-bar) button:active, .nautilus-window .titlebar .linked:not(.path-bar) button:checked, .nautilus-window .titlebar .linked:not(.path-bar) button:active:backdrop, .nautilus-window .titlebar .linked:not(.path-bar) button:checked:backdrop {
   background: transparent;
