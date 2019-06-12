@@ -48,8 +48,10 @@ button {
         &:active { transition: $button_transition; }
       }
       &.image-button:hover {
-        background-color: $selected_bg_color;
-        color: $selected_fg_color;
+        &, &:backdrop {
+          background-color: $selected_bg_color;
+          color: $selected_fg_color;
+        }
       }
     }
 
