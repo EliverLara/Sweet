@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "version": "3.0",
+  "name": "Sweet-Dark",
+  "theme": {
+    "images": {},
+    "properties": {},
+    "colors": {
+      "toolbar": "rgb(22, 25, 37)",
+      "toolbar_text": "rgb(195, 199, 209)",
+      "accentcolor": "rgb(12, 14, 20)",
+      "textcolor": "rgb(85, 84, 91)",
+      "toolbar_field": "rgb(12, 14, 20)",
+      "toolbar_field_text": "rgb(197, 14, 210)",
+	  "toolbar_field_border_focus": "rgb(197, 14, 210)",
+      "tab_line": "rgb(197, 14, 210)",
+      "popup": "rgb(12, 14, 20)",
+      "popup_text": "rgb(195, 199, 209)",
+	  "popup_highlight": "rgb(197, 14, 210)",
+      "tab_loading": "rgb(197, 14, 210)",
+	  "ntp_background": "rgb(22, 25, 37)",
+	  "ntp_text": "rgb(195, 199, 209)",
+	  "sidebar": "rgb(12, 14, 20)"
+    }
+  }
+}
