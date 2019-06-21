@@ -5719,8 +5719,8 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
     background-color: rgba(39, 40, 47, 0.7); }
   .xfce4-panel.panel button.flat:active, .xfce4-panel.panel button.flat:checked {
     color: #fefefe;
-    border: none;
-    background-color: #0072ff; }
+    border-bottom: 2px solid #0072ff;
+    background-color: rgba(62, 64, 75, 0.7); }
     .xfce4-panel.panel button.flat:active label, .xfce4-panel.panel button.flat:active image, .xfce4-panel.panel button.flat:checked label, .xfce4-panel.panel button.flat:checked image {
       color: inherit; }
 
