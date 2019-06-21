@@ -1,7 +1,6 @@
 // Xfce Panel
 .xfce4-panel.panel {
     background-color: $panel_bg_color;
-  
     text-shadow: none;
     -gtk-icon-shadow: none;
   
@@ -38,8 +37,8 @@
     }
     &:active, &:checked {
       color: $selected_fg_color;
-      border: none;
-      background-color: $selected_bg_color;
+      border-bottom: 2px solid $selected_bg_color;
+      background-color: lighten($panel_bg_color, 20%);
   
       label, image { color: inherit; }
     }
