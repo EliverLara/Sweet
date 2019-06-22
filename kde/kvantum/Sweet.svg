@@ -40,13 +40,13 @@
      inkscape:window-height="723"
      id="namedview1766"
      showgrid="false"
-     inkscape:zoom="2.1469192"
-     inkscape:cx="191.34446"
-     inkscape:cy="413.78794"
+     inkscape:zoom="4.8641138"
+     inkscape:cx="162.45945"
+     inkscape:cy="422.01143"
      inkscape:window-x="0"
      inkscape:window-y="22"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg1764" />
+     inkscape:current-layer="g709" />
   <defs
      id="defs116">
     <linearGradient
@@ -3323,14 +3323,14 @@
        y="165"
        width="8"
        height="12"
-       style="fill:#7e818c;fill-opacity:1" />
+       style="fill:#2d334c;fill-opacity:1" />
     <rect
        id="scrollbarslider-focused"
        x="180"
        y="165"
        width="8"
        height="12"
-       style="fill:#a0a4af;fill-opacity:1" />
+       style="fill:#343b59;fill-opacity:1" />
     <rect
        id="scrollbarslider-pressed"
        x="195"
