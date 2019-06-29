@@ -5670,7 +5670,7 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   background-color: #1A1E21; }
 
 .xfce4-panel.panel {
-  background-color: rgba(28, 33, 36, 0.95);
+  background-color: #1c2124;
   text-shadow: none;
   -gtk-icon-shadow: none; }
 
@@ -5694,11 +5694,11 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   background-color: rgba(28, 33, 36, 0); }
   .xfce4-panel.panel button.flat:hover {
     border: none;
-    background-color: rgba(51, 59, 64, 0.95); }
+    background-color: #333b40; }
   .xfce4-panel.panel button.flat:active, .xfce4-panel.panel button.flat:checked {
     color: #f7f7f7;
     border-bottom: 2px solid #F67E7D;
-    background-color: rgba(62, 71, 79, 0.95); }
+    background-color: #3e474f; }
     .xfce4-panel.panel button.flat:active label, .xfce4-panel.panel button.flat:active image, .xfce4-panel.panel button.flat:checked label, .xfce4-panel.panel button.flat:checked image {
       color: inherit; }
 
@@ -6067,10 +6067,10 @@ ConversationListView {
  * LightDm *
  ***********/
 #panel_window {
-  background-color: rgba(28, 33, 36, 0.95);
+  background-color: #1c2124;
   color: white;
   font-weight: bold;
-  box-shadow: inset 0 -1px rgba(13, 14, 16, 0.95); }
+  box-shadow: inset 0 -1px #0d0e10; }
   #panel_window .menubar,
   #panel_window .menubar > .menuitem menubar,
   #panel_window menubar > menuitem {
