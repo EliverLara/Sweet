@@ -6,7 +6,7 @@ gtk-color-scheme = "fg_color:#31363d\nbg_color:#e6e6e6"
 # Selection colors
 gtk-color-scheme = "selected_fg_color:#fefefe\nselected_bg_color:#E1A91F"
 # Tooltip colors
-gtk-color-scheme = "tooltip_fg_color:#2d2d2d\ntooltip_bg_color:#fefefe"
+gtk-color-scheme = "tooltip_fg_color:#ffffff\ntooltip_bg_color:#000000"
 # Window colors
 gtk-color-scheme = "wm_color:#31363d\nunfocused_wm_color:#31363d"
 # Panel colors
