@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="256"
-     inkscape:cx="0.71805096"
-     inkscape:cy="-0.33371172"
+     inkscape:zoom="181.01934"
+     inkscape:cx="2.1809416"
+     inkscape:cy="-0.89035234"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -56,7 +56,7 @@
      transform="translate(0,-296.20623)">
     <path
        inkscape:connector-curvature="0"
-       style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#101013;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 0,296.20623 v 0.52917 h 0.26458328 v 0.26458 h 0.52916667 v -0.79375 z"
        id="bottom-left-active" />
   </g>
