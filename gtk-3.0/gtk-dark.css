@@ -5794,9 +5794,9 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   background-color: transparent;
   transition: all 100ms ease-in-out; }
   .panel.maximized {
-    background-color: #181b28; }
+    background-color: #1c2124; }
   .panel.translucent {
-    background-color: rgba(24, 27, 40, 0.5); }
+    background-color: rgba(28, 33, 36, 0.5); }
   .panel.color-light.translucent {
     background-color: rgba(255, 255, 255, 0.85); }
 
