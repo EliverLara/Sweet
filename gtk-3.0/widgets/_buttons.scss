@@ -64,6 +64,13 @@ button {
 
       transition-duration: 50ms;
     }
+    &:active {
+      color: $fg_color;
+    }
+    &:active:hover, &:checked {
+      color: $selected_fg_color;
+    }
+
 
     &:backdrop {
       &.flat, & {
