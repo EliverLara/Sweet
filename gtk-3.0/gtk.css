@@ -308,6 +308,13 @@ button {
     background-color: #00ba93;
     text-shadow: none;
     transition-duration: 50ms; }
+  notebook > header > tabs > arrow:active,
+  button:active {
+    color: #31363d; }
+  notebook > header > tabs > arrow:active:hover, notebook > header > tabs > arrow:checked,
+  button:active:hover,
+  button:checked {
+    color: #fefefe; }
   notebook > header > tabs > arrow:backdrop, notebook > header > tabs > arrow:backdrop,
   button:backdrop.flat,
   button:backdrop {
