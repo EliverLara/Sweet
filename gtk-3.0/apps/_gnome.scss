@@ -68,6 +68,11 @@
   }
 
   .titlebar {
+    .search {
+      border: 1px solid transparent;
+      border-radius: 3px;
+      box-shadow: none;
+    }
     .path-bar-box {
       .dim-label {
         color:transparent;

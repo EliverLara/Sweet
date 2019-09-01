@@ -5609,6 +5609,11 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
 .nautilus-window .searchbar-container {
   margin-top: -1px; }
 
+.nautilus-window .titlebar .search {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: none; }
+
 .nautilus-window .titlebar .path-bar-box .dim-label, .nautilus-window .titlebar .path-bar-box label.separator, .nautilus-window .titlebar .path-bar-box .subtitle {
   color: transparent; }
 
