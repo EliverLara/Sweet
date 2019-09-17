@@ -80,11 +80,13 @@
         color:transparent;
       }
       widget > .text-button:last-child,
+      widget > .text-button:last-child:active,
+      widget > .text-button:last-child:checked,
       button:active, button:checked {
           @include button(active-header);
           &:backdrop{
             &, label{
-              color: darken(rgb(250, 250, 250), 4%);
+              color: darken(rgb(255, 255, 255), 4%);
             }
           }
       }
