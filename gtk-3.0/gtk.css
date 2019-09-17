@@ -5674,15 +5674,21 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   color: transparent; }
 
 .nautilus-window .titlebar .path-bar-box widget > .text-button:last-child,
+.nautilus-window .titlebar .path-bar-box widget > .text-button:last-child:active,
+.nautilus-window .titlebar .path-bar-box widget > .text-button:last-child:checked,
 .nautilus-window .titlebar .path-bar-box button:active, .nautilus-window .titlebar .path-bar-box button:checked {
   border-radius: 23px;
   background: linear-gradient(to right, #00c6ff, #0072ff);
   box-shadow: 0px 2px 4px rgba(0, 114, 255, 0.98);
   color: #fafafa; }
   .nautilus-window .titlebar .path-bar-box widget > .text-button:last-child:backdrop, .nautilus-window .titlebar .path-bar-box widget > .text-button:last-child:backdrop label,
+  .nautilus-window .titlebar .path-bar-box widget > .text-button:last-child:active:backdrop,
+  .nautilus-window .titlebar .path-bar-box widget > .text-button:last-child:active:backdrop label,
+  .nautilus-window .titlebar .path-bar-box widget > .text-button:last-child:checked:backdrop,
+  .nautilus-window .titlebar .path-bar-box widget > .text-button:last-child:checked:backdrop label,
   .nautilus-window .titlebar .path-bar-box button:active:backdrop,
   .nautilus-window .titlebar .path-bar-box button:active:backdrop label, .nautilus-window .titlebar .path-bar-box button:checked:backdrop, .nautilus-window .titlebar .path-bar-box button:checked:backdrop label {
-    color: #f0f0f0; }
+    color: whitesmoke; }
 
 .nautilus-window .titlebar .linked:not(.path-bar) button:active, .nautilus-window .titlebar .linked:not(.path-bar) button:checked, .nautilus-window .titlebar .linked:not(.path-bar) button:active:backdrop, .nautilus-window .titlebar .linked:not(.path-bar) button:checked:backdrop {
   background: transparent;
