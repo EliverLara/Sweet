@@ -78,6 +78,8 @@
         color:transparent;
       }
       widget > .text-button:last-child,
+      widget > .text-button:last-child:active,
+      widget > .text-button:last-child:checked,
       button:active, button:checked {
           @include button(active-header);
           &:backdrop{
