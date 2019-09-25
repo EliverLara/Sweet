@@ -2843,7 +2843,7 @@ row {
     background-color: rgba(246, 126, 125, 0.5); }
   row.activatable:selected:backdrop {
     background-color: rgba(246, 126, 125, 0.6); }
-  row.activatable button:not(.image-button) {
+  row.activatable button.flat {
     background-color: transparent; }
 
 /*********
