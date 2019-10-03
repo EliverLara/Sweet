@@ -10,11 +10,11 @@
 
 
 <!-- CONSTANTS -->
-<constant name="C_titlebar" value="#0c0e14" />
-<constant name="C_titlebar_unfocused" value="#0c0e14" />
-<constant name="C_border_focused" value="#0c0e14" />
-<constant name="C_border_unfocused" value="#0c0e14" />
-<constant name="C_title_focused" value="#d8dee9" />
+<constant name="C_titlebar" value="#fff" />
+<constant name="C_titlebar_unfocused" value="#fff" />
+<constant name="C_border_focused" value="#fff" />
+<constant name="C_border_unfocused" value="#fff" />
+<constant name="C_title_focused" value="#31363D" />
 <constant name="C_title_unfocused" value="#93979f" />
 
 <constant name="C_wm_button_background" value="#fc2" />
