@@ -28,31 +28,68 @@ Image {
 
         Image {
             id: logo
-            //match SDDM/lockscreen avatar positioning
             property real size: units.gridUnit * 12
-
             anchors.centerIn: parent
-
             source: "images/sweetlogo.png"
-
             sourceSize.width: size
             sourceSize.height: size
+
+            ParallelAnimation {
+                running: true
+
+                ScaleAnimator {
+                    target: logo
+                    from: 0
+                    to: 1
+                    duration: 700
+                }
+
+                SequentialAnimation {
+                    running: true
+                    loops: Animation.Infinite
+
+                    OpacityAnimator {
+                        target: logo
+                        from: 0.85
+                        to: 1
+                        duration: 1200
+                    }
+                    OpacityAnimator {
+                        target: logo
+                        from: 1
+                        to: 0.85
+                        duration: 1200
+                    }
+                }
+            }
         }
 
         Image {
             id: busyIndicator
-            //in the middle of the remaining space
             y: parent.height - (parent.height - logo.y) / 3 - height/2
             anchors.horizontalCenter: parent.horizontalCenter
             source: "images/busy.svg"
             sourceSize.height: units.gridUnit * 3
             sourceSize.width: units.gridUnit * 3
-            RotationAnimator on rotation {
-                id: rotationAnimator
-                from: 0
-                to: 360
-                duration: 800
-                loops: Animation.Infinite
+
+            ParallelAnimation{
+                running: true
+
+                ScaleAnimator{
+                    target: busyIndicator
+                    from: 0
+                    to: 1
+                    duration: 800
+                }
+
+                RotationAnimator{
+                    target: busyIndicator
+                    id: rotationAnimator
+                    from: 0
+                    to: 360
+                    duration: 800
+                    loops: Animation.Infinite
+                }
             }
         }
 
