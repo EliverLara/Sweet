@@ -1,11 +1,11 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Sweet
+Name=Sweet-Ambar
 Comment=Light and dark colorful Gtk3.20+ theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Sweet
-MetacityTheme=Sweet
+GtkTheme=Sweet-Ambar
+MetacityTheme=Sweet-Ambar
 IconTheme=Boston
 ButtonLayout=:minimize,maximize,close
