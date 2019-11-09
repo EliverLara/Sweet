@@ -92,7 +92,7 @@ style "default" {
   # Set this because some apps read it
   GtkTreeView::odd-row-color        = @base_color
   GtkTreeView::even-row-color       = @base_color
-  GtkTreeView::odd_row_color        = shade(0.97, @base_color)
+  GtkTreeView::odd_row_color        = shade(0.90, @base_color)
 
   GtkExpander::expander-size = 16
 
@@ -2517,6 +2517,15 @@ style "disable_separator" {
 
 }
 
+# Text Style
+style "text" = "default" {
+  engine "murrine" { textstyle = 0 }
+}
+
+style "menu_text" = "menu_item" {
+  engine "murrine" { textstyle = 0 }
+}
+
 # Default style, containing most of the stuff
 class "GtkWidget"            style "default"
 
@@ -2597,3 +2606,10 @@ widget_class "*<GtkComboBox>*<GtkCellView>" style "combobox_cellview"
 
 # GTK tooltips
 widget "gtk-tooltip*" style "tooltip"
+
+# Fixes ugly text shadows for insensitive text
+widget_class "*<GtkLabel>"                                          style "text"
+widget_class "*<GtkMenu>*<GtkLabel>"                                style "menu_text" 
+widget_class "*<GtkComboBox>*<GtkCellLayout>"                       style "text"
+widget_class "*<GtkNotebook>*<GtkLabel>"                            style "text"
+widget_class "*<GtkNotebook>*<GtkCellLayout>"                       style "text"

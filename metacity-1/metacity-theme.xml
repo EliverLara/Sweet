@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
 <metacity_theme>
 <info>
-	<name>Sweet</name>
+	<name>Sweet-mars</name>
 	<author>Eliver Lara &lt;eliverlara@gmail&gt;</author>
 	<copyright>&#194;Eliver Lara, 2019</copyright>
 	<date>2019</date>
-	<description>Sweet window Theme</description>
+	<description>Sweet mars window Theme</description>
 </info>
 
 
 <!-- CONSTANTS -->
-<constant name="C_titlebar" value="#fff" />
-<constant name="C_titlebar_unfocused" value="#fff" />
-<constant name="C_border_focused" value="#fff" />
-<constant name="C_border_unfocused" value="#fff" />
-<constant name="C_title_focused" value="#31363D" />
-<constant name="C_title_unfocused" value="#93979f" />
+<constant name="C_titlebar" value="#181b1e" />
+<constant name="C_titlebar_unfocused" value="#181b1e" />
+<constant name="C_border_focused" value="#181b1e" />
+<constant name="C_border_unfocused" value="#181b1e" />
+<constant name="C_title_focused" value="#76777A" />
+<constant name="C_title_unfocused" value="#8b8b8b" />
 
 <constant name="C_wm_button_background" value="#fc2" />
 <constant name="C_wm_button_foreground" value="#283141" />
@@ -30,9 +30,9 @@
 
 <!-- Focused window -->
 <frame_geometry name="normal" title_scale="medium" rounded_top_left="1" rounded_top_right="1">
-	<distance name="left_width" value="1" />
-	<distance name="right_width" value="1" />
-	<distance name="bottom_height" value="3" />
+	<distance name="left_width" value="0" />
+	<distance name="right_width" value="0" />
+	<distance name="bottom_height" value="0" />
 	<distance name="left_titlebar_edge" value="5" />
 	<distance name="right_titlebar_edge" value="5" />
 	<distance name="title_vertical_pad" value="4" />

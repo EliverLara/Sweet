@@ -16,7 +16,7 @@
    version="1.1"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="maximize.svg"
-   inkscape:export-filename="/home/lara/github/Blitz/assets/maximize.png"
+   inkscape:export-filename="/home/lara/github/shell/assets/maximize.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
@@ -25,11 +25,11 @@
        inkscape:collect="always"
        id="linearGradient822">
       <stop
-         style="stop-color:#d300dc;stop-opacity:1"
+         style="stop-color:#a0c1b9;stop-opacity:1"
          offset="0"
          id="stop818" />
       <stop
-         style="stop-color:#8700ff;stop-opacity:1"
+         style="stop-color:#98b7af;stop-opacity:1"
          offset="1"
          id="stop820" />
     </linearGradient>
@@ -50,9 +50,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="19.261384"
-     inkscape:cx="4.6054322"
-     inkscape:cy="8.0100111"
+     inkscape:zoom="22.552836"
+     inkscape:cx="-0.53336225"
+     inkscape:cy="7.9420502"
      inkscape:document-units="px"
      inkscape:current-layer="g4287"
      showgrid="true"
@@ -61,7 +61,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1366"
-     inkscape:window-height="713"
+     inkscape:window-height="712"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1" />
@@ -98,7 +98,7 @@
              id="g4287">
             <path
                id="path4289"
-               style="fill:#b800d2;fill-opacity:1;fill-rule:evenodd;stroke:none"
+               style="fill:#8fd1bf;fill-opacity:1;fill-rule:evenodd;stroke:none"
                d="m 562.7806,-38.053372 c 305.45604,0 553.0815,247.625852 553.0815,553.085772 0,305.46122 -247.62546,553.0867 -553.0815,553.0867 -305.4651,0 -553.0913989,-247.62548 -553.0913989,-553.0867 0,-305.45992 247.6262989,-553.085772 553.0913989,-553.085772"
                inkscape:connector-curvature="0" />
             <path
