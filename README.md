@@ -1,7 +1,7 @@
 
 ![](Art/Sweet-theme.png)
 
-
+A cool new blue variant
 #### Installation
 
 Extract the zip file to the themes directory i.e. `/usr/share/themes/` or `~/.themes/` (create it if necessary).
