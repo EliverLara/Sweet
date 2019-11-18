@@ -1042,11 +1042,9 @@ StScrollBar {
       /* Message list */
       .message-list {
         width: 31.5em;
-        .message-title{
-          color: darken($fg_color,5%);
-        }
+        .message-title,
         .message-content{
-          
+          color: darken($fg_color,5%);
         }
       }
 
