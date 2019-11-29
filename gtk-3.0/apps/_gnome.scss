@@ -50,13 +50,15 @@
         background-color: $base_color;
         &:backdrop { background-color: $backdrop_base_color; }
     }
-    *:selected, *:selected:backdrop{
-      background: transparent;
-      color: $selected_bg_color;
-      label {
+    .frame {
+      *:selected, *:selected:backdrop{
+        background: transparent;
         color: $selected_bg_color;
-      }
-    } 
+        label {
+          color: $selected_bg_color;
+        }
+      } 
+    }
   }
 
   searchbar {

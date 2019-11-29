@@ -5597,10 +5597,10 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   .nautilus-window notebook > stack:only-child:backdrop {
     background-color: #1e2327; }
 
-.nautilus-window notebook *:selected, .nautilus-window notebook *:selected:backdrop {
+.nautilus-window notebook .frame *:selected, .nautilus-window notebook .frame *:selected:backdrop {
   background: transparent;
   color: #F67E7D; }
-  .nautilus-window notebook *:selected label, .nautilus-window notebook *:selected:backdrop label {
+  .nautilus-window notebook .frame *:selected label, .nautilus-window notebook .frame *:selected:backdrop label {
     color: #F67E7D; }
 
 .nautilus-window searchbar {
