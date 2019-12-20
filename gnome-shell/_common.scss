@@ -1084,9 +1084,9 @@ StScrollBar {
             //@include gradient();
             box-shadow: 2px 0px 0px 0px $g2 inset;
            }
-          border: none;
-          border-radius: 1px;
-          background: transparent;
+           border: 1px solid darken($bg_color, 5%);
+           border-radius: 3px;
+           background: darken($bg_color, 1%);
         }
 
           .message-icon-bin {
