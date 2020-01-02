@@ -276,7 +276,7 @@ button {
   button.flat {
     background-color: transparent;
     background-image: none;
-    background-color: #1c2023;
+    border-color: transparent;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0);
     text-shadow: none;
     -gtk-icon-shadow: none;
@@ -284,7 +284,11 @@ button {
     notebook > header > tabs > arrow:hover,
     button.flat:hover {
       transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-      transition-duration: 500ms; }
+      transition-duration: 500ms;
+      color: #f7f7f7;
+      outline-color: rgba(247, 247, 247, 0.3);
+      background-color: #F67E7D;
+      text-shadow: none; }
       notebook > header > tabs > arrow:hover:active,
       button.flat:hover:active {
         transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
@@ -349,7 +353,7 @@ button {
   button.flat:backdrop:disabled {
     background-color: transparent;
     background-image: none;
-    background-color: #1c2023;
+    border-color: transparent;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0);
     text-shadow: none;
     -gtk-icon-shadow: none; }
@@ -549,7 +553,7 @@ button {
   button.flat {
     background-color: transparent;
     background-image: none;
-    background-color: #1c2023;
+    border-color: transparent;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0);
     text-shadow: none;
     -gtk-icon-shadow: none;
@@ -585,7 +589,7 @@ button {
     button.flat:backdrop {
       background-color: transparent;
       background-image: none;
-      background-color: #1c2023;
+      border-color: transparent;
       box-shadow: inset 0 1px rgba(255, 255, 255, 0);
       text-shadow: none;
       -gtk-icon-shadow: none; }
@@ -683,7 +687,7 @@ button.suggested-action {
   button.suggested-action.flat:backdrop:disabled {
     background-color: transparent;
     background-image: none;
-    background-color: #1c2023;
+    border-color: transparent;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0);
     text-shadow: none;
     -gtk-icon-shadow: none;
@@ -841,7 +845,7 @@ button.destructive-action {
   button.destructive-action.flat:backdrop:disabled {
     background-color: transparent;
     background-image: none;
-    background-color: #1c2023;
+    border-color: transparent;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0);
     text-shadow: none;
     -gtk-icon-shadow: none;
@@ -989,12 +993,12 @@ toolbar button:active {
 .inline-toolbar toolbutton > button {
   background-color: transparent;
   background-image: none;
-  background-color: #1c2023;
+  border-color: transparent;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0);
   text-shadow: none;
   -gtk-icon-shadow: none; }
   .inline-toolbar toolbutton > button:hover {
-    color: #F67E7D; }
+    color: #f7f7f7; }
   .inline-toolbar toolbutton > button:active, .inline-toolbar toolbutton > button:checked {
     color: #f46665; }
   .inline-toolbar toolbutton > button:disabled {
@@ -2937,7 +2941,7 @@ menu,
   .context-menu > arrow {
     background-color: transparent;
     background-image: none;
-    background-color: #1c2023;
+    border-color: transparent;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0);
     text-shadow: none;
     -gtk-icon-shadow: none;
@@ -3116,7 +3120,7 @@ notebook > header {
     notebook > header > tabs > arrow:disabled {
       background-color: transparent;
       background-image: none;
-      background-color: #1c2023;
+      border-color: transparent;
       box-shadow: inset 0 1px rgba(255, 255, 255, 0);
       text-shadow: none;
       -gtk-icon-shadow: none; }
@@ -3164,12 +3168,6 @@ notebook > header {
         color: #F67E7D; }
       notebook > header tab button.flat, notebook > header tab button.flat:backdrop {
         color: alpha(currentColor,0.3); }
-      notebook > header tab button.flat:last-child {
-        margin-left: 4px;
-        margin-right: -4px; }
-      notebook > header tab button.flat:first-child {
-        margin-left: -4px;
-        margin-right: 4px; }
   notebook > header.top tabs, notebook > header.bottom tabs {
     padding-left: 0px;
     padding-right: 0px; }
@@ -3213,14 +3211,6 @@ notebook > stack:not(:only-child) {
   background-color: #1A1E21; }
   notebook > stack:not(:only-child):backdrop {
     background-color: #1A1E21; }
-
-notebook button.flat {
-  padding: 2px 4px; }
-  notebook button.flat, notebook button.flat:backdrop {
-    border: none;
-    background-color: transparent; }
-  notebook button.flat:hover, notebook button.flat:active, notebook button.flat:checked {
-    background: #F67E7D; }
 
 /*********
  * Paned *
@@ -3938,7 +3928,7 @@ scrollbar {
     transition-property: min-height, min-width, color;
     background-color: transparent;
     background-image: none;
-    background-color: #1c2023;
+    border-color: transparent;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0);
     text-shadow: none;
     -gtk-icon-shadow: none;
@@ -3946,7 +3936,7 @@ scrollbar {
     scrollbar button:hover {
       background-color: transparent;
       background-image: none;
-      background-color: #1c2023;
+      border-color: transparent;
       box-shadow: inset 0 1px rgba(255, 255, 255, 0);
       text-shadow: none;
       -gtk-icon-shadow: none;
@@ -3954,7 +3944,7 @@ scrollbar {
     scrollbar button:active, scrollbar button:checked {
       background-color: transparent;
       background-image: none;
-      background-color: #1c2023;
+      border-color: transparent;
       box-shadow: inset 0 1px rgba(255, 255, 255, 0);
       text-shadow: none;
       -gtk-icon-shadow: none;
@@ -3962,7 +3952,7 @@ scrollbar {
     scrollbar button:disabled {
       background-color: transparent;
       background-image: none;
-      background-color: #1c2023;
+      border-color: transparent;
       box-shadow: inset 0 1px rgba(255, 255, 255, 0);
       text-shadow: none;
       -gtk-icon-shadow: none;
@@ -3970,7 +3960,7 @@ scrollbar {
     scrollbar button:backdrop {
       background-color: transparent;
       background-image: none;
-      background-color: #1c2023;
+      border-color: transparent;
       box-shadow: inset 0 1px rgba(255, 255, 255, 0);
       text-shadow: none;
       -gtk-icon-shadow: none;
@@ -3978,7 +3968,7 @@ scrollbar {
       scrollbar button:backdrop:disabled {
         background-color: transparent;
         background-image: none;
-        background-color: #1c2023;
+        border-color: transparent;
         box-shadow: inset 0 1px rgba(255, 255, 255, 0);
         text-shadow: none;
         -gtk-icon-shadow: none;
@@ -4163,7 +4153,7 @@ spinbutton:not(.vertical) {
 .osd spinbutton:not(.vertical) button {
   background-color: transparent;
   background-image: none;
-  background-color: #1c2023;
+  border-color: transparent;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0);
   text-shadow: none;
   -gtk-icon-shadow: none;
@@ -4178,7 +4168,7 @@ spinbutton:not(.vertical) {
   .osd spinbutton:not(.vertical) button:hover {
     background-color: transparent;
     background-image: none;
-    background-color: #1c2023;
+    border-color: transparent;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0);
     text-shadow: none;
     -gtk-icon-shadow: none;
@@ -4190,7 +4180,7 @@ spinbutton:not(.vertical) {
   .osd spinbutton:not(.vertical) button:backdrop {
     background-color: transparent;
     background-image: none;
-    background-color: #1c2023;
+    border-color: transparent;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0);
     text-shadow: none;
     -gtk-icon-shadow: none;
@@ -4201,7 +4191,7 @@ spinbutton:not(.vertical) {
   .osd spinbutton:not(.vertical) button:disabled {
     background-color: transparent;
     background-image: none;
-    background-color: #1c2023;
+    border-color: transparent;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0);
     text-shadow: none;
     -gtk-icon-shadow: none;
