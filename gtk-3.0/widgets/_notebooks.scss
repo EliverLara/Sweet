@@ -223,16 +223,6 @@ notebook {
         // FIXME: generalize .small-button?
         min-width: 20px;
         min-height: 20px;
-
-        &:last-child {
-          margin-left: 4px;
-          margin-right: -4px;
-        }
-
-        &:first-child {
-          margin-left: -4px;
-          margin-right: 4px;
-        }
       }
     }
 
@@ -295,16 +285,5 @@ notebook {
     background-color: $base_color;
 
     &:backdrop { background-color: $backdrop_base_color; }
-  }
-
-  button.flat{
-    &, &:backdrop {
-      border: none;
-      background-color: transparent;
-    }
-    &:hover, &:active, &:checked {
-      background: $selected_bg_color;
-    }
-    padding: 2px 4px;
   }
 }
