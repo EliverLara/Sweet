@@ -45,7 +45,6 @@ Image {
                 }
 
                 SequentialAnimation {
-                    running: true
                     loops: Animation.Infinite
 
                     OpacityAnimator {
