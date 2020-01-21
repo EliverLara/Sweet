@@ -8,4 +8,5 @@ Encoding=UTF-8
 GtkTheme=Sweet
 MetacityTheme=Sweet
 IconTheme=Boston
-ButtonLayout=:minimize,maximize,close
+ButtonLayout=:maximize,minimize,close
+Inherits=Papirus-Dark,ubuntu-mono-dark,Mint-X,elementary,gnome,hicolor

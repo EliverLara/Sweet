@@ -16,7 +16,7 @@
    version="1.1"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="min.svg"
-   inkscape:export-filename="/home/lara/github/Blitz/assets/min.png"
+   inkscape:export-filename="/home/lara/github/shell/assets/min.png"
    inkscape:export-xdpi="95.99958"
    inkscape:export-ydpi="95.99958">
   <defs
@@ -25,11 +25,11 @@
        inkscape:collect="always"
        id="linearGradient824">
       <stop
-         style="stop-color:#f7f206;stop-opacity:1"
+         style="stop-color:#e1dd8f;stop-opacity:1"
          offset="0"
          id="stop820" />
       <stop
-         style="stop-color:#ffbb24;stop-opacity:1"
+         style="stop-color:#d6d289;stop-opacity:1"
          offset="1"
          id="stop822" />
     </linearGradient>
@@ -50,9 +50,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="19.261386"
-     inkscape:cx="0.25030614"
-     inkscape:cy="4.6721753"
+     inkscape:zoom="22.555576"
+     inkscape:cx="2.4840015"
+     inkscape:cy="9.5282062"
      inkscape:document-units="px"
      inkscape:current-layer="g4415"
      showgrid="true"
@@ -61,7 +61,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1366"
-     inkscape:window-height="713"
+     inkscape:window-height="712"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1" />
@@ -73,7 +73,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
