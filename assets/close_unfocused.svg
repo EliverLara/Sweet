@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="12"
+   height="13"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92+devel unknown"
+   sodipodi:docname="close_unfocused.svg"
+   inkscape:export-filename="/home/lara/.themes/Ant/assets/close_unfocused.png"
+   inkscape:export-xdpi="112"
+   inkscape:export-ydpi="112">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="19.317893"
+     inkscape:cx="3.9939335"
+     inkscape:cy="8.8454396"
+     inkscape:document-units="px"
+     inkscape:current-layer="g4197"
+     showgrid="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-671.14288,-651.57648)">
+    <g
+       transform="matrix(0.1265625,0,0,-0.1265625,672.07092,663.09636)"
+       inkscape:label="ink_ext_XXXXXX"
+       id="g4090">
+      <g
+         transform="scale(0.1,0.1)"
+         id="g4092">
+        <g
+           transform="matrix(9.9999999,0,0,9.9999999,3.1284009,-0.36309974)"
+           inkscape:label="ink_ext_XXXXXX"
+           id="g4195">
+          <g
+             transform="scale(0.1,0.1)"
+             id="g4197">
+            <path
+               id="path4199"
+               style="fill:#b4b4b4;fill-opacity:1;fill-rule:evenodd;stroke:none"
+               d="m 399.0119,-25.290703 c 236.063,0 427.43,191.363693 427.43,427.429693 0,236.059 -191.367,427.426 -427.43,427.426 -236.062,0 -427.429474,-191.367 -427.429474,-427.426 0,-236.066 191.367474,-427.429693 427.429474,-427.429693"
+               inkscape:connector-curvature="0"
+               inkscape:export-xdpi="124.22228"
+               inkscape:export-ydpi="124.22228" />
+            <path
+               id="path4201"
+               style="fill:#d4d4d4;fill-opacity:1;fill-rule:evenodd;stroke:none"
+               d="m 399.0119,11.060887 c 215.985,0 391.078,175.090103 391.078,391.078103 0,215.98 -175.093,391.074 -391.078,391.074 -215.984,0 -391.0779043,-175.094 -391.0779043,-391.074 0,-215.988 175.0939043,-391.078103 391.0779043,-391.078103"
+               inkscape:connector-curvature="0"
+               inkscape:export-xdpi="124.22228"
+               inkscape:export-ydpi="124.22228" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
