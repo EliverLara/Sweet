@@ -4806,18 +4806,18 @@ entry selection, row:selected, treeview.view:selected:focus, treeview.view:selec
 
 button.budgie-menu-launcher {
   padding: 0 2px;
-  color: #76777A;
+  color: white;
   box-shadow: none;
   background-color: transparent; }
   button.budgie-menu-launcher:hover {
-    color: #76777A; }
+    color: white; }
   button.budgie-menu-launcher:active, button.budgie-menu-launcher:checked {
-    color: #76777A; }
+    color: white; }
   button.budgie-menu-launcher:backdrop {
-    color: #76777A;
+    color: white;
     background-color: transparent; }
     button.budgie-menu-launcher:backdrop:hover {
-      color: #76777A; }
+      color: white; }
     button.budgie-menu-launcher:backdrop:active, button.budgie-menu-launcher:backdrop:checked {
       color: #F67E7D;
       box-shadow: none;
@@ -4868,19 +4868,19 @@ button.budgie-menu-launcher {
 button.raven-trigger {
   padding-left: 2px;
   padding-right: 2px;
-  color: #76777A;
+  color: white;
   box-shadow: none; }
   button.raven-trigger:hover {
-    color: #76777A;
+    color: white;
     background-color: transparent; }
   button.raven-trigger:active, button.raven-trigger:checked {
     box-shadow: none;
     background-color: transparent;
     color: #F67E7D; }
   button.raven-trigger:backdrop {
-    color: #76777A; }
+    color: white; }
     button.raven-trigger:backdrop:hover {
-      color: #76777A; }
+      color: white; }
     button.raven-trigger:backdrop:active, button.raven-trigger:backdrop:checked {
       box-shadow: none;
       color: #F67E7D;
@@ -4957,7 +4957,7 @@ button.raven-trigger {
   box-shadow: inset 0px 1px 1px alpha(@theme_fg_color, 0.04);; }
 
 .budgie-panel {
-  color: #76777A;
+  color: white;
   background-color: rgba(4, 4, 4, 0.95);
   background-image: none;
   box-shadow: none;
@@ -4966,7 +4966,7 @@ button.raven-trigger {
   .budgie-panel .alert {
     color: #F67E7D; }
   .budgie-panel:backdrop {
-    color: #76777A;
+    color: white;
     background-color: rgba(4, 4, 4, 0.95); }
   .budgie-panel button {
     border-top-width: 0;
@@ -4983,10 +4983,10 @@ button.raven-trigger {
     padding: 0;
     margin: 0; }
   .budgie-panel label {
-    color: #76777A;
+    color: white;
     font-weight: 700; }
   .budgie-panel.transparent {
-    background-color: transparent; }
+    background-color: rgba(4, 4, 4, 0.2); }
     .top .budgie-panel.transparent {
       border-bottom-color: transparent; }
     .bottom .budgie-panel.transparent {
