@@ -9,7 +9,7 @@ $mpris_overlay_bg: transparentize(if($variant=='light',$base_color, darken($bg_c
 $mpris_overlay_border: $top_highlight;
 $panel_bg: transparentize( darken($_sidebar_color,10%),0.05);
 $panel_color: $headerbar_fg_color; // text color for raven and popovers
-$panel_secondary_color: #98abb2; // text color for dark panel
+$panel_secondary_color: lighten($headerbar_fg_color, 70%); // text color for dark panel
 $panel_border: transparentize($borders_color, 0.08);
 $panel_shadow: transparentize(black, 0.7);
 $raven_bg: transparentize($headerbar_color, 0.08);
@@ -178,16 +178,16 @@ $pos_list: ((top, bottom),(bottom,top),(left,right),(right,left));
 // Menu Button
 button.budgie-menu-launcher {
     padding: 0 2px;
-    color: $headerbar_fg_color;
+    color: $panel_secondary_color;
     box-shadow: none;
     background-color: transparent;
-    &:hover { color: $headerbar_fg_color; }
-    &:active, &:checked { color: $headerbar_fg_color; }
+    &:hover { color: $panel_secondary_color; }
+    &:active, &:checked { color: $panel_secondary_color; }
 
     &:backdrop {
-      color: $headerbar_fg_color;
+      color: $panel_secondary_color;
       background-color: transparent;
-      &:hover { color: $headerbar_fg_color; }
+      &:hover { color: $panel_secondary_color; }
       &:active, &:checked {
         color: $selected_bg_color;
         box-shadow: none;
@@ -252,10 +252,10 @@ button.budgie-menu-launcher {
 button.raven-trigger {
     padding-left: 2px;
     padding-right: 2px;
-    color: $headerbar_fg_color;
+    color: $panel_secondary_color;
     box-shadow: none;
     &:hover {
-      color: $headerbar_fg_color;
+      color: $panel_secondary_color;
       background-color: transparent;
     }
     &:active, &:checked {
@@ -264,9 +264,9 @@ button.raven-trigger {
       color: $selected_bg_color;
     }
     &:backdrop {
-      color: $headerbar_fg_color;
+      color: $panel_secondary_color;
       &:hover {
-        color: $headerbar_fg_color;
+        color: $panel_secondary_color;
       }
       &:active, &:checked {
         box-shadow: none;
@@ -401,12 +401,12 @@ button.raven-trigger {
     }
 
     label {
-      color: $red;
+      color: $panel_secondary_color;
       font-weight: 700;
     }
 
     &.transparent {
-        background-color: transparent;
+        background-color: transparentize($panel_bg, 0.75);
 
         .top & {
             border-bottom-color: transparent;
