@@ -28,6 +28,10 @@ $selected_bg_color: #00D3A7;
 $selected_borders_color: darken($selected_bg_color, 10%);
 $borders_color: if($variant == 'light', transparentize(black,0.87), transparentize(#eee,0.9));
 $borders_edge: if($variant == 'light', transparentize(white, 0.8), transparentize(white, 0.9));
+
+$selected-tab-gradient-start: #00f17d;
+$selected-tab-gradient-end: #00f7d2;
+
 $link_color: $blue;
 $link_visited_color:transparentize($link_color,0.5);
 $top_highlight: if($variant == 'light', transparentize(white, 0.8), transparentize(white, 0.9));
