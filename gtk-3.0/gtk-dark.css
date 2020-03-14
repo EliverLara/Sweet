@@ -3070,7 +3070,7 @@ notebook > header {
       notebook > header.top > tabs > tab:backdrop {
         box-shadow: none; }
       notebook > header.top > tabs > tab:checked {
-        background: linear-gradient(to right, #fed349, #ff7800) left bottom #141721 no-repeat;
+        background: linear-gradient(to right, #00c6ff, #0072ff) left bottom #141721 no-repeat;
         background-size: 100% 2px;
         border: 0; }
   notebook > header.bottom {
@@ -3080,7 +3080,7 @@ notebook > header {
       notebook > header.bottom > tabs > tab:backdrop {
         box-shadow: none; }
       notebook > header.bottom > tabs > tab:checked {
-        background: linear-gradient(to right, #fed349, #ff7800) left bottom #141721 no-repeat;
+        background: linear-gradient(to right, #00c6ff, #0072ff) left bottom #141721 no-repeat;
         background-size: 100% 2px;
         border: 0; }
   notebook > header.left {
@@ -3090,7 +3090,7 @@ notebook > header {
       notebook > header.left > tabs > tab:backdrop {
         box-shadow: none; }
       notebook > header.left > tabs > tab:checked {
-        background: linear-gradient(to bottom, #fed349, #ff7800) left bottom #141721 no-repeat;
+        background: linear-gradient(to bottom, #00c6ff, #0072ff) left bottom #141721 no-repeat;
         background-size: 2px 100%;
         border: 0; }
   notebook > header.right {
@@ -3100,7 +3100,7 @@ notebook > header {
       notebook > header.right > tabs > tab:backdrop {
         box-shadow: none; }
       notebook > header.right > tabs > tab:checked {
-        background: linear-gradient(to bottom, #fed349, #ff7800) left bottom #141721 no-repeat;
+        background: linear-gradient(to bottom, #00c6ff, #0072ff) left bottom #141721 no-repeat;
         background-size: 2px 100%;
         border: 0; }
   notebook > header.top > tabs > arrow {
