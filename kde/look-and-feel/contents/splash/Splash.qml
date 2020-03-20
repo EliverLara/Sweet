@@ -1,6 +1,5 @@
 import QtQuick 2.5
 
-
 Image {
     id: root
     source: "images/background.png"
@@ -13,7 +12,6 @@ Image {
         }
     }
 
-
     Item {
         id: content
         anchors.fill: parent
@@ -25,14 +23,14 @@ Image {
             property int largeSpacing: units.gridUnit
             property int smallSpacing: Math.max(2, gridUnit/4)
         }
-
+       
         Image {
             id: logo
             property real size: units.gridUnit * 12
             anchors.centerIn: parent
             source: "images/sweetlogo.png"
-            sourceSize.width: size
-            sourceSize.height: size
+            sourceSize.width: 150
+            sourceSize.height: 150
 
             ParallelAnimation {
                 running: true
@@ -49,14 +47,14 @@ Image {
 
                     OpacityAnimator {
                         target: logo
-                        from: 0.85
+                        from: 0.75
                         to: 1
                         duration: 1200
                     }
                     OpacityAnimator {
                         target: logo
                         from: 1
-                        to: 0.85
+                        to: 0.75
                         duration: 1200
                     }
                 }
@@ -70,7 +68,7 @@ Image {
             source: "images/busy.svg"
             sourceSize.height: units.gridUnit * 3
             sourceSize.width: units.gridUnit * 3
-
+            
             ParallelAnimation{
                 running: true
 
