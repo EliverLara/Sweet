@@ -268,7 +268,7 @@ button {
   border: 1px solid rgba(12, 14, 21, 0.8);
   border-radius: 4px;
   transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  font-weight: bold;
+  font-weight: normal;
   color: #C3C7D1;
   background-color: #181b28;
   text-shadow: none; }
@@ -991,13 +991,13 @@ button {
     background-position: left 3px, left 2px; }
 
 toolbar button:hover {
-  font-weight: bold;
+  font-weight: normal;
   color: #C3C7D1;
   background-color: #181b28;
   text-shadow: none; }
 
 toolbar button:active {
-  font-weight: bold;
+  font-weight: normal;
   color: #C3C7D1;
   background-color: #181b28;
   text-shadow: none; }
@@ -1638,7 +1638,7 @@ colorswatch#add-color-button {
   colorswatch#add-color-button:only-child {
     border-radius: 5px; }
   colorswatch#add-color-button overlay {
-    font-weight: bold;
+    font-weight: normal;
     color: #C3C7D1;
     background-color: #181b28;
     text-shadow: none; }
@@ -2435,7 +2435,7 @@ headerbar {
       margin-top: 5px;
       margin-bottom: 5px;
       border-radius: 4px;
-      font-weight: bold;
+      font-weight: normal;
       color: white;
       background-color: #181b28;
       text-shadow: none;
@@ -2481,7 +2481,7 @@ headerbar {
       margin-top: 5px;
       margin-bottom: 5px;
       border-radius: 4px;
-      font-weight: bold;
+      font-weight: normal;
       color: white;
       background-color: #181b28;
       text-shadow: none;
@@ -3152,7 +3152,7 @@ notebook > header {
     padding: 1px 12px;
     outline-offset: -5px;
     color: #6d707b;
-    font-weight: bold;
+    font-weight: normal;
     border-width: 1px;
     border-color: transparent; }
     notebook > header tab:hover {
@@ -4681,7 +4681,7 @@ entry selection, row:selected, treeview.view:selected:focus, treeview.view:selec
   entry selection:focus,
   entry selection, row:selected, treeview.view:selected:focus, treeview.view:selected {
     color: #fefefe;
-    font-weight: bold; }
+    font-weight: normal; }
     row:selected label:disabled, label:disabled:selected, .selection-mode button.titlebutton:disabled, iconview:disabled:selected:focus, .view:disabled:selected, iconview:disabled:selected, iconview text:disabled:selected:focus,
     textview text:disabled:selected:focus, .view text:disabled:selected, iconview text:disabled:selected,
     textview text:disabled:selected, iconview text selection:disabled:focus, .view text selection:disabled, iconview text selection:disabled,
@@ -5255,7 +5255,7 @@ button.raven-trigger {
           border-radius: 23px;
           background: linear-gradient(to right, #00c6ff, #0072ff);
           box-shadow: 0px 2px 4px rgba(0, 114, 255, 0.98);
-          color: #fafafa; }
+          color: white; }
   .raven list {
     color: white;
     background-color: transparent; }
@@ -5643,7 +5643,7 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   border-radius: 23px;
   background: linear-gradient(to right, #00c6ff, #0072ff);
   box-shadow: 0px 2px 4px rgba(0, 114, 255, 0.98);
-  color: #fafafa; }
+  color: white; }
   .nautilus-window .titlebar .path-bar-box widget > .text-button:last-child:backdrop, .nautilus-window .titlebar .path-bar-box widget > .text-button:last-child:backdrop label,
   .nautilus-window .titlebar .path-bar-box widget > .text-button:last-child:active:backdrop,
   .nautilus-window .titlebar .path-bar-box widget > .text-button:last-child:active:backdrop label,
@@ -6160,7 +6160,7 @@ ConversationListView {
   border-width: 1px 1px 0 1px; }
 
 #content_frame button {
-  font-weight: bold;
+  font-weight: normal;
   color: #C3C7D1;
   background-color: #181b28;
   text-shadow: none; }
