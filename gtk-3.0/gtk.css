@@ -268,7 +268,7 @@ button {
   border: 1px solid rgba(0, 0, 0, 0.13);
   border-radius: 4px;
   transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  font-weight: bold;
+  font-weight: normal;
   color: #31363D;
   background-color: #eaeff3;
   text-shadow: none; }
@@ -994,13 +994,13 @@ button {
     background-position: left 3px, left 4px; }
 
 toolbar button:hover {
-  font-weight: bold;
+  font-weight: normal;
   color: #31363D;
   background-color: #eaeff3;
   text-shadow: none; }
 
 toolbar button:active {
-  font-weight: bold;
+  font-weight: normal;
   color: #31363D;
   background-color: #eaeff3;
   text-shadow: none; }
@@ -1645,7 +1645,7 @@ colorswatch#add-color-button {
   colorswatch#add-color-button:only-child {
     border-radius: 5px; }
   colorswatch#add-color-button overlay {
-    font-weight: bold;
+    font-weight: normal;
     color: #31363D;
     background-color: #eaeff3;
     text-shadow: none; }
@@ -2433,7 +2433,7 @@ headerbar {
       margin-top: 5px;
       margin-bottom: 5px;
       border-radius: 4px;
-      font-weight: bold;
+      font-weight: normal;
       color: white;
       background-color: #eaeff3;
       text-shadow: none;
@@ -2479,7 +2479,7 @@ headerbar {
       margin-top: 5px;
       margin-bottom: 5px;
       border-radius: 4px;
-      font-weight: bold;
+      font-weight: normal;
       color: white;
       background-color: #eaeff3;
       text-shadow: none;
@@ -3149,7 +3149,7 @@ notebook > header {
     padding: 1px 12px;
     outline-offset: -5px;
     color: #8c8e92;
-    font-weight: bold;
+    font-weight: normal;
     border-width: 1px;
     border-color: transparent; }
     notebook > header tab:hover {
@@ -4693,7 +4693,7 @@ entry selection, row:selected, treeview.view:selected:focus, treeview.view:selec
   entry selection:focus,
   entry selection, row:selected, treeview.view:selected:focus, treeview.view:selected {
     color: #fefefe;
-    font-weight: bold;
+    font-weight: normal;
     outline-color: rgba(254, 254, 254, 0.3); }
     row:selected label:disabled, label:disabled:selected, .selection-mode button.titlebutton:disabled, iconview:disabled:selected:focus, .view:disabled:selected, iconview:disabled:selected, iconview text:disabled:selected:focus,
     textview text:disabled:selected:focus, .view text:disabled:selected, iconview text:disabled:selected,
@@ -5269,7 +5269,7 @@ button.raven-trigger {
           border-radius: 23px;
           background: #00e8b7;
           box-shadow: 0px 2px 4px rgba(177, 177, 177, 0.753);
-          color: snow; }
+          color: white; }
   .raven list {
     color: #31363D;
     background-color: transparent; }
@@ -5658,7 +5658,7 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   border-radius: 23px;
   background: #00e8b7;
   box-shadow: 0px 2px 4px rgba(177, 177, 177, 0.753);
-  color: snow; }
+  color: white; }
   .nautilus-window .titlebar .path-bar-box widget > .text-button:last-child:backdrop, .nautilus-window .titlebar .path-bar-box widget > .text-button:last-child:backdrop label,
   .nautilus-window .titlebar .path-bar-box widget > .text-button:last-child:active:backdrop,
   .nautilus-window .titlebar .path-bar-box widget > .text-button:last-child:active:backdrop label,
@@ -6175,7 +6175,7 @@ ConversationListView {
   border-width: 1px 1px 0 1px; }
 
 #content_frame button {
-  font-weight: bold;
+  font-weight: normal;
   color: #31363D;
   background-color: #eaeff3;
   text-shadow: none; }
