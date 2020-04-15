@@ -1056,6 +1056,21 @@ StScrollBar {
     icon-size: 16px;
     padding: 8px; }
 
+/* World clocks */
+.world-clocks-button .world-clocks-city {
+  color: #98abb2;
+  font-weight: normal; }
+
+.world-clocks-button .world-clocks-time {
+  font-weight: bold;
+  color: #98abb2;
+  font-feature-settings: "lnum";
+  text-align: right; }
+
+.world-clocks-button .world-clocks-timezone {
+  color: #627a82;
+  font-feature-settings: "tnum"; }
+
 .system-switch-user-submenu-icon.user-icon {
   icon-size: 20px;
   padding: 0 2px; }
