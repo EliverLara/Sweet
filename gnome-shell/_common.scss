@@ -1150,6 +1150,29 @@ StScrollBar {
               icon-size: 16px;
               padding: 8px; }
           }
+/* World clocks */
+.world-clocks-button {
+  
+  // city label
+  .world-clocks-city {
+    color: $fg_color;
+    font-weight: normal;
+  }
+
+  // timezone time
+  .world-clocks-time {
+    font-weight: bold;
+    color: $fg_color;
+    font-feature-settings: "lnum";
+    text-align: right;
+  }
+
+  // timezone offset label
+  .world-clocks-timezone {
+    color: darken($fg_color,20%);
+    font-feature-settings: "tnum";
+  }
+}
 
 
   // a little unstructured mess:
