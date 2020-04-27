@@ -1058,17 +1058,17 @@ StScrollBar {
 
 /* World clocks */
 .world-clocks-button .world-clocks-city {
-  color: #98abb2;
+  color: #76777A;
   font-weight: normal; }
 
 .world-clocks-button .world-clocks-time {
   font-weight: bold;
-  color: #98abb2;
+  color: #76777A;
   font-feature-settings: "lnum";
   text-align: right; }
 
 .world-clocks-button .world-clocks-timezone {
-  color: #627a82;
+  color: #444446;
   font-feature-settings: "tnum"; }
 
 .system-switch-user-submenu-icon.user-icon {
@@ -1166,7 +1166,8 @@ StScrollBar {
   icon-size: 32px; }
 
 .nm-dialog-scroll-view {
-  border: 2px solid #161819; }
+  border: 2px solid #161819;
+  background: transparent; }
 
 .nm-dialog-header {
   font-weight: bold; }
