@@ -895,6 +895,11 @@ StScrollBar {
     margin-bottom: 1em;
   }
 
+  .calendar, .world-clocks-button, .weather-button {
+    background: transparent;
+    border: none;
+  }
+
     .calendar,
     .datemenu-today-button,
     .datemenu-displays-box,
