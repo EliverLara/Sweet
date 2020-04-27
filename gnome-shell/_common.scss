@@ -846,6 +846,16 @@ StScrollBar {
       color: lighten($fg_color, 10%);
       &:focus, &:hover, &:active { color: lighten($fg_color, 10%); }
     }
+
+    // Remove default bottom border
+    &.clock-display {
+      &:active, &:overview, &:focus, &:checked {
+        box-shadow: none;
+        .clock {
+          box-shadow: none;
+        }
+      }
+    }
   }
 
   .panel-status-indicators-box,
