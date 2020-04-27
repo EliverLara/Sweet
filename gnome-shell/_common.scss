@@ -1381,7 +1381,14 @@ StScrollBar {
   }
 
   .search-section { spacing: 16px; } // This should be equal to #searchResultsContent spacing
-  .search-section-content { spacing: 32px; } // This is the space between the provider icon and the results container
+  .search-section-content { 
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    // This is the space between the provider icon and the results container
+    spacing: 32px; 
+  }
   .search-statustext { // "no results"
     @extend %status_text;
   }
