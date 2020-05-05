@@ -532,11 +532,6 @@ StScrollBar {
     &:ltr { padding-right: 1.75em; padding-left: 0; }
     &:rtl { padding-right: 0; padding-left: 1.75em; }
 
-    // Fix overlaping text in 'opened windows' title
-    &:first-child:insensitive {
-      margin-bottom: 10px;
-      margin-left: 0;
-    }
     &:checked {
       @include gradient();
      // background-color: transparentize($selected_bg_color,0.1);
@@ -583,8 +578,8 @@ StScrollBar {
   }
 
   .popup-separator-menu-item {
-
-    &, &-separator {
+    background: transparent;
+    &-separator {
       //-margin-horizontal: 24px;
       height: 1px; //not really the whole box
       margin: 6px 64px;
@@ -1112,9 +1107,10 @@ StScrollBar {
             //@include gradient();
             box-shadow: 2px 0px 0px 0px $g2 inset;
            }
-           border: 1px solid darken($bg_color, 5%);
-           border-radius: 3px;
-           background: darken($bg_color, 1%);
+          border: 1px solid darken($bg_color, 5%);
+          border-radius: 3px;
+          background: darken($bg_color, 1%);
+          box-shadow: none;
         }
 
           .message-icon-bin {
@@ -1677,8 +1673,10 @@ StScrollBar {
       spacing: 1px;
     }
     .notification-button {
-      padding: 0px;
+      padding: 5px;
       background-color: transparentize($bg_color, 0.1);
+      box-shadow: none;
+      border: none;
       &:first-child { border-radius: 0 0 0 3px; }
       &:last-child { border-radius: 0 0 3px 0; }
       &:hover, &focus { background-color: darken($bg_color,2%); color: $selected_bg_color;}
