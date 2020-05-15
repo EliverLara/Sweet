@@ -58,6 +58,7 @@ read if you used those and something break with a version upgrade you're on your
 @define-color content_view_bg #181b28;
 @define-color budgie_tasklist_indicator_color #0072ff;
 @define-color budgie_tasklist_indicator_color_active #0072ff;
+@define-color placeholder_text_color #a1a5b0;
 /*****************
 * Drawing mixins *
 *****************/
@@ -2600,7 +2601,7 @@ headerbar {
     .titlebar .linked:not(.vertical) > entry:focus, .titlebar entry:focus,
     headerbar .linked:not(.vertical) > entry:focus,
     headerbar entry:focus {
-      border-color: #dea008; }
+      border-color: #005bcc; }
     .titlebar .linked:not(.vertical) > entry:backdrop, .titlebar entry:backdrop,
     headerbar .linked:not(.vertical) > entry:backdrop,
     headerbar entry:backdrop {
@@ -2608,7 +2609,7 @@ headerbar {
     .titlebar .linked:not(.vertical) > entry image:hover, .titlebar entry image:hover,
     headerbar .linked:not(.vertical) > entry image:hover,
     headerbar entry image:hover {
-      color: #f7b922; }
+      color: #0072ff; }
   .selection-mode.titlebar button:backdrop.flat:active, .selection-mode.titlebar button:backdrop.flat:checked, .selection-mode.titlebar button:backdrop:active, .selection-mode.titlebar button:backdrop:checked,
   headerbar.selection-mode button:backdrop.flat:active,
   headerbar.selection-mode button:backdrop.flat:checked,
