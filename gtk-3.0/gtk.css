@@ -2592,6 +2592,30 @@ headerbar {
       .titlebar .linked > button:checked:backdrop label,
       headerbar .linked > button:checked:backdrop label {
         color: #ffe6e6; }
+  .titlebar .linked:not(.vertical) > entry, .titlebar:not(headerbar) entry, .titlebar entry,
+  headerbar .linked:not(.vertical) > entry,
+  headerbar entry {
+    border-color: rgba(0, 0, 0, 0.13);
+    box-shadow: none;
+    background: #17181c;
+    color: #929ba8;
+    caret-color: #929ba8; }
+    .titlebar .linked:not(.vertical) > entry *, .titlebar:not(headerbar) entry *, .titlebar entry *,
+    headerbar .linked:not(.vertical) > entry *,
+    headerbar entry * {
+      color: #929ba8; }
+    .titlebar .linked:not(.vertical) > entry:focus, .titlebar entry:focus,
+    headerbar .linked:not(.vertical) > entry:focus,
+    headerbar entry:focus {
+      border-color: #f7b922; }
+    .titlebar .linked:not(.vertical) > entry:backdrop, .titlebar entry:backdrop,
+    headerbar .linked:not(.vertical) > entry:backdrop,
+    headerbar entry:backdrop {
+      background: #17181c; }
+    .titlebar .linked:not(.vertical) > entry image:hover, .titlebar entry image:hover,
+    headerbar .linked:not(.vertical) > entry image:hover,
+    headerbar entry image:hover {
+      color: #f7b922; }
   .selection-mode.titlebar button:backdrop.flat:active, .selection-mode.titlebar button:backdrop.flat:checked, .selection-mode.titlebar button:backdrop:active, .selection-mode.titlebar button:backdrop:checked,
   headerbar.selection-mode button:backdrop.flat:active,
   headerbar.selection-mode button:backdrop.flat:checked,
