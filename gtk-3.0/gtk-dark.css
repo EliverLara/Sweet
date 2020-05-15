@@ -58,6 +58,7 @@ read if you used those and something break with a version upgrade you're on your
 @define-color content_view_bg #181b28;
 @define-color budgie_tasklist_indicator_color #f7b922;
 @define-color budgie_tasklist_indicator_color_active #f7b922;
+@define-color placeholder_text_color #a1a5b0;
 /*****************
 * Drawing mixins *
 *****************/
