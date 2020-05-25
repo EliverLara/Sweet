@@ -709,7 +709,7 @@ StScrollBar {
 /* TOP BAR */
 #panel {
   background-gradient-direction: none;
-  background-color: rgba(22, 25, 37, 0.65);
+  background-color: rgba(22, 25, 37, 0.95);
   /* transition from solid to transparent */
   transition-duration: 500ms;
   font-weight: bold;
@@ -746,7 +746,7 @@ StScrollBar {
     #panel .panel-button .popup-menu-arrow {
       icon-shadow: 0px 0px 2px rgba(0, 0, 0, 0.9); }
     #panel .panel-button:hover {
-      background: rgba(41, 47, 69, 0.65);
+      background: rgba(41, 47, 69, 0.95);
       color: white;
       transition-duration: 200ms; }
     #panel .panel-button:active, #panel .panel-button:overview, #panel .panel-button:focus, #panel .panel-button:checked {
@@ -1087,6 +1087,23 @@ StScrollBar {
   color: #627a82;
   font-feature-settings: "tnum"; }
 
+/* Weather */
+.weather-button .weather-header {
+  color: #7b939c;
+  font-weight: bold; }
+  .weather-button .weather-header.location {
+    font-weight: normal; }
+
+.weather-button .weather-forecast-time {
+  color: #7b939c;
+  font-feature-settings: "tnum";
+  font-weight: normal;
+  padding-top: 0.2em;
+  padding-bottom: 0.4em; }
+
+.weather-button .weather-forecast-temp {
+  font-weight: bold; }
+
 .system-switch-user-submenu-icon.user-icon {
   icon-size: 20px;
   padding: 0 2px; }
@@ -1308,7 +1325,7 @@ StScrollBar {
 #dash {
   font-size: 9pt;
   color: white;
-  background-color: rgba(22, 25, 37, 0.65);
+  background-color: rgba(22, 25, 37, 0.95);
   padding: 6px 0;
   border: 1px solid #12151e;
   border-left: 0px;
@@ -1330,7 +1347,7 @@ StScrollBar {
   border-radius: 7px;
   padding: 4px 12px;
   color: white;
-  background-color: rgba(22, 25, 37, 0.65);
+  background-color: rgba(22, 25, 37, 0.95);
   text-align: center;
   border: 1px solid #12151e;
   -x-offset: 8px; }
