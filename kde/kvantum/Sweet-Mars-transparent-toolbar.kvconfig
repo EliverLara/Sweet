@@ -384,8 +384,8 @@ frame.expansion=0
 
 [MenuBar]
 inherits=PanelButtonCommand
-frame.element=menubar
-interior.element=menubar
+frame.element=_menubar
+interior.element=_menubar
 text.normal.color=#aaaaac
 frame.bottom=0
 frame.expansion=0
