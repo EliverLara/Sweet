@@ -8,7 +8,7 @@ ColorScheme=Sweet
 Theme=candy-icons
 
 [kcminputrc][Mouse]
-cursorTheme=breeze_cursors
+cursorTheme=Sweet-cursors
 
 [plasmarc][Theme]
 name=Sweet
