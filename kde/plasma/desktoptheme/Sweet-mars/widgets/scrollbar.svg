@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg:svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   height="98"
+   id="svg3120"
+   version="1.1"
+   inkscape:version="1.0rc1 (09960d6f05, 2020-04-09)"
+   sodipodi:docname="scrollbar.svg">
+  <svg:defs
+     id="defs3122">
+    <current-color-scheme
+       type="text/css">
+      .ColorScheme-Text {
+        color:#202020;
+      }
+      .ColorScheme-Background {
+        color:#ffffff;
+      }
+      .ColorScheme-Highlight {
+        color:#009bff;
+      }
+      .ColorScheme-ViewText {
+        color:#202020;
+      }
+      .ColorScheme-ViewBackground {
+        color:#ffffff;
+      }
+      .ColorScheme-ViewHover {
+        color:#2dacff;
+      }
+      .ColorScheme-ViewFocus{
+        color:#009bff;
+      }
+      .ColorScheme-ButtonText {
+        color:#202020;
+      }
+      .ColorScheme-ButtonBackground {
+        color:#ffffff;
+      }
+      .ColorScheme-ButtonHover {
+        color:#2dacff;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#009bff;
+      }</current-color-scheme>
+  </svg:defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ececec"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="9.0843967"
+     inkscape:cx="7.2538373"
+     inkscape:cy="23.6672"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="722"
+     inkscape:window-x="0"
+     inkscape:window-y="22"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="false"
+     inkscape:object-nodes="true"
+     inkscape:document-rotation="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3128"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       originx="1.7382813e-05"
+       originy="33.999997"
+       spacingx="1"
+       spacingy="1" />
+  </sodipodi:namedview>
+  <svg:metadata
+     id="metadata3125">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </svg:metadata>
+  <svg:g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1.7382813e-5,-988.36222)">
+    <svg:rect
+       style="fill:#f67e7d;fill-opacity:1"
+       id="hint-scrollbar-size"
+       width="6"
+       height="6"
+       x="23"
+       y="998.36224"
+       ry="3" />
+    <svg:rect
+       style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="hint-tile-center"
+       width="2.0329318"
+       height="2.077126"
+       x="12.259943"
+       y="995.02167"
+       rx="0"
+       ry="2.077126" />
+    <svg:g
+       id="mouseover-slider-topright"
+       transform="translate(-77,20.000023)"
+       style="opacity:0.2;fill:#7e818c;fill-opacity:1">
+      <svg:path
+         inkscape:connector-curvature="0"
+         id="rect4343"
+         d="m 100,1001.3622 v 2 h 2 c 0,-1.108 -0.89201,-2 -2,-2 z"
+         style="opacity:1;fill:#7e818c;fill-opacity:1" />
+    </svg:g>
+    <svg:g
+       id="mouseover-slider-topleft"
+       transform="matrix(-1,0,0,1,120,20.000023)"
+       style="opacity:0.2;fill:#7e818c;fill-opacity:1">
+      <svg:path
+         style="opacity:1;fill:#7e818c;fill-opacity:1"
+         d="m 100,1001.3622 v 2 h 2 c 0,-1.108 -0.89201,-2 -2,-2 z"
+         id="path4361"
+         inkscape:connector-curvature="0" />
+    </svg:g>
+    <svg:g
+       id="mouseover-slider-top"
+       transform="translate(-78,20)"
+       style="opacity:0.2;fill:#7e818c;fill-opacity:1">
+      <svg:rect
+         y="1001.3622"
+         x="99"
+         height="2"
+         width="1"
+         id="rect4365"
+         style="opacity:1;fill:#7e818c;fill-opacity:1" />
+    </svg:g>
+    <svg:g
+       id="mouseover-slider-right"
+       transform="matrix(0,9.000003,-1,0,1026.3622,133.36193)"
+       style="opacity:0.2;fill:#7e818c;fill-opacity:1">
+      <svg:rect
+         style="opacity:1;fill:#7e818c;fill-opacity:1"
+         id="rect4377"
+         width="1"
+         height="2"
+         x="99"
+         y="1001.3622" />
+    </svg:g>
+    <svg:g
+       transform="matrix(0,9.000003,1,0,-983.36218,133.36192)"
+       id="mouseover-slider-left"
+       style="opacity:0.2;fill:#7e818c;fill-opacity:1">
+      <svg:rect
+         y="1001.3622"
+         x="99"
+         height="2"
+         width="1"
+         id="rect4383"
+         style="opacity:1;fill:#7e818c;fill-opacity:1" />
+    </svg:g>
+    <svg:g
+       id="mouseover-slider-bottomright"
+       transform="matrix(1,0,0,-1,-77,2037.7244)"
+       style="opacity:0.2;fill:#7e818c;fill-opacity:1">
+      <svg:path
+         style="opacity:1;fill:#7e818c;fill-opacity:1"
+         d="m 100,1001.3622 v 2 h 2 c 0,-1.108 -0.89201,-2 -2,-2 z"
+         id="path4389"
+         inkscape:connector-curvature="0" />
+    </svg:g>
+    <svg:g
+       transform="rotate(180,60,1018.8622)"
+       id="mouseover-slider-bottomleft"
+       style="opacity:0.2;fill:#7e818c;fill-opacity:1">
+      <svg:path
+         inkscape:connector-curvature="0"
+         id="path4395"
+         d="m 100,1001.3622 v 2 h 2 c 0,-1.108 -0.89201,-2 -2,-2 z"
+         style="opacity:1;fill:#7e818c;fill-opacity:1" />
+    </svg:g>
+    <svg:g
+       id="mouseover-slider-bottom"
+       transform="matrix(1,0,0,-1,-78,2037.7244)"
+       style="opacity:0.2;fill:#7e818c;fill-opacity:1">
+      <svg:rect
+         style="opacity:1;fill:#7e818c;fill-opacity:1"
+         id="rect4401"
+         width="1"
+         height="2"
+         x="99"
+         y="1001.3622" />
+    </svg:g>
+    <svg:rect
+       style="opacity:0.2;fill:#7e818c;fill-opacity:1"
+       id="mouseover-slider-center"
+       width="1"
+       height="9"
+       x="21"
+       y="1024.3622" />
+    <svg:g
+       id="slider-topright"
+       transform="translate(-65.000008,20.00004)"
+       style="opacity:0.4;fill:#7e818c;fill-opacity:1">
+      <svg:path
+         style="opacity:1;fill:#7e818c;fill-opacity:1"
+         d="m 100,1001.3622 v 2 h 2 c 0,-1.108 -0.89201,-2 -2,-2 z"
+         id="path4409"
+         inkscape:connector-curvature="0" />
+    </svg:g>
+    <svg:g
+       transform="matrix(-1,0,0,1,132,20.000023)"
+       id="slider-topleft"
+       style="opacity:0.4;fill:#7e818c;fill-opacity:1">
+      <svg:path
+         inkscape:connector-curvature="0"
+         id="path4415"
+         d="m 100,1001.3622 v 2 h 2 c 0,-1.108 -0.89201,-2 -2,-2 z"
+         style="opacity:1;fill:#7e818c;fill-opacity:1" />
+    </svg:g>
+    <svg:g
+       id="slider-top"
+       transform="translate(-66,20)"
+       style="opacity:0.4;fill:#7e818c;fill-opacity:1">
+      <svg:rect
+         style="opacity:1;fill:#7e818c;fill-opacity:1"
+         id="rect4421"
+         width="1"
+         height="2"
+         x="99"
+         y="1001.3622" />
+    </svg:g>
+    <svg:g
+       transform="matrix(0,9.000003,-1,0,1038.3622,133.36192)"
+       id="slider-right"
+       style="opacity:0.4;fill:#7e818c;fill-opacity:1">
+      <svg:rect
+         y="1001.3622"
+         x="99"
+         height="2"
+         width="1"
+         id="rect4427"
+         style="opacity:1;fill:#7e818c;fill-opacity:1" />
+    </svg:g>
+    <svg:g
+       id="slider-left"
+       transform="matrix(0,9.000003,1,0,-971.36218,133.36192)"
+       style="opacity:0.4;fill:#7e818c;fill-opacity:1">
+      <svg:rect
+         style="opacity:1;fill:#7e818c;fill-opacity:1"
+         id="rect4433"
+         width="1"
+         height="2"
+         x="99"
+         y="1001.3622" />
+    </svg:g>
+    <svg:g
+       transform="matrix(1,0,0,-1,-65,2037.7244)"
+       id="slider-bottomright"
+       style="opacity:0.4;fill:#7e818c;fill-opacity:1">
+      <svg:path
+         inkscape:connector-curvature="0"
+         id="path4439"
+         d="m 100,1001.3622 v 2 h 2 c 0,-1.108 -0.89201,-2 -2,-2 z"
+         style="opacity:1;fill:#7e818c;fill-opacity:1" />
+    </svg:g>
+    <svg:g
+       id="slider-bottomleft"
+       transform="rotate(180,66,1018.8622)"
+       style="opacity:0.4;fill:#7e818c;fill-opacity:1">
+      <svg:path
+         style="opacity:1;fill:#7e818c;fill-opacity:1"
+         d="m 100,1001.3622 v 2 h 2 c 0,-1.108 -0.89201,-2 -2,-2 z"
+         id="path4445"
+         inkscape:connector-curvature="0" />
+    </svg:g>
+    <svg:g
+       transform="matrix(1,0,0,-1,-66,2037.7244)"
+       id="slider-bottom"
+       style="opacity:0.4;fill:#7e818c;fill-opacity:1">
+      <svg:rect
+         y="1001.3622"
+         x="99"
+         height="2"
+         width="1"
+         id="rect4451"
+         style="opacity:1;fill:#7e818c;fill-opacity:1" />
+    </svg:g>
+    <svg:rect
+       y="1024.3622"
+       x="33"
+       height="9"
+       width="1"
+       id="slider-center"
+       style="opacity:0.4;fill:#7e818c;fill-opacity:1" />
+    <svg:g
+       id="sunken-slider-topright"
+       transform="translate(-78.000025,43.000046)"
+       style="fill:#f67e7d;fill-opacity:1">
+      <svg:path
+         style="opacity:1;fill:#f67e7d;fill-opacity:1"
+         d="m 100,1001.3622 v 2 h 2 c 0,-1.108 -0.89201,-2 -2,-2 z"
+         id="path4559"
+         inkscape:connector-curvature="0" />
+    </svg:g>
+    <svg:g
+       transform="matrix(-1,0,0,1,118.99999,43.000046)"
+       id="sunken-slider-topleft"
+       style="fill:#f67e7d;fill-opacity:1">
+      <svg:path
+         inkscape:connector-curvature="0"
+         id="path4565"
+         d="m 100,1001.3622 v 2 h 2 c 0,-1.108 -0.89201,-2 -2,-2 z"
+         style="opacity:1;fill:#f67e7d;fill-opacity:1" />
+    </svg:g>
+    <svg:g
+       id="sunken-slider-top"
+       transform="translate(-79.000017,43.000046)"
+       style="fill:#f67e7d;fill-opacity:1">
+      <svg:rect
+         style="opacity:1;fill:#f67e7d;fill-opacity:1"
+         id="rect4571"
+         width="1"
+         height="2"
+         x="99"
+         y="1001.3622" />
+    </svg:g>
+    <svg:g
+       transform="matrix(0,9.000003,-1,0,1025.3622,156.36193)"
+       id="sunken-slider-right"
+       style="fill:#f67e7d;fill-opacity:1">
+      <svg:rect
+         y="1001.3622"
+         x="99"
+         height="2"
+         width="1"
+         id="rect4577"
+         style="opacity:1;fill:#f67e7d;fill-opacity:1" />
+    </svg:g>
+    <svg:g
+       id="sunken-slider-left"
+       transform="matrix(0,9.000003,1,0,-984.3622,156.36193)"
+       style="fill:#f67e7d;fill-opacity:1">
+      <svg:rect
+         style="opacity:1;fill:#f67e7d;fill-opacity:1"
+         id="rect4583"
+         width="1"
+         height="2"
+         x="99"
+         y="1001.3622" />
+    </svg:g>
+    <svg:g
+       transform="matrix(1,0,0,-1,-78.000017,2060.7244)"
+       id="sunken-slider-bottomright"
+       style="fill:#f67e7d;fill-opacity:1">
+      <svg:path
+         inkscape:connector-curvature="0"
+         id="path4589"
+         d="m 100,1001.3622 v 2 h 2 c 0,-1.108 -0.89201,-2 -2,-2 z"
+         style="opacity:1;fill:#f67e7d;fill-opacity:1" />
+    </svg:g>
+    <svg:g
+       id="sunken-slider-bottomleft"
+       transform="rotate(180,59.499995,1030.3622)"
+       style="fill:#f67e7d;fill-opacity:1">
+      <svg:path
+         style="opacity:1;fill:#f67e7d;fill-opacity:1"
+         d="m 100,1001.3622 v 2 h 2 c 0,-1.108 -0.89201,-2 -2,-2 z"
+         id="path4595"
+         inkscape:connector-curvature="0" />
+    </svg:g>
+    <svg:g
+       transform="matrix(1,0,0,-1,-79.000017,2060.7244)"
+       id="sunken-slider-bottom"
+       style="fill:#f67e7d;fill-opacity:1">
+      <svg:rect
+         y="1001.3622"
+         x="99"
+         height="2"
+         width="1"
+         id="rect4601"
+         style="opacity:1;fill:#f67e7d;fill-opacity:1" />
+    </svg:g>
+    <svg:rect
+       y="1047.3622"
+       x="19.999983"
+       height="9"
+       width="1"
+       id="sunken-slider-center"
+       style="opacity:1;fill:#f67e7d;fill-opacity:1" />
+  </svg:g>
+</svg:svg>

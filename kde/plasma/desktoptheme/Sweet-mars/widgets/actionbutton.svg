@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0rc1 (09960d6f05, 2020-04-09)"
+   sodipodi:docname="actionbutton.svg"
+   viewBox="0 0 104 138"
+   version="1.1"
+   id="svg2">
+  <metadata
+     id="metadata72">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs70" />
+  <sodipodi:namedview
+     inkscape:current-layer="16-16-focus"
+     inkscape:window-maximized="1"
+     inkscape:window-y="22"
+     inkscape:window-x="0"
+     inkscape:cy="129.79689"
+     inkscape:cx="67.641279"
+     inkscape:zoom="1.825104"
+     showgrid="false"
+     id="namedview68"
+     inkscape:window-height="722"
+     inkscape:window-width="1366"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     inkscape:document-rotation="0"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <style
+     type="text/css"
+     id="current-color-scheme">.ColorScheme-Background {
+            color:#eff0f1;
+        }
+        .ColorScheme-ButtonText {
+            color:#232629;
+        }
+        .ColorScheme-ButtonHover {
+            color:#93cee9;
+        }
+        .ColorScheme-ButtonFocus{
+            color:#3daee9;
+        }</style>
+  <g
+     id="22-22-pressed">
+    <path
+       inkscape:connector-curvature="0"
+       opacity="0.02"
+       fill="none"
+       d="M 62,46 H 84 V 68 H 62 Z"
+       id="rect835-3-6-5" />
+    <rect
+       style="fill:#f67e7d;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="11"
+       height="22"
+       width="22"
+       y="46"
+       x="62"
+       class="ColorScheme-ButtonFocus"
+       id="rect841-6-0" />
+    <rect
+       style="fill:#1c2023;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="10"
+       height="20"
+       width="20"
+       y="47"
+       x="63"
+       class="ColorScheme-Background"
+       id="rect841-6-0-3" />
+  </g>
+  <g
+     id="22-22-hover">
+    <path
+       inkscape:connector-curvature="0"
+       opacity="0.02"
+       fill="none"
+       d="m 62,80 h 22 v 22 H 62 Z"
+       id="rect835-3-6-5-1" />
+    <rect
+       style="fill:#f67e7d;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="11"
+       height="22"
+       width="22"
+       y="80"
+       x="62"
+       class="ColorScheme-ButtonHover"
+       id="rect841-6-6" />
+    <rect
+       style="fill:#1c2023;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="10"
+       height="20"
+       width="20"
+       y="81"
+       x="63"
+       class="ColorScheme-Background"
+       id="rect841-6-6-5" />
+  </g>
+  <g
+     id="22-22-normal">
+    <path
+       inkscape:connector-curvature="0"
+       opacity="0.02"
+       fill="none"
+       d="M 62,12 H 84 V 34 H 62 Z"
+       id="rect835-3-6" />
+    <rect
+       style="fill:#1c2023;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="11"
+       height="22"
+       width="22"
+       y="12"
+       x="62"
+       class="ColorScheme-Background"
+       id="rect841-6-6-5-3-3" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#16171d;fill-opacity:1"
+       opacity="0.3"
+       fill-rule="evenodd"
+       fill="currentColor"
+       class="ColorScheme-ButtonText"
+       d="m 73,12 c -6.094,0 -11,4.906 -11,11 0,6.094 4.906,11 11,11 6.094,0 11,-4.906 11,-11 0,-6.094 -4.906,-11 -11,-11 z m 0,1 c 5.54,0 10,4.46 10,10 0,5.54 -4.46,10 -10,10 -5.54,0 -10,-4.46 -10,-10 0,-5.54 4.46,-10 10,-10 z"
+       id="rect841-6" />
+  </g>
+  <g
+     id="22-22-focus">
+    <path
+       inkscape:connector-curvature="0"
+       opacity="0.02"
+       fill="none"
+       d="m 62,114 h 22 v 22 H 62 Z"
+       id="rect835-3-6-5-1-9" />
+    <rect
+       style="fill:#f67e7d;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="11"
+       height="22"
+       width="22"
+       y="114"
+       x="62"
+       class="ColorScheme-ButtonFocus"
+       id="rect841-6-2" />
+    <rect
+       style="fill:#1c2023;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="10"
+       height="20"
+       width="20"
+       y="115"
+       x="63"
+       class="ColorScheme-Background"
+       id="rect841-6-6-5-5" />
+  </g>
+  <g
+     id="24-24-focus">
+    <path
+       inkscape:connector-curvature="0"
+       opacity="0.02"
+       fill="none"
+       d="m 36,112 h 24 v 24 H 36 Z"
+       id="rect835-3-3-9-0" />
+    <rect
+       style="fill:#f67e7d;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="11.999994"
+       height="23.999998"
+       width="23.999989"
+       y="112"
+       x="36.000011"
+       class="ColorScheme-ButtonFocus"
+       id="rect841-6-2-9" />
+    <rect
+       style="fill:#1c2023;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="10.99999"
+       height="22"
+       width="21.999981"
+       y="113"
+       x="37.000011"
+       class="ColorScheme-Background"
+       id="rect841-6-6-5-5-1" />
+  </g>
+  <g
+     id="24-24-hover">
+    <path
+       inkscape:connector-curvature="0"
+       opacity="0.02"
+       fill="none"
+       d="m 36,78 h 24 v 24 H 36 Z"
+       id="rect835-3-3-9" />
+    <rect
+       style="fill:#f67e7d;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="12"
+       height="24"
+       width="24"
+       y="78"
+       x="36"
+       class="ColorScheme-ButtonHover"
+       id="rect841-6-6-7" />
+    <rect
+       style="fill:#1c2023;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="11"
+       height="22"
+       width="22"
+       y="79"
+       x="37"
+       class="ColorScheme-Background"
+       id="rect841-6-6-5-0" />
+  </g>
+  <g
+     id="24-24-pressed">
+    <path
+       inkscape:connector-curvature="0"
+       opacity="0.02"
+       fill="none"
+       d="M 36,44 H 60 V 68 H 36 Z"
+       id="rect835-3-3" />
+    <rect
+       style="fill:#f67e7d;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="12"
+       height="24"
+       width="24"
+       y="44"
+       x="36"
+       class="ColorScheme-ButtonFocus"
+       id="rect841-6-0-9" />
+    <rect
+       style="fill:#1c2023;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="11"
+       height="22"
+       width="22"
+       y="45"
+       x="37"
+       class="ColorScheme-Background"
+       id="rect841-6-0-3-3" />
+  </g>
+  <g
+     id="24-24-normal">
+    <path
+       inkscape:connector-curvature="0"
+       opacity="0.02"
+       fill="none"
+       d="M 36,10 H 60 V 34 H 36 Z"
+       id="rect835-3" />
+    <rect
+       style="fill:#1c2023;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="12"
+       height="24"
+       width="24"
+       y="10"
+       x="36"
+       class="ColorScheme-Background"
+       id="rect841-6-6-5-3-3-6" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#16171d;fill-opacity:1"
+       opacity="0.3"
+       fill-rule="evenodd"
+       fill="currentColor"
+       class="ColorScheme-ButtonText"
+       d="m 48,10 c -6.648,0 -12,5.352 -12,12 0,6.648 5.352,12 12,12 6.648,0 12,-5.352 12,-12 0,-6.648 -5.352,-12 -12,-12 z m 0,1 c 6.094,0 11,4.906 11,11 0,6.094 -4.906,11 -11,11 -6.094,0 -11,-4.906 -11,-11 0,-6.094 4.906,-11 11,-11 z"
+       id="rect841-6-26" />
+  </g>
+  <g
+     id="normal">
+    <path
+       inkscape:connector-curvature="0"
+       opacity="0.02"
+       fill="none"
+       d="M 2,2 H 34 V 34 H 2 Z"
+       id="rect835" />
+    <rect
+       style="fill:#1c2023;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="16"
+       height="32"
+       width="32"
+       y="2"
+       x="2"
+       class="ColorScheme-Background"
+       id="rect841-6-6-5-3-3-6-8" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#16171d;fill-opacity:1"
+       opacity="0.3"
+       fill-rule="evenodd"
+       fill="currentColor"
+       class="ColorScheme-ButtonText"
+       d="M 18,2 C 9.136,2 2,9.136 2,18 2,26.864 9.136,34 18,34 26.864,34 34,26.864 34,18 34,9.136 26.864,2 18,2 Z m 0,1 C 26.31,3 33,9.69 33,18 33,26.31 26.31,33 18,33 9.69,33 3,26.31 3,18 3,9.69 9.69,3 18,3 Z"
+       id="rect841-6-26-7" />
+  </g>
+  <g
+     id="pressed">
+    <path
+       inkscape:connector-curvature="0"
+       opacity="0.02"
+       fill="none"
+       d="M 2,36 H 34 V 68 H 2 Z"
+       id="rect835-5" />
+    <rect
+       style="fill:#f67e7d;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="16"
+       height="32"
+       width="32"
+       y="36"
+       x="2"
+       class="ColorScheme-ButtonFocus"
+       id="rect841-6-0-9-0" />
+    <rect
+       style="fill:#1c2023;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="15"
+       height="30"
+       width="30"
+       y="37"
+       x="3"
+       class="ColorScheme-Background"
+       id="rect841-6-0-3-3-2" />
+  </g>
+  <g
+     id="hover">
+    <path
+       inkscape:connector-curvature="0"
+       opacity="0.02"
+       fill="none"
+       d="m 2,70 h 32 v 32 H 2 Z"
+       id="rect835-5-2" />
+    <rect
+       style="fill:#f67e7d;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="16"
+       height="32"
+       width="32"
+       y="70"
+       x="2"
+       class="ColorScheme-ButtonHover"
+       id="rect841-6-6-7-3" />
+    <rect
+       style="fill:#1c2023;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="14.999998"
+       height="29.999996"
+       width="29.999996"
+       y="71"
+       x="3.0000029"
+       class="ColorScheme-Background"
+       id="rect841-6-6-5-0-7" />
+  </g>
+  <g
+     id="focus">
+    <path
+       inkscape:connector-curvature="0"
+       opacity="0.02"
+       fill="none"
+       d="m 2,104 h 32 v 32 H 2 Z"
+       id="rect835-5-2-7" />
+    <rect
+       style="fill:#f67e7d;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="16"
+       height="32"
+       width="32"
+       y="104"
+       x="2"
+       class="ColorScheme-ButtonFocus"
+       id="rect841-6-6-7-3-8" />
+    <rect
+       style="fill:#1c2023;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="15"
+       height="30"
+       width="30"
+       y="105"
+       x="2.9999993"
+       class="ColorScheme-Background"
+       id="rect841-6-6-5-0-7-9" />
+  </g>
+  <g
+     transform="translate(24,6)"
+     id="16-16-pressed">
+    <path
+       inkscape:connector-curvature="0"
+       opacity="0.02"
+       fill="none"
+       d="M 62,46 H 78 V 62 H 62 Z"
+       id="rect835-3-6-5-3" />
+    <rect
+       style="fill:#f67e7d;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="14"
+       height="16"
+       width="16"
+       y="46"
+       x="62"
+       class="ColorScheme-ButtonFocus"
+       id="rect841-6-0-6" />
+    <rect
+       style="fill:#1c2023;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="14"
+       height="14"
+       width="14"
+       y="47"
+       x="63"
+       class="ColorScheme-Background"
+       id="rect841-6-0-3-1" />
+  </g>
+  <g
+     transform="translate(24,6)"
+     id="16-16-hover">
+    <path
+       inkscape:connector-curvature="0"
+       opacity="0.02"
+       fill="none"
+       d="M 62,80 H 78 V 96 H 62 Z"
+       id="rect835-3-6-5-1-93" />
+    <rect
+       style="fill:#f67e7d;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="14"
+       height="16"
+       width="16"
+       y="80"
+       x="62"
+       class="ColorScheme-ButtonHover"
+       id="rect841-6-6-9" />
+    <rect
+       style="fill:#1c2023;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="14"
+       height="14"
+       width="14"
+       y="81"
+       x="63"
+       class="ColorScheme-Background"
+       id="rect841-6-6-5-4" />
+  </g>
+  <g
+     transform="translate(24,6)"
+     id="16-16-normal">
+    <path
+       inkscape:connector-curvature="0"
+       opacity="0.02"
+       fill="none"
+       d="M 62,12 H 78 V 28 H 62 Z"
+       id="rect835-3-6-8" />
+    <rect
+       style="fill:#1c2023;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="13.999999"
+       height="15.999999"
+       width="15.999999"
+       y="11.999999"
+       x="62"
+       class="ColorScheme-Background"
+       id="rect841-6-6-5-3-3-5" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#16171d;fill-opacity:1"
+       opacity="0.3"
+       fill-rule="evenodd"
+       fill="currentColor"
+       class="ColorScheme-ButtonText"
+       d="m 94,18 c -4.432,0 -8,3.568 -8,8 0,4.432 3.568,8 8,8 4.432,0 8,-3.568 8,-8 0,-4.432 -3.568,-8 -8,-8 z m 0,1 c 3.878,0 7,3.122 7,7 0,3.878 -3.122,7 -7,7 -3.878,0 -7,-3.122 -7,-7 0,-3.878 3.122,-7 7,-7 z"
+       transform="translate(-24,-6)"
+       id="rect841-6-03" />
+  </g>
+  <g
+     transform="translate(24,6)"
+     id="16-16-focus">
+    <path
+       inkscape:connector-curvature="0"
+       opacity="0.02"
+       fill="none"
+       d="m 62,114 h 16 v 16 H 62 Z"
+       id="rect835-3-6-5-1-9-0" />
+    <rect
+       style="fill:#f67e7d;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="14"
+       height="16"
+       width="16"
+       y="114"
+       x="62"
+       class="ColorScheme-ButtonFocus"
+       id="rect841-6-2-3" />
+    <rect
+       style="fill:#1c2023;fill-opacity:1"
+       fill-rule="evenodd"
+       fill="currentColor"
+       rx="14"
+       height="14"
+       width="14"
+       y="115"
+       x="63"
+       class="ColorScheme-Background"
+       id="rect841-6-6-5-5-2" />
+  </g>
+</svg>

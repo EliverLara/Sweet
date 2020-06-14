@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg4153"
+   version="1.1"
+   width="22"
+   height="22"
+   viewBox="0 0 22 22"
+   sodipodi:docname="mail.svgz"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     id="namedview12"
+     showgrid="true"
+     inkscape:zoom="7.5853273"
+     inkscape:cx="-0.60413041"
+     inkscape:cy="17.596427"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4153">
+    <inkscape:grid
+       type="xygrid"
+       id="grid832" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata4159">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4157">
+    <style
+       type="text/css"
+       id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#31363b;
+      }
+      .ColorScheme-Background {
+        color:#eff0f1;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+      }
+      .ColorScheme-ViewText {
+        color:#31363b;
+      }
+      .ColorScheme-ViewBackground {
+        color:#fcfcfc;
+      }
+      .ColorScheme-ViewHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ViewFocus{
+        color:#3daee9;
+      }
+      .ColorScheme-ButtonText {
+        color:#31363b;
+      }
+      .ColorScheme-ButtonBackground {
+        color:#eff0f1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#3daee9;
+      }
+      </style>
+  </defs>
+  <g
+     style="clip-rule:evenodd;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41420996"
+     id="mail-unread">
+    <path
+       inkscape:connector-curvature="0"
+       id="path2"
+       style="fill:#C3C7D1"
+       d="M 20,18 H 2 V 4 H 20 Z M 7.878,11.207 3.222,15.864 C 3.123,15.963 3.049,16.078 3,16.2 v 0.741 c 0.008,0.02 0.016,0.04 0.026,0.059 H 18.974 C 18.984,16.981 18.992,16.961 19,16.941 V 16.2 c -0.049,-0.122 -0.123,-0.237 -0.222,-0.336 l -4.656,-4.657 -1.708,1.708 c -0.78,0.78 -2.048,0.78 -2.828,0 z M 3,14.671 7.171,10.5 3,6.329 Z M 14.829,10.5 19,14.671 V 6.329 Z M 18.892,5 H 3.108 c 0.033,0.048 0.071,0.094 0.114,0.136 l 7.071,7.071 c 0.39,0.391 1.024,0.391 1.414,0 L 18.778,5.136 C 18.821,5.094 18.859,5.048 18.892,5 Z" />
+    <rect
+       y="0"
+       x="0"
+       height="22"
+       width="22"
+       id="rect817"
+       style="fill:#ffffff;fill-opacity:0;stroke-width:1.29740846" />
+  </g>
+  <g
+     id="mail-unread-new"
+     transform="translate(22,-21)">
+    <path
+       sodipodi:nodetypes="cccccccscsccccccccccccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path2-8"
+       d="M 2,25 V 39 H 12 V 38 H 3.0253906 C 3.0153906,37.981 3.008,37.961406 3,37.941406 v -0.742187 c 0.049,-0.122 0.1236563,-0.236938 0.2226562,-0.335938 l 4.65625,-4.65625 1.7070313,1.707031 c 0.7800005,0.780001 2.0481255,0.780001 2.8281245,0 L 14.121094,32.207031 14.914062,33 h 1.414063 l -1.5,-1.5 L 19,27.328125 V 33 h 1 v -8 z m 1.1074219,1 H 18.892578 c -0.033,0.048 -0.07223,0.09472 -0.115234,0.136719 l -7.070313,7.070312 c -0.39,0.391 -1.024062,0.391 -1.414062,0 L 3.2226562,26.136719 C 3.1796562,26.094719 3.1404219,26.048 3.1074219,26 Z M 3,27.328125 7.171875,31.5 3,35.671875 Z"
+       style="clip-rule:evenodd;fill:#C3C7D1;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41420996" />
+    <rect
+       y="21"
+       x="0"
+       height="22"
+       width="22"
+       id="rect817-2"
+       style="clip-rule:evenodd;fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke-width:1.29740846;stroke-linejoin:round;stroke-miterlimit:1.41420996" />
+    <circle
+       r="4"
+       cy="38"
+       cx="17"
+       id="path862"
+       style="fill:#268aff;fill-opacity:1" />
+  </g>
+</svg>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg4153"
+   version="1.1"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   width="22"
+   height="22"
+   sodipodi:docname="kopete.svgz"
+   viewBox="0 0 22 22">
+  <metadata
+     id="metadata4159">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4157">
+    <style
+       type="text/css"
+       id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#31363b;
+      }
+      .ColorScheme-Background {
+        color:#eff0f1;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+      }
+      .ColorScheme-ViewText {
+        color:#31363b;
+      }
+      .ColorScheme-ViewBackground {
+        color:#fcfcfc;
+      }
+      .ColorScheme-ViewHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ViewFocus{
+        color:#3daee9;
+      }
+      .ColorScheme-ButtonText {
+        color:#31363b;
+      }
+      .ColorScheme-ButtonBackground {
+        color:#eff0f1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#3daee9;
+      }
+      </style>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10000"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview4155"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:showpageshadow="false"
+     borderlayer="true"
+     inkscape:zoom="1"
+     inkscape:cx="1.4087194"
+     inkscape:cy="15.79564"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4153" />
+  <inkscape:clipboard
+     style="opacity:0.01000001;fill:#00000f;fill-opacity:0;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stroke:none"
+     min="0,0"
+     max="22,22" />
+  <g
+     style="clip-rule:evenodd;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41420996"
+     id="kopete">
+    <g
+       id="g821">
+      <path
+         inkscape:connector-curvature="0"
+         d="M 6,19 H 5 V 15.182 L 4.717,15 4.712,14.996 C 4.257,14.653 3.849,14.272 3.484,13.836 L 3.04,13.2 3.036,13.195 C 2.359,12.241 2,11.153 2,10 2,8.868 2.346,7.799 3,6.858 L 3.004,6.851 C 3.757,5.66 4.944,4.665 6.434,4 L 6.442,3.996 C 7.772,3.353 9.333,3 11,3 12.67,3 14.234,3.354 15.566,4 17.04,4.661 18.243,5.645 19,6.858 l 0.004,0.005 C 19.655,7.803 20,8.87 20,10 c 0,1.155 -0.361,2.245 -1.04,3.2 l -0.445,0.636 -0.004,0.005 C 18.156,14.26 17.747,14.647 17.283,15 15.663,16.24 13.445,17 11,17 10.069,17 9.17,16.89 8.345,16.654 L 6,18.999 Z M 16.926,13.997 C 18.214,12.965 19,11.551 19,10 19,6.689 15.415,4 11,4 6.585,4 3,6.689 3,10 c 0,1.552 0.788,2.968 2.078,4 L 5.344,14.242 6,14.648 v 2.937 l 2.025,-2.025 1.147,0.267 0.007,0.002 C 9.777,15.947 10.38,16 11,16 c 1.63,0 3.147,-0.366 4.409,-1 l 0.007,-0.003 C 15.984,14.715 16.501,14.381 16.922,14 Z M 15.5,11 C 14.504,12.56 12.479,13 11,13 9.521,13 7.507,12.56 6.572,11 Z M 9,7 V 9 H 8 V 7 Z m 5,0 V 9 H 13 V 7 Z"
+         style="fill:#C3C7D1"
+         id="path2" />
+      <rect
+         style="fill:#ffffff;fill-opacity:0;stroke-width:0.30629501"
+         id="rect817"
+         width="22"
+         height="22"
+         x="0"
+         y="0" />
+    </g>
+    <rect
+       y="0"
+       x="0"
+       height="22"
+       width="22"
+       id="rect823"
+       style="fill:#ffffff;fill-opacity:0;stroke-width:0.90124965" />
+  </g>
+</svg>
