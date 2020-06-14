@@ -2895,7 +2895,8 @@ menu,
   margin: 4px;
   padding: 2px 0px;
   background: linear-gradient(to bottom, #fff 20%, #fff);
-  border: 1px solid rgba(0, 0, 0, 0.13); }
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  border-radius: 5px; }
   .csd menu, .csd
   .menu, .csd
   .context-menu {
@@ -3006,6 +3007,9 @@ menuitem radio {
   menuitem check:dir(rtl),
   menuitem radio:dir(rtl) {
     margin-left: 7px; }
+
+.csd.popup {
+  background: transparent; }
 
 /********
  * Misc *
@@ -4628,7 +4632,7 @@ decoration {
   .ssd decoration {
     box-shadow: none; }
   .csd.popup decoration {
-    border-radius: 0;
+    border-radius: 7px;
     box-shadow: 0 4px 8px rgba(122, 122, 122, 0.4);
     border: 1px solid rgba(0, 0, 0, 0.13); }
   tooltip.csd decoration {
