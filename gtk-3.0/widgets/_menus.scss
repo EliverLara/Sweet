@@ -32,6 +32,7 @@ menu,
   padding: 2px 0px;
   background: if( $variant == 'light',  linear-gradient(to bottom, darken($base_color, 4%)  20%, darken($base_color, 4%) ), linear-gradient(to bottom, lighten($bg_color, 2%), darken($bg_color, 2%)));
   border: 1px solid $borders_color; // adds borders in a non composited env
+  border-radius: 5px;
 
   .csd & { border: none; }  // axes borders in a composited env
 
@@ -125,4 +126,8 @@ menuitem {
     &:dir(ltr) { margin-right: 7px; }
     &:dir(rtl) { margin-left: 7px; }
   }
+}
+
+.csd.popup {
+  background: transparent;
 }
