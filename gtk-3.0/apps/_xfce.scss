@@ -61,6 +61,13 @@
 /* thunar */
 .thunar toolbar {
   background-color: $headerbar_color; 
+  button { 
+    color: #98abb2; 
+    &:hover { 
+      background: $selected_bg_color; 
+      color: $selected_fg_color;
+    } 
+  }
 }
 
 /* buttons in toolbar */
@@ -70,6 +77,7 @@
 
 scrolledwindow.sidebar treeview.view {
   background: darken($_sidebar_color, 2%);
+  color: #98abb2;
   padding: 1.5px;
 }
 
