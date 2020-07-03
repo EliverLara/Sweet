@@ -61,7 +61,7 @@
 
 /* thunar */
 .thunar toolbar {
-  background-color: $headerbar_color; 
+  background-color: darken($headerbar_color, 1%); 
 }
 
 /* buttons in toolbar */
@@ -70,7 +70,7 @@
 }
 
 scrolledwindow.sidebar treeview.view {
-  background: darken($_sidebar_color, 2%);
+  background: darken($_sidebar_color, 0%);
   padding: 1.5px;
 }
 
