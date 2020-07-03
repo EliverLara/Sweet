@@ -5777,6 +5777,51 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   #whiskermenu-window button:hover, #whiskermenu-window button:checked {
     background-color: #0072ff; }
 
+/* thunar */
+.thunar toolbar {
+  background-color: #07080c; }
+  .thunar toolbar button {
+    color: #98abb2; }
+    .thunar toolbar button:hover {
+      background: #0072ff;
+      color: #fefefe; }
+
+/* buttons in toolbar */
+.thunar toolbar.horizontal button image {
+  -gtk-icon-transform: scale(0.72); }
+
+scrolledwindow.sidebar treeview.view {
+  background: #1b1c21;
+  color: #98abb2;
+  padding: 1.5px; }
+
+/* path-bar of thunar */
+window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar > button.toggle.path-bar-button {
+  margin-top: 7px;
+  margin-bottom: 7px; }
+  window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar > button.toggle.path-bar-button:hover {
+    color: #0072ff; }
+  window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar > button.toggle.path-bar-button:checked {
+    border-radius: 23px;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    box-shadow: 0px 2px 4px rgba(0, 114, 255, 0.98);
+    color: white; }
+
+window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar > button.path-bar-button {
+  background: none;
+  outline: none;
+  border: none;
+  box-shadow: none; }
+
+/* thunar sidepane */
+window.thunar paned > scrolledwindow treeview.view:selected {
+  border-radius: 23px;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  box-shadow: 0px 2px 4px rgba(0, 114, 255, 0.98);
+  color: white;
+  border-radius: 0;
+  box-shadow: none; }
+
 /********
  * Gala *
  *******/
