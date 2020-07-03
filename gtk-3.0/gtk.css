@@ -5769,26 +5769,27 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
 
 /* thunar */
 .thunar toolbar {
-  background-color: #0c0e14; }
+  background-color: #e6e6e6; }
 
 /* buttons in toolbar */
 .thunar toolbar.horizontal button image {
   -gtk-icon-transform: scale(0.72); }
 
 scrolledwindow.sidebar treeview.view {
-  background: #12151f;
-  padding: 1.5px; }
+  background: #1e2933;
+  padding: 1.5px;
+  color: #98abb2; }
 
 /* path-bar of thunar */
 window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar > button.toggle.path-bar-button {
   margin-top: 7px;
   margin-bottom: 7px; }
   window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar > button.toggle.path-bar-button:hover {
-    color: #c50ed2; }
+    color: #00D3A7; }
   window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar > button.toggle.path-bar-button:checked {
     border-radius: 23px;
-    background: linear-gradient(to right, #c50ed2, #8500f7);
-    box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
+    background: #00e8b7;
+    box-shadow: 0px 2px 4px rgba(177, 177, 177, 0.753);
     color: white; }
 
 window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar > button.path-bar-button {
@@ -5800,8 +5801,8 @@ window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-
 /* thunar sidepane */
 window.thunar paned > scrolledwindow treeview.view:selected {
   border-radius: 23px;
-  background: linear-gradient(to right, #c50ed2, #8500f7);
-  box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
+  background: #00e8b7;
+  box-shadow: 0px 2px 4px rgba(177, 177, 177, 0.753);
   color: white;
   border-radius: 0;
   box-shadow: none; }
