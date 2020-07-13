@@ -5683,6 +5683,13 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   border: 0;
   background-color: #1A1E21; }
 
+/*********
+ * Gnucash *
+ *********/
+.GncMainWindow entry.register-foreground {
+  background: transparent;
+  border: none; }
+
 .xfce4-panel.panel {
   background-color: #1c2124;
   text-shadow: none;
