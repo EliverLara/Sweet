@@ -177,3 +177,12 @@
      border: 0;
      background-color: $bg_color;
  }
+
+
+ /*********
+ * Gnucash *
+ *********/
+.GncMainWindow entry.register-foreground {
+  background: transparent;
+  border: none;
+}
