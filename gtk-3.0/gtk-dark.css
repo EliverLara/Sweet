@@ -5707,7 +5707,7 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   border: none; }
 
 .xfce4-panel.panel {
-  background-color: black;
+  background-color: #222e39;
   text-shadow: none;
   -gtk-icon-shadow: none; }
 
@@ -5715,7 +5715,7 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   color: rgba(195, 199, 209, 0.8);
   border-radius: 0;
   border: none;
-  background-color: rgba(0, 0, 0, 0); }
+  background-color: rgba(34, 46, 57, 0); }
   #tasklist-button:hover {
     color: #e0e2e7;
     background-color: rgba(0, 0, 0, 0.17); }
@@ -5724,19 +5724,23 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
     background-color: rgba(0, 0, 0, 0.25);
     box-shadow: inset 0 -2px #00D3A7; }
 
-.xfce4-panel.panel button.flat {
+.xfce4-panel.panel button.flat, .mate-panel-menu-bar button:not(#tasklist-button),
+panel-toplevel.background button:not(#tasklist-button) {
   color: #C3C7D1;
   border-radius: 0;
   border: none;
-  background-color: rgba(0, 0, 0, 0); }
-  .xfce4-panel.panel button.flat:hover {
+  background-color: rgba(34, 46, 57, 0); }
+  .xfce4-panel.panel button.flat:hover, .mate-panel-menu-bar button:hover:not(#tasklist-button),
+  panel-toplevel.background button:hover:not(#tasklist-button) {
     border: none;
-    background-color: #404040; }
-  .xfce4-panel.panel button.flat:active, .xfce4-panel.panel button.flat:checked {
+    background-color: #2f404f; }
+  .xfce4-panel.panel button.flat:active, .mate-panel-menu-bar button:active:not(#tasklist-button),
+  panel-toplevel.background button:active:not(#tasklist-button), .xfce4-panel.panel button.flat:checked, .mate-panel-menu-bar button:checked:not(#tasklist-button),
+  panel-toplevel.background button:checked:not(#tasklist-button) {
     color: #fefefe;
-    background-color: #333333;
+    background-color: #2c3b49;
     border-bottom: 2px solid #00D3A7; }
-    .xfce4-panel.panel button.flat:active label, .xfce4-panel.panel button.flat:active image, .xfce4-panel.panel button.flat:checked label, .xfce4-panel.panel button.flat:checked image {
+    .xfce4-panel.panel button.flat:active label, .mate-panel-menu-bar button:active:not(#tasklist-button) label, panel-toplevel.background button:active:not(#tasklist-button) label, .xfce4-panel.panel button.flat:active image, .mate-panel-menu-bar button:active:not(#tasklist-button) image, panel-toplevel.background button:active:not(#tasklist-button) image, .xfce4-panel.panel button.flat:checked label, .mate-panel-menu-bar button:checked:not(#tasklist-button) label, panel-toplevel.background button:checked:not(#tasklist-button) label, .xfce4-panel.panel button.flat:checked image, .mate-panel-menu-bar button:checked:not(#tasklist-button) image, panel-toplevel.background button:checked:not(#tasklist-button) image {
       color: inherit; }
 
 #whiskermenu-window button {
@@ -5874,9 +5878,9 @@ window.thunar paned > scrolledwindow treeview.view:selected {
   background-color: transparent;
   transition: all 100ms ease-in-out; }
   .panel.maximized {
-    background-color: black; }
+    background-color: #222e39; }
   .panel.translucent {
-    background-color: rgba(0, 0, 0, 0.5); }
+    background-color: rgba(34, 46, 57, 0.5); }
   .panel.color-light.translucent {
     background-color: rgba(195, 199, 209, 0.85); }
 
@@ -6131,6 +6135,45 @@ SheetStyleDialog.unity-force-quit {
   animation: playbackmenuitem_spinner 1s infinite linear;
   color: #00D3A7; }
 
+.mate-panel-menu-bar, .mate-panel-menu-bar menubar,
+panel-toplevel.background,
+panel-toplevel.background menubar {
+  background-color: #222e39; }
+
+.mate-panel-menu-bar menubar,
+.mate-panel-menu-bar #PanelApplet label,
+.mate-panel-menu-bar #PanelApplet image,
+panel-toplevel.background menubar,
+panel-toplevel.background #PanelApplet label,
+panel-toplevel.background #PanelApplet image {
+  color: #C3C7D1; }
+
+.mate-panel-menu-bar button label, .mate-panel-menu-bar button image,
+.mate-panel-menu-bar #tasklist-button label,
+.mate-panel-menu-bar #tasklist-button image,
+panel-toplevel.background button label,
+panel-toplevel.background button image,
+panel-toplevel.background #tasklist-button label,
+panel-toplevel.background #tasklist-button image {
+  color: inherit; }
+
+.mate-panel-menu-bar .wnck-pager,
+panel-toplevel.background .wnck-pager {
+  color: #626469;
+  background-color: #1c262f; }
+  .mate-panel-menu-bar .wnck-pager:hover,
+  panel-toplevel.background .wnck-pager:hover {
+    background-color: #2c3b49; }
+  .mate-panel-menu-bar .wnck-pager:selected,
+  panel-toplevel.background .wnck-pager:selected {
+    color: #3affd6;
+    background-color: #00D3A7; }
+
+.mate-panel-menu-bar na-tray-applet,
+panel-toplevel.background na-tray-applet {
+  -NaTrayApplet-icon-padding: 0;
+  -NaTrayApplet-icon-size: 16px; }
+
 /***********************
  * App-Specific Styles *
  ***********************/
@@ -6160,10 +6203,10 @@ ConversationListView {
  * LightDm *
  ***********/
 #panel_window {
-  background-color: black;
+  background-color: #222e39;
   color: #C3C7D1;
   font-weight: bold;
-  box-shadow: inset 0 -1px black; }
+  box-shadow: inset 0 -1px #151c23; }
   #panel_window .menubar,
   #panel_window .menubar > .menuitem menubar,
   #panel_window menubar > menuitem {

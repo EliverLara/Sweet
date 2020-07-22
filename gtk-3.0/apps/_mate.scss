@@ -1,0 +1,38 @@
+.mate-panel-menu-bar,
+panel-toplevel.background {
+
+  &, menubar { background-color: opacify($panel_bg_color, 1); }
+
+  menubar,
+  #PanelApplet label,
+  #PanelApplet image { color: $panel_fg_color; }
+
+  // Panel buttons
+  button:not(#tasklist-button) {
+    @extend %panelbutton;
+  }
+
+  button,
+  #tasklist-button {
+    label, image { color: inherit; }
+  }
+
+  .wnck-pager {
+    color: mix($panel_fg_color, black, 50%);
+    background-color: darken($panel_bg_color, 3%);
+
+    &:hover {
+      background-color: lighten($panel_bg_color, 5%);
+    }
+
+    &:selected {
+      color: lighten($selected_bg_color, 20%);
+      background-color: $selected_bg_color;
+    }
+  }
+
+  na-tray-applet {
+    -NaTrayApplet-icon-padding: 0;
+    -NaTrayApplet-icon-size: 16px;
+  }
+}
