@@ -5784,19 +5784,23 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
     background-color: rgba(0, 0, 0, 0.25);
     box-shadow: inset 0 -2px #f7b922; }
 
-.xfce4-panel.panel button.flat {
+.xfce4-panel.panel button.flat, .mate-panel-menu-bar button:not(#tasklist-button),
+panel-toplevel.background button:not(#tasklist-button) {
   color: white;
   border-radius: 0;
   border: none;
   background-color: rgba(16, 16, 19, 0); }
-  .xfce4-panel.panel button.flat:hover {
+  .xfce4-panel.panel button.flat:hover, .mate-panel-menu-bar button:hover:not(#tasklist-button),
+  panel-toplevel.background button:hover:not(#tasklist-button) {
     border: none;
-    background-color: #27282f; }
-  .xfce4-panel.panel button.flat:active, .xfce4-panel.panel button.flat:checked {
+    background-color: #2b2d35; }
+  .xfce4-panel.panel button.flat:active, .mate-panel-menu-bar button:active:not(#tasklist-button),
+  panel-toplevel.background button:active:not(#tasklist-button), .xfce4-panel.panel button.flat:checked, .mate-panel-menu-bar button:checked:not(#tasklist-button),
+  panel-toplevel.background button:checked:not(#tasklist-button) {
     color: #fefefe;
     border-bottom: 2px solid #f7b922;
-    background-color: #3e404b; }
-    .xfce4-panel.panel button.flat:active label, .xfce4-panel.panel button.flat:active image, .xfce4-panel.panel button.flat:checked label, .xfce4-panel.panel button.flat:checked image {
+    background-color: #27282f; }
+    .xfce4-panel.panel button.flat:active label, .mate-panel-menu-bar button:active:not(#tasklist-button) label, panel-toplevel.background button:active:not(#tasklist-button) label, .xfce4-panel.panel button.flat:active image, .mate-panel-menu-bar button:active:not(#tasklist-button) image, panel-toplevel.background button:active:not(#tasklist-button) image, .xfce4-panel.panel button.flat:checked label, .mate-panel-menu-bar button:checked:not(#tasklist-button) label, panel-toplevel.background button:checked:not(#tasklist-button) label, .xfce4-panel.panel button.flat:checked image, .mate-panel-menu-bar button:checked:not(#tasklist-button) image, panel-toplevel.background button:checked:not(#tasklist-button) image {
       color: inherit; }
 
 #whiskermenu-window button {
@@ -6195,6 +6199,45 @@ SheetStyleDialog.unity-force-quit {
   -gtk-icon-source: -gtk-icontheme("process-working-symbolic");
   animation: playbackmenuitem_spinner 1s infinite linear;
   color: #f7b922; }
+
+.mate-panel-menu-bar, .mate-panel-menu-bar menubar,
+panel-toplevel.background,
+panel-toplevel.background menubar {
+  background-color: #101013; }
+
+.mate-panel-menu-bar menubar,
+.mate-panel-menu-bar #PanelApplet label,
+.mate-panel-menu-bar #PanelApplet image,
+panel-toplevel.background menubar,
+panel-toplevel.background #PanelApplet label,
+panel-toplevel.background #PanelApplet image {
+  color: white; }
+
+.mate-panel-menu-bar button label, .mate-panel-menu-bar button image,
+.mate-panel-menu-bar #tasklist-button label,
+.mate-panel-menu-bar #tasklist-button image,
+panel-toplevel.background button label,
+panel-toplevel.background button image,
+panel-toplevel.background #tasklist-button label,
+panel-toplevel.background #tasklist-button image {
+  color: inherit; }
+
+.mate-panel-menu-bar .wnck-pager,
+panel-toplevel.background .wnck-pager {
+  color: gray;
+  background-color: #09090b; }
+  .mate-panel-menu-bar .wnck-pager:hover,
+  panel-toplevel.background .wnck-pager:hover {
+    background-color: #1b1c21; }
+  .mate-panel-menu-bar .wnck-pager:selected,
+  panel-toplevel.background .wnck-pager:selected {
+    color: #fbd884;
+    background-color: #f7b922; }
+
+.mate-panel-menu-bar na-tray-applet,
+panel-toplevel.background na-tray-applet {
+  -NaTrayApplet-icon-padding: 0;
+  -NaTrayApplet-icon-size: 16px; }
 
 /***********************
  * App-Specific Styles *
