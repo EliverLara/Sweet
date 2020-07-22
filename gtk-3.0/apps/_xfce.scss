@@ -34,12 +34,12 @@
   
     &:hover {
       border: none;
-      background-color: lighten($panel_bg_color, 10%);
+      background-color: lighten($panel_bg_color, 12%);
     }
     &:active, &:checked {
       color: $selected_fg_color;
       border-bottom: 2px solid $selected_bg_color;
-      background-color: lighten($panel_bg_color, 20%);
+      background-color: lighten($panel_bg_color, 10%);
   
       label, image { color: inherit; }
     }
