@@ -5960,7 +5960,7 @@ LibraryWindow .the-button-in-the-combobox {
 .source-list.view.level-bar.fill-block, iconview.source-list.level-bar.fill-block {
   border: none; }
   .source-list.view.level-bar.fill-block, iconview.source-list.level-bar.fill-block, .source-list.view.level-bar.fill-block:hover, iconview.source-list.level-bar.fill-block:hover, .source-list.view.level-bar.fill-block:selected, iconview.source-list.level-bar.fill-block:selected, .source-list.view.level-bar.fill-block:selected:focus, iconview.source-list.level-bar.fill-block:selected:focus {
-    background: linear-gradient(#f9dc5c, #f9dc5c); }
+    background: linear-gradient(to right, #00f17d, #00f7d2); }
 
 /********
 * Unity *
