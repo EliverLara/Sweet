@@ -300,7 +300,7 @@ LibraryWindow {
     &.fill-block {
       border: none;
       &, &:hover, &:selected, &:selected:focus {
-        background: linear-gradient($yellow, $yellow) ;
+       @include scale-highlight(right);
       }
     }
   }
