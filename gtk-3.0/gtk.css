@@ -4017,7 +4017,6 @@ treeview ~ scrollbar.vertical {
     .sidebar.source-list.view, iconview.sidebar.source-list {
       transition: all .12s ease-in; }
       .sidebar.source-list.view:selected, iconview.sidebar.source-list:selected {
-        padding-left: 4px;
         background: rgba(10, 12, 13, 0.5);
         color: #f7f7f7; }
         .sidebar.source-list.view:selected:active, iconview.sidebar.source-list:selected:active {
