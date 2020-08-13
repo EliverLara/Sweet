@@ -73,6 +73,7 @@
     .search{
       border: 1px solid $borders_color;
       border-radius: 3px;
+      margin: 10px 5px 10px 0;
     }
     .path-bar-box {
       .dim-label {
@@ -98,6 +99,13 @@
           box-shadow: none;
           border: none;      }
       }
+    }
+  }
+
+  .linked:not(.vertical) > entry { 
+    border-radius: 10px;
+    &:focus {
+      border-color: transparentize($selected_bg_color, 0.4);
     }
   }
 }
