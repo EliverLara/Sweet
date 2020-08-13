@@ -72,8 +72,10 @@
   .titlebar {
     .search {
       border: 1px solid transparent;
-      border-radius: 3px;
+      border-radius: 10px;
       box-shadow: none;
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
     .path-bar-box {
       .dim-label {
@@ -99,6 +101,14 @@
           box-shadow: none;
           border: none;      }
       }
+    }
+  }
+
+  .linked:not(.vertical) > entry { 
+    border-radius: 10px;
+    margin-right: 5px;
+    &:focus {
+      border-color: transparentize($selected_bg_color, 0.4);
     }
   }
 }
