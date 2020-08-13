@@ -5691,7 +5691,7 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
 .nautilus-window .linked:not(.vertical) > entry {
   border-radius: 10px; }
   .nautilus-window .linked:not(.vertical) > entry:focus {
-    border-color: rgba(247, 185, 34, 0.6); }
+    border-color: rgba(0, 114, 255, 0.6); }
 
 .nautilus-circular-button {
   border-radius: 20px;
