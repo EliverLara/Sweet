@@ -5684,7 +5684,8 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
 .nautilus-window .titlebar .search {
   border: 1px solid transparent;
   border-radius: 3px;
-  box-shadow: none; }
+  box-shadow: none;
+  margin: 10px 5px 10px 0; }
 
 .nautilus-window .titlebar .path-bar-box .dim-label, .nautilus-window .titlebar .path-bar-box label.separator, .nautilus-window .titlebar .path-bar-box .subtitle {
   color: transparent; }
@@ -5711,6 +5712,11 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   color: #0072ff;
   box-shadow: none;
   border: none; }
+
+.nautilus-window .linked:not(.vertical) > entry {
+  border-radius: 10px; }
+  .nautilus-window .linked:not(.vertical) > entry:focus {
+    border-color: rgba(247, 185, 34, 0.6); }
 
 .nautilus-circular-button {
   border-radius: 20px;
