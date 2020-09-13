@@ -6381,3 +6381,52 @@ ConversationListView {
 #greeter_infobar {
   border-bottom-width: 0;
   font-weight: bold; }
+
+.nemo-window .places-treeview {
+  -NemoPlacesTreeView-disk-full-bg-color: #333955;
+  -NemoPlacesTreeView-disk-full-fg-color: #00e8c6;
+  -GtkTreeView-vertical-separator: 7; }
+  .nemo-window .places-treeview .view.cell:hover, .nemo-window .places-treeview iconview.cell:hover,
+  .nemo-window .places-treeview iconview.cell:hover {
+    background: rgba(16, 19, 27, 0.7); }
+  .nemo-window .places-treeview .view.cell:selected, .nemo-window .places-treeview iconview.cell:selected,
+  .nemo-window .places-treeview iconview.cell:selected {
+    background: #c50ed2; }
+
+.nemo-window .sidebar {
+  color: #98abb2;
+  background-color: #161925; }
+  .nemo-window .sidebar .view, .nemo-window .sidebar iconview, .nemo-window .sidebar .iconview, .nemo-window .sidebar row {
+    background-color: transparent; }
+
+.nemo-window .nemo-window-pane widget.entry {
+  background-clip: padding-box;
+  min-height: 28px;
+  padding: 5px;
+  color: #C3C7D1;
+  border: 1px solid rgba(12, 14, 21, 0.8);
+  border-radius: 3px;
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.9), inset 1px 0 rgba(0, 0, 0, 0.96), inset -1px 0 rgba(0, 0, 0, 0.96), inset 0 -1px rgba(0, 0, 0, 0.98), 0 1px rgba(255, 255, 255, 0.6); }
+  .nemo-window .nemo-window-pane widget.entry:selected {
+    background-color: #c50ed2;
+    color: #fefefe; }
+
+.nemo-window toolbar.primary-toolbar {
+  margin-bottom: -1px;
+  background: #0c0e14; }
+  .nemo-window toolbar.primary-toolbar button {
+    color: #8b8b8b;
+    text-shadow: none;
+    box-shadow: none;
+    background: transparent;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 24px; }
+    .nemo-window toolbar.primary-toolbar button:hover {
+      color: #c50ed2; }
+    .nemo-window toolbar.primary-toolbar button:selected, .nemo-window toolbar.primary-toolbar button:active, .nemo-window toolbar.primary-toolbar button:checked {
+      border-radius: 23px;
+      background: linear-gradient(to right, #c50ed2, #8500f7);
+      box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
+      color: white; }
