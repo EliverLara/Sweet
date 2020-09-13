@@ -2338,7 +2338,7 @@ GraniteWidgetsWelcome {
 headerbar {
   padding: 0px 13px;
   min-height: 34px;
-  background: #0c0e14;
+  background: #abacb0;
   color: #C3C7D1;
   border-radius: 0; }
   .titlebar:backdrop,
@@ -2876,7 +2876,7 @@ row {
  *********/
 menubar,
 .menubar {
-  background-color: #161925;
+  background-color: #fff;
   color: #C3C7D1;
   -GtkWidget-window-dragging: true;
   padding: 0px;
@@ -3063,7 +3063,7 @@ notebook > header {
   padding: 1px;
   border-color: transparent;
   border-width: 1px;
-  background-color: #0c0e14; }
+  background-color: #abacb0; }
   notebook > header:backdrop {
     border-color: rgba(91, 93, 102, 0.19);
     background-color: #161925; }
@@ -3076,7 +3076,7 @@ notebook > header {
       notebook > header.top > tabs > tab:backdrop {
         box-shadow: none; }
       notebook > header.top > tabs > tab:checked {
-        background: linear-gradient(to right, #00f17d, #00f7d2) left bottom #141721 no-repeat;
+        background: linear-gradient(to right, #00f17d, #00f7d2) left bottom #b6b6ba no-repeat;
         background-size: 100% 2px;
         border: 0; }
   notebook > header.bottom {
@@ -3086,7 +3086,7 @@ notebook > header {
       notebook > header.bottom > tabs > tab:backdrop {
         box-shadow: none; }
       notebook > header.bottom > tabs > tab:checked {
-        background: linear-gradient(to right, #00f17d, #00f7d2) left bottom #141721 no-repeat;
+        background: linear-gradient(to right, #00f17d, #00f7d2) left bottom #b6b6ba no-repeat;
         background-size: 100% 2px;
         border: 0; }
   notebook > header.left {
@@ -3096,7 +3096,7 @@ notebook > header {
       notebook > header.left > tabs > tab:backdrop {
         box-shadow: none; }
       notebook > header.left > tabs > tab:checked {
-        background: linear-gradient(to bottom, #00f17d, #00f7d2) left bottom #141721 no-repeat;
+        background: linear-gradient(to bottom, #00f17d, #00f7d2) left bottom #b6b6ba no-repeat;
         background-size: 2px 100%;
         border: 0; }
   notebook > header.right {
@@ -3106,7 +3106,7 @@ notebook > header {
       notebook > header.right > tabs > tab:backdrop {
         box-shadow: none; }
       notebook > header.right > tabs > tab:checked {
-        background: linear-gradient(to bottom, #00f17d, #00f7d2) left bottom #141721 no-repeat;
+        background: linear-gradient(to bottom, #00f17d, #00f7d2) left bottom #b6b6ba no-repeat;
         background-size: 2px 100%;
         border: 0; }
   notebook > header.top > tabs > arrow {
@@ -5208,7 +5208,7 @@ button.raven-trigger {
     color: #C3C7D1;
     border: solid rgba(238, 238, 238, 0.05);
     border-width: 1px 0;
-    background-color: rgba(9, 10, 15, 0.5); }
+    background-color: rgba(237, 237, 237, 0.5); }
     .raven .raven-header * {
       padding-top: 0;
       padding-bottom: 0; }
@@ -5519,10 +5519,10 @@ calendar.raven-calendar {
   min-height: 16px; }
   .budgie-menubar arrow.top {
     -gtk-icon-source: -gtk-icontheme("pan-up-symbolic");
-    border-bottom: 1px solid rgba(42, 45, 57, 0.928); }
+    border-bottom: 1px solid rgba(248, 249, 250, 0.928); }
   .budgie-menubar arrow.bottom {
     -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
-    border-top: 1px solid rgba(42, 45, 57, 0.928); }
+    border-top: 1px solid rgba(248, 249, 250, 0.928); }
 
 .budgie-menubar menuitem accelerator {
   color: rgba(195, 199, 209, 0.35); }
@@ -5773,7 +5773,7 @@ panel-toplevel.background button:not(#tasklist-button) {
 
 /* thunar */
 .thunar toolbar {
-  background-color: #161925; }
+  background-color: #fff; }
 
 /* buttons in toolbar */
 .thunar toolbar.horizontal button image {
@@ -6285,7 +6285,7 @@ ConversationListView {
   padding-top: 20px;
   padding-bottom: 0px;
   border-style: none;
-  background-color: #161925;
+  background-color: #fff;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   border: solid rgba(0, 0, 0, 0.1);
@@ -6351,12 +6351,13 @@ ConversationListView {
     background: rgba(16, 19, 27, 0.7); }
   .nemo-window .places-treeview .view.cell:selected, .nemo-window .places-treeview iconview.cell:selected,
   .nemo-window .places-treeview iconview.cell:selected {
-    background: #c50ed2; }
+    background: #00D3A7;
+    color: #fefefe; }
 
 .nemo-window .sidebar {
-  color: #98abb2;
   background-color: #161925; }
   .nemo-window .sidebar .view, .nemo-window .sidebar iconview, .nemo-window .sidebar .iconview, .nemo-window .sidebar row {
+    color: #98abb2;
     background-color: transparent; }
 
 .nemo-window .nemo-window-pane widget.entry {
@@ -6364,16 +6365,16 @@ ConversationListView {
   min-height: 28px;
   padding: 5px;
   color: #C3C7D1;
-  border: 1px solid rgba(12, 14, 21, 0.8);
+  border: 1px solid rgba(238, 238, 238, 0.1);
   border-radius: 3px;
   box-shadow: inset 0 1px rgba(0, 0, 0, 0.9), inset 1px 0 rgba(0, 0, 0, 0.96), inset -1px 0 rgba(0, 0, 0, 0.96), inset 0 -1px rgba(0, 0, 0, 0.98), 0 1px rgba(255, 255, 255, 0.6); }
   .nemo-window .nemo-window-pane widget.entry:selected {
-    background-color: #c50ed2;
+    background-color: #00D3A7;
     color: #fefefe; }
 
 .nemo-window toolbar.primary-toolbar {
   margin-bottom: -1px;
-  background: #0c0e14; }
+  background: #fff; }
   .nemo-window toolbar.primary-toolbar button {
     color: #8b8b8b;
     text-shadow: none;
@@ -6382,11 +6383,11 @@ ConversationListView {
     border: none;
     margin-top: 5px;
     margin-bottom: 5px;
-    height: 24px; }
+    min-height: 24px; }
     .nemo-window toolbar.primary-toolbar button:hover {
-      color: #c50ed2; }
+      color: #00D3A7; }
     .nemo-window toolbar.primary-toolbar button:selected, .nemo-window toolbar.primary-toolbar button:active, .nemo-window toolbar.primary-toolbar button:checked {
       border-radius: 23px;
-      background: linear-gradient(to right, #c50ed2, #8500f7);
-      box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
+      background: #00e8b7;
+      box-shadow: 0px 2px 4px rgba(177, 177, 177, 0.753);
       color: white; }
