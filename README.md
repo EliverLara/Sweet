@@ -12,5 +12,5 @@ To set the theme in Gnome, run the following commands in Terminal,
 gsettings set org.gnome.desktop.interface gtk-theme "Sweet"
 gsettings set org.gnome.desktop.wm.preferences theme "Sweet"
 ```
-or Change via distribution specific tool.
+or Change distribution via specific tool.
 
