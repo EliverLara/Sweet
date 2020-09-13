@@ -1,7 +1,7 @@
 .nemo-window {
     .places-treeview {
         -NemoPlacesTreeView-disk-full-bg-color: lighten($_sidebar_color, 15%);
-        -NemoPlacesTreeView-disk-full-fg-color: $teal;
+        -NemoPlacesTreeView-disk-full-fg-color: $blue;
         -GtkTreeView-vertical-separator: 7; 
         .view.cell,
         iconview.cell {
@@ -10,14 +10,15 @@
             }
             &:selected {
                 background: $selected_bg_color;
+                color: $selected_fg_color;
             }
         }
     }
 
     .sidebar {
-        color: #98abb2;
         background-color: $_sidebar_color; 
         .view, .iconview, row {
+            color: #98abb2;
             background-color: transparent;
         }
     }
@@ -49,7 +50,7 @@
             @include button(normal-header);
             margin-top: 5px;
             margin-bottom: 5px;
-            height: 24px;
+            min-height: 24px;
             &:hover { color: $selected_bg_color; }
             &:selected,
             &:active,
