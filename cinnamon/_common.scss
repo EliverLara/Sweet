@@ -298,8 +298,7 @@ StScrollBar {
 
     &:active {
       color: $selected_fg_color;
-      background-color: transparent;
-      border-image: url("common-assets/menu/menu-hover.svg") 9 9 1 1;
+      background-color: transparentize($selected_bg_color, 0.5);
     }
     &:insensitive {
       color: transparentize($fg_color, 0.5);
