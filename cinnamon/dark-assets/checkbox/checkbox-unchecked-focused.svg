@@ -8,79 +8,79 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="16"
-   height="16"
-   id="svg2"
-   version="1.1"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="checkbox-unchecked-focused.svg"
-   inkscape:export-filename="/home/steffen/.local/share/themes/neu2/gtk-3.0/assets/dark/checkbox-unchecked.png"
+   inkscape:export-ydpi="90"
    inkscape:export-xdpi="90"
-   inkscape:export-ydpi="90">
+   inkscape:export-filename="/home/steffen/.local/share/themes/neu2/gtk-3.0/assets/dark/checkbox-unchecked.png"
+   sodipodi:docname="checkbox-unchecked-focused.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   version="1.1"
+   id="svg2"
+   height="16"
+   width="16">
   <defs
      id="defs4">
     <linearGradient
-       id="selected_bg_color"
-       osb:paint="solid">
+       osb:paint="solid"
+       id="selected_bg_color">
       <stop
-         style="stop-color:#5294e2;stop-opacity:1;"
+         id="stop4150"
          offset="0"
-         id="stop4150" />
+         style="stop-color:#5294e2;stop-opacity:1;" />
     </linearGradient>
     <linearGradient
        id="linearGradient3768-6">
       <stop
-         style="stop-color:#0f0f0f;stop-opacity:1;"
+         id="stop3770-6"
          offset="0"
-         id="stop3770-6" />
-      <stop
-         id="stop3778-2"
-         offset="0.078125"
-         style="stop-color:#171717;stop-opacity:1;" />
+         style="stop-color:#0f0f0f;stop-opacity:1;" />
       <stop
          style="stop-color:#171717;stop-opacity:1;"
-         offset="0.97355771"
-         id="stop3774-0" />
+         offset="0.078125"
+         id="stop3778-2" />
       <stop
-         style="stop-color:#1b1b1b;stop-opacity:1;"
+         id="stop3774-0"
+         offset="0.97355771"
+         style="stop-color:#171717;stop-opacity:1;" />
+      <stop
+         id="stop3776-1"
          offset="1"
-         id="stop3776-1" />
+         style="stop-color:#1b1b1b;stop-opacity:1;" />
     </linearGradient>
   </defs>
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="26.365674"
-     inkscape:cx="0.1158876"
-     inkscape:cy="2.1620001"
-     inkscape:document-units="px"
-     inkscape:current-layer="g5400-2-47"
-     showgrid="true"
-     inkscape:snap-bbox="true"
-     showguides="true"
-     inkscape:guide-bbox="true"
-     inkscape:showpageshadow="false"
-     showborder="true"
-     inkscape:window-width="1366"
-     inkscape:window-height="714"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:bbox-paths="true"
-     inkscape:bbox-nodes="true"
+     inkscape:document-rotation="0"
      inkscape:snap-bbox-edge-midpoints="true"
-     inkscape:document-rotation="0">
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:window-height="714"
+     inkscape:window-width="1366"
+     showborder="true"
+     inkscape:showpageshadow="false"
+     inkscape:guide-bbox="true"
+     showguides="true"
+     inkscape:snap-bbox="true"
+     showgrid="true"
+     inkscape:current-layer="g5400-2-47"
+     inkscape:document-units="px"
+     inkscape:cy="2.1620001"
+     inkscape:cx="0.1158876"
+     inkscape:zoom="25.157061"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base">
     <inkscape:grid
-       type="xygrid"
-       id="grid2985"
-       empspacing="5"
-       visible="true"
+       snapvisiblegridlinesonly="true"
        enabled="true"
-       snapvisiblegridlinesonly="true" />
+       visible="true"
+       empspacing="5"
+       id="grid2985"
+       type="xygrid" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -95,52 +95,52 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Ebene 1"
-     inkscape:groupmode="layer"
+     transform="translate(0,-1036.3622)"
      id="layer1"
-     transform="translate(0,-1036.3622)">
+     inkscape:groupmode="layer"
+     inkscape:label="Ebene 1">
     <g
-       transform="translate(-17,1036)"
-       style="display:inline;opacity:1"
+       inkscape:label="#g22047"
        id="checkbox-unchecked-dark"
-       inkscape:label="#g22047">
+       style="display:inline;opacity:1"
+       transform="translate(-17,1036)">
       <g
-         inkscape:label="#g21853"
-         id="sdsd-0-1">
+         id="sdsd-0-1"
+         inkscape:label="#g21853">
         <g
-           id="scdsdcd-0-4"
+           transform="translate(0,-30)"
            inkscape:label="#g14325"
-           transform="translate(0,-30)">
+           id="scdsdcd-0-4">
           <g
-             style="display:inline"
+             transform="matrix(0.92951982,0,0,0.92914368,-156.75069,-212.9618)"
              id="g15812-6-6-1-4-4"
-             transform="matrix(0.92951982,0,0,0.92914368,-156.75069,-212.9618)">
+             style="display:inline">
             <g
-               transform="matrix(0.5089163,0,0,0.51739823,161.7932,197.56426)"
+               style="display:inline"
                id="g5489-2-9-6-8-8-9-7"
-               style="display:inline">
+               transform="matrix(0.5089163,0,0,0.51739823,161.7932,197.56426)">
               <g
                  id="g5428-8-1-4-0-0-65-8" />
             </g>
           </g>
           <rect
-             y="30.362183"
-             x="17"
-             height="16"
-             width="16"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:2;marker:none;enable-background:accumulate"
              id="rect13523-4-0"
-             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:2;marker:none;enable-background:accumulate" />
+             width="16"
+             height="16"
+             x="17"
+             y="30.362183" />
           <g
              id="g5400-2-47">
             <rect
-               ry="2"
-               style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:0.2;stroke:#f7b922;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-               id="rect5147-9-1-5-7-6-3-70"
-               width="13"
-               height="12.999997"
-               x="18.5"
+               rx="2"
                y="31.862183"
-               rx="2" />
+               x="18.5"
+               height="12.999997"
+               width="13"
+               id="rect5147-9-1-5-7-6-3-70"
+               style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:0.2;stroke:#0072ff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+               ry="2" />
           </g>
         </g>
       </g>
