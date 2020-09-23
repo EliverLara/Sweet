@@ -2,29 +2,25 @@
 // it gets @if ed depending on $variant
 
 
-$base_color: #181b28;
-$text_color: #98abb2;
-$bg_color: #181b28;
-$fg_color: #98abb2;
+$base_color: #1E2326;
+$text_color: #76777A;
+$bg_color: #1A1E21;
+$fg_color: #76777A;
 
 $main_dark_color: darken($bg_color, 5%);
 
-$lime: #71f79f;
-$red: #ed254e;
-$orange: #ff6a00;
-$yellow: #f9dc5c;
-$purple: #c74ded;
-$darkpurple: #7b7bbd;
+$lime: #CAE7B9;
+$red: #F67E7D;
+$purple: #D7BCC8;
+$cyan: #A0C1B9;
+$yellow: #E1DD8F;
+$orange: #F79F79;
 $blue: #7cb7ff;
-$cyan: #00c1e4;
 
-$g1: #c50ed2;
-$g2: #8500f7;
-
-$selected_fg_color: #fefefe;
-$selected_bg_color: #c50ed2;
+$selected_fg_color: #f7f7f7;
+$selected_bg_color:$red;
 $selected_borders_color: darken($selected_bg_color, 20%);
-$borders_color: darken($main_dark_color, 5%);
+$borders_color: darken(#1d2021, 3%);
 
 $link_color: $blue;
 $link_visited_color:transparentize($link_color,0.5);
