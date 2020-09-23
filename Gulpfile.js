@@ -19,11 +19,22 @@ gulp.task('shell-style', function(done) {
     done();
 });
 
+gulp.task('cinnamon-style', function(done) {
+    gulp.src('cinnamon/**/*.scss')
+        .pipe(sass().on('error', sass.logError))
+        .pipe(gulp.dest('./cinnamon/'))
+    done();
+});
+
 //Watch task
 gulp.task('default',function() {
     gulp.watch('gtk-3.0/**/*.scss', gulp.series('styles'));
 });
 
 gulp.task('shell',function() {
-    gulp.watch('gnome-shell/*.scss', gulp.series('shell-style'));
+    gulp.watch('gnome-shell/**/*.scss', gulp.series('shell-style'));
+});
+
+gulp.task('cinnamon',function() {
+    gulp.watch('cinnamon/**/*.scss', gulp.series('cinnamon-style'));
 });
