@@ -724,7 +724,7 @@ StScrollBar {
     height: 50px;
     background-color: $selected_bg_color;
     color: $selected_fg_color;
-    //background-image: url("resource:///org/gnome/shell/theme/assets/ws-switch-arrow-up.png");
+    border: none;
     background-size: 32px;
     border-radius: 8px;
   }
@@ -1041,12 +1041,29 @@ StScrollBar {
       .calendar-nonwork-day {
         color: $insensitive_fg_color;
       }
+       // Today
       .calendar-today {
         font-weight: bold;
-        //color: lighten($fg_color,10%);
-        //background-color: darken($bg_color,5%);
-        border: 1px solid transparentize($borders_color,0.5);
+        border: 1px solid transparent;
+        background-color: $selected_bg_color;
+        color: $selected_fg_color;
+
+        &:hover,&:focus {
+          background-color:lighten($selected_bg_color, 3%);
+          color: $selected_fg_color;
+        }
+
+        &:active,&:selected {
+          background-color: $selected_bg_color;
+          color: $selected_fg_color;
+
+          &:hover,&:focus {
+            background-color:lighten($selected_bg_color, 3%);
+            color: $selected_fg_color;
+          }
+        }
       }
+
       .calendar-day-with-events {
         color: lighten($fg_color,10%);
         font-weight: bold;
