@@ -175,6 +175,7 @@ PlasmaCore.ColorScope {
                 id: suspendButton
                 iconSource: "system-suspend"
                 text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "Suspend to RAM", "Sleep")
+                border_color: "#43e97b"
                 action: root.sleepRequested
                 KeyNavigation.left: logoutButton
                 KeyNavigation.right: hibernateButton
@@ -184,6 +185,7 @@ PlasmaCore.ColorScope {
                 id: hibernateButton
                 iconSource: "system-suspend-hibernate"
                 text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Hibernate")
+                border_color: "#ff9966"
                 action: root.hibernateRequested
                 KeyNavigation.left: suspendButton
                 KeyNavigation.right: rebootButton
@@ -193,6 +195,7 @@ PlasmaCore.ColorScope {
                 id: rebootButton
                 iconSource: "system-reboot"
                 text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Restart")
+                border_color: "#c50ed2"
                 action: root.rebootRequested
                 KeyNavigation.left: hibernateButton
                 KeyNavigation.right: shutdownButton
@@ -203,6 +206,7 @@ PlasmaCore.ColorScope {
                 id: shutdownButton
                 iconSource: "system-shutdown"
                 text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Shut Down")
+                border_color: "#ffe031"
                 action: root.haltRequested
                 KeyNavigation.left: rebootButton
                 KeyNavigation.right: logoutButton
@@ -213,6 +217,7 @@ PlasmaCore.ColorScope {
                 id: logoutButton
                 iconSource: "system-log-out"
                 text: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Log Out")
+                border_color: "#00ffa9"
                 action: root.logoutRequested
                 KeyNavigation.left: shutdownButton
                 KeyNavigation.right: suspendButton

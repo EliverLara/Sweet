@@ -30,6 +30,7 @@ Item {
     property alias labelRendering: label.renderType
     property alias circleOpacity: iconCircle.opacity
     property alias circleVisiblity: iconCircle.visible
+    property alias border_color: iconCircle.border.color
     property int fontSize: config.fontSize
     readonly property bool softwareRendering: GraphicsInfo.api === GraphicsInfo.Software
     signal clicked
@@ -56,6 +57,8 @@ Item {
         height: width
         radius: width / 2
         color: "#08080C"
+        border.color: "#c50ed2"
+        border.width: 1
         opacity: activeFocus || containsMouse ? (softwareRendering ? 0.8 : 0.15) : (softwareRendering ? 0.6 : 0)
         Behavior on opacity {
                 PropertyAnimation { // OpacityAnimator makes it turn black at random intervals
