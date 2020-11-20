@@ -10,4 +10,4 @@ X-KDE-PluginInfo-Version=0.1
 X-KDE-PluginInfo-Website=https://github.com/EliverLara/Sweet/tree/mars/kde
 X-KDE-ServiceTypes=Plasma/LookAndFeel
 
-X-KPackage-Dependencies=kns://colorschemes.knsrc/api.kde-look.org/1393486,kns://plasma-themes.knsrc/api.kde-look.org/1393498,kns://aurorae.knsrc/api.kde-look.org/1393497,kns://icons.knsrc/api.kde-look.org/1305251,kns://wallpaper.knsrc/api.kde-look.org/1309907
+X-KPackage-Dependencies=kns://colorschemes.knsrc/api.kde-look.org/1393486,kns://plasma-themes.knsrc/api.kde-look.org/1393498,kns://aurorae.knsrc/api.kde-look.org/1393497,kns://icons.knsrc/api.kde-look.org/1305251,kns://wallpaper.knsrc/api.kde-look.org/1309907,kns://sddmtheme.knsrc/api.kde-look.org/1448514
