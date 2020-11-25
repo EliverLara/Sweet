@@ -5713,7 +5713,7 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   transition: none;
   box-shadow: none; }
   #gnc-id-main-window .arrow.button.toggle:hover {
-    border-color: #c50ed2; }
+    border-color: #F67E7D; }
 
 .xfce4-panel.panel {
   background-color: #1c2124;
@@ -6143,12 +6143,12 @@ MsdOsdWindow.background.osd {
   border-radius: 2px;
   border: 1px solid rgba(12, 14, 21, 0.8); }
   MsdOsdWindow.background.osd .progressbar {
-    background-color: #c50ed2;
+    background-color: #F67E7D;
     border: none;
-    border-color: #c50ed2;
+    border-color: #F67E7D;
     border-radius: 5px; }
   MsdOsdWindow.background.osd .trough {
-    background-color: rgba(7, 8, 11, 0.98);
+    background-color: rgba(8, 9, 10, 0.98);
     border: none;
     border-radius: 5px; }
 
