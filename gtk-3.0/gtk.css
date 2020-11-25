@@ -5790,7 +5790,7 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   transition: none;
   box-shadow: none; }
   #gnc-id-main-window .arrow.button.toggle:hover {
-    border-color: #F67E7D; }
+    border-color: #0072ff; }
 
 .xfce4-panel.panel {
   background-color: #101013;
@@ -6264,6 +6264,19 @@ panel-toplevel.background .wnck-pager {
 panel-toplevel.background na-tray-applet {
   -NaTrayApplet-icon-padding: 0;
   -NaTrayApplet-icon-size: 16px; }
+
+MsdOsdWindow.background.osd {
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.13); }
+  MsdOsdWindow.background.osd .progressbar {
+    background-color: #0072ff;
+    border: none;
+    border-color: #0072ff;
+    border-radius: 5px; }
+  MsdOsdWindow.background.osd .trough {
+    background-color: rgba(7, 7, 8, 0.98);
+    border: none;
+    border-radius: 5px; }
 
 /***********************
  * App-Specific Styles *
