@@ -6200,6 +6200,19 @@ panel-toplevel.background na-tray-applet {
   -NaTrayApplet-icon-padding: 0;
   -NaTrayApplet-icon-size: 16px; }
 
+MsdOsdWindow.background.osd {
+  border-radius: 2px;
+  border: 1px solid rgba(238, 238, 238, 0.1); }
+  MsdOsdWindow.background.osd .progressbar {
+    background-color: #00D3A7;
+    border: none;
+    border-color: #00D3A7;
+    border-radius: 5px; }
+  MsdOsdWindow.background.osd .trough {
+    background-color: rgba(7, 8, 11, 0.98);
+    border: none;
+    border-radius: 5px; }
+
 /***********************
  * App-Specific Styles *
  ***********************/
