@@ -890,7 +890,7 @@ StScrollBar {
   font-weight: bold; }
 
 .events-button .event-time {
-  color: #8ca1a9; }
+  color: #6c6d70; }
 
 .world-clocks-grid {
   spacing-rows: 0.4em; }
@@ -925,7 +925,7 @@ StScrollBar {
 
 .calendar-change-month-back StIcon,
 .calendar-change-month-forward StIcon {
-  color: #899fa7; }
+  color: #696a6d; }
 
 .calendar-day-base {
   font-size: 80%;
