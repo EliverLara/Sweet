@@ -13,8 +13,8 @@
    version="1.1"
    viewBox="0 0 380.00266 635.00043"
    id="svg1764"
-   sodipodi:docname="Mars.svg"
-   inkscape:version="0.92.4 (unknown)">
+   sodipodi:docname="Sweet-Mars.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
   <metadata
      id="metadata1768">
     <rdf:RDF>
@@ -40,13 +40,14 @@
      inkscape:window-height="723"
      id="namedview1766"
      showgrid="false"
-     inkscape:zoom="3.4515"
-     inkscape:cx="113.23622"
-     inkscape:cy="49.326752"
+     inkscape:zoom="3.3108616"
+     inkscape:cx="137.39911"
+     inkscape:cy="467.67606"
      inkscape:window-x="0"
-     inkscape:window-y="22"
+     inkscape:window-y="21"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg1764" />
+     inkscape:current-layer="svg1764"
+     inkscape:document-rotation="0" />
   <defs
      id="defs116">
     <linearGradient
@@ -769,6 +770,168 @@
        y1="133"
        x2="161"
        y2="133"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2020"
+       id="linearGradient2069"
+       x1="119.94214"
+       y1="441.89322"
+       x2="135.95108"
+       y2="442"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2020"
+       id="linearGradient2085"
+       x1="120.15571"
+       y1="454.21356"
+       x2="135.95108"
+       y2="454.32034"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2020"
+       id="linearGradient2077"
+       x1="120.04892"
+       y1="447.67966"
+       x2="136.05786"
+       y2="448"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2020"
+       id="linearGradient2093"
+       x1="120.03998"
+       y1="442.10678"
+       x2="136"
+       y2="442"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2020"
+       id="linearGradient2109"
+       x1="119.71962"
+       y1="453.78644"
+       x2="136"
+       y2="454"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2020"
+       id="linearGradient2101"
+       x1="120.25355"
+       y1="448"
+       x2="136"
+       y2="448"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2020"
+       id="linearGradient2050"
+       x1="120"
+       y1="448"
+       x2="136.0668"
+       y2="448.32034"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2020"
+       id="linearGradient2042"
+       x1="120"
+       y1="442"
+       x2="135.96002"
+       y2="442.32034"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2020"
+       id="linearGradient2061"
+       gradientUnits="userSpaceOnUse"
+       x1="120"
+       y1="454"
+       x2="135.74644"
+       y2="454.32034" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2020"
+       id="linearGradient2141"
+       x1="145.07353"
+       y1="442.15103"
+       x2="161.00198"
+       y2="442.0755"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2020"
+       id="linearGradient2157"
+       x1="144.847"
+       y1="453.54694"
+       x2="161.153"
+       y2="453.69797"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2020"
+       id="linearGradient2149"
+       x1="144.99802"
+       y1="447.62247"
+       x2="161.07748"
+       y2="447.84897"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2020"
+       id="linearGradient2173"
+       x1="144.91855"
+       y1="447.84897"
+       x2="161"
+       y2="448"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2020"
+       id="linearGradient2165"
+       x1="145.14508"
+       y1="442"
+       x2="161"
+       y2="442"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2020"
+       id="linearGradient2181"
+       x1="145.06956"
+       y1="453.47144"
+       x2="161"
+       y2="454"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2020"
+       id="linearGradient2125"
+       x1="145"
+       y1="448"
+       x2="160.93044"
+       y2="448.22653"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2020"
+       id="linearGradient2117"
+       x1="145"
+       y1="442"
+       x2="161.08145"
+       y2="442"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2020"
+       id="linearGradient2133"
+       x1="145"
+       y1="454"
+       x2="161.00594"
+       y2="454.0755"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <g
@@ -1625,181 +1788,6 @@
        d="m 170,440 v 30 h 30 v -30 z"
        style="fill:#0c0e14;fill-opacity:1"
        inkscape:connector-curvature="0" />
-  </g>
-  <g
-     transform="translate(0.00264425,45.000002)"
-     id="g369">
-    <rect
-       id="itemview-pressed-top"
-       x="124"
-       y="440"
-       width="8"
-       height="4"
-       style="fill:#F67E7D;fill-opacity:1;fill-rule:evenodd" />
-    <rect
-       id="itemview-pressed-bottom"
-       x="124"
-       y="452"
-       width="8"
-       height="4"
-       style="fill:#F67E7D;fill-opacity:1;fill-rule:evenodd" />
-    <path
-       id="itemview-pressed"
-       d="m 124,444 h 8 v 8 h -8 z"
-       style="fill:#F67E7D;fill-opacity:1;fill-rule:evenodd"
-       inkscape:connector-curvature="0" />
-    <path
-       id="itemview-pressed-topright"
-       d="m 132,440 h 4 v 4 h -4 z"
-       style="fill:#F67E7D;fill-opacity:1;fill-rule:evenodd"
-       inkscape:connector-curvature="0" />
-    <path
-       id="itemview-pressed-bottomright"
-       d="m 132,452 h 4 v 4 h -4 z"
-       style="fill:#F67E7D;fill-opacity:1;fill-rule:evenodd"
-       inkscape:connector-curvature="0" />
-    <rect
-       id="itemview-pressed-right"
-       x="132"
-       y="444"
-       width="4"
-       height="8"
-       style="fill:#F67E7D;fill-opacity:1;fill-rule:evenodd" />
-    <rect
-       id="itemview-pressed-left"
-       x="120"
-       y="444"
-       width="4"
-       height="8"
-       style="fill:#F67E7D;fill-opacity:1;fill-rule:evenodd" />
-    <path
-       id="itemview-pressed-topleft"
-       d="m 124,440 v 4 h -4 v -4 z"
-       style="fill:#F67E7D;fill-opacity:1;fill-rule:evenodd"
-       inkscape:connector-curvature="0" />
-    <path
-       id="itemview-pressed-bottomleft"
-       d="m 120,452 h 4 v 4 h -4 z"
-       style="fill:#F67E7D;fill-opacity:1;fill-rule:evenodd"
-       inkscape:connector-curvature="0" />
-    <rect
-       id="itemview-toggled-top"
-       x="149"
-       y="440"
-       width="8"
-       height="4"
-       style="fill:#F67E7D;fill-opacity:1;fill-rule:evenodd" />
-    <rect
-       id="itemview-toggled-bottom"
-       x="149"
-       y="452"
-       width="8"
-       height="4"
-       style="fill:#F67E7D;fill-opacity:1;fill-rule:evenodd" />
-    <path
-       id="itemview-toggled"
-       d="m 149,444 h 8 v 8 h -8 z"
-       style="fill:#F67E7D;fill-opacity:1;fill-rule:evenodd"
-       inkscape:connector-curvature="0" />
-    <rect
-       id="itemview-toggled-right"
-       x="157"
-       y="444"
-       width="4"
-       height="8"
-       style="fill:#F67E7D;fill-opacity:1;fill-rule:evenodd" />
-    <path
-       id="itemview-toggled-topright"
-       d="m 157,440 h 4 v 4 h -4 z"
-       style="fill:#F67E7D;fill-opacity:1;fill-rule:evenodd"
-       inkscape:connector-curvature="0" />
-    <path
-       id="itemview-toggled-bottomright"
-       d="m 157,452 h 4 v 4 h -4 z"
-       style="fill:#F67E7D;fill-opacity:1;fill-rule:evenodd"
-       inkscape:connector-curvature="0" />
-    <rect
-       id="itemview-toggled-left"
-       x="145"
-       y="444"
-       width="4"
-       height="8"
-       style="fill:#F67E7D;fill-opacity:1;fill-rule:evenodd" />
-    <path
-       id="itemview-toggled-topleft"
-       d="m 149,440 v 4 h -4 v -4 z"
-       style="fill:#F67E7D;fill-opacity:1;fill-rule:evenodd"
-       inkscape:connector-curvature="0" />
-    <path
-       id="itemview-toggled-bottomleft"
-       d="m 145,452 h 4 v 4 h -4 z"
-       style="fill:#F67E7D;fill-opacity:1;fill-rule:evenodd"
-       inkscape:connector-curvature="0" />
-    <rect
-       id="itemview-focused-topleft"
-       x="95"
-       y="440"
-       width="4"
-       height="4"
-       rx="0"
-       ry="0"
-       style="opacity:0.12000002;fill:#F67E7D;fill-opacity:1" />
-    <rect
-       id="itemview-focused-top"
-       x="99"
-       y="440"
-       width="8"
-       height="4"
-       style="opacity:0.12000002;fill:#F67E7D;fill-opacity:1" />
-    <rect
-       id="itemview-focused-topright"
-       x="107"
-       y="440"
-       width="4"
-       height="4"
-       style="opacity:0.12000002;fill:#F67E7D;fill-opacity:1" />
-    <rect
-       id="itemview-focused-right"
-       x="107"
-       y="444"
-       width="4"
-       height="8"
-       style="opacity:0.12000002;fill:#F67E7D;fill-opacity:1" />
-    <rect
-       id="itemview-focused-bottomright"
-       x="107"
-       y="452"
-       width="4"
-       height="4"
-       style="opacity:0.12000002;fill:#F67E7D;fill-opacity:1" />
-    <rect
-       id="itemview-focused-bottom"
-       x="99"
-       y="452"
-       width="8"
-       height="4"
-       style="opacity:0.12000002;fill:#F67E7D;fill-opacity:1" />
-    <rect
-       id="itemview-focused-bottomleft"
-       x="95"
-       y="452"
-       width="4"
-       height="4"
-       style="opacity:0.12000002;fill:#F67E7D;fill-opacity:1" />
-    <rect
-       id="itemview-focused-left"
-       x="95"
-       y="444"
-       width="4"
-       height="8"
-       style="opacity:0.12000002;fill:#F67E7D;fill-opacity:1" />
-    <rect
-       id="itemview-focused"
-       x="99"
-       y="444"
-       width="8"
-       height="8"
-       style="opacity:0.12000002;fill:#F67E7D;fill-opacity:1" />
   </g>
   <g
      transform="translate(0.00264425,45.000002)"
@@ -6845,5 +6833,180 @@
        width="10"
        height="10"
        style="fill-rule:evenodd" />
+  </g>
+  <g
+     transform="translate(-3.569011,46.303139)"
+     id="g369">
+    <rect
+       id="itemview-pressed-top"
+       x="124"
+       y="440"
+       width="8"
+       height="4"
+       style="fill:url(#linearGradient2069);fill-opacity:1;fill-rule:evenodd" />
+    <rect
+       id="itemview-pressed-bottom"
+       x="124"
+       y="452"
+       width="8"
+       height="4"
+       style="fill:url(#linearGradient2085);fill-opacity:1;fill-rule:evenodd" />
+    <path
+       id="itemview-pressed"
+       d="m 124,444 h 8 v 8 h -8 z"
+       style="fill:url(#linearGradient2077);fill-opacity:1;fill-rule:evenodd"
+       inkscape:connector-curvature="0" />
+    <path
+       id="itemview-pressed-topright"
+       d="m 132,440 h 4 v 4 h -4 z"
+       style="fill:url(#linearGradient2093);fill-opacity:1;fill-rule:evenodd"
+       inkscape:connector-curvature="0" />
+    <path
+       id="itemview-pressed-bottomright"
+       d="m 132,452 h 4 v 4 h -4 z"
+       style="fill:url(#linearGradient2109);fill-opacity:1;fill-rule:evenodd"
+       inkscape:connector-curvature="0" />
+    <rect
+       id="itemview-pressed-right"
+       x="132"
+       y="444"
+       width="4"
+       height="8"
+       style="fill:url(#linearGradient2101);fill-opacity:1;fill-rule:evenodd" />
+    <rect
+       id="itemview-pressed-left"
+       x="120"
+       y="444"
+       width="4"
+       height="8"
+       style="fill:url(#linearGradient2050);fill-opacity:1;fill-rule:evenodd" />
+    <path
+       id="itemview-pressed-topleft"
+       d="m 124,440 v 4 h -4 v -4 z"
+       style="fill:url(#linearGradient2042);fill-opacity:1;fill-rule:evenodd"
+       inkscape:connector-curvature="0" />
+    <path
+       id="itemview-pressed-bottomleft"
+       d="m 120,452 h 4 v 4 h -4 z"
+       style="fill:url(#linearGradient2061);fill-opacity:1;fill-rule:evenodd"
+       inkscape:connector-curvature="0" />
+    <rect
+       id="itemview-toggled-top"
+       x="149"
+       y="440"
+       width="8"
+       height="4"
+       style="fill:url(#linearGradient2141);fill-opacity:1;fill-rule:evenodd" />
+    <rect
+       id="itemview-toggled-bottom"
+       x="149"
+       y="452"
+       width="8"
+       height="4"
+       style="fill:url(#linearGradient2157);fill-opacity:1;fill-rule:evenodd" />
+    <path
+       id="itemview-toggled"
+       d="m 149,444 h 8 v 8 h -8 z"
+       style="fill:url(#linearGradient2149);fill-opacity:1;fill-rule:evenodd"
+       inkscape:connector-curvature="0" />
+    <rect
+       id="itemview-toggled-right"
+       x="157"
+       y="444"
+       width="4"
+       height="8"
+       style="fill:url(#linearGradient2173);fill-opacity:1;fill-rule:evenodd" />
+    <path
+       id="itemview-toggled-topright"
+       d="m 157,440 h 4 v 4 h -4 z"
+       style="fill:url(#linearGradient2165);fill-opacity:1;fill-rule:evenodd"
+       inkscape:connector-curvature="0" />
+    <path
+       id="itemview-toggled-bottomright"
+       d="m 157,452 h 4 v 4 h -4 z"
+       style="fill:url(#linearGradient2181);fill-opacity:1;fill-rule:evenodd"
+       inkscape:connector-curvature="0" />
+    <rect
+       id="itemview-toggled-left"
+       x="145"
+       y="444"
+       width="4"
+       height="8"
+       style="fill:url(#linearGradient2125);fill-opacity:1;fill-rule:evenodd" />
+    <path
+       id="itemview-toggled-topleft"
+       d="m 149,440 v 4 h -4 v -4 z"
+       style="fill:url(#linearGradient2117);fill-opacity:1;fill-rule:evenodd"
+       inkscape:connector-curvature="0" />
+    <path
+       id="itemview-toggled-bottomleft"
+       d="m 145,452 h 4 v 4 h -4 z"
+       style="fill:url(#linearGradient2133);fill-opacity:1;fill-rule:evenodd"
+       inkscape:connector-curvature="0" />
+    <rect
+       id="itemview-focused-topleft"
+       x="95"
+       y="440"
+       width="4"
+       height="4"
+       rx="0"
+       ry="0"
+       style="opacity:0.12;fill:#f67e7d;fill-opacity:1" />
+    <rect
+       id="itemview-focused-top"
+       x="99"
+       y="440"
+       width="8"
+       height="4"
+       style="opacity:0.12;fill:#f67e7d;fill-opacity:1" />
+    <rect
+       id="itemview-focused-topright"
+       x="107"
+       y="440"
+       width="4"
+       height="4"
+       style="opacity:0.12;fill:#f67e7d;fill-opacity:1" />
+    <rect
+       id="itemview-focused-right"
+       x="107"
+       y="444"
+       width="4"
+       height="8"
+       style="opacity:0.12;fill:#f67e7d;fill-opacity:1" />
+    <rect
+       id="itemview-focused-bottomright"
+       x="107"
+       y="452"
+       width="4"
+       height="4"
+       style="opacity:0.12;fill:#f67e7d;fill-opacity:1" />
+    <rect
+       id="itemview-focused-bottom"
+       x="99"
+       y="452"
+       width="8"
+       height="4"
+       style="opacity:0.12;fill:#f67e7d;fill-opacity:1" />
+    <rect
+       id="itemview-focused-bottomleft"
+       x="95"
+       y="452"
+       width="4"
+       height="4"
+       style="opacity:0.12;fill:#f67e7d;fill-opacity:1" />
+    <rect
+       id="itemview-focused-left"
+       x="95"
+       y="444"
+       width="4"
+       height="8"
+       style="opacity:0.12;fill:#f67e7d;fill-opacity:1" />
+    <rect
+       id="itemview-focused"
+       x="99"
+       y="444"
+       width="8"
+       height="8"
+       style="opacity:0.12;fill:#f67e7d;fill-opacity:1" />
   </g>
 </svg>
