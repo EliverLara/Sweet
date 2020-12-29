@@ -49,7 +49,7 @@
             @include button(normal-header);
             margin-top: 5px;
             margin-bottom: 5px;
-            height: 24px;
+            min-height: 24px;
             &:hover { color: $selected_bg_color; }
             &:selected,
             &:active,

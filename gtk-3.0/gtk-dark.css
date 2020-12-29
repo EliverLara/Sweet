@@ -6339,7 +6339,7 @@ ConversationListView {
     border: none;
     margin-top: 5px;
     margin-bottom: 5px;
-    height: 24px; }
+    min-height: 24px; }
     .nemo-window toolbar.primary-toolbar button:hover {
       color: #c50ed2; }
     .nemo-window toolbar.primary-toolbar button:selected, .nemo-window toolbar.primary-toolbar button:active, .nemo-window toolbar.primary-toolbar button:checked {
