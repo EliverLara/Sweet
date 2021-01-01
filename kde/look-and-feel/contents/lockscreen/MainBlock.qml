@@ -69,6 +69,8 @@ SessionManagementScreen {
             
             background: Rectangle {
                 color: "#161925"
+                border.width: 1
+                border.color: "#0C0E15"
                 opacity: 0.7
                 radius: parent.width / 2
                 height: 30
