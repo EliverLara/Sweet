@@ -102,3 +102,7 @@ window.thunar paned > scrolledwindow treeview.view:selected {
   border-radius: 0;
   box-shadow: none;
 }
+
+window.thunar toolbar#location-toolbar entry {
+  border-radius: 10px;
+}
