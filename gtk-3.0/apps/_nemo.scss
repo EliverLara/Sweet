@@ -51,7 +51,10 @@
             margin-top: 5px;
             margin-bottom: 5px;
             min-height: 24px;
-            &:hover { color: $selected_bg_color; }
+            &:hover { 
+                background: transparent;
+                color: $selected_bg_color; 
+            }
             &:selected,
             &:active,
             &:checked { @include button(active-header); }
