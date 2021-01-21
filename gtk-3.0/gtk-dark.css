@@ -986,8 +986,18 @@ button:backdrop {
   border-width: 1px; }
 
 .primary-toolbar
+button, .primary-toolbar .raised
 button {
   -gtk-icon-shadow: none; }
+  .primary-toolbar
+  button:hover, .primary-toolbar
+  button:focus, .primary-toolbar .raised
+  button:hover, .primary-toolbar .raised
+  button:focus {
+    color: #fefefe;
+    outline-color: rgba(254, 254, 254, 0.3);
+    background-color: #00D3A7;
+    text-shadow: none; }
 
 .stack-switcher > button.needs-attention > label,
 .stack-switcher > button.needs-attention > image, stacksidebar row.needs-attention > label {
@@ -6409,6 +6419,7 @@ ConversationListView {
     margin-bottom: 5px;
     min-height: 24px; }
     .nemo-window toolbar.primary-toolbar button:hover {
+      background: transparent;
       color: #00D3A7; }
     .nemo-window toolbar.primary-toolbar button:selected, .nemo-window toolbar.primary-toolbar button:active, .nemo-window toolbar.primary-toolbar button:checked {
       border-radius: 23px;
