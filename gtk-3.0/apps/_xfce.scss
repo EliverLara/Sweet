@@ -93,7 +93,7 @@ window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-
 window.thunar paned > scrolledwindow treeview.view {
 
   &:hover {
-    background: darken($_sidebar_color, 3%);
+    background: darken($_sidebar_color, 5%);
   }
   &:selected {
     @include button(active-header);
