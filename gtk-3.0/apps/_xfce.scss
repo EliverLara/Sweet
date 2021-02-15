@@ -98,10 +98,16 @@ window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-
 }
 
 /* thunar sidepane */
-window.thunar paned > scrolledwindow treeview.view:selected {
-  @include button(active-header);
-  border-radius: 0;
-  box-shadow: none;
+window.thunar paned > scrolledwindow treeview.view {
+
+  &:hover {
+    background: darken($_sidebar_color, 3%);
+  }
+  &:selected {
+    @include button(active-header);
+    border-radius: 0;
+    box-shadow: none;
+  }
 }
 
 window.thunar toolbar#location-toolbar entry {
