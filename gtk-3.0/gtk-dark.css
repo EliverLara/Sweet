@@ -5861,6 +5861,9 @@ window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-
   box-shadow: none; }
 
 /* thunar sidepane */
+window.thunar paned > scrolledwindow treeview.view:hover {
+  background: #10131b; }
+
 window.thunar paned > scrolledwindow treeview.view:selected {
   border-radius: 23px;
   background: linear-gradient(to right, #eee90a, #f7b922);
