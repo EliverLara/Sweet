@@ -29,8 +29,8 @@ Image {
             property real size: units.gridUnit * 12
             anchors.centerIn: parent
             source: "images/sweetlogo.png"
-            sourceSize.width: 150
-            sourceSize.height: 150
+            sourceSize.width: 135
+            sourceSize.height: 135
 
             ParallelAnimation {
                 running: true
