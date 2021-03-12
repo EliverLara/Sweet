@@ -125,7 +125,7 @@ SessionManagementScreen {
             }
 
             background: Rectangle {
-                id: buttonBackground
+                id: buttonBorder
                 width: 30
                 height: 40
                 radius: width / 2
@@ -136,6 +136,15 @@ SessionManagementScreen {
                     GradientStop { position: 0.0; color: "#D300DC" }
                     GradientStop { position: 1.0; color: "#8700FF" }
                 }
+            }
+
+            Rectangle {
+                id: buttonBackground
+                height: 28
+                width: 38
+                radius: height / 2
+                anchors.centerIn: buttonBorder
+                color: "#161925"
             }
 
             onClicked: startLogin()
