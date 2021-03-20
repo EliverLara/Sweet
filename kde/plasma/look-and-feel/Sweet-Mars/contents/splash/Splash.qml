@@ -29,8 +29,8 @@ Image {
             property real size: units.gridUnit * 12
             anchors.centerIn: parent
             source: "images/sweetlogo.png"
-            sourceSize.width: 150
-            sourceSize.height: 150
+            sourceSize.width: 135
+            sourceSize.height: 135
 
             ParallelAnimation {
                 running: true
@@ -63,33 +63,33 @@ Image {
 
         Image {
             id: busyIndicator
-            y: parent.height - (parent.height - logo.y) / 3 - height/2
-            anchors.horizontalCenter: parent.horizontalCenter
-            source: "images/busy.svg"
-            sourceSize.height: units.gridUnit * 3
-            sourceSize.width: units.gridUnit * 3
-            
-            ParallelAnimation{
-                running: true
-
-                ScaleAnimator{
-                    target: busyIndicator
-                    from: 0
-                    to: 1
-                    duration: 800
-                }
-
-                RotationAnimator{
-                    target: busyIndicator
-                    id: rotationAnimator
-                    from: 0
-                    to: 360
-                    duration: 800
-                    loops: Animation.Infinite
-                }
+            source: "images/busy03.svg"
+            anchors.centerIn: parent
+            sourceSize.height: 200
+            sourceSize.width: 200
+            RotationAnimator on rotation {
+                id: rotationAnimator
+                from: 0
+                to: 360
+                duration: 2000
+                loops: Animation.Infinite
             }
         }
 
+        Image {
+            id: busyIndicator2
+            source: "images/busy03.svg"
+            anchors.centerIn: parent
+            sourceSize.height: 250
+            sourceSize.width: 250
+            RotationAnimator on rotation {
+                id: rotationAnimator2
+                from: 360
+                to: 0
+                duration: 2000
+                loops: Animation.Infinite
+            }
+        }
     }
 
     OpacityAnimator {
