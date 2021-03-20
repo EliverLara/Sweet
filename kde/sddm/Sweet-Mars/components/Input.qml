@@ -12,6 +12,8 @@ TextField {
         color: "#1c2124"
         opacity: 0.7
         radius: parent.width / 2
+        border.width: 1
+        border.color: "#0C0E15"
         height: 30
         width: 270
         anchors.centerIn: parent
