@@ -6368,3 +6368,10 @@ ConversationListView {
       background: linear-gradient(to right, #F67E7D, #E1DD8F);
       color: #f7f7f7;
       text-shadow: 0px 0px 2px rgba(87, 87, 87, 0.9); }
+
+.caja-notebook .entry {
+  background: #1A1E21;
+  color: #76777A; }
+  .caja-notebook .entry:selected {
+    background: #F67E7D;
+    color: #f7f7f7; }
