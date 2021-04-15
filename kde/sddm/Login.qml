@@ -111,7 +111,7 @@ SessionManagementScreen {
         contentItem: Text {
             text: loginButton.text
             font: loginButton.font
-            opacity: enabled ? 1.0 : 0.3
+            opacity: enabled ? 1.0 : 0.8
             color: "#ffffff"
             horizontalAlignment: Text.AlignHCenter
             verticalAlignment: Text.AlignVCenter
