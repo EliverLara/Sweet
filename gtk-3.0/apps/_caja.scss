@@ -20,7 +20,7 @@
 .caja-side-pane {
 
     .frame { border-width: 1px 0 0; }
-
+    button.flat.toggle { color: $selected_fg_color; }
     background: $headerbar_color;
     treeview.view,
     textview.view text,
