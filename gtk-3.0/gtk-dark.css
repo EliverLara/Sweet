@@ -6476,42 +6476,44 @@ ConversationListView {
 .caja-notebook .entry {
   background: #161925;
   color: #C3C7D1;
-  border-color: rgba(238, 238, 238, 0.1); }
+  border-color: rgba(12, 14, 21, 0.8); }
   .caja-notebook .entry:selected {
-    background: #00D3A7;
+    background: #f7b922;
     color: #fefefe; }
 
 /**************
   * Caja sidebar *
   **************/
 .caja-side-pane {
-  background: #161925; }
+  background: #07080c; }
   .caja-side-pane .frame {
     border-width: 1px 0 0; }
+  .caja-side-pane button.flat.toggle {
+    color: #fefefe; }
   .caja-side-pane treeview.view,
   .caja-side-pane textview.view text,
   .caja-side-pane viewport.frame,
   .caja-side-pane widget .vertical {
-    background: #161925;
+    background: #202127;
     padding: 3px 2px;
     color: #98abb2; }
     .caja-side-pane treeview.view:hover,
     .caja-side-pane textview.view text:hover,
     .caja-side-pane viewport.frame:hover,
     .caja-side-pane widget .vertical:hover {
-      background-color: rgba(18, 21, 31, 0.95); }
+      background-color: rgba(27, 28, 33, 0.95); }
     .caja-side-pane treeview.view:selected,
     .caja-side-pane textview.view text:selected,
     .caja-side-pane viewport.frame:selected,
     .caja-side-pane widget .vertical:selected {
       color: #fefefe;
-      background: #00D3A7; }
+      background: #f7b922; }
 
 /**************
   * Caja pathbar *
   **************/
 .caja-navigation-window paned, .caja-navigation-window .primary-toolbar {
-  background: #161925; }
+  background: #07080c; }
 
 .caja-navigation-window .primary-toolbar button, .caja-navigation-window .primary-toolbar button:backdrop,
 .caja-navigation-window .vertical button.image-button.toggle:not(.text-button),
@@ -6528,7 +6530,7 @@ ConversationListView {
 .caja-navigation-window .vertical button.image-button.toggle:not(.text-button):active,
 .caja-navigation-window .vertical button.image-button.toggle:not(.text-button):backdrop:active,
 .caja-navigation-window .vertical button.image-button.toggle:not(.text-button):backdrop:checked {
-  background: #00D3A7;
+  background: #f7b922;
   box-shadow: none; }
   .caja-navigation-window .primary-toolbar button:hover, .caja-navigation-window .primary-toolbar button:hover label, .caja-navigation-window .primary-toolbar button:active, .caja-navigation-window .primary-toolbar button:active label, .caja-navigation-window .primary-toolbar button:backdrop:active, .caja-navigation-window .primary-toolbar button:backdrop:active label, .caja-navigation-window .primary-toolbar button:backdrop:checked, .caja-navigation-window .primary-toolbar button:backdrop:checked label,
   .caja-navigation-window .vertical button.image-button.toggle:not(.text-button):hover,
@@ -6550,11 +6552,11 @@ ConversationListView {
   margin-top: 7px;
   margin-bottom: 7px; }
   .caja-pathbar button:hover {
-    color: #00D3A7; }
+    color: #f7b922; }
   .caja-pathbar button:checked {
     border-radius: 23px;
-    background: #00e8b7;
-    box-shadow: 0px 2px 4px rgba(177, 177, 177, 0.753);
+    background: linear-gradient(to right, #eee90a, #f7b922);
+    box-shadow: 0px 2px 4px rgba(247, 185, 34, 0.98);
     color: white; }
   .caja-pathbar button:backdrop:disabled {
     color: rgba(195, 199, 209, 0.2);
