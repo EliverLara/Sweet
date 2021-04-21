@@ -111,7 +111,7 @@ SessionManagementScreen {
         contentItem: Text {
             text: loginButton.text
             font: loginButton.font
-            opacity: enabled ? 1.0 : 0.3
+            opacity: enabled ? 1.0 : 0.8
             color: "#ffffff"
             horizontalAlignment: Text.AlignHCenter
             verticalAlignment: Text.AlignVCenter
@@ -120,8 +120,8 @@ SessionManagementScreen {
 
         background: Rectangle {
             id: buttonBackground
-            width:30
-            height: 270
+            height: parent.width
+            width: height / 9
             radius: width / 2
                 rotation: -90
                 anchors.centerIn: parent
