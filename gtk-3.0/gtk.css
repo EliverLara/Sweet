@@ -6455,6 +6455,10 @@ ConversationListView {
       box-shadow: 0px 2px 4px rgba(177, 177, 177, 0.753);
       color: white; }
 
+.nemo-window .nemo-inactive-pane .view, .nemo-window .nemo-inactive-pane iconview,
+.nemo-window .nemo-inactive-pane iconview {
+  background-color: #181b1e; }
+
 .caja-notebook .frame {
   border-width: 0 0 1px; }
 
