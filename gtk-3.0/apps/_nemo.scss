@@ -59,5 +59,10 @@
             &:checked { @include button(active-header); }
         }
     }
+
+    .nemo-inactive-pane .view,
+    .nemo-inactive-pane iconview {
+        background-color: darken($base_color, 2%); 
+    }
     
 }
