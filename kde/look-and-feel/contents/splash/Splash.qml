@@ -63,7 +63,7 @@ Image {
 
         Image {
             id: busyIndicator
-            source: "images/busy03.svg"
+            source: "images/busy.svg"
             anchors.centerIn: parent
             sourceSize.height: 200
             sourceSize.width: 200
@@ -71,21 +71,6 @@ Image {
                 id: rotationAnimator
                 from: 0
                 to: 360
-                duration: 2000
-                loops: Animation.Infinite
-            }
-        }
-
-        Image {
-            id: busyIndicator2
-            source: "images/busy03.svg"
-            anchors.centerIn: parent
-            sourceSize.height: 250
-            sourceSize.width: 250
-            RotationAnimator on rotation {
-                id: rotationAnimator2
-                from: 360
-                to: 0
                 duration: 2000
                 loops: Animation.Infinite
             }
