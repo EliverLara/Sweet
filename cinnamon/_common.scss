@@ -1810,3 +1810,25 @@ StScrollBar {
   background-color: rgba(0,0,0,0);
   border-radius: 0px;
 }
+
+//
+// Cinnamenu applet
+//
+
+.menu-category-button {
+
+  padding: 7px;
+  border: 1px solid rgba(0, 0, 0, 0); 
+  
+  &-selected {
+    padding: 7px;
+    color: $selected_fg_color;
+    background-color: $selected_bg_color;
+    border: 1px solid $borders_color; 
+  }
+
+  &-hover {
+    background-color: transparentize($selected_bg_color, 0.7);
+    border-radius: 2px; 
+  }
+}
