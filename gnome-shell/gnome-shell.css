@@ -889,7 +889,7 @@ StScrollBar {
   font-weight: bold; }
 
 .events-button .event-time {
-  color: #8ca1a9; }
+  color: #87919f; }
 
 .world-clocks-grid {
   spacing-rows: 0.4em; }
@@ -924,7 +924,7 @@ StScrollBar {
 
 .calendar-change-month-back StIcon,
 .calendar-change-month-forward StIcon {
-  color: #899fa7; }
+  color: #848e9c; }
 
 .calendar-day-base {
   font-size: 80%;
@@ -1254,6 +1254,9 @@ StScrollBar {
 /* OVERVIEW */
 #overview {
   spacing: 24px; }
+
+#overview.cosmic-solid-bg {
+  background-color: #202127 !important; }
 
 .overview-controls {
   padding-bottom: 32px; }
@@ -2084,3 +2087,32 @@ StScrollBar {
 
 .openweather-current-databox-captions, .openweather-forecast-day {
   color: #f7b922; }
+
+/* Pop_OS COSMIC Dock styling, append !important to any changed rules */
+.cosmic-dock #dock {
+  border-radius: 12px 12px 12px 12px !important;
+  border: 0 !important;
+  background-color: #09090b;
+  margin: 4px !important; }
+
+.cosmic-dock.extended #dock {
+  border-radius: 0px !important;
+  margin: 0 !important; }
+
+.cosmic-dock.extended.side #dock {
+  border-top-width: 0 !important;
+  border-bottom-width: 0 !important; }
+
+.cosmic-dock.extended.side.left #dock {
+  border-left-width: 0 !important; }
+
+.cosmic-dock.extended.side.right #dock {
+  border-right-width: 0 !important; }
+
+.cosmic-dock.extended.bottom #dock {
+  border-bottom-width: 0 !important;
+  border-left-width: 0 !important;
+  border-right-width: 0 !important; }
+
+.cosmic-dock .app-well-app:hover .overview-icon, .cosmic-dock .app-well-app:focus .overview-icon, .cosmic-dock .app-well-app:selected .overview-icon {
+  border-radius: 11px; }
