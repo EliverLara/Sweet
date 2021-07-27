@@ -83,14 +83,14 @@ scrolledwindow.sidebar treeview.view {
 }
 
 /* path-bar of thunar */
-window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar > button.toggle.path-bar-button {
+window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar > button.toggle.path-bar-button, .thunar toolbar .path-bar-button {
   margin-top: 7px;
   margin-bottom: 7px;
   &:hover { color: $selected_bg_color; }
   &:checked { @include button(active-header); }
 }
 
-window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar > button.path-bar-button {
+window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar > button.path-bar-button, .thunar toolbar .path-bar-button {
   background: none;
   outline: none;
   border: none;
