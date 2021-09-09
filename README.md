@@ -14,3 +14,6 @@ gsettings set org.gnome.desktop.wm.preferences theme "Sweet"
 ```
 or Change via distribution specific tool.
 
+#### Video tutorial
+
+Confused ? Please see the video tutorial below
