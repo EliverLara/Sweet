@@ -112,7 +112,7 @@ StEntry {
     warning-color: #f47d49;
     padding: 0 4px; }
   StEntry StLabel.hint-text {
-    color: rgba(146, 155, 168, 0.7); }
+    color: rgba(152, 171, 178, 0.7); }
 
 /* Scrollbars */
 StScrollView.vfade {
