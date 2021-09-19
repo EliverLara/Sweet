@@ -112,6 +112,8 @@ StEntry {
     icon-size: 16px;
     warning-color: #f47d49;
     padding: 0 4px; }
+  StEntry StLabel.hint-text {
+    color: rgba(118, 119, 122, 0.7); }
 
 /* Scrollbars */
 StScrollView.vfade {
@@ -501,7 +503,7 @@ StScrollBar {
     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2); }
   .popup-menu .popup-menu-content {
     padding: 15px 0;
-    background-color: #181b28;
+    background-color: #1A1E21;
     border-radius: 7px; }
   .popup-menu .popup-menu-item {
     spacing: 5px;

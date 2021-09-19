@@ -76,6 +76,8 @@ StEntry {
     warning-color: $warning_color;
     padding: 0 4px;
   }
+
+  StLabel.hint-text { color: transparentize($fg_color, 0.3); }
 }
 
 
