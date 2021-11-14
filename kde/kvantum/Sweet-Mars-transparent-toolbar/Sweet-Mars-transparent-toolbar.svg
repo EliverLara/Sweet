@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="380.00266"
    height="635.00043"
    version="1.1"
    viewBox="0 0 380.00266 635.00043"
    id="svg1764"
    sodipodi:docname="Sweet-Mars.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata1768">
     <rdf:RDF>
@@ -23,7 +23,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -36,18 +35,19 @@
      guidetolerance="10"
      inkscape:pageopacity="0.98823529"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="723"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
      id="namedview1766"
      showgrid="false"
-     inkscape:zoom="3.3108616"
-     inkscape:cx="137.39911"
-     inkscape:cy="467.67606"
+     inkscape:zoom="13.243446"
+     inkscape:cx="140.10703"
+     inkscape:cy="215.7671"
      inkscape:window-x="0"
-     inkscape:window-y="21"
+     inkscape:window-y="36"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg1764"
-     inkscape:document-rotation="0" />
+     inkscape:document-rotation="0"
+     inkscape:pagecheckerboard="0" />
   <defs
      id="defs116">
     <linearGradient
@@ -681,9 +681,9 @@
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter2077"
-       x="-0.096"
+       x="-0.095999998"
        width="1.192"
-       y="-0.096"
+       y="-0.095999998"
        height="1.192">
       <feGaussianBlur
          inkscape:collect="always"
@@ -3288,47 +3288,47 @@
     <path
        id="progress-normal-left"
        d="m 255,170 h -5 v 5 h 5 z"
-       style="text-transform:none;fill:#131619;fill-opacity:1;fill-rule:evenodd"
+       style="text-transform:none;fill:#c3c7d1;fill-opacity:1;fill-rule:evenodd;opacity:0.2"
        inkscape:connector-curvature="0" />
     <path
        id="progress-normal-bottomleft"
        d="m 255,175 h -5 v 5 h 5 z"
-       style="text-transform:none;fill:#131619;fill-opacity:1;fill-rule:evenodd"
+       style="text-transform:none;fill:#c3c7d1;fill-opacity:1;fill-rule:evenodd;opacity:0.2"
        inkscape:connector-curvature="0" />
     <path
        id="progress-normal-bottom"
        d="m 260,175 h -5 v 5 h 5 z"
-       style="text-transform:none;fill:#131619;fill-opacity:1;fill-rule:evenodd"
+       style="text-transform:none;fill:#c3c7d1;fill-opacity:1;fill-rule:evenodd;opacity:0.2"
        inkscape:connector-curvature="0" />
     <path
        id="progress-normal-bottomright"
        d="m 265,175 h -5 v 5 h 5 z"
-       style="text-transform:none;fill:#131619;fill-opacity:1;fill-rule:evenodd"
+       style="text-transform:none;fill:#c3c7d1;fill-opacity:1;fill-rule:evenodd;opacity:0.2"
        inkscape:connector-curvature="0" />
     <path
        id="progress-normal-right"
        d="m 265,170 h -5 v 5 h 5 z"
-       style="text-transform:none;fill:#131619;fill-opacity:1;fill-rule:evenodd"
+       style="text-transform:none;fill:#c3c7d1;fill-opacity:1;fill-rule:evenodd;opacity:0.2"
        inkscape:connector-curvature="0" />
     <path
        id="progress-normal-topright"
        d="m 265,165 h -5 v 5 h 5 z"
-       style="text-transform:none;fill:#131619;fill-opacity:1;fill-rule:evenodd"
+       style="text-transform:none;fill:#c3c7d1;fill-opacity:1;fill-rule:evenodd;opacity:0.2"
        inkscape:connector-curvature="0" />
     <path
        id="progress-normal-top"
        d="m 260,165 h -5 v 5 h 5 z"
-       style="text-transform:none;fill:#131619;fill-opacity:1;fill-rule:evenodd"
+       style="text-transform:none;fill:#c3c7d1;fill-opacity:1;fill-rule:evenodd;opacity:0.2"
        inkscape:connector-curvature="0" />
     <path
        id="progress-normal-topleft"
        d="m 255,165 h -5 v 5 h 5 z"
-       style="text-transform:none;fill:#131619;fill-opacity:1;fill-rule:evenodd"
+       style="text-transform:none;fill:#c3c7d1;fill-opacity:1;fill-rule:evenodd;opacity:0.2"
        inkscape:connector-curvature="0" />
     <path
        id="progress-normal"
        d="m 260,170 h -5 v 5 h 5 z"
-       style="fill:#131619;fill-opacity:1;fill-rule:evenodd"
+       style="fill:#c3c7d1;fill-opacity:1;fill-rule:evenodd;opacity:0.2"
        inkscape:connector-curvature="0" />
     <path
        id="progress-pattern-disabled-left"
@@ -3434,7 +3434,7 @@
          cx="69"
          cy="319"
          r="8"
-         style="fill:#24292D;fill-opacity:1"
+         style="fill:#2e353a;fill-opacity:1"
          id="circle713" />
     </g>
     <g
@@ -3450,7 +3450,7 @@
          cx="69"
          cy="319"
          r="8"
-         style="fill:#2E353A;fill-opacity:1"
+         style="fill:#3f4950;fill-opacity:1"
          id="circle718" />
     </g>
     <g
@@ -3460,7 +3460,7 @@
          cx="69"
          cy="319"
          r="9"
-         style="fill:#2E353A;fill-opacity:1"
+         style="fill:#3f4950;fill-opacity:1"
          id="circle721" />
     </g>
     <g
@@ -3531,7 +3531,7 @@
          inkscape:connector-curvature="0" />
       <path
          d="m 92,719.5 c -4.5,0 -8,4 -8,9 v 1 h 8 z"
-         style="fill:#131619;fill-opacity:1"
+         style="fill:#c3c7d1;fill-opacity:1;opacity:0.2"
          id="path739"
          inkscape:connector-curvature="0" />
     </g>
@@ -3546,7 +3546,7 @@
          inkscape:connector-curvature="0" />
       <path
          d="m 84,729.5006 v 16.4998 l 8,2e-4 v -16.4994 l -8,-2e-4 z"
-         style="fill:#131619;fill-opacity:1"
+         style="fill:#c3c7d1;fill-opacity:1;opacity:0.2"
          id="path744"
          inkscape:connector-curvature="0" />
     </g>
@@ -3561,7 +3561,7 @@
          inkscape:connector-curvature="0" />
       <path
          d="m 92,719.5 c -4.5,0 -8,4 -8,9 v 1 h 8 z"
-         style="fill:#131619;fill-opacity:1"
+         style="fill:#c3c7d1;fill-opacity:1;opacity:0.2"
          id="path749"
          inkscape:connector-curvature="0" />
     </g>
@@ -3576,7 +3576,7 @@
          inkscape:connector-curvature="0" />
       <path
          d="m 84,729.5006 v 16.4998 l 8,2e-4 v -16.4994 l -8,-2e-4 z"
-         style="fill:#131619;fill-opacity:1"
+         style="fill:#c3c7d1;fill-opacity:1;opacity:0.2"
          id="path754"
          inkscape:connector-curvature="0" />
     </g>
