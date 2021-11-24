@@ -360,9 +360,9 @@ radiobutton.color-button {
       box-shadow: inset-shadow();
       color: $base_color;
       -gtk-icon-source: -gtk-icontheme("check-active-symbolic");
-      min-height: rem(12px);
-      min-width: rem(12px);
-      padding: rem(3px);
+      min-height: 12px;
+      min-width: 12px;
+      padding: 3px;
   }
 
   &.red check,

@@ -5874,9 +5874,9 @@ radiobutton.color-button:active > radio {
   box-shadow: inset-shadow();
   color: #ebf0f5;
   -gtk-icon-source: -gtk-icontheme("check-active-symbolic");
-  min-height: rem(12px);
-  min-width: rem(12px);
-  padding: rem(3px); }
+  min-height: 12px;
+  min-width: 12px;
+  padding: 3px; }
 .color-button.red check, .color-button.red radio, .color-button.strawberry check, .color-button.strawberry radio {
   background-color: @STRAWBERRY_300;
   -gtk-icon-shadow: 0 1px 1px @STRAWBERRY_500; }
