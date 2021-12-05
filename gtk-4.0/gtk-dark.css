@@ -1685,8 +1685,8 @@ spinbutton:not(.vertical), entry {
     background-position: right center;
     border: none;
     box-shadow: none; }
-  spinbutton.flat:focus:not(.vertical), spinbutton.flat:not(.vertical),
-  entry.flat:focus,
+  spinbutton.flat:focus-within:not(.vertical), spinbutton.flat:not(.vertical),
+  entry.flat:focus-within,
   entry.flat {
     min-height: 0;
     padding: 2px;
@@ -1694,8 +1694,8 @@ spinbutton:not(.vertical), entry {
     border-color: transparent;
     box-shadow: none;
     border-radius: 0; }
-  spinbutton:focus:not(.vertical),
-  entry:focus {
+  spinbutton:focus-within:not(.vertical),
+  entry:focus-within {
     border-color: #980ba2; }
   spinbutton:disabled:not(.vertical),
   entry:disabled {
@@ -1723,8 +1723,8 @@ spinbutton:not(.vertical), entry {
     background-color: #181b28;
     color: #e6133e;
     border-color: #410512; }
-    spinbutton.error:focus:not(.vertical),
-    entry.error:focus {
+    spinbutton.error:focus-within:not(.vertical),
+    entry.error:focus-within {
       border-color: #410512; }
     spinbutton.error:selected:focus:not(.vertical), spinbutton.error:selected:not(.vertical),
     entry.error:selected:focus,
@@ -1737,8 +1737,8 @@ spinbutton:not(.vertical), entry {
     background-color: #181b28;
     color: #cc5500;
     border-color: #1a0b00; }
-    spinbutton.warning:focus:not(.vertical),
-    entry.warning:focus {
+    spinbutton.warning:focus-within:not(.vertical),
+    entry.warning:focus-within {
       border-color: #1a0b00; }
     spinbutton.warning:selected:focus:not(.vertical), spinbutton.warning:selected:not(.vertical),
     entry.warning:selected:focus,
@@ -1756,8 +1756,8 @@ spinbutton:not(.vertical), entry {
     spinbutton:not(.vertical) image:backdrop,
     entry image:backdrop {
       color: #5c5f6b; }
-  spinbutton:drop(active):focus:not(.vertical), spinbutton:drop(active):not(.vertical),
-  entry:drop(active):focus,
+  spinbutton:drop(active):focus-within:not(.vertical), spinbutton:drop(active):not(.vertical),
+  entry:drop(active):focus-within,
   entry:drop(active) {
     border-color: #71f79f;
     box-shadow: inset 0 0 0 1px #71f79f; }
@@ -1769,8 +1769,8 @@ spinbutton:not(.vertical), entry {
     box-shadow: none;
     text-shadow: 0 1px black;
     -gtk-icon-shadow: 0 1px black; }
-    .osd spinbutton:focus:not(.vertical),
-    .osd entry:focus {
+    .osd spinbutton:focus-within:not(.vertical),
+    .osd entry:focus-within {
       color: white;
       border-color: #c50ed2;
       background-color: rgba(0, 0, 0, 0.5);
@@ -1808,16 +1808,16 @@ entry progress {
   spinbutton:not(.vertical) progress:backdrop,
   entry progress:backdrop {
     background-color: transparent; }
-.linked:not(.vertical) > spinbutton:focus:not(.vertical) + spinbutton:not(.vertical), .linked:not(.vertical) > spinbutton:focus:not(.vertical) + button, .linked:not(.vertical) > spinbutton:focus:not(.vertical) + combobox > box > button.combo, .linked:not(.vertical) >
-entry:focus + spinbutton:not(.vertical), .linked:not(.vertical) >
-entry:focus + button, .linked:not(.vertical) >
-entry:focus + combobox > box > button.combo, .linked:not(.vertical) > spinbutton:focus:not(.vertical) +
+.linked:not(.vertical) > spinbutton:focus-within:not(.vertical) + spinbutton:not(.vertical), .linked:not(.vertical) > spinbutton:focus-within:not(.vertical) + button, .linked:not(.vertical) > spinbutton:focus-within:not(.vertical) + combobox > box > button.combo, .linked:not(.vertical) >
+entry:focus-within + spinbutton:not(.vertical), .linked:not(.vertical) >
+entry:focus-within + button, .linked:not(.vertical) >
+entry:focus-within + combobox > box > button.combo, .linked:not(.vertical) > spinbutton:focus-within:not(.vertical) +
 entry, .linked:not(.vertical) >
-entry:focus +
+entry:focus-within +
 entry {
   border-left-color: #980ba2; }
-.linked:not(.vertical) > spinbutton:focus:not(.vertical), .linked:not(.vertical) >
-entry:focus {
+.linked:not(.vertical) > spinbutton:focus-within:not(.vertical), .linked:not(.vertical) >
+entry:focus-within {
   border-color: #980ba2; }
 .linked:not(.vertical) > spinbutton:drop(active):not(.vertical) + spinbutton:not(.vertical), .linked:not(.vertical) > spinbutton:drop(active):not(.vertical) + button, .linked:not(.vertical) > spinbutton:drop(active):not(.vertical) + combobox > box > button.combo, .linked:not(.vertical) >
 entry:drop(active) + spinbutton:not(.vertical), .linked:not(.vertical) >
@@ -1878,14 +1878,14 @@ entry:drop(active):not(:only-child) + button,
 entry:drop(active):not(:only-child) + combobox > box > button.combo {
   border-top-color: #71f79f; }
 
-treeview entry:focus:dir(rtl), treeview entry:focus:dir(ltr) {
+treeview entry:focus-within:dir(rtl), treeview entry:focus-within:dir(ltr) {
   background-color: #181b28;
   transition-property: color, background; }
 treeview entry.flat, treeview entry {
   border-radius: 0;
   background-image: none;
   background-color: #181b28; }
-  treeview entry.flat:focus, treeview entry:focus {
+  treeview entry.flat:focus-within, treeview entry:focus-within {
     border-color: #c50ed2; }
 
 /*************
