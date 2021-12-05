@@ -15,7 +15,7 @@ decoration, window {
     // lamefun trick to get rounded borders regardless of CSD use
   border-width: 0px;
 
-  box-shadow: 0 4px 10px 2px transparentize($borders_color, 0.2);
+  box-shadow: 0 4px 10px 2px transparentize(#211A1E, 0.6);
   // FIXME rationalize shadows
 
   // this is used for the resize cursor area
