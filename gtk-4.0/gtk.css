@@ -140,19 +140,10 @@ read if you used those and something break with a version upgrade you're on your
 *********/
 * {
   padding: 0;
-  -GtkToolButton-icon-spacing: 4;
-  -GtkTextView-error-underline-color: #e6133e;
-  -GtkScrolledWindow-scrollbar-spacing: 0;
-  -GtkToolItemGroup-expander-size: 11;
-  -GtkWidget-text-handle-width: 20;
-  -GtkWidget-text-handle-height: 24;
-  -GtkDialog-button-spacing: 4;
-  -GtkDialog-action-area-border: 0;
   outline-color: rgba(195, 199, 209, 0.3);
   outline-style: dashed;
   outline-offset: -3px;
   outline-width: 0px;
-  -gtk-outline-radius: 2px;
   -gtk-secondary-caret-color: #c50ed2; }
 
 /***********
@@ -169,8 +160,7 @@ read if you used those and something break with a version upgrade you're on your
   box-shadow: none; }
   .action-bar:backdrop {
     background-color: #030305;
-    box-shadow: none;
-    -gtk-icon-effect: dim; }
+    box-shadow: none; }
   .action-bar:first-child {
     border-radius: 6px 6px 0px 0px;
     border-width: 1px 1px 0px 1px; }
@@ -214,9 +204,6 @@ read if you used those and something break with a version upgrade you're on your
    or better, just don't.
    Everytime a wildcard is used a kitten dies, painfully.
 */
-*:disabled {
-  -gtk-icon-effect: dim; }
-
 .gtkstyle-fallback {
   color: #C3C7D1;
   background-color: #161925; }
@@ -327,9 +314,9 @@ assistant .sidebar label.highlight {
  ***********/
 @keyframes needs_attention {
   from {
-    background-image: -gtk-gradient(radial, center center, 0, center center, 0.01, to(#e63bf2), to(transparent)); }
+    background-image: radial-gradient(farthest-side, #e63bf2 0%, rgba(230, 59, 242, 0) 0%); }
   to {
-    background-image: -gtk-gradient(radial, center center, 0, center center, 0.5, to(#c50ed2), to(transparent)); } }
+    background-image: radial-gradient(farthest-side, #e63bf2 95%, rgba(230, 59, 242, 0)); } }
 notebook > header > tabs > arrow,
 button {
   min-height: 20px;
@@ -368,7 +355,7 @@ button {
     outline-color: rgba(254, 254, 254, 0.3);
     background-color: #c50ed2;
     text-shadow: none;
-    -gtk-icon-effect: highlight; }
+    -gtk-icon-filter: brightness(1.2); }
   notebook > header > tabs > arrow:active, notebook > header > tabs > arrow:checked,
   button:active,
   button:checked {
@@ -385,7 +372,7 @@ button {
     background-color: #1a1d2b;
     text-shadow: none;
     transition: 200ms ease-out;
-    -gtk-icon-effect: none; }
+    -gtk-icon-filter: none; }
     notebook > header > tabs > arrow:backdrop:active, notebook > header > tabs > arrow:backdrop:checked, notebook > header > tabs > arrow:backdrop:active, notebook > header > tabs > arrow:backdrop:checked,
     button:backdrop.flat:active,
     button:backdrop.flat:checked,
@@ -905,7 +892,7 @@ button.destructive-action {
 .stack-switcher > button.needs-attention > label,
 .stack-switcher > button.needs-attention > image, stacksidebar row.needs-attention > label {
   animation: needs_attention 150ms ease-in;
-  background-image: -gtk-gradient(radial, center center, 0, center center, 0.5, to(#e63bf2), to(transparent)), -gtk-gradient(radial, center center, 0, center center, 0.45, to(rgba(0, 0, 0, 0.9074509804)), to(transparent));
+  background-image: radial-gradient(farthest-side, #e63bf2 96%, rgba(230, 59, 242, 0));
   background-size: 6px 6px, 6px 6px;
   background-repeat: no-repeat;
   background-position: right 3px, right 2px; }
@@ -1950,7 +1937,7 @@ actionbar > revealer > box {
 scrolledwindow viewport.frame {
   border-style: none; }
 scrolledwindow overshoot.top {
-  background-image: -gtk-gradient(radial, center top, 0, center top, 0.5, to(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0))), -gtk-gradient(radial, center top, 0, center top, 0.6, from(rgba(195, 199, 209, 0.07)), to(rgba(195, 199, 209, 0)));
+  background-image: radial-gradient(farthest-side at top, rgba(0, 0, 0, 0.8) 85%, rgba(0, 0, 0, 0)), radial-gradient(farthest-side at top, #C3C7D1, rgba(195, 199, 209, 0));
   background-size: 100% 5%, 100% 100%;
   background-repeat: no-repeat;
   background-position: center top;
@@ -1958,7 +1945,7 @@ scrolledwindow overshoot.top {
   border: none;
   box-shadow: none; }
   scrolledwindow overshoot.top:backdrop {
-    background-image: -gtk-gradient(radial, center top, 0, center top, 0.5, to(rgba(13, 16, 23, 0.82)), to(rgba(13, 16, 23, 0)));
+    background-image: radial-gradient(farthest-side at top, rgba(13, 16, 23, 0.82) 85%, rgba(13, 16, 23, 0));
     background-size: 100% 5%;
     background-repeat: no-repeat;
     background-position: center top;
@@ -1966,7 +1953,7 @@ scrolledwindow overshoot.top {
     border: none;
     box-shadow: none; }
 scrolledwindow overshoot.bottom {
-  background-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0))), -gtk-gradient(radial, center bottom, 0, center bottom, 0.6, from(rgba(195, 199, 209, 0.07)), to(rgba(195, 199, 209, 0)));
+  background-image: radial-gradient(farthest-side at bottom, rgba(0, 0, 0, 0.8) 85%, rgba(0, 0, 0, 0)), radial-gradient(farthest-side at bottom, #C3C7D1, rgba(195, 199, 209, 0));
   background-size: 100% 5%, 100% 100%;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -1974,7 +1961,7 @@ scrolledwindow overshoot.bottom {
   border: none;
   box-shadow: none; }
   scrolledwindow overshoot.bottom:backdrop {
-    background-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(rgba(13, 16, 23, 0.82)), to(rgba(13, 16, 23, 0)));
+    background-image: radial-gradient(farthest-side at bottom, rgba(13, 16, 23, 0.82) 85%, rgba(13, 16, 23, 0));
     background-size: 100% 5%;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -1982,7 +1969,7 @@ scrolledwindow overshoot.bottom {
     border: none;
     box-shadow: none; }
 scrolledwindow overshoot.left {
-  background-image: -gtk-gradient(radial, left center, 0, left center, 0.5, to(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0))), -gtk-gradient(radial, left center, 0, left center, 0.6, from(rgba(195, 199, 209, 0.07)), to(rgba(195, 199, 209, 0)));
+  background-image: radial-gradient(farthest-side at left, rgba(0, 0, 0, 0.8) 85%, rgba(0, 0, 0, 0)), radial-gradient(farthest-side at left, #C3C7D1, rgba(195, 199, 209, 0));
   background-size: 5% 100%, 100% 100%;
   background-repeat: no-repeat;
   background-position: left center;
@@ -1990,7 +1977,7 @@ scrolledwindow overshoot.left {
   border: none;
   box-shadow: none; }
   scrolledwindow overshoot.left:backdrop {
-    background-image: -gtk-gradient(radial, left center, 0, left center, 0.5, to(rgba(13, 16, 23, 0.82)), to(rgba(13, 16, 23, 0)));
+    background-image: radial-gradient(farthest-side at left, rgba(13, 16, 23, 0.82) 85%, rgba(13, 16, 23, 0));
     background-size: 5% 100%;
     background-repeat: no-repeat;
     background-position: left center;
@@ -1998,7 +1985,7 @@ scrolledwindow overshoot.left {
     border: none;
     box-shadow: none; }
 scrolledwindow overshoot.right {
-  background-image: -gtk-gradient(radial, right center, 0, right center, 0.5, to(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0))), -gtk-gradient(radial, right center, 0, right center, 0.6, from(rgba(195, 199, 209, 0.07)), to(rgba(195, 199, 209, 0)));
+  background-image: radial-gradient(farthest-side at right, rgba(0, 0, 0, 0.8) 85%, rgba(0, 0, 0, 0)), radial-gradient(farthest-side at right, #C3C7D1, rgba(195, 199, 209, 0));
   background-size: 5% 100%, 100% 100%;
   background-repeat: no-repeat;
   background-position: right center;
@@ -2006,7 +1993,7 @@ scrolledwindow overshoot.right {
   border: none;
   box-shadow: none; }
   scrolledwindow overshoot.right:backdrop {
-    background-image: -gtk-gradient(radial, right center, 0, right center, 0.5, to(rgba(13, 16, 23, 0.82)), to(rgba(13, 16, 23, 0)));
+    background-image: radial-gradient(farthest-side at right, rgba(13, 16, 23, 0.82) 85%, rgba(13, 16, 23, 0));
     background-size: 5% 100%;
     background-repeat: no-repeat;
     background-position: right center;
@@ -2071,11 +2058,6 @@ separator {
  * Popovers *
  ************/
 GraniteWidgetsPopOver {
-  -GraniteWidgetsPopOver-arrow-width: 21;
-  -GraniteWidgetsPopOver-arrow-height: 10;
-  -GraniteWidgetsPopOver-border-radius: 8px;
-  -GraniteWidgetsPopOver-border-width: 0;
-  -GraniteWidgetsPopOver-shadow-size: 12;
   border: 1px solid #181b28;
   background: #181b28;
   color: #C3C7D1; }
@@ -2114,8 +2096,6 @@ GraniteWidgetsWelcome {
 * Source List *
 ***************/
 .source-list {
-  -GtkTreeView-horizontal-separator: 1px;
-  -GtkTreeView-vertical-separator: 6px;
   background-color: #161925;
   border: solid rgba(12, 14, 21, 0.8);
   color: #C3C7D1;
@@ -2720,7 +2700,6 @@ menubar,
 .menubar {
   background-color: #0c0e14;
   color: #C3C7D1;
-  -GtkWidget-window-dragging: true;
   padding: 0px;
   box-shadow: inset 0 -1px rgba(0, 0, 0, 0.1); }
   menubar > item,
@@ -2825,7 +2804,7 @@ menuitem radio {
 .content-view {
   background-color: #090a0f; }
   .content-view:hover {
-    -gtk-icon-effect: highlight; }
+    -gtk-icon-filter: brightness(1.2); }
   .content-view:backdrop {
     background-color: #090a0f; }
 
@@ -3238,11 +3217,9 @@ scale {
   scale.fine-tune fill,
   scale.fine-tune highlight,
   scale.fine-tune trough {
-    border-radius: 5px;
-    -gtk-outline-radius: 7px; }
+    border-radius: 5px; }
   scale trough {
     outline-offset: 2px;
-    -gtk-outline-radius: 5px;
     outline-color: transparent; }
   scale fill:backdrop, scale fill {
     background-color: rgba(12, 14, 21, 0.8); }
@@ -3666,9 +3643,6 @@ scale {
 scrollbar {
   background-color: #171a27;
   transition: 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
-  * {
-    -GtkScrollbar-has-backward-stepper: false;
-    -GtkScrollbar-has-forward-stepper: false; }
   scrollbar.top {
     border-bottom: 1px solid rgba(12, 14, 21, 0.8); }
   scrollbar.bottom {
@@ -4177,7 +4151,6 @@ switch {
  ************/
 toolbar, .inline-toolbar, searchbar,
 .location-bar {
-  -GtkWidget-window-dragging: true;
   padding: 4px;
   background-color: #161925; }
 
@@ -4255,13 +4228,6 @@ tooltip {
 treeview.view {
   border-left-color: #6e717d;
   border-top-color: #161925; }
-  * {
-    -GtkTreeView-horizontal-separator: 4;
-    -GtkTreeView-grid-line-width: 1;
-    -GtkTreeView-grid-line-pattern: '';
-    -GtkTreeView-tree-line-width: 1;
-    -GtkTreeView-tree-line-pattern: '';
-    -GtkTreeView-expander-size: 16; }
   treeview.view:selected:focus, treeview.view:selected {
     border-radius: 0; }
   treeview.view:selected:backdrop, treeview.view:selected {
@@ -4586,7 +4552,7 @@ entry selection, row:selected, treeview.view:selected:focus, treeview.view:selec
   .budgie-menu .container {
     padding: 0; }
   .budgie-menu button:hover {
-    -gtk-icon-effect: none; }
+    -gtk-icon-filter: none; }
   .budgie-menu entry.search {
     border: none;
     background: none;
@@ -4771,15 +4737,15 @@ button.raven-trigger {
 .night-light-indicator .view-header {
   font-size: 14px;
   padding: 10px;
-  border-bottom: 1px solid mix(@theme_base_color, #000000, 0.35);;
-  box-shadow: 0px 1px 1px alpha(@theme_fg_color, 0.04);; }
+  border-bottom: 1px solid mix(@theme_base_color, #000000, 0.35);
+  box-shadow: 0px 1px 1px alpha(@theme_fg_color, 0.04); }
 .night-light-indicator .display-settings-button {
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   border: none;
   padding: 3px;
-  border-top: 1px solid mix(@theme_base_color, #000000, 0.35);;
-  box-shadow: inset 0px 1px 1px alpha(@theme_fg_color, 0.04);; }
+  border-top: 1px solid mix(@theme_base_color, #000000, 0.35);
+  box-shadow: inset 0px 1px 1px alpha(@theme_fg_color, 0.04); }
 
 .budgie-panel {
   color: white;
@@ -5445,8 +5411,7 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
     border-color: rgba(197, 14, 210, 0.6); }
 
 .nautilus-circular-button {
-  border-radius: 20px;
-  -gtk-outline-radius: 20px; }
+  border-radius: 20px; }
 
 .disk-space-display {
   border: 2px solid; }
@@ -5868,36 +5833,6 @@ radiobutton.color-button:active > radio {
 /* Backdrop Unity window text color */
 /* Unity panel color #454D50 */
 UnityDecoration {
-  /* Border properties (top, right, bottom, left) */
-  -UnityDecoration-extents: 28px 1px 1px 1px;
-  /* the size of the decorations  */
-  -UnityDecoration-input-extents: 10px;
-  /* the extra size of the input areas */
-  /* Shadows settings */
-  -UnityDecoration-shadow-offset-x: 1px;
-  /* Size property, the shadow x offset */
-  -UnityDecoration-shadow-offset-y: 1px;
-  /* Size property, the shadow y offset */
-  -UnityDecoration-active-shadow-color: rgba 0, 0, 0, 0.647;
-  /* Color property, active window shadow color */
-  -UnityDecoration-active-shadow-radius: 8px;
-  /* Size property, active window shadow radius */
-  -UnityDecoration-inactive-shadow-color: rgba 0, 0, 0, 0.647;
-  /* Color property, inactive windows shadow color */
-  -UnityDecoration-inactive-shadow-radius: 5px;
-  /* Size property, inactive windows shadow radius */
-  /* Glow applied to the selected scaled window */
-  -UnityDecoration-glow-size: 8px;
-  /* Size property, size of glow */
-  -UnityDecoration-glow-color: #c50ed2;
-  /* Color property of the glow */
-  /* Title settings */
-  -UnityDecoration-title-indent: 10px;
-  /* Size property, left indent of the title */
-  -UnityDecoration-title-fade: 35px;
-  /* Size property, space of the title that can be faded */
-  -UnityDecoration-title-alignment: 0.0;
-  /* Float from 0.0 to 1.0, to align the title */
   background-color: #eeeeee;
   color: #31363D; }
   UnityDecoration .top {
@@ -6028,20 +5963,18 @@ MsdOsdWindow.background.osd {
 .geary-titlebar-right .separator {
   opacity: 0; }
 
-ConversationListView {
-  -GtkTreeView-grid-line-width: 0; }
-  ConversationListView .view:active, ConversationListView iconview:active, ConversationListView .view:selected, ConversationListView iconview:selected {
-    background-color: #c50ed2;
-    color: #fefefe; }
-    ConversationListView .view:active:backdrop, ConversationListView iconview:active:backdrop, ConversationListView .view:selected:backdrop, ConversationListView iconview:selected:backdrop {
-      background-color: rgba(197, 14, 210, 0.6);
-      color: rgba(254, 254, 254, 0.5); }
-  ConversationListView .view .cell, ConversationListView iconview .cell {
-    border: solid rgba(0, 0, 0, 0.2);
-    border-width: 0 0 1px 0; }
-    ConversationListView .view .cell:selected, ConversationListView iconview .cell:selected {
-      color: #fefefe;
-      border: 0px solid #980ba2; }
+ConversationListView .view:active, ConversationListView iconview:active, ConversationListView .view:selected, ConversationListView iconview:selected {
+  background-color: #c50ed2;
+  color: #fefefe; }
+  ConversationListView .view:active:backdrop, ConversationListView iconview:active:backdrop, ConversationListView .view:selected:backdrop, ConversationListView iconview:selected:backdrop {
+    background-color: rgba(197, 14, 210, 0.6);
+    color: rgba(254, 254, 254, 0.5); }
+ConversationListView .view .cell, ConversationListView iconview .cell {
+  border: solid rgba(0, 0, 0, 0.2);
+  border-width: 0 0 1px 0; }
+  ConversationListView .view .cell:selected, ConversationListView iconview .cell:selected {
+    color: #fefefe;
+    border: 0px solid #980ba2; }
 
 /***********
  * LightDm *
@@ -6169,16 +6102,12 @@ ConversationListView {
   border-bottom-width: 0;
   font-weight: bold; }
 
-.nemo-window .places-treeview {
-  -NemoPlacesTreeView-disk-full-bg-color: #333955;
-  -NemoPlacesTreeView-disk-full-fg-color: #00e8c6;
-  -GtkTreeView-vertical-separator: 7; }
-  .nemo-window .places-treeview .view.cell:hover, .nemo-window .places-treeview iconview.cell:hover,
-  .nemo-window .places-treeview iconview.cell:hover {
-    background: rgba(16, 19, 27, 0.7); }
-  .nemo-window .places-treeview .view.cell:selected, .nemo-window .places-treeview iconview.cell:selected,
-  .nemo-window .places-treeview iconview.cell:selected {
-    background: #c50ed2; }
+.nemo-window .places-treeview .view.cell:hover, .nemo-window .places-treeview iconview.cell:hover,
+.nemo-window .places-treeview iconview.cell:hover {
+  background: rgba(16, 19, 27, 0.7); }
+.nemo-window .places-treeview .view.cell:selected, .nemo-window .places-treeview iconview.cell:selected,
+.nemo-window .places-treeview iconview.cell:selected {
+  background: #c50ed2; }
 .nemo-window .sidebar {
   color: #98abb2;
   background-color: #161925; }
