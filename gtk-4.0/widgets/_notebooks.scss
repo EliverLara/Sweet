@@ -1,12 +1,12 @@
 /*************
  * Notebooks *
  *************/
-notebook {
+ notebook {
   > header {
     padding: 1px;
     border-color: transparent;
     border-width: 1px;
-    background-color: mix($base_color, $headerbar_color, 30%);
+    background-color: mix($base_color, darken($bg_color, 8%), 30%);
 
     &:backdrop {
       border-color: $backdrop_borders_color;

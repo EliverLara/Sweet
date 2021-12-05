@@ -597,7 +597,7 @@ box-shadow: none;
 }
 
 @mixin scale-highlight($dir) {
-  background: linear-gradient(to $dir, #00f17d, #00f7d2);
+  background: linear-gradient(to $dir, #fed349, #ff7800);
 }
 
 @mixin selected-tab($dir) {
@@ -605,7 +605,7 @@ box-shadow: none;
   linear-gradient(to $dir, $selected-tab-gradient-start, $selected-tab-gradient-end)
   left 
   bottom
-  lighten(mix($base_color, $headerbar_color, 30%), 2%)
+  lighten(mix($base_color, darken($bg_color, 8%), 30%), 4%)
   no-repeat; 
   @if $dir==right { background-size: 100% 2px; }
   @else if $dir==bottom { background-size: 2px 100%; } 
