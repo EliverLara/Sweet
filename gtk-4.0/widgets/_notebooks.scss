@@ -1,12 +1,12 @@
 /*************
  * Notebooks *
  *************/
-notebook {
+ notebook {
   > header {
     padding: 1px;
     border-color: transparent;
     border-width: 1px;
-    background-color: mix($base_color, $headerbar_color, 30%);
+    background-color: mix($base_color, darken($headerbar_color, 6%), 30%);
 
     &:backdrop {
       border-color: $backdrop_borders_color;
@@ -190,7 +190,7 @@ notebook {
         color: $backdrop_fg_color;
         &.reorderable-page {
           border-color: $backdrop_borders_color;
-          background-color: $backdrop_base_color;
+          background-color: $backdrop_bg_color;
         }
       }
 
@@ -269,8 +269,8 @@ notebook {
   }
 
   > stack:not(:only-child) { // the :not(:only-child) is for "hidden" notebooks
-    background-color: $base_color;
+    background-color: $bg_color;
 
-    &:backdrop { background-color: $backdrop_base_color; }
+    &:backdrop { background-color: $backdrop_bg_color; }
   }
 }

@@ -1,18 +1,19 @@
 /**********
  * Switch *
  **********/
-switch {
+ switch {
   font-size: 1px;
   font-weight: bold;
   outline-offset: -4px;
   transition: all 200ms ease-in;
 
-  border: 1px solid $borders_color;
+  border: none;
   border-radius: 14px;
   color: transparent;
   padding: 2.3px 0px;
-  background:  linear-gradient(to right, #1E2233, #1E2233);
- // border: 1px solid rgba(170, 170, 170, 0.4);
+
+  background:  linear-gradient(to right, #0e1011, #0e1011);
+  border: 1px solid #0a0b0c;
   &:disabled {
     background-color: $insensitive_bg_color;
   }
@@ -27,16 +28,14 @@ switch {
 
   &:active,
   &:checked {
-   background:  linear-gradient(to right, #f7005a, #fadd00);
     slider{
-      background: #fff;
+      background:  linear-gradient(to right, #00a6c9, #00e4ce);
     }
     &:backdrop {
-      background:  linear-gradient(to right, darken(#f7005a, 5%), darken(#fadd00, 5%));
       slider {
         &:backdrop {
           box-shadow:none;
-          background-color:transparentize($base_color, 0.1);
+          background:  linear-gradient(to right, darken(#00a6c9, 10%), darken(#00e4ce, 10%));
           border:none;
         }
       }
@@ -45,14 +44,14 @@ switch {
 
   // Handle
   slider {
-    padding: 2px;
+    padding:2px;
     margin: 0 2.3px;
     min-width: 12px;
     min-height: 12px;
 
     border-radius: 100%;
     transition: $button_transition;
-    background-color: darken(#1E2233, 5%);
+    background-color: lighten(#0e1011, 5%);
 
     &:backdrop {
       padding:2px;
