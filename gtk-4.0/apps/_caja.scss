@@ -1,0 +1,79 @@
+.caja-notebook {
+
+    .frame { border-width: 0 0 1px; }
+
+    .entry {
+        background: $bg_color;
+        color: $fg_color;
+        border-color: $borders_color;
+        &:selected {
+            background: $selected_bg_color;
+            color: $selected_fg_color;
+        }
+    }
+}
+  
+  /**************
+  * Caja sidebar *
+  **************/
+  
+.caja-side-pane {
+
+    .frame { border-width: 1px 0 0; }
+
+    background: $headerbar_color;
+    treeview.view,
+    textview.view text,
+    viewport.frame,
+    widget .vertical {
+        background: $_sidebar_color;
+        padding: 3px 2px;
+        color: #98abb2;
+        &:hover {
+        background-color: transparentize(darken($_sidebar_color, 2%), 0.05);
+        }
+        &:selected {
+        color: $selected_fg_color;
+        background:$selected_bg_color;
+        }
+    }
+}
+  
+  /**************
+  * Caja pathbar *
+  **************/
+  
+.caja-navigation-window paned, .caja-navigation-window .primary-toolbar {
+    background: $headerbar_color;
+}
+  
+.caja-navigation-window   {
+
+    .primary-toolbar button,
+    .vertical  button.image-button.toggle:not(.text-button) {
+        &, &:backdrop { @include button(undecorated); }
+        &:hover,
+        &:active,
+        &:backdrop:active,
+        &:backdrop:checked {
+            background: $selected_bg_color;
+            box-shadow: none;
+            &, & label {
+                color: $selected_fg_color;  
+            }
+        }
+    }
+}
+  
+.caja-pathbar button {
+    @include button(normal-header);
+    margin-top: 7px;
+    margin-bottom: 7px;
+    &:hover { color: $selected_bg_color; }
+    &:checked { @include button(active-header); }
+    &:backdrop:disabled {
+        @include button(backdrop-header,$base_color,transparentize($fg_color,0.8));
+    }
+
+}
+  
