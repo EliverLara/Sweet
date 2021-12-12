@@ -1928,7 +1928,7 @@ actionbar > revealer > box {
 scrolledwindow viewport.frame {
   border-style: none; }
 scrolledwindow overshoot.top {
-  background-image: radial-gradient(farthest-side at top, rgba(0, 0, 0, 0.8) 85%, rgba(0, 0, 0, 0)), radial-gradient(farthest-side at top, #C3C7D1, rgba(195, 199, 209, 0));
+  background-image: radial-gradient(farthest-side at top, #030305 85%, rgba(3, 3, 5, 0)), radial-gradient(farthest-side at top, #030305, rgba(3, 3, 5, 0));
   background-size: 100% 5%, 100% 100%;
   background-repeat: no-repeat;
   background-position: center top;
@@ -1936,7 +1936,7 @@ scrolledwindow overshoot.top {
   border: none;
   box-shadow: none; }
   scrolledwindow overshoot.top:backdrop {
-    background-image: radial-gradient(farthest-side at top, rgba(13, 16, 23, 0.82) 85%, rgba(13, 16, 23, 0));
+    background-image: radial-gradient(farthest-side at top, #030305 85%, rgba(3, 3, 5, 0));
     background-size: 100% 5%;
     background-repeat: no-repeat;
     background-position: center top;
@@ -1944,7 +1944,7 @@ scrolledwindow overshoot.top {
     border: none;
     box-shadow: none; }
 scrolledwindow overshoot.bottom {
-  background-image: radial-gradient(farthest-side at bottom, rgba(0, 0, 0, 0.8) 85%, rgba(0, 0, 0, 0)), radial-gradient(farthest-side at bottom, #C3C7D1, rgba(195, 199, 209, 0));
+  background-image: radial-gradient(farthest-side at bottom, #030305 85%, rgba(3, 3, 5, 0)), radial-gradient(farthest-side at bottom, #030305, rgba(3, 3, 5, 0));
   background-size: 100% 5%, 100% 100%;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -1952,7 +1952,7 @@ scrolledwindow overshoot.bottom {
   border: none;
   box-shadow: none; }
   scrolledwindow overshoot.bottom:backdrop {
-    background-image: radial-gradient(farthest-side at bottom, rgba(13, 16, 23, 0.82) 85%, rgba(13, 16, 23, 0));
+    background-image: radial-gradient(farthest-side at bottom, #030305 85%, rgba(3, 3, 5, 0));
     background-size: 100% 5%;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -1960,7 +1960,7 @@ scrolledwindow overshoot.bottom {
     border: none;
     box-shadow: none; }
 scrolledwindow overshoot.left {
-  background-image: radial-gradient(farthest-side at left, rgba(0, 0, 0, 0.8) 85%, rgba(0, 0, 0, 0)), radial-gradient(farthest-side at left, #C3C7D1, rgba(195, 199, 209, 0));
+  background-image: radial-gradient(farthest-side at left, #030305 85%, rgba(3, 3, 5, 0)), radial-gradient(farthest-side at left, #030305, rgba(3, 3, 5, 0));
   background-size: 5% 100%, 100% 100%;
   background-repeat: no-repeat;
   background-position: left center;
@@ -1968,7 +1968,7 @@ scrolledwindow overshoot.left {
   border: none;
   box-shadow: none; }
   scrolledwindow overshoot.left:backdrop {
-    background-image: radial-gradient(farthest-side at left, rgba(13, 16, 23, 0.82) 85%, rgba(13, 16, 23, 0));
+    background-image: radial-gradient(farthest-side at left, #030305 85%, rgba(3, 3, 5, 0));
     background-size: 5% 100%;
     background-repeat: no-repeat;
     background-position: left center;
@@ -1976,7 +1976,7 @@ scrolledwindow overshoot.left {
     border: none;
     box-shadow: none; }
 scrolledwindow overshoot.right {
-  background-image: radial-gradient(farthest-side at right, rgba(0, 0, 0, 0.8) 85%, rgba(0, 0, 0, 0)), radial-gradient(farthest-side at right, #C3C7D1, rgba(195, 199, 209, 0));
+  background-image: radial-gradient(farthest-side at right, #030305 85%, rgba(3, 3, 5, 0)), radial-gradient(farthest-side at right, #030305, rgba(3, 3, 5, 0));
   background-size: 5% 100%, 100% 100%;
   background-repeat: no-repeat;
   background-position: right center;
@@ -1984,7 +1984,7 @@ scrolledwindow overshoot.right {
   border: none;
   box-shadow: none; }
   scrolledwindow overshoot.right:backdrop {
-    background-image: radial-gradient(farthest-side at right, rgba(13, 16, 23, 0.82) 85%, rgba(13, 16, 23, 0));
+    background-image: radial-gradient(farthest-side at right, #030305 85%, rgba(3, 3, 5, 0));
     background-size: 5% 100%;
     background-repeat: no-repeat;
     background-position: right center;
