@@ -27,7 +27,7 @@ $selected_bg_color: #c50ed2;
 //$selected_bg_color: #f7005a;
 /*$selected_bg_color: #00e8c6;06d6a0*/
 $selected_borders_color: darken($selected_bg_color, 10%);
-$borders_color: if($variant == 'light', transparentize(black,0.87), transparentize(#0C0E15,0.2));
+$borders_color: if($variant == 'light', transparentize(black,0.87), darken($bg_color, 7%));
 $borders_edge: if($variant == 'light', transparentize(white, 0.8), transparentize(white, 0.9));
 
 $selected-tab-gradient-start: #5800E2;
