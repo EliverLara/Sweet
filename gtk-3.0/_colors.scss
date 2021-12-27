@@ -3,9 +3,9 @@
 
 // Main definitions
 $base_color: if($variant == 'light', #ebf0f5, lighten(#1A1E21, 1%));
-$text_color: if($variant == 'light', rgb(223, 226, 231), #76777A);
+$text_color: if($variant == 'light', rgb(223, 226, 231), #8D8E91);
 $bg_color: if($variant == 'light', darken( #EEEEEE, 3%), #1A1E21);
-$fg_color: if($variant == 'light', #e69317, #76777A);
+$fg_color: if($variant == 'light', #e69317, #8D8E91);
 $switch_bg: if($variant == 'light', #ffffff, transparentize(black,1));
 $shadow_color: rgba(162, 162, 165, 0.21);
 $main_dark_color:darken($bg_color, 2%);
@@ -29,7 +29,7 @@ $selected_bg_color: $red;
 //$selected_bg_color: #f7005a;
 /*$selected_bg_color: #00e8c6;06d6a0*/
 $selected_borders_color: darken($selected_bg_color, 10%);
-$borders_color: if($variant == 'light', transparentize(black,0.87), transparentize(#0C0E15,0.2));
+$borders_color: if($variant == 'light', transparentize(black,0.87), darken($bg_color, 7%));
 $borders_edge: if($variant == 'light', transparentize(white, 0.8), transparentize(white, 0.9));
 
 $selected-tab-gradient-start: #ff005d;
