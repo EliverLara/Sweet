@@ -3959,7 +3959,7 @@ placessidebar.sidebar {
     color: rgba(0, 0, 0, 0.76);
     background-color: transparent;
     /*rgba(65,67,75,0.4); */
-    background-image: linear-gradient(to right, #1b232d 40px, #202435 40px, #202435 97%); }
+    background-image: linear-gradient(to right, #1b232d 40px, #25262d 40px, #25262d 97%); }
   placessidebar.sidebar row.sidebar-row:active:hover {
     color: rgba(0, 0, 0, 0.76);
     background-color: rgba(0, 0, 0, 0.23); }
@@ -3969,7 +3969,7 @@ placessidebar.sidebar {
     background-image: linear-gradient(to right, #0072ff 40px, rgba(65, 67, 75, 0) 36px, rgba(65, 67, 75, 0) 97%); }
     placessidebar.sidebar row.sidebar-row:selected:hover {
       color: #ffffff;
-      background-color: #202435; }
+      background-color: #25262d; }
       placessidebar.sidebar row.sidebar-row:selected:hover .sidebar-icon {
         color: #ffffff; }
     placessidebar.sidebar row.sidebar-row:selected:backdrop {
