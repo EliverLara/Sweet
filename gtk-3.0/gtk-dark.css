@@ -3160,7 +3160,7 @@ progressbar {
     margin: 0; }
   progressbar.vertical progress {
     margin: 0;
-    background: linear-gradient(to bottom, #00f17d, #00f7d2); }
+    background: linear-gradient(to bottom, #C751FB, #6D44DE); }
   progressbar:backdrop {
     box-shadow: none;
     transition: 200ms ease-out; }
@@ -3195,12 +3195,12 @@ progressbar trough, scale trough, scale fill {
 
 progressbar progress, scale highlight {
   border: none;
-  background: linear-gradient(to right, #00f17d, #00f7d2);
+  background: linear-gradient(to right, #C751FB, #6D44DE);
   border-radius: 3px;
   margin: 0; }
   progressbar progress:disabled, scale highlight:disabled {
     border: none;
-    background-color: rgba(255, 255, 255, 0.14); }
+    background: linear-gradient(to right, rgba(199, 81, 251, 0.5), rgba(109, 68, 222, 0.5)); }
   progressbar progress:backdrop, progressbar:backdrop progress, scale highlight:backdrop, progressbar progress:active:backdrop, progressbar:backdrop progress:active, scale highlight:active:backdrop {
     border-color: #db10ea;
     background-color: #db10ea; }
@@ -3218,7 +3218,9 @@ scale {
   scale.vertical progress {
     min-width: 6px; }
   scale.vertical highlight {
-    background: linear-gradient(to bottom, #00f17d, #00f7d2); }
+    background: linear-gradient(to bottom, #C751FB, #6D44DE); }
+    scale.vertical highlight:disabled {
+      background: linear-gradient(to bottom, rgba(199, 81, 251, 0.5), rgba(109, 68, 222, 0.5)); }
   scale slider {
     min-height: 15px;
     min-width: 15px;
@@ -3229,7 +3231,7 @@ scale {
     transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
     transition-property: background, border, box-shadow; }
     scale slider:active {
-      background-color: #c50ed2; }
+      background-color: #6D44DE; }
       scale slider:active:disabled {
         background-color: #171a26;
         box-shadow: inset 0 1px rgba(255, 255, 255, 0.1); }
@@ -3264,17 +3266,16 @@ scale {
       background-color: transparent; }
   scale slider {
     border-color: #181b28;
-    border: 2px solid #00f17d;
+    border: 2px solid #6D44DE;
     border-radius: 12px;
-    background-color: #292f45; }
-    scale slider:active {
-      border-color: #980ba2; }
+    background-color: #161925; }
     scale slider:disabled {
-      background-color: #0c0e15;
-      box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
+      background-color: #202435;
+      box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+      border-color: rgba(109, 68, 222, 0.5); }
     scale slider:backdrop, scale slider:backdrop:disabled {
       transition: 200ms ease-out;
-      background-color: #0c0e15;
+      background-color: #202435;
       box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
     row:selected scale slider:disabled, row:selected scale slider {
       border-color: #980ba2; }
@@ -3371,9 +3372,9 @@ scale {
     min-height: 15px;
     min-width: 15px;
     margin: -7px;
-    border: 2px solid #00f17d;
+    border: 2px solid #6D44DE;
     border-radius: 50%;
-    background-color: #292f45;
+    background-color: #161925;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1); }
   scale.horizontal.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
@@ -3381,9 +3382,9 @@ scale {
     min-height: 15px;
     min-width: 15px;
     margin: -7px;
-    border: 2px solid #00f17d;
+    border: 2px solid #6D44DE;
     border-radius: 50%;
-    background-color: #292f45;
+    background-color: #161925;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1); }
   scale.horizontal.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
@@ -3391,9 +3392,9 @@ scale {
     min-height: 15px;
     min-width: 15px;
     margin: -7px;
-    border: 2px solid #00f17d;
+    border: 2px solid #6D44DE;
     border-radius: 50%;
-    background-color: #292f45;
+    background-color: #161925;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1); }
   scale.horizontal.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
@@ -3401,9 +3402,9 @@ scale {
     min-height: 15px;
     min-width: 15px;
     margin: -7px;
-    border: 2px solid #00f17d;
+    border: 2px solid #6D44DE;
     border-radius: 50%;
-    background-color: #292f45;
+    background-color: #161925;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1); }
   scale.horizontal.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
@@ -3411,9 +3412,9 @@ scale {
     min-height: 15px;
     min-width: 15px;
     margin: -7px;
-    border: 2px solid #00f17d;
+    border: 2px solid #6D44DE;
     border-radius: 50%;
-    background-color: #292f45;
+    background-color: #161925;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1); }
   scale.horizontal.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
@@ -3421,9 +3422,9 @@ scale {
     min-height: 15px;
     min-width: 15px;
     margin: -7px;
-    border: 2px solid #00f17d;
+    border: 2px solid #6D44DE;
     border-radius: 50%;
-    background-color: #292f45;
+    background-color: #161925;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1); }
   scale.horizontal.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
@@ -3431,9 +3432,9 @@ scale {
     min-height: 15px;
     min-width: 15px;
     margin: -7px;
-    border: 2px solid #00f17d;
+    border: 2px solid #6D44DE;
     border-radius: 50%;
-    background-color: #292f45;
+    background-color: #161925;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1); }
   scale.horizontal.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
@@ -3441,9 +3442,9 @@ scale {
     min-height: 15px;
     min-width: 15px;
     margin: -7px;
-    border: 2px solid #00f17d;
+    border: 2px solid #6D44DE;
     border-radius: 50%;
-    background-color: #292f45;
+    background-color: #161925;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1); }
   scale.horizontal.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
@@ -3451,9 +3452,9 @@ scale {
     min-height: 15px;
     min-width: 15px;
     margin: -7px;
-    border: 2px solid #00f17d;
+    border: 2px solid #6D44DE;
     border-radius: 50%;
-    background-color: #292f45;
+    background-color: #161925;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1); }
   scale.horizontal.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
@@ -3461,9 +3462,9 @@ scale {
     min-height: 15px;
     min-width: 15px;
     margin: -7px;
-    border: 2px solid #00f17d;
+    border: 2px solid #6D44DE;
     border-radius: 50%;
-    background-color: #292f45;
+    background-color: #161925;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1); }
   scale.horizontal.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
@@ -3471,9 +3472,9 @@ scale {
     min-height: 15px;
     min-width: 15px;
     margin: -7px;
-    border: 2px solid #00f17d;
+    border: 2px solid #6D44DE;
     border-radius: 50%;
-    background-color: #292f45;
+    background-color: #161925;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1); }
   scale.horizontal.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
@@ -3481,9 +3482,9 @@ scale {
     min-height: 15px;
     min-width: 15px;
     margin: -7px;
-    border: 2px solid #00f17d;
+    border: 2px solid #6D44DE;
     border-radius: 50%;
-    background-color: #292f45;
+    background-color: #161925;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1); }
   scale.horizontal.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
@@ -3491,9 +3492,9 @@ scale {
     min-height: 15px;
     min-width: 15px;
     margin: -7px;
-    border: 2px solid #00f17d;
+    border: 2px solid #6D44DE;
     border-radius: 50%;
-    background-color: #292f45;
+    background-color: #161925;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1); }
   scale.vertical.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
@@ -3501,9 +3502,9 @@ scale {
     min-height: 15px;
     min-width: 15px;
     margin: -7px;
-    border: 2px solid #00f17d;
+    border: 2px solid #6D44DE;
     border-radius: 50%;
-    background-color: #292f45;
+    background-color: #161925;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1); }
   scale.vertical.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
@@ -3511,9 +3512,9 @@ scale {
     min-height: 15px;
     min-width: 15px;
     margin: -7px;
-    border: 2px solid #00f17d;
+    border: 2px solid #6D44DE;
     border-radius: 50%;
-    background-color: #292f45;
+    background-color: #161925;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1); }
   scale.vertical.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
@@ -3521,9 +3522,9 @@ scale {
     min-height: 15px;
     min-width: 15px;
     margin: -7px;
-    border: 2px solid #00f17d;
+    border: 2px solid #6D44DE;
     border-radius: 50%;
-    background-color: #292f45;
+    background-color: #161925;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1); }
   scale.vertical.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
@@ -3531,9 +3532,9 @@ scale {
     min-height: 15px;
     min-width: 15px;
     margin: -7px;
-    border: 2px solid #00f17d;
+    border: 2px solid #6D44DE;
     border-radius: 50%;
-    background-color: #292f45;
+    background-color: #161925;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1); }
   scale.vertical.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
@@ -3541,9 +3542,9 @@ scale {
     min-height: 15px;
     min-width: 15px;
     margin: -7px;
-    border: 2px solid #00f17d;
+    border: 2px solid #6D44DE;
     border-radius: 50%;
-    background-color: #292f45;
+    background-color: #161925;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1); }
   scale.vertical.marks-before:not(.marks-after).fine-tune slider {
     margin: -7px; }
@@ -3551,9 +3552,9 @@ scale {
     min-height: 15px;
     min-width: 15px;
     margin: -7px;
-    border: 2px solid #00f17d;
+    border: 2px solid #6D44DE;
     border-radius: 50%;
-    background-color: #292f45;
+    background-color: #161925;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1); }
   scale.vertical.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
@@ -3561,9 +3562,9 @@ scale {
     min-height: 15px;
     min-width: 15px;
     margin: -7px;
-    border: 2px solid #00f17d;
+    border: 2px solid #6D44DE;
     border-radius: 50%;
-    background-color: #292f45;
+    background-color: #161925;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1); }
   scale.vertical.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
@@ -3571,9 +3572,9 @@ scale {
     min-height: 15px;
     min-width: 15px;
     margin: -7px;
-    border: 2px solid #00f17d;
+    border: 2px solid #6D44DE;
     border-radius: 50%;
-    background-color: #292f45;
+    background-color: #161925;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1); }
   scale.vertical.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
@@ -3581,9 +3582,9 @@ scale {
     min-height: 15px;
     min-width: 15px;
     margin: -7px;
-    border: 2px solid #00f17d;
+    border: 2px solid #6D44DE;
     border-radius: 50%;
-    background-color: #292f45;
+    background-color: #161925;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1); }
   scale.vertical.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
@@ -3591,9 +3592,9 @@ scale {
     min-height: 15px;
     min-width: 15px;
     margin: -7px;
-    border: 2px solid #00f17d;
+    border: 2px solid #6D44DE;
     border-radius: 50%;
-    background-color: #292f45;
+    background-color: #161925;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1); }
   scale.vertical.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
@@ -3601,9 +3602,9 @@ scale {
     min-height: 15px;
     min-width: 15px;
     margin: -7px;
-    border: 2px solid #00f17d;
+    border: 2px solid #6D44DE;
     border-radius: 50%;
-    background-color: #292f45;
+    background-color: #161925;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1); }
   scale.vertical.marks-after:not(.marks-before).fine-tune slider {
     margin: -7px; }
@@ -5786,7 +5787,7 @@ LibraryWindow .the-button-in-the-combobox {
 .source-list.view.level-bar.fill-block, iconview.source-list.level-bar.fill-block {
   border: none; }
   .source-list.view.level-bar.fill-block, iconview.source-list.level-bar.fill-block, .source-list.view.level-bar.fill-block:hover, iconview.source-list.level-bar.fill-block:hover, .source-list.view.level-bar.fill-block:selected, iconview.source-list.level-bar.fill-block:selected, .source-list.view.level-bar.fill-block:selected:focus, iconview.source-list.level-bar.fill-block:selected:focus {
-    background: linear-gradient(to right, #00f17d, #00f7d2); }
+    background: linear-gradient(to right, #C751FB, #6D44DE); }
 
 /**************************
  * Colors in context menu *
