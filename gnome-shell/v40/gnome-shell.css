@@ -16,7 +16,7 @@ stage {
   text-shadow: 0 1px black;
   icon-shadow: 0 1px black;
   border: 1px solid #161819;
-  border-radius: 4px;
+  border-radius: 6px;
   padding: 4px 32px; }
   .button:focus, .app-folder-dialog .edit-folder-button:focus {
     background-color: #2f3e44;
@@ -539,7 +539,7 @@ StScrollBar {
 .popup-menu-boxpointer,
 .candidate-popup-boxpointer {
   -arrow-border-radius: 7px;
-  -arrow-background-color: #222e39;
+  -arrow-background-color: #202b36;
   -arrow-border-width: 1px;
   -arrow-border-color: #161819;
   -arrow-base: 24px;
@@ -813,11 +813,9 @@ StScrollBar {
 
 .datemenu-calendar-column {
   border: 0 solid transparent;
-  background: #212c37; }
-  .datemenu-calendar-column:ltr {
-    border-left-width: 1px; }
-  .datemenu-calendar-column:rtl {
-    border-right-width: 1px; }
+  background: #24313c;
+  border-radius: 7px;
+  box-shadow: 0px 0px 1px 1px #161819 inset; }
 
 .datemenu-today-button,
 .world-clocks-button,
@@ -1000,13 +998,14 @@ StScrollBar {
   background: transparent; }
 
 .message {
-  border: 1px solid #182129;
-  border-radius: 3px;
-  background: #202b36;
+  border: 1px solid #161819;
+  border-radius: 7px;
+  background: #25323e;
   box-shadow: none; }
   .message:hover, .message:focus {
-    background-color: #202b36;
-    box-shadow: 2px 0px 0px 0px #00e8b7 inset; }
+    background-color: #2a3846;
+    box-shadow: 2px 0px 0px 0px #00e8b7 inset;
+    border-radius: 0px 7px 7px 0px; }
 
 .message-icon-bin {
   padding: 10px 3px 10px 10px; }
