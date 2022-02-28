@@ -20,7 +20,7 @@ stage {
 /* Buttons */
 .button, %button {
   @include button(normal);
-  border-radius: 4px;
+  border-radius: 6px;
   padding: 4px 32px;
   &:focus { @include button(focus); }
   &:insensitive { @include button(insensitive); }
@@ -570,7 +570,7 @@ StScrollBar {
   .popup-menu-boxpointer,
   .candidate-popup-boxpointer {
     -arrow-border-radius: 7px;
-    -arrow-background-color: $bg_color;
+    -arrow-background-color: darken($bg_color, 1%);
     -arrow-border-width: 1px;
     -arrow-border-color: $borders_color;
     -arrow-base: 24px;
@@ -920,10 +920,9 @@ StScrollBar {
 
     .datemenu-calendar-column {
       border: 0 solid transparent;
-      &:ltr { border-left-width: 1px; }
-      &:rtl { border-right-width: 1px; }
-      background: darken($bg_color, 0.7%);
-     //@include gradient();
+      background: lighten($bg_color, 1%);
+      border-radius: 7px;
+      box-shadow: 0px 0px 1px 1px $borders_color inset;
     }
 
     .datemenu-today-button,
@@ -1126,13 +1125,13 @@ StScrollBar {
 
         .message {
           &:hover,&:focus { 
-            background-color: darken($bg_color, 1%);
-            //@include gradient();
+            background-color: lighten($bg_color, 4%);
             box-shadow: 2px 0px 0px 0px $g2 inset;
+            border-radius: 0px 7px 7px 0px;
            }
-          border: 1px solid darken($bg_color, 5%);
-          border-radius: 3px;
-          background: darken($bg_color, 1%);
+          border: 1px solid $borders_color;
+          border-radius: 7px;
+          background: lighten($bg_color, 1.5%);
           box-shadow: none;
         }
 
