@@ -1,14 +1,10 @@
 stage {
-  font-family: Futura Bk bt, sans, Sans-Serif;
-  font-size: 9pt;
   color: #98abb2; }
 
 .label-shadow {
   color: rgba(0, 0, 0, 0); }
 
-.menu #notification .notification-button, .menu #notification .notification-icon-button,
-.popup-menu #notification .notification-button,
-.popup-menu #notification .notification-icon-button, .sound-button {
+.menu #notification .notification-button, .menu #notification .notification-icon-button, .popup-menu #notification .notification-button, .popup-menu #notification .notification-icon-button, .sound-button {
   min-height: 20px;
   padding: 5px 32px;
   transition-duration: 0;
@@ -17,59 +13,33 @@ stage {
   background-color: #1c1f2e;
   border: 1px solid #050508;
   box-shadow: inset 0 2px 4px rgba(28, 31, 46, 0.05); }
-  .menu #notification .notification-button, .menu #notification .notification-icon-button,
-  .popup-menu #notification .notification-button,
-  .popup-menu #notification .notification-icon-button, .sound-button, .menu #notification .notification-button:focus, .menu #notification .notification-icon-button:focus,
-  .popup-menu #notification .notification-button:focus,
-  .popup-menu #notification .notification-icon-button:focus, .sound-button:focus, .menu #notification .notification-button:hover, .menu #notification .notification-icon-button:hover,
-  .popup-menu #notification .notification-button:hover,
-  .popup-menu #notification .notification-icon-button:hover, .menu-favorites-button:hover, .menu-application-button-selected, .menu-category-button-selected, .sound-button:hover, .menu #notification .notification-button:hover:focus, .menu #notification .notification-icon-button:hover:focus,
-  .popup-menu #notification .notification-button:hover:focus,
-  .popup-menu #notification .notification-icon-button:hover:focus, .menu-favorites-button:focus:hover, .menu-application-button-selected:focus, .menu-category-button-selected:focus, .sound-button:hover:focus, .menu #notification .notification-button:active, .menu #notification .notification-icon-button:active,
-  .popup-menu #notification .notification-button:active,
-  .popup-menu #notification .notification-icon-button:active, .sound-button:active, .menu #notification .notification-button:active:focus, .menu #notification .notification-icon-button:active:focus,
-  .popup-menu #notification .notification-button:active:focus,
-  .popup-menu #notification .notification-icon-button:active:focus, .sound-button:active:focus, .menu #notification .notification-button:insensitive, .menu #notification .notification-icon-button:insensitive,
-  .popup-menu #notification .notification-button:insensitive,
-  .popup-menu #notification .notification-icon-button:insensitive, .sound-button:insensitive {
+  .menu #notification .notification-button, .menu #notification .notification-icon-button, .popup-menu #notification .notification-button, .popup-menu #notification .notification-icon-button, .sound-button, .menu #notification .notification-button:focus, .menu #notification .notification-icon-button:focus, .popup-menu #notification .notification-button:focus, .popup-menu #notification .notification-icon-button:focus, .sound-button:focus, .menu #notification .notification-button:hover, .menu #notification .notification-icon-button:hover, .popup-menu #notification .notification-button:hover, .popup-menu #notification .notification-icon-button:hover, .menu-favorites-button:hover, .menu-application-button-selected, .menu-category-button-selected, .sound-button:hover, .menu #notification .notification-button:hover:focus, .menu #notification .notification-icon-button:hover:focus, .popup-menu #notification .notification-button:hover:focus, .popup-menu #notification .notification-icon-button:hover:focus, .menu-favorites-button:focus:hover, .menu-application-button-selected:focus, .menu-category-button-selected:focus, .sound-button:hover:focus, .menu #notification .notification-button:active, .menu #notification .notification-icon-button:active, .popup-menu #notification .notification-button:active, .popup-menu #notification .notification-icon-button:active, .sound-button:active, .menu #notification .notification-button:active:focus, .menu #notification .notification-icon-button:active:focus, .popup-menu #notification .notification-button:active:focus, .popup-menu #notification .notification-icon-button:active:focus, .sound-button:active:focus, .menu #notification .notification-button:insensitive, .menu #notification .notification-icon-button:insensitive, .popup-menu #notification .notification-button:insensitive, .popup-menu #notification .notification-icon-button:insensitive, .sound-button:insensitive {
     border-radius: 2px; }
-  .menu #notification .notification-button:focus, .menu #notification .notification-icon-button:focus,
-  .popup-menu #notification .notification-button:focus,
-  .popup-menu #notification .notification-icon-button:focus, .sound-button:focus {
+  .menu #notification .notification-button:focus, .menu #notification .notification-icon-button:focus, .popup-menu #notification .notification-button:focus, .popup-menu #notification .notification-icon-button:focus, .sound-button:focus {
     text-shadow: 0 1px rgba(24, 27, 40, 0);
     color: #98abb2;
     background-color: #1c1f2e;
     border: 1px solid #c50ed2;
     box-shadow: inset 0 2px 4px rgba(28, 31, 46, 0.05); }
-  .menu #notification .notification-button:hover, .menu #notification .notification-icon-button:hover,
-  .popup-menu #notification .notification-button:hover,
-  .popup-menu #notification .notification-icon-button:hover, .menu-favorites-button:hover, .menu-application-button-selected, .menu-category-button-selected, .sound-button:hover {
+  .menu #notification .notification-button:hover, .menu #notification .notification-icon-button:hover, .popup-menu #notification .notification-button:hover, .popup-menu #notification .notification-icon-button:hover, .menu-favorites-button:hover, .menu-application-button-selected, .menu-category-button-selected, .sound-button:hover {
     text-shadow: 0 1px rgba(24, 27, 40, 0);
     color: #98abb2;
     background-color: #252a3e;
     border: 1px solid #050508;
     box-shadow: inset 0 2px 4px rgba(37, 42, 62, 0.05); }
-  .menu #notification .notification-button:hover:focus, .menu #notification .notification-icon-button:hover:focus,
-  .popup-menu #notification .notification-button:hover:focus,
-  .popup-menu #notification .notification-icon-button:hover:focus, .menu-favorites-button:focus:hover, .menu-application-button-selected:focus, .menu-category-button-selected:focus, .sound-button:hover:focus {
+  .menu #notification .notification-button:hover:focus, .menu #notification .notification-icon-button:hover:focus, .popup-menu #notification .notification-button:hover:focus, .popup-menu #notification .notification-icon-button:hover:focus, .menu-favorites-button:focus:hover, .menu-application-button-selected:focus, .menu-category-button-selected:focus, .sound-button:hover:focus {
     text-shadow: 0 1px rgba(24, 27, 40, 0);
     color: #98abb2;
     background-color: #1c1f2e;
     border: 1px solid #c50ed2;
     box-shadow: inset 0 2px 4px rgba(28, 31, 46, 0.05); }
-  .menu #notification .notification-button:active, .menu #notification .notification-icon-button:active,
-  .popup-menu #notification .notification-button:active,
-  .popup-menu #notification .notification-icon-button:active, .sound-button:active, .menu #notification .notification-button:active:focus, .menu #notification .notification-icon-button:active:focus,
-  .popup-menu #notification .notification-button:active:focus,
-  .popup-menu #notification .notification-icon-button:active:focus, .sound-button:active:focus {
+  .menu #notification .notification-button:active, .menu #notification .notification-icon-button:active, .popup-menu #notification .notification-button:active, .popup-menu #notification .notification-icon-button:active, .sound-button:active, .menu #notification .notification-button:active:focus, .menu #notification .notification-icon-button:active:focus, .popup-menu #notification .notification-button:active:focus, .popup-menu #notification .notification-icon-button:active:focus, .sound-button:active:focus {
     text-shadow: 0 1px rgba(24, 27, 40, 0);
     color: #fefefe;
     background-color: #c50ed2;
     border: 1px solid #c50ed2;
     box-shadow: inset 0 2px 4px #c50ed2; }
-  .menu #notification .notification-button:insensitive, .menu #notification .notification-icon-button:insensitive,
-  .popup-menu #notification .notification-button:insensitive,
-  .popup-menu #notification .notification-icon-button:insensitive, .sound-button:insensitive {
+  .menu #notification .notification-button:insensitive, .menu #notification .notification-icon-button:insensitive, .popup-menu #notification .notification-button:insensitive, .popup-menu #notification .notification-icon-button:insensitive, .sound-button:insensitive {
     text-shadow: 0 1px rgba(24, 27, 40, 0);
     color: rgba(152, 171, 178, 0.45);
     border: 1px solid rgba(5, 5, 8, 0.55);
@@ -103,8 +73,7 @@ stage {
     border: 1px solid rgba(0, 0, 0, 0.4);
     background-color: rgba(57, 64, 94, 0.25); }
 
-.menu #notification StEntry,
-.popup-menu #notification StEntry, #menu-search-entry {
+.menu #notification StEntry, .popup-menu #notification StEntry, #menu-search-entry {
   padding: 7px;
   caret-size: 1px;
   selection-background-color: #c50ed2;
@@ -115,18 +84,15 @@ stage {
   background-color: #181b28;
   border: 1px solid #050508;
   box-shadow: inset 0 2px 4px rgba(24, 27, 40, 0.05); }
-  .menu #notification StEntry:focus,
-  .popup-menu #notification StEntry:focus, #menu-search-entry:focus, .menu #notification StEntry:hover,
-  .popup-menu #notification StEntry:hover, #menu-search-entry:hover {
+  .menu #notification StEntry:focus, .popup-menu #notification StEntry:focus, #menu-search-entry:focus, .menu #notification StEntry:hover, .popup-menu #notification StEntry:hover, #menu-search-entry:hover {
     color: #98abb2;
     background-color: #181b28;
     border: 1px solid #c50ed2;
     box-shadow: inset 0 2px 4px rgba(24, 27, 40, 0.05); }
-  .menu #notification StEntry:insensitive,
-  .popup-menu #notification StEntry:insensitive, #menu-search-entry:insensitive {
+  .menu #notification StEntry:insensitive, .popup-menu #notification StEntry:insensitive, #menu-search-entry:insensitive {
     color: rgba(152, 171, 178, 0.45);
     background-color: #181b28;
-    border-color: 1px solid #0d0f16;
+    border-color: 1px solid #0e0f16;
     box-shadow: inset 0 2px 4px rgba(24, 27, 40, 0.05); }
   .menu #notification StEntry StIcon.capslock-warning, .popup-menu #notification StEntry StIcon.capslock-warning, #menu-search-entry StIcon.capslock-warning {
     icon-size: 16px;
@@ -158,7 +124,6 @@ stage {
 
 StScrollView.vfade {
   -st-vfade-offset: 0px; }
-
 StScrollView.hfade {
   -st-hfade-offset: 0px; }
 
@@ -187,8 +152,7 @@ StScrollBar {
   -margin-horizontal: 1.5em;
   height: 1em; }
 
-.popup-slider-menu-item,
-.slider {
+.popup-slider-menu-item, .slider {
   -slider-height: 4px;
   -slider-background-color: #050508;
   -slider-border-color: rgba(0, 0, 0, 0);
@@ -202,8 +166,8 @@ StScrollBar {
   border-right-width: 1px;
   border-left-width: 5px;
   color: transparent; }
-  .popup-menu-item:active .popup-slider-menu-item, .popup-menu-item:active
-  .slider {
+  .popup-menu-item:active .popup-slider-menu-item,
+  .popup-menu-item:active .slider {
     -slider-background-color: rgba(0, 0, 0, 0.2);
     -slider-active-background-color: #fefefe; }
 
@@ -211,21 +175,16 @@ StScrollBar {
   spacing: .2em;
   min-height: 30px;
   padding-top: 2px; }
-
 .check-box StLabel {
   font-weight: normal; }
-
 .check-box StBin {
   width: 16px;
   height: 16px;
   background-image: url("dark-assets/checkbox/checkbox-unchecked.svg"); }
-
 .check-box:focus StBin {
   background-image: url("dark-assets/checkbox/checkbox-unchecked-focused.svg"); }
-
 .check-box:checked StBin {
   background-image: url("dark-assets/checkbox/checkbox-checked.svg"); }
-
 .check-box:focus:checked StBin {
   background-image: url("dark-assets/checkbox/checkbox-checked-focused.svg"); }
 
@@ -233,23 +192,18 @@ StScrollBar {
   spacing: .2em;
   height: 26px;
   padding-top: 2px; }
-
 .radiobutton StLabel {
   padding-top: 4px;
   font-size: 0.9em;
   box-shadow: none; }
-
 .radiobutton StBin {
   width: 16px;
   height: 16px;
   background-image: url("dark-assets/checkbox/checkbox-unchecked.svg"); }
-
 .radiobutton:focus StBin {
   background-image: url("dark-assets/checkbox/checkbox-unchecked-focused.svg"); }
-
 .radiobutton:checked StBin {
   background-image: url("dark-assets/checkbox/checkbox-checked.svg"); }
-
 .radiobutton:focus:checked StBin {
   background-image: url("dark-assets/checkbox/checkbox-checked-focused.svg"); }
 
@@ -384,7 +338,6 @@ StScrollBar {
   spacing: .5em; }
 
 #panel {
-  font-size: 10pt;
   height: 28px;
   width: 32px;
   font-weight: 700;
@@ -436,12 +389,10 @@ StScrollBar {
   color: #98abb2;
   font-size: 1em;
   padding: 0px; }
-
 .panel-dummy {
   background-color: rgba(252, 65, 56, 0.5); }
   .panel-dummy:entered {
     background-color: rgba(252, 65, 56, 0.6); }
-
 .panel-status-button {
   border-width: 0;
   -natural-hpadding: 3px;
@@ -449,7 +400,6 @@ StScrollBar {
   font-weight: bold;
   color: white;
   height: 22px; }
-
 .panel-button {
   -natural-hpadding: 6px;
   -minimum-hpadding: 2px;
@@ -516,7 +466,6 @@ StScrollBar {
   spacing: 26px; }
   .workspace-thumbnails-background, .workspace-thumbnails-background:rtl {
     padding: 8px; }
-
 .workspace-add-button {
   background-image: url("common-assets/misc/add-workspace.svg");
   height: 200px;
@@ -528,7 +477,6 @@ StScrollBar {
   .workspace-add-button:active {
     background-image: url("common-assets/misc/add-workspace-active.svg");
     transition-duration: 100; }
-
 .workspace-overview-background-shade {
   background-color: rgba(0, 0, 0, 0.5); }
 
@@ -562,19 +510,15 @@ StScrollBar {
   height: 250px;
   spacing: 8px;
   padding-bottom: 10px; }
-
 .about-title {
   font-size: 2em;
   font-weight: bold; }
-
 .about-uuid {
   font-size: 10px;
   color: #888; }
-
 .about-icon {
   padding-right: 20px;
   padding-bottom: 14px; }
-
 .about-scrollBox {
   border: 1px solid #050508;
   border-radius: 2px;
@@ -585,11 +529,9 @@ StScrollBar {
   .about-scrollBox-innerBox {
     padding: 1.2em;
     spacing: 1.2em; }
-
 .about-description {
   padding-top: 4px;
   padding-bottom: 16px; }
-
 .about-version {
   padding-left: 7px;
   font-size: 10px;
@@ -698,16 +640,11 @@ StScrollBar {
   margin-from-right-edge-of-screen: 20px;
   width: 34em;
   color: #BAC3CF; }
-  .menu #notification,
-  .popup-menu #notification {
+  .menu #notification, .popup-menu #notification {
     border-image: url("dark-assets/misc/message.svg") 9 9 9 9; }
-    .menu #notification, .menu #notification.multi-line-notification,
-    .popup-menu #notification,
-    .popup-menu #notification.multi-line-notification {
+    .menu #notification, .menu #notification.multi-line-notification, .popup-menu #notification, .popup-menu #notification.multi-line-notification {
       color: #98abb2; }
-    .menu #notification .notification-button, .menu #notification .notification-icon-button,
-    .popup-menu #notification .notification-button,
-    .popup-menu #notification .notification-icon-button {
+    .menu #notification .notification-button, .menu #notification .notification-icon-button, .popup-menu #notification .notification-button, .popup-menu #notification .notification-icon-button {
       padding: 5px; }
   #notification.multi-line-notification {
     padding-bottom: 13px;
@@ -728,10 +665,8 @@ StScrollBar {
 .notification-with-image {
   min-height: 159px;
   color: #BAC3CF; }
-
 .notification-button, .notification-icon-button {
   padding: 5px; }
-
 .notification-icon-button > StIcon {
   icon-size: 36px; }
 
@@ -974,25 +909,19 @@ StScrollBar {
   transition-duration: 300;
   background-color: #181b28;
   border: 1px solid #050508; }
-
 .menu-favorites-button {
   padding: 10px;
   border: 1px solid rgba(0, 0, 0, 0); }
-
 .menu-places-box {
   margin: auto;
   padding: 10px;
   border: 0px solid red; }
-
 .menu-places-button {
   padding: 10px; }
-
 .menu-categories-box {
   padding: 10px 30px 10px 30px; }
-
 .menu-applications-inner-box, .menu-applications-outer-box {
   padding: 10px 10px 0 10px; }
-
 .menu-application-button {
   padding: 7px;
   border: 1px solid rgba(0, 0, 0, 0); }
@@ -1006,7 +935,6 @@ StScrollBar {
     padding-left: 5px; }
   .menu-application-button-label:rtl {
     padding-right: 5px; }
-
 .menu-category-button {
   padding: 7px;
   border: 1px solid rgba(0, 0, 0, 0); }
@@ -1023,7 +951,6 @@ StScrollBar {
     padding-left: 5px; }
   .menu-category-button-label:rtl {
     padding-right: 5px; }
-
 .menu-selected-app-box {
   padding-right: 30px;
   padding-left: 28px;
@@ -1032,16 +959,12 @@ StScrollBar {
   .menu-selected-app-box:rtl {
     padding-top: 10px;
     height: 30px; }
-
 .menu-selected-app-title {
   font-weight: bold; }
-
 .menu-selected-app-description {
   max-width: 150px; }
-
 .menu-search-box:ltr {
   padding-left: 30px; }
-
 .menu-search-box-rtl {
   padding-right: 30px; }
 
@@ -1100,12 +1023,10 @@ StScrollBar {
     padding-bottom: 10px; }
   .window-list-box:highlight {
     background-color: rgba(252, 65, 56, 0.5); }
-
 .window-list-item-label {
   font-weight: bold;
   width: 15em;
   min-width: 5px; }
-
 .window-list-item-box {
   font-weight: bold;
   background-image: none;
@@ -1138,12 +1059,10 @@ StScrollBar {
     border-color: #c50ed2; }
   .window-list-item-box .progress {
     background-color: rgba(197, 14, 210, 0.8); }
-
 .window-list-item-demands-attention {
   background-gradient-direction: vertical;
   background-gradient-start: #F04A50;
   background-gradient-end: #F04A50; }
-
 .window-list-preview {
   spacing: 6px;
   color: #98abb2;
@@ -1157,7 +1076,6 @@ StScrollBar {
   font-weight: bold;
   width: 15em;
   min-width: 5px; }
-
 .grouped-window-list-item-box {
   text-align: left;
   font-weight: bold;
@@ -1191,29 +1109,22 @@ StScrollBar {
     border-color: #c50ed2; }
   .grouped-window-list-item-box .progress {
     background-color: rgba(197, 14, 210, 0.8); }
-
 .grouped-window-list-item-demands-attention {
   background-gradient-direction: vertical;
   background-gradient-start: #F04A50;
   background-gradient-end: #F04A50; }
-
 .grouped-window-list-thumbnail-label {
   padding-left: 4px; }
-
 .grouped-window-list-number-label {
   z-index: 99;
   color: #98abb2; }
-
 .grouped-window-list-badge {
   border-radius: 256px;
   background-color: #0e1018; }
-
 .grouped-window-list-button-label {
   padding-left: 4px; }
-
 .grouped-window-list-thumbnail-alert {
   background: rgba(255, 52, 52, 0.3); }
-
 .grouped-window-list-thumbnail-menu {
   color: #98abb2;
   border: 1px solid #050508;
@@ -1249,7 +1160,6 @@ StScrollBar {
 
 .sound-track-infos {
   padding: 5px; }
-
 .sound-track-info {
   padding-top: 2px;
   padding-bottom: 2px; }
@@ -1258,7 +1168,6 @@ StScrollBar {
   .sound-track-info StLabel {
     padding-left: 5px;
     padding-right: 5px; }
-
 .sound-track-box {
   padding-left: 15px;
   padding-right: 15px;
@@ -1397,22 +1306,18 @@ StScrollBar {
   margin: 1px;
   padding: 1px;
   transition-duration: 200; }
-  .panel-launcher:hover,
-  .launcher:hover {
+  .panel-launcher:hover, .launcher:hover {
     background-gradient-direction: none;
     border: 0px solid #c50ed2; }
-    .panel-bottom .panel-launcher:hover, .panel-bottom
-    .launcher:hover {
+    .panel-bottom .panel-launcher:hover,
+    .panel-bottom .launcher:hover {
       border-bottom-width: 1px; }
-    .panel-top .panel-launcher:hover, .panel-top
-    .launcher:hover {
+    .panel-top .panel-launcher:hover, .panel-top .launcher:hover {
       border-top-width: 1px; }
-    .panel-left .panel-launcher:hover, .panel-left
-    .launcher:hover {
+    .panel-left .panel-launcher:hover, .panel-left .launcher:hover {
       border-left-width: 1px;
       padding-left: 0; }
-    .panel-right .panel-launcher:hover, .panel-right
-    .launcher:hover {
+    .panel-right .panel-launcher:hover, .panel-right .launcher:hover {
       border-right-width: 1px;
       padding-right: 0; }
 
@@ -1423,11 +1328,9 @@ StScrollBar {
 
 .applet-separator {
   padding: 1px 4px; }
-
 .applet-separator-line {
   width: 1px;
   background: rgba(255, 255, 255, 0.12); }
-
 .applet-box {
   padding-left: 3px;
   padding-right: 3px;
@@ -1443,14 +1346,12 @@ StScrollBar {
     background-image: none;
     border-image: none;
     background-color: rgba(252, 65, 56, 0.5); }
-
 .applet-label {
   font-weight: bold;
   color: #98abb2; }
   .applet-label:hover, .applet-box:hover .applet-label {
     color: #fefefe;
     text-shadow: none; }
-
 .applet-icon {
   color: #98abb2;
   icon-size: 22px; }
@@ -1543,3 +1444,5 @@ StScrollBar {
   .menu-category-button-hover {
     background-color: rgba(197, 14, 210, 0.3);
     border-radius: 2px; }
+
+/*# sourceMappingURL=cinnamon.css.map */
