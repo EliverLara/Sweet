@@ -1101,10 +1101,10 @@ StScrollBar {
     border-left-width: 2px; }
     .grouped-window-list-item-box.left StBin {
       padding-left: 1px; }
-  .grouped-window-list-item-box:hover, .grouped-window-list-item-box:focus {
-    color: #fefefe;
-    background-color: rgba(14, 16, 24, 0.3); }
   .grouped-window-list-item-box:active, .grouped-window-list-item-box:checked {
+    color: #fefefe;
+    border-color: #353b58; }
+  .grouped-window-list-item-box:hover, .grouped-window-list-item-box:active:hover, .grouped-window-list-item-box:focus, .grouped-window-list-item-box:active:focus, .grouped-window-list-item-box:focus:hover, .grouped-window-list-item-box:active:focus:hover {
     color: #fefefe;
     border-color: #c50ed2; }
   .grouped-window-list-item-box .progress {
