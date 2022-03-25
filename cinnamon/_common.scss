@@ -1389,14 +1389,18 @@ StScrollBar {
       & StBin { padding-left: 1px; }
     }
 
-    &:hover,
-    &:focus {
-      color: $selected_fg_color;
-      background-color: transparentize($panel_bg, 0.7);
-    }
-
     &:active,
     &:checked {
+      color: $selected_fg_color;
+      border-color: lighten($panel_bg, 20%);
+    }
+
+    &:hover,
+    &:active:hover,
+    &:focus,
+    &:active:focus,
+    &:focus:hover,
+    &:active:focus:hover {
       color: $selected_fg_color;
       border-color: $selected_bg_color;
     }
@@ -1468,6 +1472,7 @@ StScrollBar {
     }
   }
 }
+
 
 
 ///
