@@ -87,11 +87,11 @@ stage {
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black; }
   .modal-dialog-linked-button:first-child {
-    border-radius: 0px 0px 0px 2px; }
+    border-radius: 0px 0px 0px 10px; }
   .modal-dialog-linked-button:last-child {
-    border-radius: 0px 0px 2px 0px; }
+    border-radius: 0px 0px 10px 0px; }
   .modal-dialog-linked-button:first-child:last-child {
-    border-radius: 0px 0px 2px 2px; }
+    border-radius: 0px 0px 10px 10px; }
 
 /* Entries */
 StEntry {
@@ -212,10 +212,10 @@ StScrollBar {
   background-color: white; }
 
 .modal-dialog {
-  border: none;
-  border-radius: 2px;
+  border: 1px solid #161819;
+  border-radius: 10px;
   color: #C3C7D1;
-  background-color: rgba(24, 33, 41, 0.95);
+  background-color: rgba(30, 41, 51, 0.95);
   box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2); }
   .modal-dialog .modal-dialog-content-box {
     padding: 24px; }
@@ -1181,7 +1181,7 @@ StScrollBar {
 
 .nm-dialog-scroll-view {
   border: 2px solid #161819;
-  background: transparent; }
+  background: #222e39; }
 
 .nm-dialog-header {
   font-weight: bold; }
