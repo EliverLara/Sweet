@@ -95,17 +95,19 @@ stage {
 
 /* Entries */
 StEntry {
-  background-color: #2f404f;
+  background-color: #28363b;
   border-color: #161819;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  border-radius: 2px;
+  border-radius: 6px;
   padding: 4px;
-  border-width: 0;
+  border-width: 2px;
   color: #C3C7D1;
   selection-background-color: #00e8b7;
   selected-color: #f7f7f7; }
+  StEntry:hover {
+    border-color: rgba(0, 232, 183, 0.6); }
   StEntry:focus {
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
+    border-color: rgba(0, 232, 183, 0.6); }
   StEntry:insensitive {
     color: #737b85;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
@@ -1239,20 +1241,11 @@ StScrollBar {
 .search-entry {
   width: 320px;
   padding: 9px;
-  border-radius: 100px;
-  border: 1px solid #161819;
-  color: #C3C7D1;
-  background-color: #1c262f;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
+  border-radius: 10px; }
   .search-entry .search-entry-icon {
     icon-size: 1em;
     padding: 0 4px;
     color: rgba(195, 199, 209, 0.7); }
-  .search-entry:hover, .search-entry:focus {
-    background-color: #1c262f;
-    border-color: rgba(0, 232, 183, 0.8); }
-    .search-entry:hover .search-entry-icon, .search-entry:focus .search-entry-icon {
-      color: #C3C7D1; }
 
 .search-provider-icon:focus,
 .list-search-result:focus, .search-provider-icon:hover,
