@@ -54,7 +54,15 @@ Item {
     // Draw a translucent background circle under the user picture
     Rectangle {
         anchors.centerIn: imageSource
-        width: imageSource.width + 5 // Subtract to prevent fringing
+        width: imageSource.width + 4 // Subtract to prevent fringing
+        height: width
+        radius: width / 2
+        color: "#0C0E15"
+    }
+    
+    Rectangle {
+        anchors.centerIn: imageSource
+        width: imageSource.width + 10 // Subtract to prevent fringing
         height: width
         radius: width / 2
 
@@ -63,6 +71,10 @@ Item {
             GradientStop { position: 0.33; color: "#C779D0" }
             GradientStop { position: 1.0; color: "#4BC0C8" }
         }
+
+        z:-1
+        rotation: 270
+        transformOrigin: Item.Center
     }
 
     Item {
