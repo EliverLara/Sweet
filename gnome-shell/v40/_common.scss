@@ -1618,28 +1618,14 @@ StScrollBar {
   }
 
   .page-indicator {
-    padding: 15px 20px;
+    padding: 6px 12px;
 
     .page-indicator-icon {
       width: 12px;
       height: 12px;
       border-radius: 12px;
       background-image: none;
-      background-color: rgba(255, 255, 255, 0.3);
-    }
-
-    &:hover .page-indicator-icon {  
-      background-image: none;
-      background-color: rgba(255, 255, 255, 0.5); 
-    }
-    &:active .page-indicator-icon { 
-      background-image: none;
-      background-color: rgba(255, 255, 255, 0.7);
-    }
-    &:checked .page-indicator-icon{ 
-      background-image: none;
-      background-color: #FFFFFF;
-      transition-duration: 0s; 
+      background-color: lighten($base_color, 25%);
     }
   }
 
