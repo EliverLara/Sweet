@@ -14,8 +14,8 @@ TextField {
         radius: parent.width / 2
         border.width: 1
         border.color: "#0C0E15"
-        height: 30
-        width: 270
+        width: parent.width
+        height: width / 9
         anchors.centerIn: parent
     }
 }

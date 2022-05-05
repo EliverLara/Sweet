@@ -120,11 +120,11 @@ SessionManagementScreen {
 
         background: Rectangle {
             id: buttonBackground
-            width:30
-            height: 270
+            height: parent.width
+            width: height / 9
             radius: width / 2
-                rotation: -90
-                anchors.centerIn: parent
+            rotation: -90
+            anchors.centerIn: parent
 
             gradient: Gradient {
                 GradientStop { position: 0.0; color: "#F9D423" }
