@@ -520,7 +520,7 @@ StScrollBar {
       box-shadow: inset 0 1px 0px #1c1f2e;
       font-weight: bold; }
       .popup-menu .popup-menu-item:checked:hover {
-        background-color: rgba(197, 14, 210, 0.9);
+        background-color: rgba(197, 14, 210, 0.9) !important;
         color: #f7f7f7; }
     .popup-menu .popup-menu-item.selected {
       background-color: rgba(195, 199, 209, 0.1) !important;
