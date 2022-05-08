@@ -525,10 +525,16 @@ StScrollBar {
     box-shadow: $depth6;
   }
 
-  .popup-menu-content { padding: 15px 0; }
+  .popup-menu-content { 
+    background: darken($bg_color, 1%);
+    border: none;
+    border-radius: 7px;
+    padding: 15px 0; 
+  }
   .popup-menu-item {
     spacing: 5px;
     padding: 5px;
+    border-radius: 0px;
 
     &:ltr { padding-right: 1.75em; padding-left: 0; }
     &:rtl { padding-right: 0; padding-left: 1.75em; }
@@ -544,8 +550,8 @@ StScrollBar {
         color: $selected_fg_color;
       }
     }
-    &.selected { background-color: transparentize($fg_color,0.9); color: $fg_color; }
-    &:active { background-color: $selected_bg_color; color: $selected_fg_color; }
+    &.selected { background-color: transparentize($fg_color,0.9) !important; color: $fg_color; }
+    &:active { background-color: $selected_bg_color !important; color: $selected_fg_color; }
     &:insensitive { color: transparentize($fg_color,.5); }
   }
 
