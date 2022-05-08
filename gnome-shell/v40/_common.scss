@@ -1583,10 +1583,12 @@ StScrollBar {
   /* App Folders */
 .app-well-app.app-folder {
   background-color: lighten($bg_color, 7%);
+  border-radius: 12px;
 }
 // expanded folder
 .app-folder-dialog { //style like the dash
   background-color:  $_dash_bg;
+  border: none;
   .edit-folder-button {
     @extend %button;
 
