@@ -265,8 +265,8 @@ StScrollBar {
   spacing: 42px;
   border: none; }
   .end-session-dialog .modal-dialog-linked-button:last-child {
-    background-gradient-start: #00e8b7;
-    background-gradient-end: #00e8b7;
+    background-gradient-start: #00e8b7 !important;
+    background-gradient-end: #00e8b7 !important;
     background-gradient-direction: horizontal;
     color: #fff; }
     .end-session-dialog .modal-dialog-linked-button:last-child:hover, .end-session-dialog .modal-dialog-linked-button:last-child:focus {
@@ -498,10 +498,14 @@ StScrollBar {
     background-color: rgba(0, 0, 0, 0.2);
     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2); }
   .popup-menu .popup-menu-content {
+    background: #202b36;
+    border: none;
+    border-radius: 7px;
     padding: 15px 0; }
   .popup-menu .popup-menu-item {
     spacing: 5px;
-    padding: 5px; }
+    padding: 5px;
+    border-radius: 0px; }
     .popup-menu .popup-menu-item:ltr {
       padding-right: 1.75em;
       padding-left: 0; }
@@ -509,20 +513,20 @@ StScrollBar {
       padding-right: 0;
       padding-left: 1.75em; }
     .popup-menu .popup-menu-item:checked {
-      background-gradient-start: #00e8b7;
-      background-gradient-end: #00e8b7;
+      background-gradient-start: #00e8b7 !important;
+      background-gradient-end: #00e8b7 !important;
       background-gradient-direction: horizontal;
       color: #f7f7f7;
       box-shadow: inset 0 1px 0px #222526;
       font-weight: bold; }
       .popup-menu .popup-menu-item:checked:hover {
-        background-color: rgba(0, 232, 183, 0.9);
+        background-color: rgba(0, 232, 183, 0.9) !important;
         color: #f7f7f7; }
     .popup-menu .popup-menu-item.selected {
-      background-color: rgba(195, 199, 209, 0.1);
+      background-color: rgba(195, 199, 209, 0.1) !important;
       color: #C3C7D1; }
     .popup-menu .popup-menu-item:active {
-      background-color: #00e8b7;
+      background-color: #00e8b7 !important;
       color: #f7f7f7; }
     .popup-menu .popup-menu-item:insensitive {
       color: rgba(195, 199, 209, 0.5); }
@@ -749,8 +753,8 @@ StScrollBar {
       transition-duration: 200ms; }
     #panel .panel-button:active, #panel .panel-button:overview, #panel .panel-button:focus, #panel .panel-button:checked {
       box-shadow: none;
-      background-gradient-start: #00e8b7;
-      background-gradient-end: #00e8b7;
+      background-gradient-start: #00e8b7 !important;
+      background-gradient-end: #00e8b7 !important;
       background-gradient-direction: horizontal;
       color: #f7f7f7;
       text-shadow: 0px 0px 2px rgba(92, 92, 92, 0.9);
@@ -919,10 +923,11 @@ StScrollBar {
   .calendar-day-base:active, .calendar-day-base:selected {
     color: #f7f7f7;
     background-color: #00e8b7;
-    background-gradient-start: #00e8b7;
-    background-gradient-end: #00e8b7;
+    background-gradient-start: #00e8b7 !important;
+    background-gradient-end: #00e8b7 !important;
     background-gradient-direction: horizontal;
-    border-color: black; }
+    border-color: black;
+    box-shadow: none; }
   .calendar-day-base.calendar-day-heading {
     color: #a6acbb;
     margin-top: 1em;
@@ -977,7 +982,8 @@ StScrollBar {
 
 /* Message list */
 .message-list {
-  width: 31.5em; }
+  width: 31.5em;
+  border: none; }
   .message-list .message-title, .message-list .message-content, .message-list .message-body {
     color: #b5bac6; }
 
@@ -1341,8 +1347,8 @@ StScrollBar {
 .app-view-control {
   padding: 4px 32px; }
   .app-view-control:checked {
-    background-gradient-start: #00e8b7;
-    background-gradient-end: #00e8b7;
+    background-gradient-start: #00e8b7 !important;
+    background-gradient-end: #00e8b7 !important;
     background-gradient-direction: horizontal;
     color: #fff; }
   .app-view-control:hover {
@@ -1404,10 +1410,12 @@ StScrollBar {
 
 /* App Folders */
 .app-well-app.app-folder {
-  background-color: #2f404f; }
+  background-color: #2f404f;
+  border-radius: 12px; }
 
 .app-folder-dialog {
-  background-color: #1c262f; }
+  background-color: #1c262f;
+  border: none; }
   .app-folder-dialog .edit-folder-button {
     padding: 0;
     width: 36px;
