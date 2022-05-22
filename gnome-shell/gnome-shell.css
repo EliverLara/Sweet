@@ -532,7 +532,8 @@ StScrollBar {
     background-gradient-start: #F67E7D !important;
     background-gradient-end: #E1DD8F !important;
     background-gradient-direction: horizontal;
-    color: #f7f7f7;
+    color: #f7f7f7 !important;
+    font-weight: bold;
     border-radius: 6px 6px 0px 0px;
     box-shadow: none; }
   .popup-menu-item:insensitive {
@@ -797,32 +798,18 @@ StScrollBar {
     #panel.solid .popup-menu-arrow {
       icon-shadow: none; }
 
-#calendarArea {
-  padding: 0.75em 1.0em; }
-
-.calendar {
-  margin-bottom: 1em; }
-
-.calendar, .world-clocks-button, .weather-button, .events-button {
-  background: transparent;
-  border: none;
-  color: #8D8E91;
-  box-shadow: none; }
+.world-clocks-button, .weather-button, .events-button {
+  padding: 12px; }
+  .world-clocks-button, .world-clocks-button .calendar, .weather-button, .weather-button .calendar, .events-button, .events-button .calendar {
+    background: transparent;
+    border: none;
+    color: #8D8E91;
+    box-shadow: none; }
 
 .calendar,
 .datemenu-today-button,
-.datemenu-displays-box,
-.message-list-sections {
-  margin: 0 1.5em; }
-
-.datemenu-calendar-column {
-  spacing: 0.5em; }
-
-.datemenu-displays-section {
-  padding-bottom: 3em; }
-
 .datemenu-displays-box {
-  spacing: 1em; }
+  margin: 0 6px; }
 
 .datemenu-calendar-column {
   border: 0 solid transparent;
@@ -831,20 +818,11 @@ StScrollBar {
   box-shadow: 0px 0px 1px 1px #161819 inset; }
 
 .datemenu-today-button,
-.world-clocks-button,
-.weather-button,
 .events-section-title,
-.message-list-section-title,
-.events-button {
+.message-list-section-title {
   border-radius: 4px;
   color: #8D8E91;
   padding: .4em; }
-
-.message-list-section-list:ltr {
-  padding-left: .4em; }
-
-.message-list-section-list:rtl {
-  padding-right: .4em; }
 
 .datemenu-today-button:hover, .datemenu-today-button:focus,
 .world-clocks-button:hover,
@@ -956,7 +934,7 @@ StScrollBar {
   font-weight: bold;
   border: 1px solid transparent;
   background-color: #F67E7D;
-  color: #f7f7f7; }
+  color: #f7f7f7 !important; }
   .calendar-today:hover, .calendar-today:focus {
     background-color: #f78c8b;
     color: #f7f7f7; }
