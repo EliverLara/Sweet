@@ -158,7 +158,7 @@
                           $osd_bg_color);
 
     background-color: lighten($bg_color, 8%);
-    color: $selected_fg_color;
+    color: lighten($fg_color, 15%);
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black;
     box-shadow: none;
@@ -173,7 +173,7 @@
                             lighten($main_dark, 2%));
 
     background-color: lighten($bg_color, 7%);
-    color: $selected_fg_color;
+    color: lighten($fg_color, 15%);
     border: 1px solid $borders_color;
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black;
