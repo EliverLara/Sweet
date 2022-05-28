@@ -1,5 +1,5 @@
 [SddmGreeterTheme]
-Name=Sweet
+Name=sweet
 Description=Sweet sddm theme
 Author=Eliver Lara
 Copyright=(c) 2019, Eliver Lara
@@ -12,5 +12,5 @@ MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
 Email=eliverlara@gmail.com
-Theme-Id=Sweet
+Theme-Id=sweet
 Theme-API=2.0

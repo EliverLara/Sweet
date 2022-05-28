@@ -107,11 +107,11 @@ SessionManagementScreen {
         
         font.pointSize: config.fontSize
         font.family: config.font
+            opacity: enabled ? 1.0 : 0.7
 
         contentItem: Text {
             text: loginButton.text
             font: loginButton.font
-            opacity: enabled ? 1.0 : 0.8
             color: "#ffffff"
             horizontalAlignment: Text.AlignHCenter
             verticalAlignment: Text.AlignVCenter
