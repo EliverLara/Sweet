@@ -147,14 +147,22 @@ StScrollBar {
   color: black;
   border-color: black;
   -slider-height: 0.1em;
+<<<<<<< HEAD
   -slider-background-color: #2f404f;
+=======
+  -slider-background-color: #2f354e;
+>>>>>>> 6e058fc (Gnome-shell v42: Fix visual issues)
   -slider-border-color: black;
   -slider-active-background-color: #00e8c6;
   -slider-active-border-color: #84ff39;
   -slider-border-width: 0;
   -slider-handle-radius: 6px;
   -barlevel-height: 0.1em;
+<<<<<<< HEAD
   -barlevel-background-color: #2f404f;
+=======
+  -barlevel-background-color: #2f354e;
+>>>>>>> 6e058fc (Gnome-shell v42: Fix visual issues)
   -barlevel-border-color: black;
   -barlevel-active-background-color: #00e8c6;
   -barlevel-active-border-color: #84ff39;
@@ -1326,7 +1334,11 @@ StScrollBar {
 
 .search-section-separator {
   height: 2px;
+<<<<<<< HEAD
   background-color: #2f404f; }
+=======
+  background-color: #2f354e; }
+>>>>>>> 6e058fc (Gnome-shell v42: Fix visual issues)
 
 .list-search-result-content {
   spacing: 30px; }

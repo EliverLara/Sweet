@@ -243,7 +243,7 @@ StScrollBar {
     @include gradient();
     color: #fff;
     &:hover, &:focus {
-      background: darken($error_color, 3%);
+      background: darken($error_color, 3%) !important;
       color: #fff;
     }
   }
@@ -930,7 +930,6 @@ StScrollBar {
       color: $fg_color;
       box-shadow: none;
     }
-    padding: 12px;
   }
 
     .calendar,
@@ -944,6 +943,7 @@ StScrollBar {
       background: lighten($bg_color, 1%);
       border-radius: 7px;
       box-shadow: 0px 0px 1px 1px $borders_color inset;
+      padding: 0;
     }
 
     .datemenu-today-button,
@@ -1032,7 +1032,7 @@ StScrollBar {
       width: 2.4em; height: 2.4em;
       padding: 0.1em;
       margin: 2px;
-      border-radius: 1.4em;
+      border-radius: 99px;
       color: $fg_color;
       &:hover,&:focus { background-color: lighten($bg_color,5%); }
       &:active,&:selected {
@@ -1103,7 +1103,6 @@ StScrollBar {
 
       /* Message list */
       .message-list {
-        width: 31.5em;
         border: none;
         .message-title, .message-content, .message-body {
           color: darken($fg_color, 5%);
