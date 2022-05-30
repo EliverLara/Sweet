@@ -147,14 +147,14 @@ StScrollBar {
   color: #b7b7b7;
   border-color: black;
   -slider-height: 0.1em;
-  -slider-background-color: #202026;
+  -slider-background-color: #2c2c34;
   -slider-border-color: black;
   -slider-active-background-color: #71f79f;
   -slider-active-border-color: #71f79f;
   -slider-border-width: 0;
   -slider-handle-radius: 6px;
   -barlevel-height: 0.1em;
-  -barlevel-background-color: #202026;
+  -barlevel-background-color: #2c2c34;
   -barlevel-border-color: black;
   -barlevel-active-background-color: #00e8c6;
   -barlevel-active-border-color: #71f79f;
@@ -270,7 +270,7 @@ StScrollBar {
     background-gradient-direction: horizontal;
     color: #fff; }
     .end-session-dialog .modal-dialog-linked-button:last-child:hover, .end-session-dialog .modal-dialog-linked-button:last-child:focus {
-      background: #d7123a;
+      background: #d7123a !important;
       color: #fff; }
 
 .end-session-dialog-list {
@@ -561,7 +561,7 @@ StScrollBar {
     margin-left: 6px; }
   .popup-separator-menu-item .popup-separator-menu-item-separator {
     height: 1px;
-    background-color: #202026; }
+    background-color: #2c2c34; }
   .popup-separator-menu-item .popup-menu-ornament {
     width: 0 !important; }
   .popup-sub-menu .popup-separator-menu-item {
@@ -571,7 +571,7 @@ StScrollBar {
     .popup-sub-menu .popup-separator-menu-item:rtl {
       margin-left: 2.5em; }
     .popup-sub-menu .popup-separator-menu-item .popup-separator-menu-item-separator {
-      background-color: #31313a; }
+      background-color: #3c3c48; }
 
 .background-menu {
   -boxpointer-gap: 4px;
@@ -597,7 +597,7 @@ StScrollBar {
     color: #929ba8;
     border: 1px solid #161819;
     -barlevel-height: 0.4em;
-    -barlevel-background-color: #202026;
+    -barlevel-background-color: #2c2c34;
     -barlevel-active-background-color: #0072ff;
     -barlevel-overdrive-color: #ed254e;
     -barlevel-overdrive-separator-width: 0.2em; }
@@ -798,13 +798,11 @@ StScrollBar {
     #panel.solid .popup-menu-arrow {
       icon-shadow: none; }
 
-.world-clocks-button, .weather-button, .events-button {
-  padding: 12px; }
-  .world-clocks-button, .world-clocks-button .calendar, .weather-button, .weather-button .calendar, .events-button, .events-button .calendar {
-    background: transparent;
-    border: none;
-    color: #929ba8;
-    box-shadow: none; }
+.world-clocks-button, .world-clocks-button .calendar, .weather-button, .weather-button .calendar, .events-button, .events-button .calendar {
+  background: transparent;
+  border: none;
+  color: #929ba8;
+  box-shadow: none; }
 
 .calendar,
 .datemenu-today-button,
@@ -815,7 +813,8 @@ StScrollBar {
   border: 0 solid transparent;
   background: #121216;
   border-radius: 7px;
-  box-shadow: 0px 0px 1px 1px #161819 inset; }
+  box-shadow: 0px 0px 1px 1px #161819 inset;
+  padding: 0; }
 
 .datemenu-today-button,
 .events-section-title,
@@ -901,7 +900,7 @@ StScrollBar {
   height: 2.4em;
   padding: 0.1em;
   margin: 2px;
-  border-radius: 1.4em;
+  border-radius: 99px;
   color: #929ba8; }
   .calendar-day-base:hover, .calendar-day-base:focus {
     background-color: #1c1c21; }
@@ -967,7 +966,6 @@ StScrollBar {
 
 /* Message list */
 .message-list {
-  width: 31.5em;
   border: none; }
   .message-list .message-title, .message-list .message-content, .message-list .message-body {
     color: #848e9c; }
@@ -1272,7 +1270,7 @@ StScrollBar {
 
 .search-section-separator {
   height: 2px;
-  background-color: #202026; }
+  background-color: #2c2c34; }
 
 .list-search-result-content {
   spacing: 30px; }
@@ -1301,7 +1299,7 @@ StScrollBar {
 
 .dash-separator {
   width: 1px;
-  background-color: #202026; }
+  background-color: #2c2c34; }
 
 .dash-label {
   border-radius: 7px;
