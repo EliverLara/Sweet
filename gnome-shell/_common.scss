@@ -1146,20 +1146,6 @@ StScrollBar {
           box-shadow: none;
         }
 
-          .message-icon-bin {
-            padding: 10px 3px 10px 10px;
-            &:rtl { padding: 10px 10px 10px 3px; }
-          }
-
-          .message-icon-bin > StIcon {
-            icon-size: 16px;
-            -st-icon-style: symbolic;
-          }
-
-          .message-secondary-bin {
-            padding: 0 12px;
-          }
-
           .message-secondary-bin > .event-time {
             color: darken($fg_color, 15%);
             font-size: 0.7em;
@@ -1696,13 +1682,16 @@ StScrollBar {
     font-size: 11pt;
     width: 34em;
     margin: 5px;
-    border-radius: 3px;
+    border-radius: 12px;
     color: $topbar_color;
     background-color: $bg_color;
     border: 1px solid $borders_color;
-    box-shadow: 0 1px 4px black;
-    &:hover { background-color: transparentize($bg_color, 0.04); }
-    &:focus { background-color: transparentize($bg_color, 0.04); }
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.451);
+    &:hover, &:focus { 
+      background-color: lighten($bg_color, 4%); 
+      box-shadow: none;
+      border-radius: 12px;
+    }
     * { color: $fg_color; }
 
     .notification-icon { padding: 5px; }
@@ -1712,15 +1701,19 @@ StScrollBar {
       background-color: darken($bg_color, 2%);
       padding-top: 2px;
       spacing: 1px;
+      border-radius: 0px 0px 12px 12px;
     }
     .notification-button {
-      padding: 5px;
+      padding: 7px;
       background-color: transparentize($bg_color, 0.1);
       box-shadow: none;
       border: none;
-      &:first-child { border-radius: 0 0 0 3px; }
-      &:last-child { border-radius: 0 0 3px 0; }
-      &:hover, &focus { background-color: darken($bg_color,2%); color: $selected_bg_color;}
+      &:first-child { border-radius: 0 0 0 12px; }
+      &:last-child { border-radius: 0 0 12px 0; }
+      &:hover, &focus { 
+        @include gradient();
+        color: $selected_fg_color;
+      }
     }
   }
   .summary-source-counter {
