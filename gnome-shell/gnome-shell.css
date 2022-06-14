@@ -995,18 +995,6 @@ StScrollBar {
     box-shadow: 2px 0px 0px 0px #00e8b7 inset;
     border-radius: 0px 7px 7px 0px; }
 
-.message-icon-bin {
-  padding: 10px 3px 10px 10px; }
-  .message-icon-bin:rtl {
-    padding: 10px 10px 10px 3px; }
-
-.message-icon-bin > StIcon {
-  icon-size: 16px;
-  -st-icon-style: symbolic; }
-
-.message-secondary-bin {
-  padding: 0 12px; }
-
 .message-secondary-bin > .event-time {
   color: #989fb0;
   font-size: 0.7em;
@@ -1480,17 +1468,17 @@ StScrollBar {
   font-size: 11pt;
   width: 34em;
   margin: 5px;
-  border-radius: 3px;
+  border-radius: 12px;
   color: white;
   background-color: #222e39;
   border: 1px solid #1c262f;
-  box-shadow: 0 1px 4px black; }
-  .notification-banner:hover {
-    background-color: rgba(34, 46, 57, 0.96); }
-  .notification-banner:focus {
-    background-color: rgba(34, 46, 57, 0.96); }
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.451); }
+  .notification-banner:hover, .notification-banner:focus {
+    background-color: #2a3846;
+    box-shadow: none;
+    border-radius: 12px; }
   .notification-banner * {
-    color: white; }
+    color: #C3C7D1; }
   .notification-banner .notification-icon {
     padding: 5px; }
   .notification-banner .notification-content {
@@ -1501,19 +1489,22 @@ StScrollBar {
   .notification-banner .notification-actions {
     background-color: #1e2933;
     padding-top: 2px;
-    spacing: 1px; }
+    spacing: 1px;
+    border-radius: 0px 0px 12px 12px; }
   .notification-banner .notification-button {
-    padding: 5px;
+    padding: 7px;
     background-color: rgba(34, 46, 57, 0.9);
     box-shadow: none;
     border: none; }
     .notification-banner .notification-button:first-child {
-      border-radius: 0 0 0 3px; }
+      border-radius: 0 0 0 12px; }
     .notification-banner .notification-button:last-child {
-      border-radius: 0 0 3px 0; }
+      border-radius: 0 0 12px 0; }
     .notification-banner .notification-button:hover, .notification-banner .notification-buttonfocus {
-      background-color: #1e2933;
-      color: #00e8b7; }
+      background-gradient-start: #00e8b7 !important;
+      background-gradient-end: #00e8b7 !important;
+      background-gradient-direction: horizontal;
+      color: #272727; }
 
 .summary-source-counter {
   font-size: 10pt;
