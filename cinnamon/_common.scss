@@ -1392,7 +1392,7 @@ StScrollBar {
     &:active,
     &:checked {
       color: $selected_fg_color;
-      border-color: lighten($panel_bg, 20%);
+      border-color: lighten($panel_bg, 30%);
     }
 
     &:hover,
