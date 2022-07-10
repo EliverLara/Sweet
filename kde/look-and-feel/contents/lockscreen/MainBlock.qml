@@ -73,7 +73,7 @@ SessionManagementScreen {
                 border.color: "#0C0E15"
                 opacity: 0.7
                 radius: parent.width / 2
-                height: 30
+                height: 35
                 width: passwordBox.width + 20
                 anchors.centerIn: parent
             }
