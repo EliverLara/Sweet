@@ -2,19 +2,22 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="16"
    height="16"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="close_prelight.svg">
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="close_prelight.svg"
+   inkscape:export-filename="close_prelight.png"
+   inkscape:export-xdpi="96.000008"
+   inkscape:export-ydpi="96.000008"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -24,21 +27,24 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.919596"
-     inkscape:cx="-22.186226"
-     inkscape:cy="7.0490381"
+     inkscape:zoom="31.678384"
+     inkscape:cx="-5.6978917"
+     inkscape:cy="7.3551732"
      inkscape:document-units="px"
-     inkscape:current-layer="g4092"
+     inkscape:current-layer="g4144"
      showgrid="true"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1360"
-     inkscape:window-height="714"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
      inkscape:window-x="0"
-     inkscape:window-y="28"
-     inkscape:window-maximized="1" />
+     inkscape:window-y="31"
+     inkscape:window-maximized="1"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -47,7 +53,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -80,7 +86,7 @@
              inkscape:connector-curvature="0"
              id="path4098"
              d="m 306.28404,782.14979 c -11.06764,0 -22.15209,-4.31529 -30.55026,-12.71345 l -0.75901,-0.75902 c -16.79758,-16.79634 -16.79758,-44.30417 0,-61.10052 L 460.93287,521.6187 274.97477,335.47086 c -16.79266,-16.79145 -16.79266,-44.11445 0,-60.91075 l 0.75901,-0.94881 c 16.79142,-16.7963 44.30418,-16.7963 61.10051,0 L 522.7924,459.56941 708.7505,273.6113 c 16.79265,-16.7963 44.30417,-16.7963 61.10052,0 l 0.75901,0.94881 c 16.79142,16.79144 16.79142,44.1193 0,60.91075 l -185.9581,186.14784 185.9581,185.9581 c 16.79142,16.79635 16.79635,44.3091 0,61.10052 l -0.75901,0.75902 c -16.80126,16.79142 -44.30787,16.79142 -61.10052,0 L 522.7924,583.47823 336.83429,769.43634 c -8.39817,8.39816 -19.48262,12.71345 -30.55025,12.71345 z"
-             style="fill:#9f1d2b;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+             style="fill:#450d12;fill-opacity:1;fill-rule:evenodd;stroke:none" />
         </g>
       </g>
     </g>
