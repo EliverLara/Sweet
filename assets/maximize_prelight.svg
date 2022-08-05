@@ -2,23 +2,23 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="16"
    height="16"
    id="svg2"
    version="1.1"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    sodipodi:docname="maximize_prelight.svg"
-   inkscape:export-filename="/home/lara/github/Blitz/assets/maximize_prelight.png"
+   inkscape:export-filename="maximize_prelight.png"
    inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96">
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs4">
     <linearGradient
@@ -52,8 +52,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="16.875"
-     inkscape:cx="5.3647948"
-     inkscape:cy="3.2140049"
+     inkscape:cx="-4.6222222"
+     inkscape:cy="3.437037"
      inkscape:document-units="px"
      inkscape:current-layer="g4092"
      showgrid="true"
@@ -61,11 +61,14 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1366"
-     inkscape:window-height="713"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
      inkscape:window-x="0"
-     inkscape:window-y="25"
-     inkscape:window-maximized="1" />
+     inkscape:window-y="31"
+     inkscape:window-maximized="1"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -103,11 +106,11 @@
         <g
            id="g4147"
            transform="matrix(1.3132489,0,0,1.3132489,-9.8625362,-52.033006)"
-           style="fill:#432f52;fill-opacity:1">
+           style="fill:#201627;fill-opacity:1">
           <path
              inkscape:connector-curvature="0"
              d="m 317.36351,650.00117 267.199,0 c 35.579,0 64.692,-29.113 64.692,-64.695 l 0,-267.196 -331.891,331.891 z m 232.324,-436.211 -268.253,0 c -35.583,0 -64.692,29.109 -64.692,64.691 l 0,268.254 332.945,-332.945"
-             style="fill:#432f52;fill-opacity:1;fill-rule:evenodd;stroke:none"
+             style="fill:#201627;fill-opacity:1;fill-rule:evenodd;stroke:none"
              id="path4293" />
         </g>
       </g>
