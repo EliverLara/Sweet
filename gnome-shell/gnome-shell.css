@@ -901,7 +901,8 @@ StScrollBar {
   border-radius: 99px;
   color: #929ba8; }
   .calendar-day-base:hover, .calendar-day-base:focus {
-    background-color: #1c1c21; }
+    background-color: #2c2c34;
+    box-shadow: none; }
   .calendar-day-base:active, .calendar-day-base:selected {
     color: #f7f7f7;
     background-color: #0072ff;
