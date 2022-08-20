@@ -1034,7 +1034,10 @@ StScrollBar {
       margin: 2px;
       border-radius: 99px;
       color: $fg_color;
-      &:hover,&:focus { background-color: lighten($bg_color,5%); }
+      &:hover, &:focus { 
+        background-color: lighten($bg_color, 12%);
+        box-shadow: none;
+      }
       &:active,&:selected {
         color: $selected_fg_color;
         @include gradient();
