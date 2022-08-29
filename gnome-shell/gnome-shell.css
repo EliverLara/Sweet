@@ -765,7 +765,7 @@ StScrollBar {
       background-gradient-end: #0072ff !important;
       background-gradient-direction: horizontal;
       color: #f7f7f7;
-      text-shadow: 0px 0px 2px rgba(92, 92, 92, 0.9);
+      text-shadow: 0px 0px 2px rgba(2, 2, 2, 0.134);
       transition-duration: 200ms; }
     #panel .panel-button .system-status-icon {
       icon-size: 1.09em;
