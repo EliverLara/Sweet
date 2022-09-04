@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Sweet-Ambar-Blue
+X-KDE-PluginInfo-Author=EliverLara
+X-KDE-PluginInfo-Category=Plasma Look And Feel
+X-KDE-PluginInfo-Email=eliverlara@gmail.com
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginInfo-License=GPL 3+
+X-KDE-PluginInfo-Name=Sweet-Ambar-Blue
+X-KDE-PluginInfo-Version=0.1
+X-KDE-PluginInfo-Website=https://github.com/EliverLara/Sweet/tree/Ambar-Blue/kde
+X-KDE-ServiceTypes=Plasma/LookAndFeel
+
+X-KPackage-Dependencies=kns://colorschemes.knsrc/api.kde-look.org/1897307,kns://plasma-themes.knsrc/api.kde-look.org/1897309,kns://aurorae.knsrc/api.kde-look.org/1897308,kns://icons.knsrc/api.kde-look.org/1305251,kns://wallpaper.knsrc/api.kde-look.org/1309907,kns://sddmtheme.knsrc/api.kde-look.org/1334945,kns://xcursor.knsrc/api.kde-look.org/1393084
