@@ -377,7 +377,7 @@ PlasmaCore.ColorScope {
             id: formBg
             anchors.fill: mainStack
             anchors.centerIn: mainStack
-            color: "#1E2326"
+            color: "#161925"
             opacity: 0.4
             z:-1
         }
