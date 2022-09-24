@@ -123,6 +123,7 @@ StScrollBar {
   -slider-active-border-color: $lime; //active trough border
   -slider-border-width: 0;
   -slider-handle-radius: 6px;
+  -slider-handle-border-color: transparent;
 
   -barlevel-height: 0.1em;
   -barlevel-background-color: $gray;
@@ -923,14 +924,11 @@ StScrollBar {
 
   // calendar popover
 
-  .world-clocks-button, .weather-button, .events-button {
-
-    &, .calendar {
+  .calendar, .world-clocks-button, .weather-button, .events-button {
       background: transparent;
       border: none;
       color: $fg_color;
       box-shadow: none;
-    }
   }
 
     .calendar,
