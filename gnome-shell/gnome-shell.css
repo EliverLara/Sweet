@@ -900,7 +900,8 @@ StScrollBar {
   padding: 0.1em;
   margin: 2px;
   border-radius: 99px;
-  color: #929ba8; }
+  color: #929ba8;
+  background-gradient-direction: none; }
   .calendar-day-base:hover, .calendar-day-base:focus {
     background-color: #2c2c34;
     box-shadow: none; }
@@ -1389,6 +1390,8 @@ StScrollBar {
 .app-folder-dialog {
   background-color: #09090b;
   border: none; }
+  .app-folder-dialog .folder-name-label {
+    color: #929ba8; }
   .app-folder-dialog .edit-folder-button {
     padding: 0;
     width: 36px;
