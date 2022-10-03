@@ -1033,6 +1033,8 @@ StScrollBar {
       margin: 2px;
       border-radius: 99px;
       color: $fg_color;
+      background-gradient-direction: none;
+
       &:hover, &:focus { 
         background-color: lighten($bg_color, 12%);
         box-shadow: none;
@@ -1590,6 +1592,9 @@ StScrollBar {
 .app-folder-dialog { //style like the dash
   background-color:  $_dash_bg;
   border: none;
+
+  & .folder-name-label { color: $fg_color; }
+  
   .edit-folder-button {
     @extend %button;
 
