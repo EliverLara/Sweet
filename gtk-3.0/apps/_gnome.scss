@@ -91,6 +91,13 @@
           }
       }
     }
+
+    .path-buttons-box {
+      .current-dir label {
+        padding: 6px 12px;
+        @include button(active-header);
+      }
+    }
     .linked:not(.path-bar) {
       button {
         &:active, &:checked, &:active:backdrop, &:checked:backdrop {
