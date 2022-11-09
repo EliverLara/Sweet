@@ -95,6 +95,22 @@
     }
 
     .path-buttons-box {
+
+      .dim-label {
+        color: transparent;
+     }
+  
+      //Buttons before current path
+      button {
+         .horizontal  .dim-label { color: $headerbar_fg_color; }
+        &:hover, &:focus {
+          .dim-label {
+            
+            color: $selected_bg_color;
+          }
+        }
+
+      }
       .current-dir label {
         padding: 6px 12px;
         @include button(active-header);

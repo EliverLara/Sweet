@@ -5419,6 +5419,12 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   .nautilus-window .titlebar .path-bar-box button:active:backdrop,
   .nautilus-window .titlebar .path-bar-box button:active:backdrop label, .nautilus-window .titlebar .path-bar-box button:checked:backdrop, .nautilus-window .titlebar .path-bar-box button:checked:backdrop label {
     color: whitesmoke; }
+.nautilus-window .titlebar .path-buttons-box .dim-label, .nautilus-window .titlebar .path-buttons-box label.separator, .nautilus-window .titlebar .path-buttons-box .subtitle {
+  color: transparent; }
+.nautilus-window .titlebar .path-buttons-box button .horizontal .dim-label, .nautilus-window .titlebar .path-buttons-box button .horizontal label.separator, .nautilus-window .titlebar .path-buttons-box button .horizontal .subtitle {
+  color: #C3C7D1; }
+.nautilus-window .titlebar .path-buttons-box button:hover .dim-label, .nautilus-window .titlebar .path-buttons-box button:hover label.separator, .nautilus-window .titlebar .path-buttons-box button:hover .subtitle, .nautilus-window .titlebar .path-buttons-box button:focus .dim-label, .nautilus-window .titlebar .path-buttons-box button:focus label.separator, .nautilus-window .titlebar .path-buttons-box button:focus .subtitle {
+  color: #c50ed2; }
 .nautilus-window .titlebar .path-buttons-box .current-dir label {
   padding: 6px 12px;
   border-radius: 23px;
