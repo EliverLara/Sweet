@@ -24,7 +24,7 @@ stage {
     color: #eeeff2;
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black;
-    box-shadow: none;
+    box-shadow: none !important;
     border: 1px solid #1c262f; }
   .button:insensitive {
     color: #737b85;
@@ -73,14 +73,14 @@ stage {
     color: #eeeff2;
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black;
-    box-shadow: none;
+    box-shadow: none !important;
     border: 1px solid #1c262f; }
     .modal-dialog-linked-button:focus:hover {
       background-color: #314353;
       color: #eeeff2;
       text-shadow: 0 1px black;
       icon-shadow: 0 1px black;
-      box-shadow: none;
+      box-shadow: none !important;
       border: 1px solid #1c262f; }
   .modal-dialog-linked-button:hover {
     background-color: #2f404f;
@@ -147,22 +147,14 @@ StScrollBar {
   color: black;
   border-color: black;
   -slider-height: 0.1em;
-<<<<<<< HEAD
-  -slider-background-color: #2f404f;
-=======
-  -slider-background-color: #2f354e;
->>>>>>> 6e058fc (Gnome-shell v42: Fix visual issues)
+  -slider-background-color: #394d5f;
   -slider-border-color: black;
   -slider-active-background-color: #00e8c6;
   -slider-active-border-color: #84ff39;
   -slider-border-width: 0;
   -slider-handle-radius: 6px;
   -barlevel-height: 0.1em;
-<<<<<<< HEAD
-  -barlevel-background-color: #2f404f;
-=======
-  -barlevel-background-color: #2f354e;
->>>>>>> 6e058fc (Gnome-shell v42: Fix visual issues)
+  -barlevel-background-color: #394d5f;
   -barlevel-border-color: black;
   -barlevel-active-background-color: #00e8c6;
   -barlevel-active-border-color: #84ff39;
@@ -1334,11 +1326,7 @@ StScrollBar {
 
 .search-section-separator {
   height: 2px;
-<<<<<<< HEAD
-  background-color: #2f404f; }
-=======
-  background-color: #2f354e; }
->>>>>>> 6e058fc (Gnome-shell v42: Fix visual issues)
+  background-color: #394d5f; }
 
 .list-search-result-content {
   spacing: 30px; }
@@ -1719,7 +1707,7 @@ StScrollBar {
     color: #eeeff2;
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black;
-    box-shadow: none;
+    box-shadow: none !important;
     border: 1px solid #1c262f; }
   .keyboard-key:hover, .keyboard-key:checked {
     background-color: #2f404f;
