@@ -23,7 +23,7 @@ stage {
     color: #f7f7f7;
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black;
-    box-shadow: none;
+    box-shadow: none !important;
     border: 1px solid #161819; }
   .button:insensitive, .app-folder-dialog .edit-folder-button:insensitive, .quick-settings-system-item .icon-button:insensitive {
     color: #51565e;
@@ -71,14 +71,14 @@ stage {
     color: #f7f7f7;
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black;
-    box-shadow: none;
+    box-shadow: none !important;
     border: 1px solid #161819; }
     .modal-dialog-linked-button:focus:hover {
       background-color: #32343d;
       color: #f7f7f7;
       text-shadow: 0 1px black;
       icon-shadow: 0 1px black;
-      box-shadow: none;
+      box-shadow: none !important;
       border: 1px solid #161819; }
   .modal-dialog-linked-button:hover {
     background-color: #30323b;
@@ -503,7 +503,7 @@ StScrollBar {
       border-radius: 0 0 6px 6px; }
     .popup-sub-menu .popup-menu-item:active, .popup-sub-menu .popup-menu-item.selected, .popup-sub-menu .popup-menu-item:hover, .popup-sub-menu .popup-menu-item:focus {
       background-color: #25252c !important;
-      color: #929ba8; }
+      color: #929ba8 !important; }
 
 .popup-menu-content {
   padding: 6px;
@@ -1630,7 +1630,7 @@ StScrollBar {
     color: #f7f7f7;
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black;
-    box-shadow: none;
+    box-shadow: none !important;
     border: 1px solid #161819; }
   .keyboard-key:hover, .keyboard-key:checked {
     background-color: #30323b;
