@@ -24,7 +24,7 @@ stage {
     color: #f7f7f7;
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black;
-    box-shadow: none;
+    box-shadow: none !important;
     border: 1px solid #12151e; }
   .button:insensitive {
     color: #6e717d;
@@ -72,14 +72,14 @@ stage {
     color: #f7f7f7;
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black;
-    box-shadow: none;
+    box-shadow: none !important;
     border: 1px solid #12151e; }
     .modal-dialog-linked-button:focus:hover {
       background-color: #272c42;
       color: #f7f7f7;
       text-shadow: 0 1px black;
       icon-shadow: 0 1px black;
-      box-shadow: none;
+      box-shadow: none !important;
       border: 1px solid #12151e; }
   .modal-dialog-linked-button:hover {
     background-color: #252a3e;
@@ -1706,7 +1706,7 @@ StScrollBar {
     color: #f7f7f7;
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black;
-    box-shadow: none;
+    box-shadow: none !important;
     border: 1px solid #12151e; }
   .keyboard-key:hover, .keyboard-key:checked {
     background-color: #252a3e;
