@@ -10,7 +10,7 @@ headerbar {
   border-radius: 0;
   &:backdrop {
     border-color: $backdrop_borders_color;
-   // background-image: none;
+  // background-image: none;
 
     transition: $backdrop_transition;
   }
@@ -28,8 +28,8 @@ headerbar {
 
     @extend .dim-label;
   }
- 
-  entry { min-height: 24px;}  
+
+  entry { min-height: 24px;  background: lighten($headerbar_color, 3%);}  
   
   button {
     @include button(normal-header);
@@ -38,7 +38,7 @@ headerbar {
     margin-bottom: 5px;
     box-shadow: none;
     &.image-button{
-       padding: 3px 4px;
+      padding: 3px 4px;
     }
     &.suggested-action{
       box-shadow: none;
@@ -74,7 +74,7 @@ headerbar {
     &:backdrop,
     &:disabled,
     &:backdrop:disabled {
-      @include button(backdrop-header,red,transparentize($fg_color,0.8));
+      @include button(backdrop-header,red,transparentize($fg_color,0.3));
       border: none;
     }
 
@@ -90,7 +90,7 @@ headerbar {
     }
 
     @each $b_type, $b_color in (suggested-action, $cyan),
-                               (destructive-action, $destructive_color) {
+                              (destructive-action, $destructive_color) {
       &.#{$b_type} {
         font-weight: bold;
         min-height: 24px;
@@ -162,14 +162,14 @@ headerbar {
   }
   .linked > button:active{
     @extend %linked-header;
-    background: linear-gradient(to right, #c50ed2, #8500f7) ;
+    background: linear-gradient(to right, #00c6ff, $selected_bg_color) ;
     color: rgb(255, 250, 250);
   }
   .linked > button:checked{
     @extend %linked-header;
     border-radius: 23px;
-    background: linear-gradient(to right, #c50ed2, #8500f7);
-    box-shadow: 0px 0px 5px transparentize(#c50ed2, 0.02);
+    background: linear-gradient(to right, #00c6ff, $selected_bg_color) ;
+    box-shadow: 0px 2px 4px transparentize($selected_bg_color, 0.02);
     color: rgb(255, 250, 250);
     &:backdrop{
       color: darken(rgb(255, 250, 250), 4%);
@@ -181,6 +181,24 @@ headerbar {
   .linked > button:hover,
   .linked > button:backdrop { 
     @extend %linked-header; 
+  }
+  
+  .linked:not(.vertical) > entry, entry { 
+    border-color:$borders_color;
+    box-shadow: none;
+    background: lighten($headerbar_color, 3%); 
+    color: $headerbar_fg_color;
+    caret-color: $headerbar_fg_color;
+    *{ color: $headerbar_fg_color; }
+    &:focus {
+      border-color: entry_focus_border();
+    }
+    &:backdrop {
+      background: lighten($headerbar_color, 3%); ;
+    }
+    & image:hover{
+      color:$selected_bg_color;
+    }
   }
   // End reset style
 
@@ -236,8 +254,21 @@ headerbar {
   switch {
     margin-top: 10px;
     margin-bottom: 10px;
+    box-shadow: none;
   }
   separator { background: transparent; }
+
+  viewswitcher, switcher {
+    > box.horizontal {
+      > button.radio {
+        image { margin-left: 7px; }
+        label { margin-right: 7px; }
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+      }
+    }
+  } 
 }
 
 .background:not(.tiled):not(.maximized) .titlebar {

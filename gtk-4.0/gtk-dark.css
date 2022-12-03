@@ -2199,7 +2199,8 @@ GraniteWidgetsWelcome {
     padding-right: 12px; }
   .titlebar entry,
   headerbar entry {
-    min-height: 24px; }
+    min-height: 24px;
+    background: #0d0e16; }
   .titlebar button,
   headerbar button {
     color: #8b8b8b;
@@ -2255,7 +2256,7 @@ GraniteWidgetsWelcome {
     headerbar button:backdrop,
     headerbar button:disabled,
     headerbar button:backdrop:disabled {
-      color: rgba(195, 199, 209, 0.2);
+      color: rgba(195, 199, 209, 0.7);
       background-color: transparent;
       border-radius: 0;
       text-shadow: none;
@@ -2416,13 +2417,13 @@ GraniteWidgetsWelcome {
       border-style: none; }
   .titlebar .linked > button:active,
   headerbar .linked > button:active {
-    background: linear-gradient(to right, #c50ed2, #8500f7);
+    background: linear-gradient(to right, #00c6ff, #0072ff);
     color: snow; }
   .titlebar .linked > button:checked,
   headerbar .linked > button:checked {
     border-radius: 23px;
-    background: linear-gradient(to right, #c50ed2, #8500f7);
-    box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    box-shadow: 0px 2px 4px rgba(0, 114, 255, 0.98);
     color: snow; }
     .titlebar .linked > button:checked:backdrop,
     headerbar .linked > button:checked:backdrop {
@@ -2430,6 +2431,30 @@ GraniteWidgetsWelcome {
       .titlebar .linked > button:checked:backdrop label,
       headerbar .linked > button:checked:backdrop label {
         color: #ffe6e6; }
+  .titlebar .linked:not(.vertical) > entry, .titlebar entry,
+  headerbar .linked:not(.vertical) > entry,
+  headerbar entry {
+    border-color: rgba(12, 14, 21, 0.8);
+    box-shadow: none;
+    background: #0d0e16;
+    color: white;
+    caret-color: white; }
+    .titlebar .linked:not(.vertical) > entry *, .titlebar entry *,
+    headerbar .linked:not(.vertical) > entry *,
+    headerbar entry * {
+      color: white; }
+    .titlebar .linked:not(.vertical) > entry:focus, .titlebar entry:focus,
+    headerbar .linked:not(.vertical) > entry:focus,
+    headerbar entry:focus {
+      border-color: #005bcc; }
+    .titlebar .linked:not(.vertical) > entry:backdrop, .titlebar entry:backdrop,
+    headerbar .linked:not(.vertical) > entry:backdrop,
+    headerbar entry:backdrop {
+      background: #0d0e16; }
+    .titlebar .linked:not(.vertical) > entry image:hover, .titlebar entry image:hover,
+    headerbar .linked:not(.vertical) > entry image:hover,
+    headerbar entry image:hover {
+      color: #0072ff; }
   .selection-mode.titlebar button:backdrop.flat:active, .selection-mode.titlebar button:backdrop.flat:checked, .selection-mode.titlebar button:backdrop:active, .selection-mode.titlebar button:backdrop:checked,
   headerbar.selection-mode button:backdrop.flat:active,
   headerbar.selection-mode button:backdrop.flat:checked,
@@ -2465,9 +2490,18 @@ headerbar separator {
   margin-bottom: 5px; }
 headerbar switch {
   margin-top: 10px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  box-shadow: none; }
 headerbar separator {
   background: transparent; }
+headerbar viewswitcher > box.horizontal > button.radio, headerbar switcher > box.horizontal > button.radio {
+  margin: 0;
+  padding: 0;
+  border-radius: 0; }
+  headerbar viewswitcher > box.horizontal > button.radio image, headerbar switcher > box.horizontal > button.radio image {
+    margin-left: 7px; }
+  headerbar viewswitcher > box.horizontal > button.radio label, headerbar switcher > box.horizontal > button.radio label {
+    margin-right: 7px; }
 
 .background:not(.tiled):not(.maximized) .titlebar {
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), inset 0 -1px rgba(0, 0, 0, 0.1); }
@@ -5038,8 +5072,8 @@ button.raven-trigger {
         padding: 3px; }
         .raven .raven-header button.text-button.radio:active, .raven .raven-header button.text-button.radio:checked {
           border-radius: 23px;
-          background: linear-gradient(to right, #c50ed2, #8500f7);
-          box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
+          background: linear-gradient(to right, #00c6ff, #0072ff);
+          box-shadow: 0px 2px 4px rgba(0, 114, 255, 0.98);
           color: white; }
   .raven list {
     color: white;
@@ -5371,6 +5405,47 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   background-color: rgba(18, 21, 31, 0.95); }
   .nautilus-window.background:backdrop {
     background-color: rgba(18, 21, 31, 0.95); }
+.nautilus-window #NautilusPathBar {
+  background-color: transparent; }
+  .nautilus-window #NautilusPathBar .dim-label, .nautilus-window #NautilusPathBar label.separator, .nautilus-window #NautilusPathBar .titlebar .subtitle, .titlebar .nautilus-window #NautilusPathBar .subtitle,
+  .nautilus-window #NautilusPathBar headerbar .subtitle,
+  headerbar .nautilus-window #NautilusPathBar .subtitle {
+    color: transparent; }
+  .nautilus-window #NautilusPathBar button .horizontal .dim-label, .nautilus-window #NautilusPathBar button .horizontal label.separator, .nautilus-window #NautilusPathBar button .horizontal .titlebar .subtitle, .titlebar .nautilus-window #NautilusPathBar button .horizontal .subtitle,
+  .nautilus-window #NautilusPathBar button .horizontal headerbar .subtitle,
+  headerbar .nautilus-window #NautilusPathBar button .horizontal .subtitle {
+    color: white; }
+  .nautilus-window #NautilusPathBar button:hover .dim-label, .nautilus-window #NautilusPathBar button:hover label.separator, .nautilus-window #NautilusPathBar button:hover .titlebar .subtitle, .titlebar .nautilus-window #NautilusPathBar button:hover .subtitle,
+  .nautilus-window #NautilusPathBar button:hover headerbar .subtitle,
+  headerbar .nautilus-window #NautilusPathBar button:hover .subtitle, .nautilus-window #NautilusPathBar button:focus .dim-label, .nautilus-window #NautilusPathBar button:focus label.separator, .nautilus-window #NautilusPathBar button:focus .titlebar .subtitle, .titlebar .nautilus-window #NautilusPathBar button:focus .subtitle,
+  .nautilus-window #NautilusPathBar button:focus headerbar .subtitle,
+  headerbar .nautilus-window #NautilusPathBar button:focus .subtitle {
+    color: #0072ff; }
+  .nautilus-window #NautilusPathBar .current-dir label {
+    padding: 6px 12px;
+    border-radius: 23px;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    box-shadow: 0px 2px 4px rgba(0, 114, 255, 0.98);
+    color: white; }
+.nautilus-window #NautilusQueryEditor {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  box-shadow: none;
+  background: #10131c;
+  color: white;
+  caret-color: white; }
+  .nautilus-window #NautilusQueryEditor * {
+    color: white; }
+  .nautilus-window #NautilusQueryEditor #NautilusQueryEditorTag > button {
+    margin: 0; }
+  .nautilus-window #NautilusQueryEditor > menubutton > button {
+    min-width: 16px;
+    min-height: 16px;
+    margin: 0;
+    -gtk-icon-size: 12px;
+    padding: 0 4px; }
+  .nautilus-window #NautilusQueryEditor > text, .nautilus-window #NautilusQueryEditor > image {
+    margin: 0; }
 .nautilus-window notebook > stack:only-child {
   background-color: #181b28; }
   .nautilus-window notebook > stack:only-child:backdrop {
@@ -5392,8 +5467,8 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
 .nautilus-window .titlebar .path-bar-box widget > .text-button:last-child:checked,
 .nautilus-window .titlebar .path-bar-box button:active, .nautilus-window .titlebar .path-bar-box button:checked {
   border-radius: 23px;
-  background: linear-gradient(to right, #c50ed2, #8500f7);
-  box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  box-shadow: 0px 2px 4px rgba(0, 114, 255, 0.98);
   color: white; }
   .nautilus-window .titlebar .path-bar-box widget > .text-button:last-child:backdrop, .nautilus-window .titlebar .path-bar-box widget > .text-button:last-child:backdrop label,
   .nautilus-window .titlebar .path-bar-box widget > .text-button:last-child:active:backdrop,
@@ -5538,8 +5613,8 @@ window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-
     color: #0072ff; }
   window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar > button.toggle.path-bar-button:checked, .thunar toolbar .path-bar-button:checked {
     border-radius: 23px;
-    background: linear-gradient(to right, #c50ed2, #8500f7);
-    box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    box-shadow: 0px 2px 4px rgba(0, 114, 255, 0.98);
     color: white; }
 
 window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar > button.path-bar-button, .thunar toolbar .path-bar-button {
@@ -5553,8 +5628,8 @@ window.thunar paned > scrolledwindow treeview.view:hover {
   background: #191a1f; }
 window.thunar paned > scrolledwindow treeview.view:selected {
   border-radius: 23px;
-  background: linear-gradient(to right, #c50ed2, #8500f7);
-  box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  box-shadow: 0px 2px 4px rgba(0, 114, 255, 0.98);
   color: white;
   border-radius: 0;
   box-shadow: none; }
@@ -6145,8 +6220,8 @@ ConversationListView .view .cell, ConversationListView iconview .cell {
       color: #0072ff; }
     .nemo-window toolbar.primary-toolbar button:selected, .nemo-window toolbar.primary-toolbar button:active, .nemo-window toolbar.primary-toolbar button:checked {
       border-radius: 23px;
-      background: linear-gradient(to right, #c50ed2, #8500f7);
-      box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      box-shadow: 0px 2px 4px rgba(0, 114, 255, 0.98);
       color: white; }
 .nemo-window .nemo-inactive-pane .view, .nemo-window .nemo-inactive-pane iconview,
 .nemo-window .nemo-inactive-pane iconview {
@@ -6233,8 +6308,8 @@ ConversationListView .view .cell, ConversationListView iconview .cell {
     color: #0072ff; }
   .caja-pathbar button:checked {
     border-radius: 23px;
-    background: linear-gradient(to right, #c50ed2, #8500f7);
-    box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    box-shadow: 0px 2px 4px rgba(0, 114, 255, 0.98);
     color: white; }
   .caja-pathbar button:backdrop:disabled {
     color: rgba(195, 199, 209, 0.2);
