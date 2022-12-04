@@ -104,6 +104,51 @@
     }
   }
 
+    // Gnome 43 path-bar
+    #NautilusPathBar {
+
+      background-color: transparent;
+  
+      .dim-label { color: transparent; }
+  
+      //Buttons before current path
+      button {
+        .horizontal  .dim-label { color: $headerbar_fg_color; }
+        &:hover, &:focus {
+          .dim-label { color: $selected_bg_color; }
+        }
+  
+      }
+      .current-dir label {
+        padding: 6px 12px;
+        @include button(active-header);
+      }
+    }
+  
+      // search entry
+      #NautilusQueryEditor { 
+  
+        margin-top: 8px;
+        margin-bottom: 8px;
+        box-shadow: none;
+  
+        #NautilusQueryEditorTag {
+          > button {
+            margin: 0;
+          }
+        }
+  
+        > menubutton > button {
+          min-width: 16px;
+          min-height: 16px;
+          margin: 0;
+          -gtk-icon-size: 12px;
+          padding: 0 4px;
+        }
+  
+        > text, > image { margin: 0; }
+      }
+
   .linked:not(.vertical) > entry { 
     border-radius: 10px;
     margin-right: 5px;
