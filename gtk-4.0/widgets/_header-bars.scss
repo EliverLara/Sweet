@@ -5,12 +5,13 @@
 headerbar {
   padding: 0px 13px;
   min-height: 34px;
-  background: $headerbar_color;
+  background: if($variant == 'light', linear-gradient(to bottom, #fff, #fff) , darken($headerbar_color, 1%));
   color: $headerbar_fg_color;
   border-radius: 0;
+  box-shadow: 0px -1px $borders_color inset;
   &:backdrop {
     border-color: $backdrop_borders_color;
-   // background-image: none;
+  // background-image: none;
 
     transition: $backdrop_transition;
   }
@@ -28,7 +29,7 @@ headerbar {
 
     @extend .dim-label;
   }
- 
+
   entry { min-height: 24px;}  
   
   button {
@@ -38,7 +39,7 @@ headerbar {
     margin-bottom: 5px;
     box-shadow: none;
     &.image-button{
-       padding: 3px 4px;
+      padding: 3px 4px;
     }
     &.suggested-action{
       box-shadow: none;
@@ -90,7 +91,7 @@ headerbar {
     }
 
     @each $b_type, $b_color in (suggested-action, $cyan),
-                               (destructive-action, $destructive_color) {
+                              (destructive-action, $destructive_color) {
       &.#{$b_type} {
         font-weight: bold;
         min-height: 24px;
@@ -99,22 +100,22 @@ headerbar {
         border-radius: 4px;
         @include button(normal, $b_color, white);
         box-shadow: none;
+        text-shadow: 0px 0px 2px rgba(87, 87, 87, 0.9);
+        &:hover { @include button(hover, transparent, white); }
 
-        &:hover { @include button(hover, $b_color, white); }
-
-        &:active { @include button(active, $b_color, white); }
+        &:active { @include button(active, transparent, white); }
 
         &:disabled {
-          @include button(insensitive, $b_color, white);
+          @include button(insensitive, transparent, white);
           label {color: transparentize(white,0.5);}
         }
 
         &:backdrop {
-          @include button(backdrop, $b_color, white);
+          @include button(backdrop, transparent, white);
           border-radius: 3px;
         }
 
-        &:backdrop:disabled { @include button(backdrop-insensitive, $b_color, white); }
+        &:backdrop:disabled { @include button(backdrop-insensitive, transparent, white); }
 
       }
     }
@@ -162,19 +163,20 @@ headerbar {
   }
   .linked > button:active{
     @extend %linked-header;
-    background: linear-gradient(to right, #c50ed2, #8500f7) ;
-    color: rgb(255, 250, 250);
+    background: linear-gradient(to right, $red, $yellow) ;
+    color: $selected_fg_color;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.9);
   }
-  .linked > button:checked{
+  .linked > button:checked {
     @extend %linked-header;
     border-radius: 23px;
-    background: linear-gradient(to right, #c50ed2, #8500f7);
-    box-shadow: 0px 0px 5px transparentize(#c50ed2, 0.02);
-    color: rgb(255, 250, 250);
+    background: linear-gradient(to right, $red, $yellow);
+    color: $selected_fg_color;
+    text-shadow: 0px 0px 2px rgba(87, 87, 87, 0.9);
     &:backdrop{
-      color: darken(rgb(255, 250, 250), 4%);
+      color: darken($selected_fg_color, 4%);
       label{
-        color: darken(rgb(255, 250, 250), 4%);;
+        color: darken($selected_fg_color, 4%);;
       }
     }
   }
@@ -186,7 +188,6 @@ headerbar {
 
   &.selection-mode {
     button {
-
       &:backdrop {
         &.flat, & {
           &:active,
@@ -207,7 +208,7 @@ headerbar {
   .maximized & {
     &.titlebar {
       @if $variant == 'light' { box-shadow: none; }
-      @else { box-shadow: inset 0 -1px $bottom_highlight; }
+      @else { box-shadow: inset 0 -1px $borders_color; }
     }
     &:backdrop, & { border-radius: 0; }
   } // squared corners when the window is maximized or tiled
@@ -238,11 +239,23 @@ headerbar {
     margin-bottom: 10px;
   }
   separator { background: transparent; }
+
+  viewswitcher, switcher {
+    > box.horizontal {
+      > button.radio {
+        image { margin-left: 7px; }
+        label { margin-right: 7px; }
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+      }
+    }
+  } 
 }
 
 .background:not(.tiled):not(.maximized) .titlebar {
   @if $variant == 'light' { box-shadow: inset 0 1px $top_highlight; }
-  @else { box-shadow: inset 0 1px $top_highlight,inset 0 -1px $bottom_highlight; }
+  @else { box-shadow: inset 0 1px $top_highlight, inset 0 -1px $borders_color; }
 
 
   &:backdrop, & {
