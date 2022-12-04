@@ -261,8 +261,8 @@
 
 @else if $t==active-header {
   border-radius: 23px;
-  background: linear-gradient(to right, #c50ed2, #8500f7);
-  box-shadow: 0px 0px 5px transparentize(#c50ed2, 0.02);
+  background: linear-gradient(to right, #eee90a, $selected_bg_color) ;
+  box-shadow: 0px 2px 4px transparentize($selected_bg_color, 0.02);
   color: rgb(255, 255, 255);
 }
 

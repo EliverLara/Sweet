@@ -2205,7 +2205,8 @@ GraniteWidgetsWelcome {
     padding-right: 12px; }
   .titlebar entry,
   headerbar entry {
-    min-height: 24px; }
+    min-height: 24px;
+    background: #17181c; }
   .titlebar button,
   headerbar button {
     color: #8b8b8b;
@@ -2261,7 +2262,7 @@ GraniteWidgetsWelcome {
     headerbar button:backdrop,
     headerbar button:disabled,
     headerbar button:backdrop:disabled {
-      color: rgba(49, 54, 61, 0.2);
+      color: rgba(49, 54, 61, 0.7);
       background-color: transparent;
       border-radius: 0;
       text-shadow: none;
@@ -2422,13 +2423,13 @@ GraniteWidgetsWelcome {
       border-style: none; }
   .titlebar .linked > button:active,
   headerbar .linked > button:active {
-    background: linear-gradient(to right, #c50ed2, #8500f7);
+    background: linear-gradient(to right, #eee90a, #f7b922);
     color: snow; }
   .titlebar .linked > button:checked,
   headerbar .linked > button:checked {
     border-radius: 23px;
-    background: linear-gradient(to right, #c50ed2, #8500f7);
-    box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
+    background: linear-gradient(to right, #eee90a, #f7b922);
+    box-shadow: 0px 2px 4px rgba(247, 185, 34, 0.98);
     color: snow; }
     .titlebar .linked > button:checked:backdrop,
     headerbar .linked > button:checked:backdrop {
@@ -2436,6 +2437,30 @@ GraniteWidgetsWelcome {
       .titlebar .linked > button:checked:backdrop label,
       headerbar .linked > button:checked:backdrop label {
         color: #ffe6e6; }
+  .titlebar .linked:not(.vertical) > entry, .titlebar entry,
+  headerbar .linked:not(.vertical) > entry,
+  headerbar entry {
+    border-color: rgba(0, 0, 0, 0.13);
+    box-shadow: none;
+    background: #17181c;
+    color: #929ba8;
+    caret-color: #929ba8; }
+    .titlebar .linked:not(.vertical) > entry *, .titlebar entry *,
+    headerbar .linked:not(.vertical) > entry *,
+    headerbar entry * {
+      color: #929ba8; }
+    .titlebar .linked:not(.vertical) > entry:focus, .titlebar entry:focus,
+    headerbar .linked:not(.vertical) > entry:focus,
+    headerbar entry:focus {
+      border-color: #f7b922; }
+    .titlebar .linked:not(.vertical) > entry:backdrop, .titlebar entry:backdrop,
+    headerbar .linked:not(.vertical) > entry:backdrop,
+    headerbar entry:backdrop {
+      background: #17181c; }
+    .titlebar .linked:not(.vertical) > entry image:hover, .titlebar entry image:hover,
+    headerbar .linked:not(.vertical) > entry image:hover,
+    headerbar entry image:hover {
+      color: #f7b922; }
   .selection-mode.titlebar button:backdrop.flat:active, .selection-mode.titlebar button:backdrop.flat:checked, .selection-mode.titlebar button:backdrop:active, .selection-mode.titlebar button:backdrop:checked,
   headerbar.selection-mode button:backdrop.flat:active,
   headerbar.selection-mode button:backdrop.flat:checked,
@@ -2471,9 +2496,18 @@ headerbar separator {
   margin-bottom: 5px; }
 headerbar switch {
   margin-top: 10px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  box-shadow: none; }
 headerbar separator {
   background: transparent; }
+headerbar viewswitcher > box.horizontal > button.radio, headerbar switcher > box.horizontal > button.radio {
+  margin: 0;
+  padding: 0;
+  border-radius: 0; }
+  headerbar viewswitcher > box.horizontal > button.radio image, headerbar switcher > box.horizontal > button.radio image {
+    margin-left: 7px; }
+  headerbar viewswitcher > box.horizontal > button.radio label, headerbar switcher > box.horizontal > button.radio label {
+    margin-right: 7px; }
 
 .background:not(.tiled):not(.maximized) .titlebar {
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.2); }
@@ -3863,57 +3897,57 @@ stacksidebar row {
 /*                  PLACESSIDEBAR                                  */
 /*******************************************************************/
 /*--*/
-placessidebar.sidebar {
+placessidebar.sidebar, .nautilus-window .navigation-sidebar {
   background-color: transparent;
-  background-image: linear-gradient(to right, #171e27 40px, #191a1f 35px, #191a1f 36px, #191a1f 36px, #191a1f 99%, #191a1f 100%); }
-  placessidebar.sidebar row.sidebar-row.sidebar-row .sidebar-icon {
-    margin-left: -14px;
-    margin-right: 12px;
-    padding-left: 14px;
-    padding-right: 12px;
-    color: #9ecfa2; }
-  placessidebar.sidebar row.sidebar-row:hover {
-    transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    color: rgba(0, 0, 0, 0.76);
-    background-color: transparent;
-    /*rgba(65,67,75,0.4); */
-    background-image: linear-gradient(to right, rgba(65, 67, 75, 0) 40px, rgba(0, 0, 0, 0.12) 40px, rgba(0, 0, 0, 0.12) 97%); }
-  placessidebar.sidebar row.sidebar-row:active:hover {
-    color: rgba(0, 0, 0, 0.76);
-    background-color: rgba(0, 0, 0, 0.23); }
-  placessidebar.sidebar row.sidebar-row:selected {
-    color: rgba(255, 255, 255, 0.938);
-    background-color: transparent;
-    background-image: linear-gradient(to right, #f7b922 40px, rgba(65, 67, 75, 0) 36px, rgba(65, 67, 75, 0) 97%); }
-    placessidebar.sidebar row.sidebar-row:selected:hover {
-      color: #ffffff;
-      background-color: rgba(0, 0, 0, 0.24); }
-      placessidebar.sidebar row.sidebar-row:selected:hover .sidebar-icon {
-        color: #ffffff; }
-    placessidebar.sidebar row.sidebar-row:selected:backdrop {
-      color: rgba(0, 0, 0, 0.54);
+  background-image: linear-gradient(to right, #151519 40px, #191a1f 35px, #191a1f 36px, #191a1f 36px, #191a1f 99%, #191a1f 100%); }
+  placessidebar.sidebar row.sidebar-row, .nautilus-window .navigation-sidebar row.sidebar-row {
+    margin: 0;
+    border-radius: 0;
+    padding-top: 2px;
+    padding-bottom: 2px; }
+    placessidebar.sidebar row.sidebar-row label, .nautilus-window .navigation-sidebar row.sidebar-row label {
+      color: #98abb2; }
+    placessidebar.sidebar row.sidebar-row.sidebar-row .sidebar-icon, .nautilus-window .navigation-sidebar row.sidebar-row.sidebar-row .sidebar-icon {
+      margin-left: -14px;
+      margin-right: 12px;
+      padding-left: 14px;
+      padding-right: 12px;
+      color: #98abb2; }
+    placessidebar.sidebar row.sidebar-row:hover, .nautilus-window .navigation-sidebar row.sidebar-row:hover {
+      transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      color: rgba(0, 0, 0, 0.76);
+      background-color: transparent;
+      /*rgba(65,67,75,0.4); */
+      background-image: linear-gradient(to right, #1b232d 40px, #25262d 40px, #25262d 97%); }
+    placessidebar.sidebar row.sidebar-row:selected, .nautilus-window .navigation-sidebar row.sidebar-row:selected {
+      color: #fff;
       background-color: transparent;
       background-image: linear-gradient(to right, #f7b922 40px, rgba(65, 67, 75, 0) 36px, rgba(65, 67, 75, 0) 97%); }
-      placessidebar.sidebar row.sidebar-row:selected:backdrop .sidebar-icon {
+      placessidebar.sidebar row.sidebar-row:selected label, .nautilus-window .navigation-sidebar row.sidebar-row:selected label {
+        color: #f7b922; }
+      placessidebar.sidebar row.sidebar-row:selected:backdrop, .nautilus-window .navigation-sidebar row.sidebar-row:selected:backdrop {
         color: #fefefe;
-        -gtk-icon-shadow: 0 1px rgba(254, 254, 254, 0.8); }
-    placessidebar.sidebar row.sidebar-row:selected .sidebar-icon {
-      -gtk-icon-shadow: 0 1px rgba(255, 255, 255, 0.8);
-      color: inherit; }
-  placessidebar.sidebar row.sidebar-row.sidebar-new-bookmark-row, placessidebar.sidebar row.sidebar-row.sidebar-new-bookmark-row label, placessidebar.sidebar row.sidebar-row.sidebar-new-bookmark-row .sidebar-icon {
-    color: #fadd00; }
-  placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled) {
-    box-shadow: inset 0 1px #71f79f, inset 0 -1px #71f79f; }
-    placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled), placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled) label, placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled) image {
-      color: #71f79f; }
-    placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected {
-      background: #71f79f; }
-      placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected, placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected label, placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected image {
-        color: #fefefe; }
-placessidebar list {
-  background-color: transparent; }
-  placessidebar list:backdrop {
+        background-color: transparent;
+        background-image: linear-gradient(to right, rgba(247, 185, 34, 0.6) 40px, rgba(65, 67, 75, 0) 36px, rgba(65, 67, 75, 0) 97%); }
+        placessidebar.sidebar row.sidebar-row:selected:backdrop label, .nautilus-window .navigation-sidebar row.sidebar-row:selected:backdrop label {
+          color: rgba(247, 185, 34, 0.6); }
+      placessidebar.sidebar row.sidebar-row:selected .sidebar-icon, .nautilus-window .navigation-sidebar row.sidebar-row:selected .sidebar-icon {
+        -gtk-icon-shadow: 0 1px rgba(255, 255, 255, 0.8);
+        color: inherit; }
+    placessidebar.sidebar row.sidebar-row.sidebar-new-bookmark-row, placessidebar.sidebar row.sidebar-row.sidebar-new-bookmark-row label, placessidebar.sidebar row.sidebar-row.sidebar-new-bookmark-row .sidebar-icon, .nautilus-window .navigation-sidebar row.sidebar-row.sidebar-new-bookmark-row, .nautilus-window .navigation-sidebar row.sidebar-row.sidebar-new-bookmark-row label, .nautilus-window .navigation-sidebar row.sidebar-row.sidebar-new-bookmark-row .sidebar-icon {
+      color: #fadd00; }
+    placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled), .nautilus-window .navigation-sidebar row.sidebar-row:drop(active):not(:disabled) {
+      box-shadow: inset 0 1px #71f79f, inset 0 -1px #71f79f; }
+      placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled), placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled) label, placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled) image, .nautilus-window .navigation-sidebar row.sidebar-row:drop(active):not(:disabled), .nautilus-window .navigation-sidebar row.sidebar-row:drop(active):not(:disabled) label, .nautilus-window .navigation-sidebar row.sidebar-row:drop(active):not(:disabled) image {
+        color: #71f79f; }
+      placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected, .nautilus-window .navigation-sidebar row.sidebar-row:drop(active):not(:disabled):selected {
+        background: #71f79f; }
+        placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected, placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected label, placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected image, .nautilus-window .navigation-sidebar row.sidebar-row:drop(active):not(:disabled):selected, .nautilus-window .navigation-sidebar row.sidebar-row:drop(active):not(:disabled):selected label, .nautilus-window .navigation-sidebar row.sidebar-row:drop(active):not(:disabled):selected image {
+          color: #fefefe; }
+  placessidebar.sidebar list, .nautilus-window .navigation-sidebar list {
     background-color: transparent; }
+    placessidebar.sidebar list:backdrop, .nautilus-window .navigation-sidebar list:backdrop {
+      background-color: transparent; }
 
 /*****************
  * GtkSpinButton *
@@ -5064,8 +5098,8 @@ button.raven-trigger {
         padding: 3px; }
         .raven .raven-header button.text-button.radio:active, .raven .raven-header button.text-button.radio:checked {
           border-radius: 23px;
-          background: linear-gradient(to right, #c50ed2, #8500f7);
-          box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
+          background: linear-gradient(to right, #eee90a, #f7b922);
+          box-shadow: 0px 2px 4px rgba(247, 185, 34, 0.98);
           color: white; }
   .raven list {
     color: #929ba8;
@@ -5418,8 +5452,8 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
 .nautilus-window .titlebar .path-bar-box widget > .text-button:last-child:checked,
 .nautilus-window .titlebar .path-bar-box button:active, .nautilus-window .titlebar .path-bar-box button:checked {
   border-radius: 23px;
-  background: linear-gradient(to right, #c50ed2, #8500f7);
-  box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
+  background: linear-gradient(to right, #eee90a, #f7b922);
+  box-shadow: 0px 2px 4px rgba(247, 185, 34, 0.98);
   color: white; }
   .nautilus-window .titlebar .path-bar-box widget > .text-button:last-child:backdrop, .nautilus-window .titlebar .path-bar-box widget > .text-button:last-child:backdrop label,
   .nautilus-window .titlebar .path-bar-box widget > .text-button:last-child:active:backdrop,
@@ -5434,6 +5468,47 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   color: #f7b922;
   box-shadow: none;
   border: none; }
+.nautilus-window #NautilusPathBar {
+  background-color: transparent; }
+  .nautilus-window #NautilusPathBar .dim-label, .nautilus-window #NautilusPathBar label.separator, .nautilus-window #NautilusPathBar .titlebar .subtitle, .titlebar .nautilus-window #NautilusPathBar .subtitle,
+  .nautilus-window #NautilusPathBar headerbar .subtitle,
+  headerbar .nautilus-window #NautilusPathBar .subtitle {
+    color: transparent; }
+  .nautilus-window #NautilusPathBar button .horizontal .dim-label, .nautilus-window #NautilusPathBar button .horizontal label.separator, .nautilus-window #NautilusPathBar button .horizontal .titlebar .subtitle, .titlebar .nautilus-window #NautilusPathBar button .horizontal .subtitle,
+  .nautilus-window #NautilusPathBar button .horizontal headerbar .subtitle,
+  headerbar .nautilus-window #NautilusPathBar button .horizontal .subtitle {
+    color: #929ba8; }
+  .nautilus-window #NautilusPathBar button:hover .dim-label, .nautilus-window #NautilusPathBar button:hover label.separator, .nautilus-window #NautilusPathBar button:hover .titlebar .subtitle, .titlebar .nautilus-window #NautilusPathBar button:hover .subtitle,
+  .nautilus-window #NautilusPathBar button:hover headerbar .subtitle,
+  headerbar .nautilus-window #NautilusPathBar button:hover .subtitle, .nautilus-window #NautilusPathBar button:focus .dim-label, .nautilus-window #NautilusPathBar button:focus label.separator, .nautilus-window #NautilusPathBar button:focus .titlebar .subtitle, .titlebar .nautilus-window #NautilusPathBar button:focus .subtitle,
+  .nautilus-window #NautilusPathBar button:focus headerbar .subtitle,
+  headerbar .nautilus-window #NautilusPathBar button:focus .subtitle {
+    color: #f7b922; }
+  .nautilus-window #NautilusPathBar .current-dir label {
+    padding: 6px 12px;
+    border-radius: 23px;
+    background: linear-gradient(to right, #eee90a, #f7b922);
+    box-shadow: 0px 2px 4px rgba(247, 185, 34, 0.98);
+    color: white; }
+.nautilus-window #NautilusQueryEditor {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  box-shadow: none;
+  background: #1b1c21;
+  color: #929ba8;
+  caret-color: #929ba8; }
+  .nautilus-window #NautilusQueryEditor * {
+    color: #929ba8; }
+  .nautilus-window #NautilusQueryEditor #NautilusQueryEditorTag > button {
+    margin: 0; }
+  .nautilus-window #NautilusQueryEditor > menubutton > button {
+    min-width: 16px;
+    min-height: 16px;
+    margin: 0;
+    -gtk-icon-size: 12px;
+    padding: 0 4px; }
+  .nautilus-window #NautilusQueryEditor > text, .nautilus-window #NautilusQueryEditor > image {
+    margin: 0; }
 .nautilus-window .linked:not(.vertical) > entry {
   border-radius: 10px;
   margin-right: 5px; }
@@ -5564,8 +5639,8 @@ window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-
     color: #f7b922; }
   window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar > button.toggle.path-bar-button:checked, .thunar toolbar .path-bar-button:checked {
     border-radius: 23px;
-    background: linear-gradient(to right, #c50ed2, #8500f7);
-    box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
+    background: linear-gradient(to right, #eee90a, #f7b922);
+    box-shadow: 0px 2px 4px rgba(247, 185, 34, 0.98);
     color: white; }
 
 window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar > button.path-bar-button, .thunar toolbar .path-bar-button {
@@ -5579,8 +5654,8 @@ window.thunar paned > scrolledwindow treeview.view:hover {
   background: #121316; }
 window.thunar paned > scrolledwindow treeview.view:selected {
   border-radius: 23px;
-  background: linear-gradient(to right, #c50ed2, #8500f7);
-  box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
+  background: linear-gradient(to right, #eee90a, #f7b922);
+  box-shadow: 0px 2px 4px rgba(247, 185, 34, 0.98);
   color: white;
   border-radius: 0;
   box-shadow: none; }
@@ -6171,8 +6246,8 @@ ConversationListView .view .cell, ConversationListView iconview .cell {
       color: #f7b922; }
     .nemo-window toolbar.primary-toolbar button:selected, .nemo-window toolbar.primary-toolbar button:active, .nemo-window toolbar.primary-toolbar button:checked {
       border-radius: 23px;
-      background: linear-gradient(to right, #c50ed2, #8500f7);
-      box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
+      background: linear-gradient(to right, #eee90a, #f7b922);
+      box-shadow: 0px 2px 4px rgba(247, 185, 34, 0.98);
       color: white; }
 .nemo-window .nemo-inactive-pane .view, .nemo-window .nemo-inactive-pane iconview,
 .nemo-window .nemo-inactive-pane iconview {
@@ -6259,8 +6334,8 @@ ConversationListView .view .cell, ConversationListView iconview .cell {
     color: #f7b922; }
   .caja-pathbar button:checked {
     border-radius: 23px;
-    background: linear-gradient(to right, #c50ed2, #8500f7);
-    box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
+    background: linear-gradient(to right, #eee90a, #f7b922);
+    box-shadow: 0px 2px 4px rgba(247, 185, 34, 0.98);
     color: white; }
   .caja-pathbar button:backdrop:disabled {
     color: rgba(49, 54, 61, 0.2);

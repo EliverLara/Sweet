@@ -8,41 +8,41 @@ $bg_color: if($variant == 'light', darken( #EEEEEE, 3%), #161925);
 $fg_color: if($variant == 'light', #31363d, #C3C7D1);
 $switch_bg: if($variant == 'light', #ffffff, transparentize(black,1));
 $shadow_color: rgba(162, 162, 165, 0.21);
-$_sidebar_color: if($variant == 'light', #222e39, #161925);
+$main_dark_color: #202127;
+$_sidebar_color: if($variant == 'light', darken($main_dark_color, 3%), $main_dark_color);
 
 // Primary colors
 $lime: #71f79f;
 $red: #ed254e;
-$orange: #ff6a00;
-$yellow: #f9dc5c;
-$purple: #c74ded;
+$orange: #ff9200;
+$yellow: #fadd00;
+$purple: #d400dc;
 $darkpurple: #7b7bbd;
-$blue: #7cb7ff;
+$blue: #2F80ED;
 $cyan: #00c1e4;
 $slider: #7b7bbd;
 $teal: #00e8c6;
 
 $selected_fg_color: #fefefe;
-$selected_bg_color: #c50ed2;
-//$selected_bg_color: #f7005a;
+$selected_bg_color: #f7b922;
 /*$selected_bg_color: #00e8c6;06d6a0*/
 $selected_borders_color: darken($selected_bg_color, 10%);
 $borders_color: if($variant == 'light', transparentize(black,0.87), transparentize(#0C0E15,0.2));
 $borders_edge: if($variant == 'light', transparentize(white, 0.8), transparentize(white, 0.9));
 
-$selected-tab-gradient-start: #5800E2;
-$selected-tab-gradient-end: #FF00E6;
+$selected-tab-gradient-start: #fed349;
+$selected-tab-gradient-end: #ff7800;
 
 $link_color: $blue;
 $link_visited_color:transparentize($link_color,0.5);
 $top_highlight: if($variant == 'light', transparentize(white, 0.8), transparentize(white, 0.9));
 $bottom_highlight: if($variant == 'light', transparentize(black, 0.8), transparentize(black, 0.9));
 $dark_fill: mix($borders_color, $bg_color, 35%);
-$headerbar_color: mix($base_color, darken($bg_color, 8%), 30%);
-$headerbar_fg_color: $text_color;
+$headerbar_color: if($variant == 'light', darken($main_dark_color, 7%) , mix($base_color, darken($main_dark_color, 15%), 30%));
+$headerbar_fg_color: lighten( $text_color, 40%);
 $menu_color: if($variant == 'light', $base_color, mix($bg_color, $base_color, 20%));
 $popover_bg_color: $base_color;
-$popover_hover_color: lighten($bg_color, 5%);
+$popover_hover_color: darken($bg_color, 2%);
 
 $scrollbar_bg_color: mix($base_color, $bg_color, 50%);
 $scrollbar_slider_color: mix($fg_color, $bg_color, 60%);
@@ -80,9 +80,9 @@ $info_color: $lime;
 $question_color: $cyan;
 
 // Panel colors
-$panel_bg_color: transparentize($base_color, 0);
+$panel_bg_color: transparentize(darken($main_dark_color, 7%), 0);
 $panel_fg_color: white;
-$panel_borders_color: transparentize($base_color, 0.8);
+$panel_borders_color: transparentize(darken($main_dark_color, 7%), 0.8);
 
 // Disabled state colors
 $insensitive_fg_color: mix($fg_color, $bg_color, 50%);
@@ -111,6 +111,6 @@ $backdrop_menu_color: if($variant == 'light', $backdrop_base_color, mix($backdro
 
 $scale_bg: if($variant == 'light', transparentize(black,0.86) ,transparentize(white,0.86));
 $scale_disabled_bg: if($variant == 'light', transparentize(black, 0.94) ,transparentize(white, 0.94));
-$suggested_bg_color: linear-gradient(to right, #654ea3 0%, #eaafc8 100%);
-$destructive_bg_color: linear-gradient(to right, #FF416C, #FF4B2B);
+$suggested_bg_color: linear-gradient(to right, #00ffb7 0%, #00d593 100%);
+$destructive_bg_color: linear-gradient(to right, #fe8c00, #f83600);
 $menu_shadow_color: $borders_color;
