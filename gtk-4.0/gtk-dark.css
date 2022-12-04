@@ -3869,57 +3869,57 @@ stacksidebar row {
 /*                  PLACESSIDEBAR                                  */
 /*******************************************************************/
 /*--*/
-placessidebar.sidebar {
+placessidebar.sidebar, .nautilus-window .navigation-sidebar {
   background-color: transparent;
-  background-image: linear-gradient(to right, #171e27 40px, #16191b 35px, #16191b 36px, #16191b 36px, #16191b 99%, #16191b 100%); }
-  placessidebar.sidebar row.sidebar-row.sidebar-row .sidebar-icon {
-    margin-left: -14px;
-    margin-right: 12px;
-    padding-left: 14px;
-    padding-right: 12px;
-    color: #9ecfa2; }
-  placessidebar.sidebar row.sidebar-row:hover {
-    transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    color: rgba(0, 0, 0, 0.76);
-    background-color: transparent;
-    /*rgba(65,67,75,0.4); */
-    background-image: linear-gradient(to right, rgba(65, 67, 75, 0) 40px, rgba(0, 0, 0, 0.12) 40px, rgba(0, 0, 0, 0.12) 97%); }
-  placessidebar.sidebar row.sidebar-row:active:hover {
-    color: rgba(0, 0, 0, 0.76);
-    background-color: rgba(0, 0, 0, 0.23); }
-  placessidebar.sidebar row.sidebar-row:selected {
-    color: rgba(255, 255, 255, 0.938);
-    background-color: transparent;
-    background-image: linear-gradient(to right, #F67E7D 40px, rgba(65, 67, 75, 0) 36px, rgba(65, 67, 75, 0) 97%); }
-    placessidebar.sidebar row.sidebar-row:selected:hover {
-      color: #ffffff;
-      background-color: rgba(0, 0, 0, 0.24); }
-      placessidebar.sidebar row.sidebar-row:selected:hover .sidebar-icon {
-        color: #ffffff; }
-    placessidebar.sidebar row.sidebar-row:selected:backdrop {
-      color: rgba(0, 0, 0, 0.54);
+  background-image: linear-gradient(to right, #111416 40px, #16191b 35px, #16191b 36px, #16191b 36px, #16191b 99%, #16191b 100%); }
+  placessidebar.sidebar row.sidebar-row, .nautilus-window .navigation-sidebar row.sidebar-row {
+    margin: 0;
+    border-radius: 0;
+    padding-top: 2px;
+    padding-bottom: 2px; }
+    placessidebar.sidebar row.sidebar-row label, .nautilus-window .navigation-sidebar row.sidebar-row label {
+      color: #B6B7B9; }
+    placessidebar.sidebar row.sidebar-row.sidebar-row .sidebar-icon, .nautilus-window .navigation-sidebar row.sidebar-row.sidebar-row .sidebar-icon {
+      margin-left: -14px;
+      margin-right: 12px;
+      padding-left: 14px;
+      padding-right: 12px;
+      color: #B6B7B9; }
+    placessidebar.sidebar row.sidebar-row:hover, .nautilus-window .navigation-sidebar row.sidebar-row:hover {
+      transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
       background-color: transparent;
-      background-image: linear-gradient(to right, #F67E7D 40px, rgba(65, 67, 75, 0) 36px, rgba(65, 67, 75, 0) 97%); }
-      placessidebar.sidebar row.sidebar-row:selected:backdrop .sidebar-icon {
-        color: rgba(247, 247, 247, 0.5);
-        -gtk-icon-shadow: 0 1px rgba(247, 247, 247, 0.3); }
-    placessidebar.sidebar row.sidebar-row:selected .sidebar-icon {
-      -gtk-icon-shadow: 0 1px rgba(255, 255, 255, 0.8);
-      color: inherit; }
-  placessidebar.sidebar row.sidebar-row.sidebar-new-bookmark-row, placessidebar.sidebar row.sidebar-row.sidebar-new-bookmark-row label, placessidebar.sidebar row.sidebar-row.sidebar-new-bookmark-row .sidebar-icon {
-    color: #E1DD8F; }
-  placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled) {
-    box-shadow: inset 0 1px #CAE7B9, inset 0 -1px #CAE7B9; }
-    placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled), placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled) label, placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled) image {
-      color: #CAE7B9; }
-    placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected {
-      background: #CAE7B9; }
-      placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected, placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected label, placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected image {
+      /*rgba(65,67,75,0.4); */
+      background-image: linear-gradient(to right, #1b232d 40px, #21262a 40px, #21262a 97%); }
+    placessidebar.sidebar row.sidebar-row:selected, .nautilus-window .navigation-sidebar row.sidebar-row:selected {
+      color: rgba(255, 255, 255, 0.938);
+      background-color: transparent;
+      background-image: linear-gradient(to right, #0a0c0d 40px, rgba(65, 67, 75, 0) 36px, rgba(65, 67, 75, 0) 97%); }
+      placessidebar.sidebar row.sidebar-row:selected label, .nautilus-window .navigation-sidebar row.sidebar-row:selected label {
         color: #f7f7f7; }
-placessidebar list {
-  background-color: transparent; }
-  placessidebar list:backdrop {
+      placessidebar.sidebar row.sidebar-row:selected:backdrop, .nautilus-window .navigation-sidebar row.sidebar-row:selected:backdrop {
+        color: rgba(247, 247, 247, 0.5);
+        background-color: transparent;
+        background-image: linear-gradient(to right, #0a0c0d 40px, rgba(65, 67, 75, 0) 36px, rgba(65, 67, 75, 0) 97%); }
+        placessidebar.sidebar row.sidebar-row:selected:backdrop .sidebar-icon, .nautilus-window .navigation-sidebar row.sidebar-row:selected:backdrop .sidebar-icon {
+          color: rgba(247, 247, 247, 0.5);
+          -gtk-icon-shadow: 0 1px rgba(247, 247, 247, 0.3); }
+      placessidebar.sidebar row.sidebar-row:selected .sidebar-icon, .nautilus-window .navigation-sidebar row.sidebar-row:selected .sidebar-icon {
+        -gtk-icon-shadow: 0 1px rgba(255, 255, 255, 0.8);
+        color: inherit; }
+    placessidebar.sidebar row.sidebar-row.sidebar-new-bookmark-row, placessidebar.sidebar row.sidebar-row.sidebar-new-bookmark-row label, placessidebar.sidebar row.sidebar-row.sidebar-new-bookmark-row .sidebar-icon, .nautilus-window .navigation-sidebar row.sidebar-row.sidebar-new-bookmark-row, .nautilus-window .navigation-sidebar row.sidebar-row.sidebar-new-bookmark-row label, .nautilus-window .navigation-sidebar row.sidebar-row.sidebar-new-bookmark-row .sidebar-icon {
+      color: #E1DD8F; }
+    placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled), .nautilus-window .navigation-sidebar row.sidebar-row:drop(active):not(:disabled) {
+      box-shadow: inset 0 1px #CAE7B9, inset 0 -1px #CAE7B9; }
+      placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled), placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled) label, placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled) image, .nautilus-window .navigation-sidebar row.sidebar-row:drop(active):not(:disabled), .nautilus-window .navigation-sidebar row.sidebar-row:drop(active):not(:disabled) label, .nautilus-window .navigation-sidebar row.sidebar-row:drop(active):not(:disabled) image {
+        color: #CAE7B9; }
+      placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected, .nautilus-window .navigation-sidebar row.sidebar-row:drop(active):not(:disabled):selected {
+        background: #CAE7B9; }
+        placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected, placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected label, placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected image, .nautilus-window .navigation-sidebar row.sidebar-row:drop(active):not(:disabled):selected, .nautilus-window .navigation-sidebar row.sidebar-row:drop(active):not(:disabled):selected label, .nautilus-window .navigation-sidebar row.sidebar-row:drop(active):not(:disabled):selected image {
+          color: #f7f7f7; }
+  placessidebar.sidebar list, .nautilus-window .navigation-sidebar list {
     background-color: transparent; }
+    placessidebar.sidebar list:backdrop, .nautilus-window .navigation-sidebar list:backdrop {
+      background-color: transparent; }
 
 /*****************
  * GtkSpinButton *
