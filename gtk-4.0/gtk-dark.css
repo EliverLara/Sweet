@@ -5409,6 +5409,42 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   color: #c50ed2;
   box-shadow: none;
   border: none; }
+.nautilus-window #NautilusPathBar {
+  background-color: transparent; }
+  .nautilus-window #NautilusPathBar .dim-label, .nautilus-window #NautilusPathBar label.separator, .nautilus-window #NautilusPathBar .titlebar .subtitle, .titlebar .nautilus-window #NautilusPathBar .subtitle,
+  .nautilus-window #NautilusPathBar headerbar .subtitle,
+  headerbar .nautilus-window #NautilusPathBar .subtitle {
+    color: transparent; }
+  .nautilus-window #NautilusPathBar button .horizontal .dim-label, .nautilus-window #NautilusPathBar button .horizontal label.separator, .nautilus-window #NautilusPathBar button .horizontal .titlebar .subtitle, .titlebar .nautilus-window #NautilusPathBar button .horizontal .subtitle,
+  .nautilus-window #NautilusPathBar button .horizontal headerbar .subtitle,
+  headerbar .nautilus-window #NautilusPathBar button .horizontal .subtitle {
+    color: #C3C7D1; }
+  .nautilus-window #NautilusPathBar button:hover .dim-label, .nautilus-window #NautilusPathBar button:hover label.separator, .nautilus-window #NautilusPathBar button:hover .titlebar .subtitle, .titlebar .nautilus-window #NautilusPathBar button:hover .subtitle,
+  .nautilus-window #NautilusPathBar button:hover headerbar .subtitle,
+  headerbar .nautilus-window #NautilusPathBar button:hover .subtitle, .nautilus-window #NautilusPathBar button:focus .dim-label, .nautilus-window #NautilusPathBar button:focus label.separator, .nautilus-window #NautilusPathBar button:focus .titlebar .subtitle, .titlebar .nautilus-window #NautilusPathBar button:focus .subtitle,
+  .nautilus-window #NautilusPathBar button:focus headerbar .subtitle,
+  headerbar .nautilus-window #NautilusPathBar button:focus .subtitle {
+    color: #c50ed2; }
+  .nautilus-window #NautilusPathBar .current-dir label {
+    padding: 6px 12px;
+    border-radius: 23px;
+    background: linear-gradient(to right, #c50ed2, #8500f7);
+    box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
+    color: white; }
+.nautilus-window #NautilusQueryEditor {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  box-shadow: none; }
+  .nautilus-window #NautilusQueryEditor #NautilusQueryEditorTag > button {
+    margin: 0; }
+  .nautilus-window #NautilusQueryEditor > menubutton > button {
+    min-width: 16px;
+    min-height: 16px;
+    margin: 0;
+    -gtk-icon-size: 12px;
+    padding: 0 4px; }
+  .nautilus-window #NautilusQueryEditor > text, .nautilus-window #NautilusQueryEditor > image {
+    margin: 0; }
 .nautilus-window .linked:not(.vertical) > entry {
   border-radius: 10px;
   margin-right: 5px; }
