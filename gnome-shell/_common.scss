@@ -2198,12 +2198,9 @@ $base_padding: 6px;
 
 .quick-toggle {
   border-radius: 99px;
-  min-width: 12em;
-  max-width: 12em;
-  min-height: 40px;
 
   &:checked { 
-    @include gradient(transparentize($g1, 0.7), transparentize($g2, 0.7));
+    @include gradient(transparentize($g1, 0.4), transparentize($g2, 0.4));
     color: $selected_fg_color;
   }
 
