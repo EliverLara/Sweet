@@ -1989,16 +1989,14 @@ StScrollBar {
 
 .quick-toggle {
   border-radius: 99px;
-  min-width: 12em;
-  max-width: 12em;
-  min-height: 40px;
   /* Move padding into the box; this is to allow menu arrows
      to extend to the border */ }
   .quick-toggle:checked {
-    background-gradient-start: rgba(0, 232, 183, 0.3) !important;
-    background-gradient-end: rgba(0, 232, 183, 0.3) !important;
+    background-gradient-start: rgba(0, 232, 183, 0.7) !important;
+    background-gradient-end: rgba(0, 232, 183, 0.7) !important;
     background-gradient-direction: horizontal;
-    color: white; }
+    color: white;
+    text-shadow: none; }
   .quick-toggle > StBoxLayout {
     spacing: 6px; }
   .quick-toggle.button {
