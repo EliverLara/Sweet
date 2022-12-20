@@ -286,6 +286,9 @@ tabbox {
   > tab,
   > tabboxchild > tab {
     border-radius: 0;
-    &:checked, &:selected { @include selected-tab(right); }
+    &:checked, &:selected {
+      @include selected-tab(right); 
+      color:$fg_color;
+    }
   }
 }
