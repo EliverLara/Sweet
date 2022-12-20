@@ -277,7 +277,7 @@
 
 
 tabbox {
-  background-color:  mix($base_color, $headerbar_color, 30%);
+  background-color: mix($base_color, darken($headerbar_color, 6%), 30%);
   padding: 0px;
   > tabboxchild {
     margin: 0 -3px;
