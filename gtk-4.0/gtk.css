@@ -152,19 +152,19 @@ read if you used those and something break with a version upgrade you're on your
 /***************
 * Action bars *
 ***************/
-.action-bar {
+.action-bar, actionbar > revealer > box {
   background-color: #cdcdcd;
   border: solid rgba(0, 0, 0, 0.13);
   border-width: 1px 0 0 0;
   color: #31363d;
   box-shadow: none; }
-  .action-bar:backdrop {
+  .action-bar:backdrop, actionbar > revealer > box:backdrop {
     background-color: #cdcdcd;
     box-shadow: none; }
-  .action-bar:first-child {
+  .action-bar:first-child, actionbar > revealer > box:first-child {
     border-radius: 6px 6px 0px 0px;
     border-width: 1px 1px 0px 1px; }
-  .action-bar:last-child {
+  .action-bar:last-child, actionbar > revealer > box:last-child {
     border-radius: 0 0 6px 6px;
     border-width: 0px 1px 1px 1px; }
 
@@ -3055,7 +3055,7 @@ notebook > stack:not(:only-child) {
     background-color: #e8edf3; }
 
 tabbox {
-  background-color: #10121a;
+  background-color: #dadbdd;
   padding: 0px; }
   tabbox > tabboxchild {
     margin: 0 -3px;
@@ -3066,9 +3066,10 @@ tabbox {
     tabbox > tab:checked, tabbox > tab:selected,
     tabbox > tabboxchild > tab:checked,
     tabbox > tabboxchild > tab:selected {
-      background: linear-gradient(to right, #5800E2, #FF00E6) left bottom #141620 no-repeat;
+      background: linear-gradient(to right, #00c6ff, #0072ff) left bottom #e5e5e7 no-repeat;
       background-size: 100% 2px;
-      border: 0; }
+      border: 0;
+      color: #31363d; }
 
 /*********
  * Paned *
