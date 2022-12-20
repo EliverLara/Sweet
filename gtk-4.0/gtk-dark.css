@@ -3021,6 +3021,22 @@ notebook > stack:not(:only-child) {
   notebook > stack:not(:only-child):backdrop {
     background-color: #1a1d2b; }
 
+tabbox {
+  background-color: #10121a;
+  padding: 0px; }
+  tabbox > tabboxchild {
+    margin: 0 -3px;
+    border-radius: 0; }
+  tabbox > tab,
+  tabbox > tabboxchild > tab {
+    border-radius: 0; }
+    tabbox > tab:checked, tabbox > tab:selected,
+    tabbox > tabboxchild > tab:checked,
+    tabbox > tabboxchild > tab:selected {
+      background: linear-gradient(to right, #5800E2, #FF00E6) left bottom #141620 no-repeat;
+      background-size: 100% 2px;
+      border: 0; }
+
 /*********
  * Paned *
  *********/
