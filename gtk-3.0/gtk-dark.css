@@ -5621,11 +5621,6 @@ panel-toplevel.background button:not(#tasklist-button) {
 .thunar toolbar.horizontal button image {
   -gtk-icon-transform: scale(0.72); }
 
-scrolledwindow.sidebar treeview.view {
-  background: #1b1c21;
-  color: #98abb2;
-  padding: 1.5px; }
-
 /* path-bar of thunar */
 window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar > button.toggle.path-bar-button, .thunar toolbar .path-bar-button {
   margin-top: 7px;
@@ -5645,15 +5640,19 @@ window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-
   box-shadow: none; }
 
 /* thunar sidepane */
-window.thunar paned > scrolledwindow treeview.view:hover {
-  background: #151519; }
-window.thunar paned > scrolledwindow treeview.view:selected {
-  border-radius: 23px;
-  background: linear-gradient(to right, #eee90a, #f7b922);
-  box-shadow: 0px 2px 4px rgba(247, 185, 34, 0.98);
-  color: white;
-  border-radius: 0;
-  box-shadow: none; }
+.thunar scrolledwindow.sidebar treeview.view {
+  background: #1b1c21;
+  padding: 1.5px;
+  color: #98abb2; }
+  .thunar scrolledwindow.sidebar treeview.view:hover {
+    background: #2b2d35; }
+  .thunar scrolledwindow.sidebar treeview.view:selected {
+    border-radius: 23px;
+    background: linear-gradient(to right, #eee90a, #f7b922);
+    box-shadow: 0px 2px 4px rgba(247, 185, 34, 0.98);
+    color: white;
+    border-radius: 0;
+    box-shadow: none; }
 
 window.thunar toolbar#location-toolbar entry {
   border-radius: 10px; }
