@@ -68,12 +68,6 @@
   -gtk-icon-transform:scale(0.72);
 }
 
-scrolledwindow.sidebar treeview.view {
-  background: darken($_sidebar_color, 2%);
-  padding: 1.5px;
-  color: #98abb2;
-}
-
 /* path-bar of thunar */
 window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-bar > button.toggle.path-bar-button, .thunar toolbar .path-bar-button {
   margin-top: 7px;
@@ -90,10 +84,13 @@ window.thunar toolbar#location-toolbar > toolitem > widget > widget.linked.path-
 }
 
 /* thunar sidepane */
-window.thunar paned > scrolledwindow treeview.view {
+.thunar scrolledwindow.sidebar treeview.view {
+  background: darken($_sidebar_color, 2%);
+  padding: 1.5px;
+  color: #98abb2;
 
   &:hover {
-    background: darken($_sidebar_color, 5%);
+    background: lighten($_sidebar_color, 5%);
   }
   &:selected {
     @include button(active-header);
