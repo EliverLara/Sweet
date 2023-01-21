@@ -57,51 +57,93 @@
   // Gnome 43 path-bar
   #NautilusPathBar {
 
-    background-color: transparent;
+    background: transparent;
+    height: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
 
-    .dim-label { color: transparent; }
-
+    .dim-label { 
+      color: transparent; 
+      margin-right: -5px;
+    }
+  
     //Buttons before current path
     button {
-      .horizontal  .dim-label { color: $headerbar_fg_color; }
+      .horizontal  .dim-label { 
+        color: $headerbar_fg_color;
+        padding: 3px 12px;
+        margin: 0;
+      }
       &:hover, &:focus {
         .dim-label { color: $selected_bg_color; }
+        background-color: transparent;
+        box-shadow: none;
       }
-
+      &:active { background-color: transparent; }
     }
-    .current-dir label {
-      padding: 6px 12px;
-      @include button(active-header);
+     // Home icon
+     button > .horizontal > image.dim-label { 
+      padding: 3px 0px 3px 12px; 
+      border-right: none;
+      margin-right: -6px;
+    }
+
+   // Reset path buttons appearance
+    button {
+      background: transparent;
+      border: none;
+      margin: 0;
+      padding: 0;
+    }
+
+   // Selected dir
+    .current-dir  {
+    
+      label, image { 
+        padding: 6px 12px;
+        @include button(active-header); 
+        box-shadow: none;
+      }
+      image { background: #00c6ff; }
+    }
+    
+    button.current-dir:only-child {
+      image {
+        margin-right: -6px;
+        padding: 0px 0px 0px 12px;
+        border-radius: 23px 0px 0px 23px;
+      }
+      label { border-radius:0px 23px 23px 0px; }
     }
   }
 
-    // search entry
-    #NautilusQueryEditor { 
+  // search entry
+  #NautilusQueryEditor { 
 
-      margin-top: 8px;
-      margin-bottom: 8px;
-      box-shadow: none;
-      background: lighten($headerbar_color, 5%); 
-      color: $headerbar_fg_color;
-      caret-color: $headerbar_fg_color;
-      *{ color: $headerbar_fg_color; }
-  
-      #NautilusQueryEditorTag {
-        > button {
-          margin: 0;
-        }
-      }
-  
-      > menubutton > button {
-        min-width: 16px;
-        min-height: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    box-shadow: none;
+    background: lighten($headerbar_color, 5%); 
+    color: $headerbar_fg_color;
+    caret-color: $headerbar_fg_color;
+    *{ color: $headerbar_fg_color; }
+
+    #NautilusQueryEditorTag {
+      > button {
         margin: 0;
-        -gtk-icon-size: 12px;
-        padding: 0 4px;
       }
-  
-      > text, > image { margin: 0; }
     }
+
+    > menubutton > button {
+      min-width: 16px;
+      min-height: 16px;
+      margin: 0;
+      -gtk-icon-size: 12px;
+      padding: 0 4px;
+    }
+
+    > text, > image { margin: 0; }
+  }
 
   notebook {
     > stack:only-child { // the :not(:only-child) is for "hidden" notebooks
