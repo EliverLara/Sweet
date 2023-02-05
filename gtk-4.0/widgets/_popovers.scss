@@ -1,6 +1,7 @@
 /***************
  * Popovers   *
  ***************/
+$_popover_bg: if( $variant == 'light', linear-gradient(to bottom, #fff 20%, #fff), linear-gradient(to bottom, lighten($bg_color, 2%), darken($bg_color, 2%)));
 
  popover.background {
 
@@ -11,7 +12,7 @@
   > contents {
     $_popover_border: if($variant=='light', transparentize(black, 0.77), transparentize(black, 0.25));
 
-    background: if( $variant == 'light', linear-gradient(to bottom, #fff 20%, #fff), linear-gradient(to bottom, lighten($bg_color, 2%), darken($bg_color, 2%)));
+    background: $_popover_bg;
     background-clip: padding-box;
     border: 1px solid $borders_color;
     box-shadow: 0 4px 6px $menu_shadow_color;
@@ -63,4 +64,119 @@
 
 magnifier {
   background-color: $base_color;
+}
+
+
+/**********************
+ * Popover Base Menus *
+ **********************/
+
+$_menu-padding: 12px; //inner menuitem padding
+//global 5px for outside menuitems
+
+popover.menu {
+  padding: 0;
+
+  box.inline-buttons {
+    padding: 0 $_menu-padding;
+
+    button.image-button.model {
+      @include button(undecorated);
+
+      min-height: 30px;
+      min-width: 30px;
+      padding: 0;
+      border: none;
+      outline: none;
+      transition: none;
+
+      &:selected {
+        background: image($popover_hover_color);
+
+      //  @if $contrast == 'high' {
+      //    box-shadow: inset 0 0 0 1px $borders_color;
+      //  }
+      }
+    }
+  }
+
+  box.circular-buttons {
+    padding: $_menu-padding $_menu-padding 6px;
+
+    button.circular.image-button.model {
+    // @extend %list_button;
+
+      padding: 11px;
+      &:focus {
+        background-color: $popover_hover_color;
+        border-color: $popover_hover_color;
+      }
+    }
+  }
+
+  & > arrow,
+  &.background > contents {
+    background: $_popover_bg;
+    padding: 5px;
+  }
+
+  &.background separator {
+    margin: 6px 0;
+  }
+
+  accelerator {
+    color: gtkalpha(currentColor,0.55);
+
+    &:dir(ltr) { margin-left: $_menu-padding; }
+    &:dir(rtl) { margin-right: $_menu-padding; }
+  }
+
+  check,
+  radio {
+  //  @include check('menu', 'transparent', $text_color);
+
+    &:hover, &:active { background-color: transparent; }
+  }
+
+
+  radio { border-color: $borders_color;
+  &:active { border-color: transparentize($borders_color,0.5); }
+}
+
+
+  arrow.left,
+  radio.left,
+  check.left {
+    margin-left: -2px;
+    margin-right: 6px;
+  }
+
+  arrow.right,
+  radio.right,
+  check.right {
+    margin-left: 6px;
+    margin-right: -2px;
+  }
+
+  modelbutton {
+    min-height: 30px;
+    min-width: 40px;
+    padding: 0 $_menu-padding;
+    border-radius: 5px;
+
+    &:selected {
+      color: $selected_fg-color;
+      background-color: $popover_hover_color;
+    }
+    &:selected:active {
+      //@extend %selected_items;
+      //color: $selected_fg_color;
+      background-color: lighten($popover_hover_color, 10%); // matching buttons
+    }
+  }
+
+  label.title {
+    font-weight: bold;
+    padding: 4px ($_menu-padding + 20px); //this will fall apart with font sizing
+  }
 }
