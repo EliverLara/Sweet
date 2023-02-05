@@ -3238,6 +3238,79 @@ popover.background {
 magnifier {
   background-color: #181b28; }
 
+/**********************
+ * Popover Base Menus *
+ **********************/
+popover.menu {
+  padding: 0; }
+  popover.menu box.inline-buttons {
+    padding: 0 12px; }
+    popover.menu box.inline-buttons button.image-button.model {
+      background-color: transparent;
+      background-image: none;
+      border-color: transparent;
+      box-shadow: inset 0 1px rgba(255, 255, 255, 0);
+      text-shadow: none;
+      -gtk-icon-shadow: none;
+      min-height: 30px;
+      min-width: 30px;
+      padding: 0;
+      border: none;
+      outline: none;
+      transition: none; }
+      popover.menu box.inline-buttons button.image-button.model:selected {
+        background: image(#12151f); }
+  popover.menu box.circular-buttons {
+    padding: 12px 12px 6px; }
+    popover.menu box.circular-buttons button.circular.image-button.model {
+      padding: 11px; }
+      popover.menu box.circular-buttons button.circular.image-button.model:focus {
+        background-color: #12151f;
+        border-color: #12151f; }
+  popover.menu > arrow, popover.menu.background > contents {
+    background-color: #181b28;
+    color: #C3C7D1;
+    padding: 5px; }
+  popover.menu.background separator {
+    margin: 6px 0; }
+  popover.menu accelerator {
+    color: alpha(currentColor,0.55); }
+    popover.menu accelerator:dir(ltr) {
+      margin-left: 12px; }
+    popover.menu accelerator:dir(rtl) {
+      margin-right: 12px; }
+  popover.menu check:hover, popover.menu check:active,
+  popover.menu radio:hover,
+  popover.menu radio:active {
+    background-color: transparent; }
+  popover.menu radio {
+    border-color: rgba(238, 238, 238, 0.1); }
+    popover.menu radio:active {
+      border-color: rgba(238, 238, 238, 0); }
+  popover.menu arrow.left,
+  popover.menu radio.left,
+  popover.menu check.left {
+    margin-left: -2px;
+    margin-right: 6px; }
+  popover.menu arrow.right,
+  popover.menu radio.right,
+  popover.menu check.right {
+    margin-left: 6px;
+    margin-right: -2px; }
+  popover.menu modelbutton {
+    min-height: 30px;
+    min-width: 40px;
+    padding: 0 12px;
+    border-radius: 5px; }
+    popover.menu modelbutton:selected {
+      color: #C3C7D1;
+      background-color: #12151f; }
+    popover.menu modelbutton:selected:active {
+      background-color: black; }
+  popover.menu label.title {
+    font-weight: bold;
+    padding: 4px 32px; }
+
 /*****************
  * Progress bars *
  *****************/
