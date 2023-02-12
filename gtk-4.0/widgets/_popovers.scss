@@ -16,6 +16,7 @@ $_popover_bg: if( $variant == 'light', linear-gradient(to bottom, #fff 20%, #fff
     background-clip: padding-box;
     border: 1px solid $borders_color;
     box-shadow: 0 4px 6px $menu_shadow_color;
+    color: $fg_color;
   }
 
   &:backdrop {
@@ -117,6 +118,7 @@ popover.menu {
   & > arrow,
   &.background > contents {
     background: $_popover_bg;
+    color: $fg_color;
     padding: 5px;
   }
 
