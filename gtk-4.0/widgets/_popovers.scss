@@ -15,6 +15,7 @@
     background-clip: padding-box;
     border: 1px solid $borders_color;
     box-shadow: 0 4px 6px $menu_shadow_color;
+    color: $fg_color;
   }
 
   &:backdrop {

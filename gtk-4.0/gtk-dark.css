@@ -3182,7 +3182,8 @@ popover.background {
     background: linear-gradient(to bottom, #1a1d2b, #12151f);
     background-clip: padding-box;
     border: 1px solid rgba(238, 238, 238, 0.1);
-    box-shadow: 0 4px 6px rgba(238, 238, 238, 0.1); }
+    box-shadow: 0 4px 6px rgba(238, 238, 238, 0.1);
+    color: #C3C7D1; }
   popover.background:backdrop {
     background-color: transparent;
     box-shadow: none; }
