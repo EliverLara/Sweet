@@ -3174,7 +3174,8 @@ popover.background {
     background: linear-gradient(to bottom, #1a1d2b, #12151f);
     background-clip: padding-box;
     border: 1px solid #090a0f;
-    box-shadow: 0 4px 6px #090a0f; }
+    box-shadow: 0 4px 6px #090a0f;
+    color: #C3C7D1; }
   popover.background:backdrop {
     background-color: transparent;
     box-shadow: none; }
@@ -3235,6 +3236,7 @@ popover.menu {
         border-color: #252a3f; }
   popover.menu > arrow, popover.menu.background > contents {
     background: linear-gradient(to bottom, #1a1d2b, #12151f);
+    color: #C3C7D1;
     padding: 5px; }
   popover.menu.background separator {
     margin: 6px 0; }
