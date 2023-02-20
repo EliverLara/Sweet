@@ -2816,7 +2816,6 @@ menu, .menu, .context-menu {
   margin: 4px;
   padding: 2px 0px;
   background: linear-gradient(to bottom, #fff 20%, #fff);
-  border: 1px solid rgba(0, 0, 0, 0.13);
   border-radius: 5px; }
   .csd menu,
   .csd .menu,
