@@ -2811,7 +2811,6 @@ menu, .menu, .context-menu {
   margin: 4px;
   padding: 2px 0px;
   background: linear-gradient(to bottom, #1a1d2b, #12151f);
-  border: 1px solid rgba(12, 14, 21, 0.8);
   border-radius: 5px; }
   .csd menu,
   .csd .menu,
@@ -3285,9 +3284,9 @@ popover.menu {
   popover.menu radio:active {
     background-color: transparent; }
   popover.menu radio {
-    border-color: rgba(238, 238, 238, 0.1); }
+    border-color: rgba(12, 14, 21, 0.8); }
     popover.menu radio:active {
-      border-color: rgba(238, 238, 238, 0); }
+      border-color: rgba(12, 14, 21, 0.3); }
   popover.menu arrow.left,
   popover.menu radio.left,
   popover.menu check.left {
