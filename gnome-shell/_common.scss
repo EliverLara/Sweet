@@ -2275,3 +2275,5 @@ $base_padding: 6px;
     border-radius: 50px;
   }
 }
+
+.quick-slider .icon-button:hover { @include button(hover); }
