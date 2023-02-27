@@ -2064,9 +2064,9 @@ StScrollBar {
   border-radius: 50px; }
 
 .quick-slider .icon-button:hover {
-  background-color: #202026;
-  color: #bdc2ca;
-  border: 1px solid #161819;
+  background-color: #252a3e;
+  color: #f7f7f7;
+  border: 1px solid #12151e;
   text-shadow: 0 1px black;
   icon-shadow: 0 1px black; }
 
