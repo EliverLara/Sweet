@@ -2011,8 +2011,8 @@ StScrollBar {
   /* Move padding into the box; this is to allow menu arrows
      to extend to the border */ }
   .quick-toggle:checked {
-    background-gradient-start: rgba(197, 14, 210, 0.6) !important;
-    background-gradient-end: rgba(133, 0, 247, 0.6) !important;
+    background-gradient-start: rgba(197, 14, 210, 0.8) !important;
+    background-gradient-end: rgba(133, 0, 247, 0.8) !important;
     background-gradient-direction: horizontal;
     color: #f7f7f7; }
   .quick-toggle > StBoxLayout {
