@@ -2213,7 +2213,7 @@ $base_padding: 6px;
   border-radius: 99px;
 
   &:checked { 
-    @include gradient(transparentize($g1, 0.2), transparentize($g2, 0.2));
+    @include gradient(transparentize($g1, 0.1), transparentize($g2, 0.1));
     color: $selected_fg_color;
     text-shadow: none;
   }
