@@ -2214,8 +2214,9 @@ $base_padding: 6px;
   border-radius: 99px;
 
   &:checked { 
-    @include gradient(transparentize($g1, 0.4), transparentize($g2, 0.4));
+    @include gradient();
     color: $selected_fg_color;
+    text-shadow: none;
   }
 
   & > StBoxLayout { spacing: $base_padding; }
