@@ -275,20 +275,29 @@ notebook {
   }
 }
 
-
-tabbox {
-  background-color:  mix($base_color, $headerbar_color, 30%);
-  padding: 0px;
-  > tabboxchild {
-    margin: 0 -3px;
-    border-radius: 0;
+tabbar {
+  &:backdrop .box {
+    > scrolledwindow,
+    > .start-action,
+    > .end-action {
+      filter: opacity(1);
+    }
   }
-  > tab,
-  > tabboxchild > tab {
-    border-radius: 0;
-    &:checked, &:selected {
-      @include selected-tab(right); 
-      color:$fg_color;
+  tabbox {
+    background-color:  mix($base_color, $headerbar_color, 30%);
+    padding: 0px;
+    color: $fg_color;
+    > tabboxchild {
+      margin: 0 -3px;
+      border-radius: 0;
+    }
+    > tab,
+    > tabboxchild > tab {
+      border-radius: 0;
+      &:checked, &:selected { 
+        @include selected-tab(right); 
+        color: $fg_color;
+      }
     }
   }
 }
