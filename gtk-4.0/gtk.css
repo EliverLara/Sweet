@@ -3116,18 +3116,23 @@ notebook > stack:not(:only-child) {
   notebook > stack:not(:only-child):backdrop {
     background-color: #e8edf3; }
 
-tabbox {
+tabbar:backdrop .box > scrolledwindow,
+tabbar:backdrop .box > .start-action,
+tabbar:backdrop .box > .end-action {
+  filter: opacity(1); }
+tabbar tabbox {
   background-color: #dadbdd;
-  padding: 0px; }
-  tabbox > tabboxchild {
+  padding: 0px;
+  color: #31363d; }
+  tabbar tabbox > tabboxchild {
     margin: 0 -3px;
     border-radius: 0; }
-  tabbox > tab,
-  tabbox > tabboxchild > tab {
+  tabbar tabbox > tab,
+  tabbar tabbox > tabboxchild > tab {
     border-radius: 0; }
-    tabbox > tab:checked, tabbox > tab:selected,
-    tabbox > tabboxchild > tab:checked,
-    tabbox > tabboxchild > tab:selected {
+    tabbar tabbox > tab:checked, tabbar tabbox > tab:selected,
+    tabbar tabbox > tabboxchild > tab:checked,
+    tabbar tabbox > tabboxchild > tab:selected {
       background: linear-gradient(to right, #fed349, #ff7800) left bottom #e5e5e7 no-repeat;
       background-size: 100% 2px;
       border: 0;
