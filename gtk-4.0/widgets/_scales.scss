@@ -25,7 +25,7 @@
 
   &:disabled {
     border: none;
-    background-color: $scale_bg;
+    @include scale-highlight(right, disabled);
   }
 
   &:backdrop,
@@ -55,7 +55,12 @@ scale {
   &.vertical {
     trough,
     progress { min-width: 6px;}
-    highlight { @include scale-highlight(bottom); }
+    highlight { 
+      @include scale-highlight(bottom); 
+      &:disabled {
+        @include scale-highlight(bottom, disabled); 
+      }
+    }
   }
 
   // the slider is inside the trough, so to have make it bigger there's a negative margin
@@ -74,7 +79,7 @@ scale {
     transition-property: background, border, box-shadow;
 
     &:active {
-      background-color: $selected_bg_color;
+      background-color: #6D44DE;
 
       &:disabled {
         background-color: $insensitive_bg_color;
@@ -146,11 +151,12 @@ scale {
     }
   }
 
-  $_scale_bg: if($variant == 'light', #fff, lighten($bg_color, 10%));
-  $_scale_disabled_bg: darken($_scale_bg, 15%);
+  $_scale_bg: if($variant == 'light', #fff, $bg_color);
+  $_scale_disabled_bg: lighten($_scale_bg, 5%);
+
   slider {
     border-color: $base_color;
-    border: 2px solid #00f17d;
+    border: 2px solid #6D44DE;
     border-radius: 12px;
 
     background-color: $_scale_bg;
@@ -159,13 +165,13 @@ scale {
 
     &:hover { @include button(hover-alt, $edge: $shadow_color); }
 
-    &:active { border-color: $selected_borders_color; }
-
     &:disabled {
       background-color: $_scale_disabled_bg;
       box-shadow: inset 0 1px $top_highlight,
                   0px 0px 1px 1px rgba(0,0,0,0.1);
-      }
+
+      border-color: transparentize(#6D44DE, 0.5);
+    }
 
     &:backdrop,
     &:backdrop:disabled {
@@ -282,7 +288,7 @@ scale {
               min-height: 15px;
               min-width: 15px;
               margin: -7px;
-              border: 2px solid #00f17d;
+              border: 2px solid #6D44DE;
               border-radius: 50%;
 
               background-color: $_scale_bg;
