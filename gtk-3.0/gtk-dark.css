@@ -1038,7 +1038,7 @@ popover.background radiobutton,
   modelbutton.flat:hover, popover.background checkbutton:hover,
   popover.background radiobutton:hover,
   .menuitem.button.flat:hover {
-    background-color: #252b2f; }
+    background-color: #2c3338; }
   modelbutton.flat check:last-child, popover.background checkbutton check:last-child,
   popover.background radiobutton check:last-child,
   modelbutton.flat radio:last-child,
@@ -2597,7 +2597,8 @@ infobar {
       box-shadow: none; }
 
 .info {
-  background-color: #CAE7B9; }
+  background-color: #CAE7B9;
+  color: #000000; }
   .info:backdrop {
     background-color: #e7f4df;
     color: rgba(247, 247, 247, 0.5); }
