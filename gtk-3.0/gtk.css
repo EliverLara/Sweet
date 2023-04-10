@@ -2612,7 +2612,8 @@ infobar {
       box-shadow: none; }
 
 .info {
-  background-color: #71f79f; }
+  background-color: #71f79f;
+  color: #000000; }
   .info:backdrop {
     background-color: #a1fac0;
     color: #fefefe; }
