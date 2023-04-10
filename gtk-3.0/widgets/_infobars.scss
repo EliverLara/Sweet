@@ -80,6 +80,7 @@ infobar {
 .info {
   @extend %color_infobar;
   background-color: $info_color;
+  color: #000000;
 
   &:backdrop {
     background-color:lighten($info_color,10%);
