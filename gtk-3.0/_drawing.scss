@@ -261,8 +261,8 @@
 
 @else if $t==active-header {
   border-radius: 23px;
-  background: linear-gradient(to right, #c50ed2, #8500f7);
-  box-shadow: 0px 0px 5px transparentize(#c50ed2, 0.02);
+  background: linear-gradient(to right, $selected-tab-gradient-start, $selected-tab-gradient-end);
+  box-shadow: 0px 0px 5px transparentize($selected-tab-gradient-start, 0.02);
   color: rgb(255, 255, 255);
 }
 
@@ -602,8 +602,8 @@ box-shadow: none;
 
 @mixin scale-highlight($dir, $state:normal) {
 
-  $_init_gradient_color : #C751FB;
-  $_end_gradient_color : #6D44DE;
+  $_init_gradient_color : #03e9b1;
+  $_end_gradient_color : #0014ff;
 
   background: linear-gradient(to $dir, if($state==disabled, transparentize($_init_gradient_color, 0.5),$_init_gradient_color),if($state==disabled, transparentize($_end_gradient_color, 0.5),$_end_gradient_color));
 }

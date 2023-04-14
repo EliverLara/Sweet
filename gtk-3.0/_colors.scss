@@ -2,13 +2,14 @@
 // it gets @if ed depending on $variant
 
 // Main definitions
-$base_color: if($variant == 'light', #ebf0f5, lighten(#161925, 1%));
-$text_color: if($variant == 'light', #31363D, #C3C7D1);
-$bg_color: if($variant == 'light', darken( #EEEEEE, 3%), #161925);
-$fg_color: if($variant == 'light', #31363d, #C3C7D1);
+$base_color: if($variant == 'light', #ebf0f5, darken(#202127, 3%));
+$text_color: if($variant == 'light', #31363D, #F4F5F6);
+$bg_color: if($variant == 'light', darken( #EEEEEE, 3%), #101013);
+$fg_color: if($variant == 'light', #31363d, #F4F5F6);
 $switch_bg: if($variant == 'light', #ffffff, transparentize(black,1));
 $shadow_color: rgba(162, 162, 165, 0.21);
-$_sidebar_color: if($variant == 'light', #222e39, #161925);
+$main_dark_color: darken($base_color, 5%);
+$_sidebar_color: if($variant == 'light', darken($main_dark_color, 3%), $main_dark_color);
 
 // Primary colors
 $lime: #71f79f;
@@ -23,15 +24,15 @@ $slider: #7b7bbd;
 $teal: #00e8c6;
 
 $selected_fg_color: #fefefe;
-$selected_bg_color: #c50ed2;
+$selected_bg_color: #0072ff;
 //$selected_bg_color: #f7005a;
 /*$selected_bg_color: #00e8c6;06d6a0*/
 $selected_borders_color: darken($selected_bg_color, 10%);
 $borders_color: if($variant == 'light', transparentize(black,0.87), darken($bg_color, 7%));
 $borders_edge: if($variant == 'light', transparentize(white, 0.8), transparentize(white, 0.9));
 
-$selected-tab-gradient-start: #5800E2;
-$selected-tab-gradient-end: #FF00E6;
+$selected-tab-gradient-start: #00c6ff;
+$selected-tab-gradient-end: $selected_bg_color;
 
 $link_color: $blue;
 $link_visited_color:transparentize($link_color,0.5);
@@ -111,6 +112,6 @@ $backdrop_menu_color: if($variant == 'light', $backdrop_base_color, mix($backdro
 
 $scale_bg: if($variant == 'light', transparentize(black,0.86) ,transparentize(white,0.86));
 $scale_disabled_bg: if($variant == 'light', transparentize(black, 0.94) ,transparentize(white, 0.94));
-$suggested_bg_color: linear-gradient(to right, #654ea3 0%, #eaafc8 100%);
-$destructive_bg_color: linear-gradient(to right, #FF416C, #FF4B2B);
+$suggested_bg_color: linear-gradient(to right, #5433FF, #20BDFF, #A5FECB);
+$destructive_bg_color: linear-gradient(to right, #fe8c00, #f83600);
 $menu_shadow_color: $borders_color;

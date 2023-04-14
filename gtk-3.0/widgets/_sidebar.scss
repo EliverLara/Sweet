@@ -1,7 +1,7 @@
 /***********
  * Sidebar *
  ***********/
-.sidebar {
+ .sidebar {
   border-style: none;
   border-width: 0;
   background-color: mix($bg_color, $base_color, 50%);
@@ -34,7 +34,7 @@
     padding: 8px 12px;
     transition: all .12s ease-in;
     label{
-      color: #98abb2;
+      color: $text_color;
     }
     &:selected{
       color: $selected_fg_color;
@@ -58,6 +58,7 @@
     //elementary os file manager
     &.source-list{
       background: $_sidebar_color;
+      color: #98abb2;
       padding: 4px 0px;
       &.view{
         transition: all .12s ease-in;
@@ -72,7 +73,7 @@
           &:backdrop { background-color: $backdrop_selected_bg_color; }
         }
         &:hover, iconview.source-list:hover { 
-            background-color: transparentize(black, 0.87); 
+            background-color:  transparentize($_sidebar_color, 0.05); 
         }
       }
     }
@@ -120,19 +121,22 @@ stacksidebar {
 placessidebar{
 	&.sidebar{
 		background-color: transparent;
-		background-image:linear-gradient(to right, #171e27 40px,
+		background-image:linear-gradient(to right, darken($main_dark_color, 5%) 40px,
 												$_sidebar_color 35px,$_sidebar_color 36px,
 												$_sidebar_color 36px,$_sidebar_color 99%, 
 												$_sidebar_color 100%);
 		row{
 			&.sidebar-row {
+        label {
+          color: #98abb2;
+        }
 				&.sidebar-row{
 					.sidebar-icon {
 						margin-left:-14px;
 						margin-right: 12px;
 						padding-left: 14px;
 						padding-right: 12px;
-						color: #9ecfa2;
+						color: #98abb2;
 					}
 				}
 				&:hover{
@@ -150,7 +154,7 @@ placessidebar{
 				}
 
 				&:selected{
-					color: rgba(255, 255, 255, 0.938);
+					color: #fff;
 					background-color: transparent;
 					background-image:linear-gradient(to right, $selected_bg_color 40px,
 																rgba(65,67,75,0) 36px, rgba(65,67,75,0)97%);
@@ -166,11 +170,6 @@ placessidebar{
             background-color: transparent;
             background-image:linear-gradient(to right, $selected_bg_color 40px,
                                   rgba(65,67,75,0) 36px, rgba(65,67,75,0)97%);
-
-            .sidebar-icon {
-              color: $backdrop_selected_fg_color;
-              -gtk-icon-shadow: 0 1px transparentize($backdrop_selected_fg_color, 0.2);
-            }
           }
 
 					.sidebar-icon {

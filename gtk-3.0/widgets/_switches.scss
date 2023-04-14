@@ -11,10 +11,10 @@ switch {
   border-radius: 14px;
   color: transparent;
   padding: 2.3px 0px;
-  background:  linear-gradient(to right, #1E2233, #1E2233);
+  background: $scale_bg;
  // border: 1px solid rgba(170, 170, 170, 0.4);
   &:disabled {
-    background-color: $insensitive_bg_color;
+    background-color: $scale_disabled_bg;
   }
 
   &:backdrop {
@@ -27,12 +27,12 @@ switch {
 
   &:active,
   &:checked {
-   background:  linear-gradient(to right, #f7005a, #fadd00);
+   background:  linear-gradient(to right, #00e5ff, #1200ff);
     slider{
       background: #fff;
     }
     &:backdrop {
-      background:  linear-gradient(to right, darken(#f7005a, 5%), darken(#fadd00, 5%));
+      background:  linear-gradient(to right, darken(#00e5ff, 5%), darken(#1200ff, 5%));
       slider {
         &:backdrop {
           box-shadow:none;
@@ -52,7 +52,7 @@ switch {
 
     border-radius: 100%;
     transition: $button_transition;
-    background-color: darken(#1E2233, 5%);
+    background-color: $bg_color;
 
     &:backdrop {
       padding:2px;

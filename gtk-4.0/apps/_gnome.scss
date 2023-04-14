@@ -154,7 +154,7 @@
         @include button(active-header); 
         
       }
-      image { background: $selected_bg_color; }
+      image { background: $selected-tab-gradient-start; }
     }
     
     button.current-dir:only-child {
