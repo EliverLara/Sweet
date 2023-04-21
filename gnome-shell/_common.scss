@@ -118,11 +118,11 @@ $slider_size: 16px;
   color: $fg_color;
   // slider trough
   -barlevel-height: 2px;
-  -barlevel-background-color: transparentize($fg_color, 0.8); //background of the trough
+  -barlevel-background-color: transparentize($fg_color, 0.6); //background of the trough
   -barlevel-border-width: 2px; 
   -barlevel-border-color: transparent; // trough border color
   // fill style
-  -barlevel-active-background-color: $yellow;
+  -barlevel-active-background-color: $g1;
   -barlevel-active-border-color: transparent;
   // overfill style (red in this case)
   -barlevel-overdrive-color: $destructive_color;
@@ -867,7 +867,7 @@ $slider_size: 16px;
       box-shadow: none;
       @include gradient();
       color: $selected_fg_color;
-      text-shadow: 0px 0px 2px rgba(92, 92, 92, 0.9);
+      text-shadow: 0px 0px 2px rgba(2, 2, 2, 0.134);
       transition-duration: 200ms;
 
     }
@@ -1181,13 +1181,13 @@ $slider_size: 16px;
 
   // colors are lightened since the media controls are in a card
   &:hover {
-    background-color: lighten($base_color, 8%);
-    color: $selected_fg_color;
+    background-color: lighten($bg_color, 8%);
+    color: lighten($fg_color, 10%);
   }
 
   &:active { 
-    background-color: lighten($base_color, 12%);
-    color: $selected_fg_color;
+    background-color: lighten($bg_color, 12%);
+    color: lighten($fg_color, 15%);
   }
 
   &:insensitive { color: lighten($insensitive_fg_color, 5%); }
@@ -1549,7 +1549,7 @@ $slider_size: 16px;
     &:hover .overview-icon,
     &:focus .overview-icon,
     &:selected .overview-icon {
-      background-color: lighten($bg_color, 7%);
+      background-color: lighten($base_color, 7%);
       transition-duration: 0ms;
       border-image: none;
       background-image: none;
@@ -1557,7 +1557,7 @@ $slider_size: 16px;
 
     &:active .overview-icon,
     &:checked .overview-icon {
-      background-color: lighten($bg_color, 7%);
+      background-color: lighten($base_color, 7%);
       box-shadow: inset $depth2;
       color: $fg_color;
     }
@@ -1583,7 +1583,7 @@ $slider_size: 16px;
 
   /* App Folders */
 .app-well-app.app-folder {
-  background-color: lighten($bg_color, 7%);
+  background-color: lighten($base_color, 7%);
   border-radius: 12px;
 }
 // expanded folder
@@ -2214,8 +2214,9 @@ $base_padding: 6px;
   border-radius: 99px;
 
   &:checked { 
-    @include gradient(transparentize($g1, 0.2), transparentize($g2, 0.2));
+    @include gradient(#03e9b1, #0014ff);
     color: $selected_fg_color;
+    text-shadow: none;
   }
 
   & > StBoxLayout { spacing: $base_padding; }
@@ -2245,7 +2246,7 @@ $base_padding: 6px;
 }
 
 .quick-toggle-menu {
-  background-color: $base_color;
+  background-color: lighten($bg_color, 4%);
   border-radius: 12px;
   padding: $base_padding*2;
   margin: $base_padding*2 $base_padding*3 0;

@@ -29,10 +29,10 @@
      id="defs2397"><linearGradient
        inkscape:collect="always"
        id="linearGradient844"><stop
-         style="stop-color:#c50ed2;stop-opacity:1"
+         style="stop-color:#00c6ff;stop-opacity:1"
          offset="0"
          id="stop840" /><stop
-         style="stop-color:#8500f7;stop-opacity:1"
+         style="stop-color:#0072ff;stop-opacity:1"
          offset="1"
          id="stop842" /></linearGradient><linearGradient
        id="linearGradient3173"><stop
@@ -68,9 +68,9 @@
      pagecolor="#000000"
      id="base"
      showgrid="true"
-     inkscape:zoom="8.898926"
-     inkscape:cx="0.34283058"
-     inkscape:cy="24.450083"
+     inkscape:zoom="4.7101737"
+     inkscape:cx="22.482407"
+     inkscape:cy="17.832095"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:current-layer="Foreground"
