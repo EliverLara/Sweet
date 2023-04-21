@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docname="desklet.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    version="1.1"
    id="svg5386"
    viewBox="0 0 32.000011 22.999983"
    height="22.999983"
-   width="32.000011">
+   width="32.000011"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs5388">
     <clipPath
@@ -33,8 +33,8 @@
      inkscape:window-maximized="1"
      inkscape:window-y="0"
      inkscape:window-x="0"
-     inkscape:window-height="714"
-     inkscape:window-width="1366"
+     inkscape:window-height="1012"
+     inkscape:window-width="1920"
      inkscape:document-rotation="0"
      fit-margin-bottom="0"
      fit-margin-right="0"
@@ -49,15 +49,18 @@
      showgrid="true"
      inkscape:current-layer="g4146"
      inkscape:document-units="px"
-     inkscape:cy="7.633471"
-     inkscape:cx="22.308942"
-     inkscape:zoom="27.059436"
+     inkscape:cy="7.7976496"
+     inkscape:cx="22.432101"
+     inkscape:zoom="13.529718"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
      bordercolor="#666666"
      pagecolor="#ffffff"
-     id="base">
+     id="base"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        originy="-9.0000174"
        originx="1.0975551e-05"
@@ -86,7 +89,7 @@
        clip-path="url(#clipPath4180)"
        id="g4146">
       <rect
-         style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#232831;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#101013;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect4164-4-3"
          width="23"
          height="21.999889"
@@ -95,7 +98,7 @@
          rx="2.0000005"
          ry="1.9999999" />
       <rect
-         style="display:inline;opacity:0.95;fill:#181b28;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="display:inline;opacity:0.95;fill:#101013;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect4164"
          width="22"
          height="20.999971"

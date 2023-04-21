@@ -1,45 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    sodipodi:docname="switch-on-selected.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    version="1.1"
    id="svg7539"
    height="20"
-   width="50">
+   width="50"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs7541">
     <linearGradient
-       id="linearGradient865"
+       id="linearGradient929"
        inkscape:collect="always">
       <stop
-         id="stop861"
+         id="stop925"
          offset="0"
-         style="stop-color:#f7005a;stop-opacity:1" />
+         style="stop-color:#00e5ff;stop-opacity:1;" />
       <stop
-         id="stop863"
+         id="stop927"
          offset="1"
-         style="stop-color:#fadd00;stop-opacity:1" />
+         style="stop-color:#1200ff;stop-opacity:1;" />
     </linearGradient>
     <linearGradient
-       osb:paint="solid"
-       id="selected_fg_color">
+       id="selected_fg_color"
+       inkscape:swatch="solid">
       <stop
          id="stop4171"
          offset="0"
          style="stop-color:#ffffff;stop-opacity:1;" />
     </linearGradient>
     <linearGradient
-       osb:paint="solid"
-       id="selected_bg_color">
+       id="selected_bg_color"
+       inkscape:swatch="solid">
       <stop
          id="stop4166"
          offset="0"
@@ -132,9 +131,9 @@
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter930"
-       x="-0.035999998"
+       x="-0.035999999"
        width="1.072"
-       y="-0.035999998"
+       y="-0.035999999"
        height="1.072">
       <feGaussianBlur
          inkscape:collect="always"
@@ -148,7 +147,7 @@
        y1="-77.999997"
        x1="127.34"
        id="linearGradient867"
-       xlink:href="#linearGradient865"
+       xlink:href="#linearGradient929"
        inkscape:collect="always" />
     <linearGradient
        gradientUnits="userSpaceOnUse"
@@ -157,7 +156,7 @@
        y1="-78"
        x1="127.34"
        id="linearGradient875"
-       xlink:href="#linearGradient865"
+       xlink:href="#linearGradient929"
        inkscape:collect="always" />
   </defs>
   <sodipodi:namedview
@@ -172,8 +171,8 @@
      inkscape:window-maximized="1"
      inkscape:window-y="0"
      inkscape:window-x="0"
-     inkscape:window-height="714"
-     inkscape:window-width="1366"
+     inkscape:window-height="1012"
+     inkscape:window-width="1920"
      fit-margin-bottom="0"
      fit-margin-right="0"
      fit-margin-left="0"
@@ -182,15 +181,18 @@
      inkscape:grid-bbox="true"
      showgrid="true"
      inkscape:current-layer="layer1"
-     inkscape:cy="11.838426"
-     inkscape:cx="14.042172"
+     inkscape:cy="11.861872"
+     inkscape:cx="14.14491"
      inkscape:zoom="10.074295"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
      bordercolor="#666666"
      pagecolor="#ffffff"
-     id="base">
+     id="base"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        originy="2.6171874e-06"
        originx="-4"
