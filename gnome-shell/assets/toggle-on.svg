@@ -2,22 +2,33 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="72"
    height="21"
    id="svg2857"
    version="1.1"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="toggle-on.svg">
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="toggle-on.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs2859">
+    <linearGradient
+       id="linearGradient1286">
+      <stop
+         id="stop1282"
+         offset="0"
+         style="stop-color:#00e5ff;stop-opacity:1;" />
+      <stop
+         id="stop1284"
+         offset="1"
+         style="stop-color:#1200ff;stop-opacity:1;" />
+    </linearGradient>
     <linearGradient
        id="linearGradient851">
       <stop
@@ -122,9 +133,9 @@
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
        id="filter930"
-       x="-0.036"
+       x="-0.035999999"
        width="1.072"
-       y="-0.036"
+       y="-0.035999999"
        height="1.072">
       <feGaussianBlur
          inkscape:collect="always"
@@ -133,7 +144,7 @@
     </filter>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient851"
+       xlink:href="#linearGradient1286"
        id="linearGradient838"
        x1="462.14285"
        y1="792.86218"
@@ -142,7 +153,7 @@
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient851"
+       xlink:href="#linearGradient1286"
        id="linearGradient852"
        x1="462.14285"
        y1="792.86218"
@@ -158,15 +169,15 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="8.7222695"
-     inkscape:cx="20.928046"
-     inkscape:cy="9.1634726"
+     inkscape:cx="20.006261"
+     inkscape:cy="9.1719248"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:window-width="1280"
      inkscape:window-height="707"
-     inkscape:window-x="86"
-     inkscape:window-y="25"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
      inkscape:window-maximized="0"
      borderlayer="true"
      inkscape:showpageshadow="false"
@@ -177,7 +188,9 @@
      inkscape:snap-bbox-edge-midpoints="true"
      showguides="true"
      inkscape:guide-bbox="true"
-     showborder="true">
+     showborder="true"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#37474f">
     <inkscape:grid
        type="xygrid"
        id="grid3078"
