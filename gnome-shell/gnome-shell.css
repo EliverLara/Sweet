@@ -2003,6 +2003,7 @@ StScrollBar {
   padding: 14px;
   border-radius: 12px; }
   .quick-settings .icon-button, .quick-settings .button {
+    color: #C3C7D1;
     padding: 10.5px; }
 
 .quick-toggle {
@@ -2010,11 +2011,13 @@ StScrollBar {
   /* Move padding into the box; this is to allow menu arrows
      to extend to the border */ }
   .quick-toggle:checked {
-    background-gradient-start: rgba(0, 232, 183, 0.7) !important;
-    background-gradient-end: rgba(0, 232, 183, 0.7) !important;
+    background-gradient-start: #00e8b7 !important;
+    background-gradient-end: #00e8b7 !important;
     background-gradient-direction: horizontal;
-    color: white;
+    color: #272727;
     text-shadow: none; }
+  .quick-toggle, .quick-toggle:hover, .quick-toggle:checked {
+    border: none; }
   .quick-toggle > StBoxLayout {
     spacing: 6px; }
   .quick-toggle.button {
@@ -2032,9 +2035,25 @@ StScrollBar {
   padding-right: 0; }
 .quick-menu-toggle:rtl > StBoxLayout {
   padding-left: 0; }
+.quick-menu-toggle .quick-toggle {
+  min-width: auto;
+  max-width: auto; }
+  .quick-menu-toggle .quick-toggle:ltr {
+    border-radius: 99px 0 0 99px; }
+  .quick-menu-toggle .quick-toggle:rtl {
+    border-radius: 0 99px 99px 0; }
+  .quick-menu-toggle .quick-toggle:ltr:last-child {
+    border-radius: 99px; }
+  .quick-menu-toggle .quick-toggle:rtl:last-child {
+    border-radius: 99px; }
 .quick-menu-toggle .quick-toggle-arrow {
-  background-color: rgba(195, 199, 209, 0.1);
-  padding: 6px 10.5px; }
+  background-color: rgba(36, 48, 53, 0.7);
+  padding: 6px 10.5px;
+  border-width: 0; }
+  .quick-menu-toggle .quick-toggle-arrow:checked {
+    background-color: #00e8b7;
+    color: #272727;
+    border-width: 0; }
   .quick-menu-toggle .quick-toggle-arrow:ltr {
     border-radius: 0 99px 99px 0; }
   .quick-menu-toggle .quick-toggle-arrow:rtl {
@@ -2044,7 +2063,8 @@ StScrollBar {
   background-color: #24313c;
   border-radius: 12px;
   padding: 12px;
-  margin: 12px 18px 0; }
+  margin: 12px 18px 0;
+  color: #C3C7D1; }
   .quick-toggle-menu .popup-menu-item > StIcon {
     -st-icon-style: symbolic; }
   .quick-toggle-menu .header {
@@ -2056,7 +2076,8 @@ StScrollBar {
       padding: 9px;
       background-color: #354859; }
       .quick-toggle-menu .header .icon.active {
-        background-color: #00e8b7; }
+        background-color: #00e8b7;
+        color: #272727; }
 
 .quick-settings-system-item > StBoxLayout {
   spacing: 12px; }
