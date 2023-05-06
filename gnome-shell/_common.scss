@@ -1105,9 +1105,9 @@ $slider_size: 16px;
       /* Message list */
       .message-list {
         border: none;
-        .message-title, .message-content, .message-body {
-          color: darken($fg_color, 5%);
-        }
+      }
+      .message-title, .message-content, .message-body {
+        color: darken($fg_color, 5%);
       }
 
         .message-list-sections {
@@ -2254,6 +2254,8 @@ $base_padding: 6px;
     background-color: transparentize(lighten($base_color, 3%), 0.3);
     padding: $base_padding $base_padding*1.75;
     border-width: 0;
+    color: $fg_color;
+
     &:checked { 
       background-color: $g2;
       color: $selected_fg_color;
