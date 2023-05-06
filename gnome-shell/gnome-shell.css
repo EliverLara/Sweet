@@ -959,8 +959,9 @@ StScrollBar {
 /* Message list */
 .message-list {
   border: none; }
-  .message-list .message-title, .message-list .message-content, .message-list .message-body {
-    color: #b5bac6; }
+
+.message-title, .message-content, .message-body {
+  color: #b5bac6; }
 
 .message-list-sections {
   spacing: 1em; }
@@ -2049,7 +2050,8 @@ StScrollBar {
 .quick-menu-toggle .quick-toggle-arrow {
   background-color: rgba(36, 48, 53, 0.7);
   padding: 6px 10.5px;
-  border-width: 0; }
+  border-width: 0;
+  color: #C3C7D1; }
   .quick-menu-toggle .quick-toggle-arrow:checked {
     background-color: #00e8b7;
     color: #272727;
