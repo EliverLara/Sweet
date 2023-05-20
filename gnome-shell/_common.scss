@@ -556,6 +556,7 @@ $slider_size: 16px;
 .popup-menu-item {
   spacing: 6px;
   border-radius: 6px;
+  color: $fg_color;
 
   &:ltr {padding-left: 6px;}
   &:rtl {padding-right: 6px;}
@@ -2269,7 +2270,7 @@ $base_padding: 6px;
 }
 
 .quick-toggle-menu {
-  background-color: lighten($bg_color, 4%);
+  background-color: lighten($bg_color, 4%) !important;
   border-radius: 12px;
   padding: $base_padding*2;
   margin: $base_padding*2 $base_padding*3 0;
