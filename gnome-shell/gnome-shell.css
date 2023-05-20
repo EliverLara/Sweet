@@ -513,7 +513,8 @@ StScrollBar {
 
 .popup-menu-item {
   spacing: 6px;
-  border-radius: 6px; }
+  border-radius: 6px;
+  color: #929ba8; }
   .popup-menu-item:ltr {
     padding-left: 6px; }
   .popup-menu-item:rtl {
@@ -2063,7 +2064,7 @@ StScrollBar {
     border-radius: 99px 0 0 99px; }
 
 .quick-toggle-menu {
-  background-color: #19191e;
+  background-color: #19191e !important;
   border-radius: 12px;
   padding: 12px;
   margin: 12px 18px 0;
