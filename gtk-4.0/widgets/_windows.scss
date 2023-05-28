@@ -13,7 +13,7 @@
   $_menu_radius: 7px;
 
   &.csd {
-    box-shadow: 0 4px 9px 1px transparentize(black, 0.5),
+    box-shadow: 0 3px 9px 1px transparentize(black, 0.5),
                 0 0 0 1px $_wm_border; //doing borders with box-shadow
     margin: 0px;
     border-radius: $_window_radius $_window_radius 0 0;
