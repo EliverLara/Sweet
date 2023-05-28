@@ -5547,10 +5547,12 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   #gnc-id-main-window .arrow.button.toggle:hover {
     border-color: #00D3A7; }
 
-.xfce4-panel.panel {
-  background-color: #222e39;
-  text-shadow: none;
-  -gtk-icon-shadow: none; }
+.xfce4-panel {
+  border-radius: 0; }
+  .xfce4-panel.panel {
+    background-color: #222e39;
+    text-shadow: none;
+    -gtk-icon-shadow: none; }
 
 #tasklist-button {
   color: rgba(195, 199, 209, 0.8);
