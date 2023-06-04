@@ -498,7 +498,8 @@ StScrollBar {
   border-radius: 0px 0px 6px 6px; }
   .popup-sub-menu .popup-menu-item {
     border-radius: 0;
-    margin: 0; }
+    margin: 0;
+    background-color: #23282c; }
     .popup-sub-menu .popup-menu-item:last-child {
       border-radius: 0 0 6px 6px; }
     .popup-sub-menu .popup-menu-item:active, .popup-sub-menu .popup-menu-item.selected, .popup-sub-menu .popup-menu-item:hover, .popup-sub-menu .popup-menu-item:focus {
