@@ -1580,20 +1580,20 @@ $slider_size: 16px;
     transition-duration: 100ms;
     text-align: center;
     box-shadow: none;
-    border-radius: 12px;
+    border-radius: 18px;
   }
 
   /* App Folders */
 .app-well-app.app-folder {
-  background-color: lighten($base_color, 7%);
-  border-radius: 12px;
+  background-color: lighten($bg_color, 7%);
+  border-radius: 18px;
 }
 // expanded folder
 .app-folder-dialog { //style like the dash
   background-color:  $_dash_bg;
   border: none;
-  border-radius: 30px;
   box-shadow: none;
+  border-radius: 30px;
 
   & .folder-name-label { color: $fg_color; }
   

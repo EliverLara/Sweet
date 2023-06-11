@@ -1376,18 +1376,18 @@ StScrollBar {
   transition-duration: 100ms;
   text-align: center;
   box-shadow: none;
-  border-radius: 12px; }
+  border-radius: 18px; }
 
 /* App Folders */
 .app-well-app.app-folder {
-  background-color: #2e353a;
-  border-radius: 12px; }
+  background-color: #2a3035;
+  border-radius: 18px; }
 
 .app-folder-dialog {
   background-color: #131618;
   border: none;
-  border-radius: 30px;
-  box-shadow: none; }
+  box-shadow: none;
+  border-radius: 30px; }
   .app-folder-dialog .folder-name-label {
     color: #B6B7B9; }
   .app-folder-dialog .edit-folder-button {
