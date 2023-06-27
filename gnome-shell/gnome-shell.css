@@ -2023,8 +2023,8 @@ StScrollBar {
     color: #000000;
     text-shadow: none; }
     .quick-toggle:checked:hover {
-      background-gradient-start: rgba(246, 126, 125, 0.8) !important;
-      background-gradient-end: rgba(225, 221, 143, 0.9) !important;
+      background-gradient-start: rgba(238, 233, 10, 0.8) !important;
+      background-gradient-end: rgba(247, 185, 34, 0.9) !important;
       background-gradient-direction: horizontal; }
   .quick-toggle, .quick-toggle:hover, .quick-toggle:checked {
     border: none; }
@@ -2066,9 +2066,9 @@ StScrollBar {
     color: #000000;
     border-width: 0; }
     .quick-menu-toggle .quick-toggle-arrow:checked:hover {
-      background-color: rgba(225, 221, 143, 0.9); }
+      background-color: rgba(247, 185, 34, 0.9); }
   .quick-menu-toggle .quick-toggle-arrow:hover {
-    background-color: #293034; }
+    background-color: #2b2d35; }
   .quick-menu-toggle .quick-toggle-arrow:ltr {
     border-radius: 0 99px 99px 0; }
   .quick-menu-toggle .quick-toggle-arrow:rtl {
