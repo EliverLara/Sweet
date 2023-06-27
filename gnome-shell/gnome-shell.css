@@ -2023,6 +2023,10 @@ StScrollBar {
     background-gradient-direction: horizontal;
     color: #1A1E21;
     text-shadow: none; }
+    .quick-toggle:checked:hover {
+      background-gradient-start: rgba(246, 126, 125, 0.8) !important;
+      background-gradient-end: rgba(225, 221, 143, 0.9) !important;
+      background-gradient-direction: horizontal; }
   .quick-toggle, .quick-toggle:hover, .quick-toggle:checked {
     border: none; }
   .quick-toggle > StBoxLayout {
@@ -2062,6 +2066,10 @@ StScrollBar {
     background-color: #E1DD8F;
     color: #1A1E21;
     border-width: 0; }
+    .quick-menu-toggle .quick-toggle-arrow:checked:hover {
+      background-color: rgba(225, 221, 143, 0.9); }
+  .quick-menu-toggle .quick-toggle-arrow:hover {
+    background-color: #293034; }
   .quick-menu-toggle .quick-toggle-arrow:ltr {
     border-radius: 0 99px 99px 0; }
   .quick-menu-toggle .quick-toggle-arrow:rtl {
