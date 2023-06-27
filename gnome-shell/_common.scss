@@ -2222,6 +2222,7 @@ $base_padding: 6px;
     @include gradient($g1, $g2);
     color: $selected_fg_color;
     text-shadow: none;
+    &:hover { @include gradient(transparentize($g1, 0.2), transparentize($g2, 0.1)); }
   }
 
   &, &:hover, &:checked { border: none; }
@@ -2265,8 +2266,9 @@ $base_padding: 6px;
       background-color: $g2;
       color: $selected_fg_color;
       border-width: 0;
+      &:hover { background-color: transparentize($g2, 0.1);}
     }
-  
+    &:hover { background-color: lighten($base_color, 5%);}
 
     &:ltr { border-radius: 0 99px 99px 0; }
     &:rtl { border-radius: 99px 0 0 99px; }
