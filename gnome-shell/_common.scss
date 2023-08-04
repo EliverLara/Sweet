@@ -177,13 +177,17 @@ $slider_size: 16px;
 .flashspot { background-color: white; }
 
 .modal-dialog {
-  border: 1px solid $borders_color;
+  border: 1px solid lighten($bg_color, 6%) !important;
   border-radius: 10px;
   color: $osd_fg_color;
   background-color: darken($osd_bg_color, 2%);
   box-shadow: $depth6;
 
-  .modal-dialog-content-box { padding: 24px; }
+  .modal-dialog-content-box {
+    margin: 32px 40px;
+    spacing: 32px;
+    max-width: 28em;
+  }
   .run-dialog-entry {
     width: 20em;
     margin-bottom: 6px;
@@ -381,7 +385,7 @@ $slider_size: 16px;
 
 .prompt-dialog {
   //this is the width of the entire modal popup
-  width: 34em;
+  width: 28em;
   border: none;
   border-radius: 10px;
 
