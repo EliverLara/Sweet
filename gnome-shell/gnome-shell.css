@@ -207,7 +207,7 @@ StScrollBar {
   background-color: white; }
 
 .modal-dialog {
-  border: 1px solid #1e1e24 !important;
+  border: 1px solid #272e32;
   border-radius: 10px;
   color: #B6B7B9;
   background-color: rgba(22, 25, 27, 0.95);
