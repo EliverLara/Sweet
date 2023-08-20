@@ -50,10 +50,6 @@ row {
 
       &:backdrop { background-color: $backdrop_selected_bg_color; }
     }
-    
-    button.flat{
-      background-color: transparent;
-    }
   }
 
   &:selected { @extend %selected_items; }

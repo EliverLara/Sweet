@@ -2719,8 +2719,6 @@ row {
     background-color: rgba(0, 114, 255, 0.5); }
   row.activatable:selected:backdrop {
     background-color: rgba(0, 114, 255, 0.6); }
-  row.activatable button.flat {
-    background-color: transparent; }
 
 columnview > listview > row {
   padding: 0; }
