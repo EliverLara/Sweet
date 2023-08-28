@@ -4576,12 +4576,11 @@ entry selection, row:selected, treeview.view:selected:focus, treeview.view:selec
     padding: 2px 0 0; }
   .budgie-popover button,
   .budgie-popover.background button {
-    color: #C3C7D1;
-    border: none;
-    background: transparent; }
+    color: #C3C7D1; }
     .budgie-popover button:hover,
     .budgie-popover.background button:hover {
-      color: #00D3A7; }
+      color: #fefefe;
+      background: #212638; }
 
 .budgie-popover > .container {
   padding: 2px; }
@@ -4639,8 +4638,7 @@ entry selection, row:selected, treeview.view:selected:focus, treeview.view:selec
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 0;
-    box-shadow: none;
-    background: yellow; }
+    box-shadow: none; }
   .budgie-menu button {
     border: none;
     background: transparent; }
@@ -4817,7 +4815,7 @@ button.raven-trigger {
     color: white;
     font-weight: 700; }
   .budgie-panel.transparent {
-    background-color: rgba(3, 3, 5, 0.2); }
+    background-color: rgba(3, 3, 5, 0.4); }
     .top .budgie-panel.transparent {
       border-bottom-color: transparent; }
     .bottom .budgie-panel.transparent {

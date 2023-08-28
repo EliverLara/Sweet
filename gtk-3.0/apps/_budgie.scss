@@ -85,11 +85,9 @@ $pos_list: ((top, bottom),(bottom,top),(left,right),(right,left));
     }
     button {
       color: $panel_color;
-      border: none;
-      background: transparent;
-        // @include button(normal-header);
         &:hover {
-          color: $selected_bg_color;
+          color: $selected_fg_color;
+          background: lighten($base_color, 5%);
         }
     }
 }
@@ -161,7 +159,6 @@ $pos_list: ((top, bottom),(bottom,top),(left,right),(right,left));
       padding-bottom: 5px;
       border-radius: 0;
       box-shadow: none;
-      background:yellow;    
     }
     button{
         border: none;
@@ -406,7 +403,7 @@ button.raven-trigger {
     }
 
     &.transparent {
-        background-color: transparentize($panel_bg, 0.75);
+        background-color: transparentize($panel_bg, 0.55);
 
         .top & {
             border-bottom-color: transparent;
