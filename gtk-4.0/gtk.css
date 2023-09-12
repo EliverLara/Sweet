@@ -5629,7 +5629,6 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   border: none; }
 .nautilus-window #NautilusPathBar {
   background: transparent;
-  height: 20px;
   margin-top: 7px;
   margin-bottom: 7px; }
   .nautilus-window #NautilusPathBar .dim-label, .nautilus-window #NautilusPathBar label.separator, .nautilus-window #NautilusPathBar .titlebar .subtitle, .titlebar .nautilus-window #NautilusPathBar .subtitle,
