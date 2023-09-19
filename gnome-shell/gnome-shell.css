@@ -989,10 +989,10 @@ StScrollBar {
 .message {
   border: 1px solid #161819;
   border-radius: 7px;
-  background: #131317;
+  background: #17171b;
   box-shadow: none; }
   .message:hover, .message:focus {
-    background-color: #19191e;
+    background-color: #1e1e24;
     box-shadow: 2px 0px 0px 0px #0072ff inset;
     border-radius: 0px 7px 7px 0px; }
 
@@ -1008,9 +1008,19 @@ StScrollBar {
 
 .message-content {
   padding: 10px; }
-  .message-content *:hover > StIcon,
-  .message-content *:focus > StIcon {
-    color: #ed254e; }
+
+.message-close-button {
+  color: #F4F5F6;
+  background-color: rgba(244, 245, 246, 0.2);
+  border-radius: 99px; }
+  .message-close-button:hover {
+    background-color: #ed254e; }
+    .message-close-button:hover > StIcon {
+      color: #f7f7f7; }
+  .message-close-button:active {
+    background-color: #ed254e; }
+    .message-close-button:active > StIcon {
+      color: #f7f7f7; }
 
 /* Media Controls */
 .message-media-control {
