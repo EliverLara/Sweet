@@ -988,19 +988,11 @@ StScrollBar {
 .message {
   border: 1px solid #161819;
   border-radius: 7px;
-<<<<<<< HEAD
-  background: #131317;
+  background: #17171b;
   box-shadow: none; }
   .message:hover, .message:focus {
-    background-color: #19191e;
+    background-color: #1e1e24;
     box-shadow: 2px 0px 0px 0px #f7b922 inset;
-=======
-  background: #1e2132;
-  box-shadow: none; }
-  .message:hover, .message:focus {
-    background-color: #23283b;
-    box-shadow: 2px 0px 0px 0px #8500f7 inset;
->>>>>>> 9225540 (Gnome-shell: Improve notification list appearance)
     border-radius: 0px 7px 7px 0px; }
 
 .message-secondary-bin > .event-time {
@@ -1015,25 +1007,19 @@ StScrollBar {
 
 .message-content {
   padding: 10px; }
-<<<<<<< HEAD
-  .message-content *:hover > StIcon,
-  .message-content *:focus > StIcon {
-    color: #ed254e; }
-=======
 
 .message-close-button {
-  color: #C3C7D1;
-  background-color: rgba(195, 199, 209, 0.2);
+  color: #929ba8;
+  background-color: rgba(146, 155, 168, 0.2);
   border-radius: 99px; }
   .message-close-button:hover {
-    background-color: #ff007a; }
+    background-color: #ed254e; }
     .message-close-button:hover > StIcon {
-      color: #f7f7f7; }
+      color: #000000; }
   .message-close-button:active {
-    background-color: #ff007a; }
+    background-color: #ed254e; }
     .message-close-button:active > StIcon {
-      color: #f7f7f7; }
->>>>>>> 9225540 (Gnome-shell: Improve notification list appearance)
+      color: #000000; }
 
 /* Media Controls */
 .message-media-control {
