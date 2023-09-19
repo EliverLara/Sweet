@@ -1141,13 +1141,13 @@ $slider_size: 16px;
 
         .message {
           &:hover,&:focus { 
-            background-color: lighten($bg_color, 4%);
+            background-color: lighten($bg_color, 6%);
             box-shadow: 2px 0px 0px 0px $g2 inset;
             border-radius: 0px 7px 7px 0px;
            }
           border: 1px solid $borders_color;
           border-radius: 7px;
-          background: lighten($bg_color, 1.5%);
+          background: lighten($bg_color, 3%);
           box-shadow: none;
         }
 
@@ -1172,9 +1172,21 @@ $slider_size: 16px;
           .message-content {
           //  color: darken($fg_color,20%);
             padding: 10px;
-            *:hover > StIcon,
-            *:focus > StIcon, {
-              color: $red;
+          }
+
+          // close button
+          .message-close-button {
+            color: $fg_color;
+            background-color: transparentize($fg_color, 0.8);
+            border-radius: 99px;
+
+            &:hover {
+              background-color: $red;
+               > StIcon { color: $selected_fg_color; }
+            }
+            &:active {
+              background-color: $red;
+              > StIcon { color: $selected_fg_color; }
             }
           }
 
