@@ -659,14 +659,14 @@ button.suggested-action {
   box-shadow: none;
   text-shadow: 0px 0px 2px rgba(87, 87, 87, 0.9);
   color: white;
-  border-radius: 100px;
-  background: linear-gradient(to right, #485563 0%, #29323c 100%); }
+  border-radius: 8px;
+  background: linear-gradient(to right, #F9D423, #FF4E50, #8A2387); }
   .selection-mode button.titlebutton, button.suggested-action.flat {
     box-shadow: none;
     text-shadow: 0px 0px 2px rgba(87, 87, 87, 0.9);
     color: white;
-    border-radius: 100px;
-    background: linear-gradient(to right, #485563 0%, #29323c 100%); }
+    border-radius: 8px;
+    background: linear-gradient(to right, #F9D423, #FF4E50, #8A2387); }
   button.suggested-action:hover {
     color: white;
     outline-color: rgba(255, 255, 255, 0.3);
@@ -773,14 +773,14 @@ button.destructive-action {
   box-shadow: none;
   text-shadow: 0px 0px 2px rgba(87, 87, 87, 0.9);
   color: white;
-  border-radius: 100px;
-  background: linear-gradient(to right, #F67E7D, #F79F79); }
+  border-radius: 8px;
+  background: linear-gradient(to right, #FF4E50, #8A2387); }
   button.destructive-action.flat {
     box-shadow: none;
     text-shadow: 0px 0px 2px rgba(87, 87, 87, 0.9);
     color: white;
-    border-radius: 100px;
-    background: linear-gradient(to right, #485563 0%, #29323c 100%); }
+    border-radius: 8px;
+    background: linear-gradient(to right, #F9D423, #FF4E50, #8A2387); }
   button.destructive-action:hover {
     color: white;
     outline-color: rgba(255, 255, 255, 0.3);
@@ -2259,13 +2259,13 @@ GraniteWidgetsWelcome {
     headerbar button.suggested-action {
       box-shadow: none;
       border: none;
-      background-image: linear-gradient(to right, #485563 0%, #29323c 100%); }
+      background-image: linear-gradient(to right, #F9D423, #FF4E50, #8A2387); }
       .titlebar button.suggested-action:disabled, .titlebar button.suggested-action:disabled:backdrop, .titlebar button.suggested-action:backdrop,
       headerbar button.suggested-action:disabled,
       headerbar button.suggested-action:disabled:backdrop,
       headerbar button.suggested-action:backdrop {
         border: none;
-        background-image: linear-gradient(to right, #485563 0%, #29323c 100%); }
+        background-image: linear-gradient(to right, #F9D423, #FF4E50, #8A2387); }
         .titlebar button.suggested-action:disabled:hover, .titlebar button.suggested-action:disabled:active, .titlebar button.suggested-action:disabled:checked, .titlebar button.suggested-action:disabled:backdrop:hover, .titlebar button.suggested-action:disabled:backdrop:active, .titlebar button.suggested-action:disabled:backdrop:checked, .titlebar button.suggested-action:backdrop:hover, .titlebar button.suggested-action:backdrop:active, .titlebar button.suggested-action:backdrop:checked,
         headerbar button.suggested-action:disabled:hover,
         headerbar button.suggested-action:disabled:active,
@@ -2277,7 +2277,7 @@ GraniteWidgetsWelcome {
         headerbar button.suggested-action:backdrop:active,
         headerbar button.suggested-action:backdrop:checked {
           border: none;
-          background-image: linear-gradient(to right, #485563 0%, #29323c 100%); }
+          background-image: linear-gradient(to right, #F9D423, #FF4E50, #8A2387); }
     .titlebar button.appmenu,
     headerbar button.appmenu {
       background: transparent; }
@@ -4608,7 +4608,7 @@ entry selection, row:selected, treeview.view:selected:focus, treeview.view:selec
       box-shadow: inset 0 2px 2px -2px rgba(0, 0, 0, 0.2); }
     .budgie-menu .category-button:checked {
       color: #f7f7f7;
-      background: linear-gradient(to right, #485563 0%, #29323c 100%); }
+      background: linear-gradient(to right, #F9D423, #FF4E50, #8A2387); }
       .budgie-menu .category-button:checked:hover {
         color: rgba(247, 247, 247, 0.9); }
     .budgie-menu .category-button:checked:disabled {
@@ -5099,13 +5099,13 @@ button.raven-trigger {
       background: #D7BCC8;
       color: #f7f7f7; }
     .raven .powerstrip button.image-button:first-child {
-      background: linear-gradient(to right, #485563 0%, #29323c 100%); }
+      background: linear-gradient(to right, #F9D423, #FF4E50, #8A2387); }
       .raven .powerstrip button.image-button:first-child:hover {
         background: rgba(246, 126, 125, 0.85); }
       .raven .powerstrip button.image-button:first-child:active {
         background: #F67E7D; }
     .raven .powerstrip button.image-button:last-child {
-      background: linear-gradient(to right, #F67E7D, #F79F79); }
+      background: linear-gradient(to right, #FF4E50, #8A2387); }
       .raven .powerstrip button.image-button:last-child:hover {
         background: rgba(246, 126, 125, 0.85); }
       .raven .powerstrip button.image-button:last-child:active {
