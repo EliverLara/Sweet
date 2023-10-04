@@ -679,13 +679,13 @@ button.suggested-action {
   border: none;
   box-shadow: none;
   color: white;
-  border-radius: 100px;
-  background: linear-gradient(to right, #00ffb7 0%, #00d593 100%); }
+  border-radius: 8px;
+  background: linear-gradient(to right, #5433FF, #20BDFF, #A5FECB); }
   .selection-mode button.titlebutton, button.suggested-action.flat {
     box-shadow: none;
     color: white;
-    border-radius: 100px;
-    background: linear-gradient(to right, #00ffb7 0%, #00d593 100%); }
+    border-radius: 8px;
+    background: linear-gradient(to right, #5433FF, #20BDFF, #A5FECB); }
   button.suggested-action:hover {
     color: white;
     outline-color: rgba(255, 255, 255, 0.3);
@@ -789,13 +789,13 @@ button.destructive-action {
   border: none;
   box-shadow: none;
   color: white;
-  border-radius: 100px;
+  border-radius: 8px;
   background: linear-gradient(to right, #fe8c00, #f83600); }
   button.destructive-action.flat {
     box-shadow: none;
     color: white;
-    border-radius: 100px;
-    background: linear-gradient(to right, #00ffb7 0%, #00d593 100%); }
+    border-radius: 8px;
+    background: linear-gradient(to right, #5433FF, #20BDFF, #A5FECB); }
   button.destructive-action:hover {
     color: white;
     outline-color: rgba(255, 255, 255, 0.3);
@@ -2281,13 +2281,13 @@ GraniteWidgetsWelcome {
     headerbar button.suggested-action {
       box-shadow: none;
       border: none;
-      background-image: linear-gradient(to right, #00ffb7 0%, #00d593 100%); }
+      background-image: linear-gradient(to right, #5433FF, #20BDFF, #A5FECB); }
       .titlebar button.suggested-action:disabled, .titlebar button.suggested-action:disabled:backdrop, .titlebar button.suggested-action:backdrop,
       headerbar button.suggested-action:disabled,
       headerbar button.suggested-action:disabled:backdrop,
       headerbar button.suggested-action:backdrop {
         border: none;
-        background-image: linear-gradient(to right, #00ffb7 0%, #00d593 100%); }
+        background-image: linear-gradient(to right, #5433FF, #20BDFF, #A5FECB); }
         .titlebar button.suggested-action:disabled:hover, .titlebar button.suggested-action:disabled:active, .titlebar button.suggested-action:disabled:checked, .titlebar button.suggested-action:disabled:backdrop:hover, .titlebar button.suggested-action:disabled:backdrop:active, .titlebar button.suggested-action:disabled:backdrop:checked, .titlebar button.suggested-action:backdrop:hover, .titlebar button.suggested-action:backdrop:active, .titlebar button.suggested-action:backdrop:checked,
         headerbar button.suggested-action:disabled:hover,
         headerbar button.suggested-action:disabled:active,
@@ -2299,7 +2299,7 @@ GraniteWidgetsWelcome {
         headerbar button.suggested-action:backdrop:active,
         headerbar button.suggested-action:backdrop:checked {
           border: none;
-          background-image: linear-gradient(to right, #00ffb7 0%, #00d593 100%); }
+          background-image: linear-gradient(to right, #5433FF, #20BDFF, #A5FECB); }
     .titlebar button.appmenu,
     headerbar button.appmenu {
       background: transparent; }
@@ -4661,7 +4661,7 @@ entry selection, row:selected, treeview.view:selected:focus, treeview.view:selec
       box-shadow: inset 0 2px 2px -2px rgba(0, 0, 0, 0.2); }
     .budgie-menu .category-button:checked {
       color: #fefefe;
-      background: linear-gradient(to right, #00ffb7 0%, #00d593 100%); }
+      background: linear-gradient(to right, #5433FF, #20BDFF, #A5FECB); }
       .budgie-menu .category-button:checked:hover {
         color: rgba(254, 254, 254, 0.9); }
     .budgie-menu .category-button:checked:disabled {
@@ -5152,7 +5152,7 @@ button.raven-trigger {
       background: #d400dc;
       color: #fefefe; }
     .raven .powerstrip button.image-button:first-child {
-      background: linear-gradient(to right, #00ffb7 0%, #00d593 100%); }
+      background: linear-gradient(to right, #5433FF, #20BDFF, #A5FECB); }
       .raven .powerstrip button.image-button:first-child:hover {
         background: rgba(0, 114, 255, 0.85); }
       .raven .powerstrip button.image-button:first-child:active {
