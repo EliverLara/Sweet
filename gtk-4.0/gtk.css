@@ -1141,7 +1141,8 @@ check:checked {
 
 radio:checked {
   -gtk-icon-source: -gtk-scaled(url("../assets/radio-checked.png"), url("../assets/radio-checked@2.png"));
-  -gtk-icon-shadow: none; }
+  -gtk-icon-shadow: none;
+  background: none; }
 
 check:checked:hover {
   -gtk-icon-source: -gtk-scaled(url("../assets/checkbox-checked-hover.png"), url("../assets/checkbox-checked-hover@2.png"));
@@ -1149,7 +1150,8 @@ check:checked:hover {
 
 radio:checked:hover {
   -gtk-icon-source: -gtk-scaled(url("../assets/radio-checked-hover.png"), url("../assets/radio-checked-hover@2.png"));
-  -gtk-icon-shadow: none; }
+  -gtk-icon-shadow: none;
+  background: none; }
 
 check:checked:active {
   -gtk-icon-source: -gtk-scaled(url("../assets/checkbox-checked-active.png"), url("../assets/checkbox-checked-active@2.png"));
@@ -1157,7 +1159,8 @@ check:checked:active {
 
 radio:checked:active {
   -gtk-icon-source: -gtk-scaled(url("../assets/radio-checked-active.png"), url("../assets/radio-checked-active@2.png"));
-  -gtk-icon-shadow: none; }
+  -gtk-icon-shadow: none;
+  background: none; }
 
 check:checked:backdrop {
   -gtk-icon-source: -gtk-scaled(url("../assets/checkbox-checked-backdrop.png"), url("../assets/checkbox-checked-backdrop@2.png"));
@@ -1165,7 +1168,8 @@ check:checked:backdrop {
 
 radio:checked:backdrop {
   -gtk-icon-source: -gtk-scaled(url("../assets/radio-checked-backdrop.png"), url("../assets/radio-checked-backdrop@2.png"));
-  -gtk-icon-shadow: none; }
+  -gtk-icon-shadow: none;
+  background: none; }
 
 check:checked:disabled {
   -gtk-icon-source: -gtk-scaled(url("../assets/checkbox-checked-insensitive.png"), url("../assets/checkbox-checked-insensitive@2.png"));
@@ -1173,7 +1177,8 @@ check:checked:disabled {
 
 radio:checked:disabled {
   -gtk-icon-source: -gtk-scaled(url("../assets/radio-checked-insensitive.png"), url("../assets/radio-checked-insensitive@2.png"));
-  -gtk-icon-shadow: none; }
+  -gtk-icon-shadow: none;
+  background: none; }
 
 check:checked:disabled:backdrop {
   -gtk-icon-source: -gtk-scaled(url("../assets/checkbox-checked-insensitive.png"), url("../assets/checkbox-checked-insensitive@2.png"));
@@ -1181,7 +1186,8 @@ check:checked:disabled:backdrop {
 
 radio:checked:disabled:backdrop {
   -gtk-icon-source: -gtk-scaled(url("../assets/radio-checked-insensitive.png"), url("../assets/radio-checked-insensitive@2.png"));
-  -gtk-icon-shadow: none; }
+  -gtk-icon-shadow: none;
+  background: none; }
 
 check:indeterminate {
   -gtk-icon-source: -gtk-scaled(url("../assets/checkbox-mixed.png"), url("../assets/checkbox-mixed@2.png"));
