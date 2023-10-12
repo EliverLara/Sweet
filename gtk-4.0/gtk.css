@@ -5932,21 +5932,6 @@ window.thunar toolbar#location-toolbar entry {
 /*********
  * Panel *
  ********/
-.panel {
-  background-color: transparent;
-  transition: all 100ms ease-in-out; }
-  .panel.maximized {
-    background-color: #222e39; }
-  .panel.translucent {
-    background-color: rgba(34, 46, 57, 0.5); }
-  .panel.color-light.translucent {
-    background-color: rgba(195, 199, 209, 0.85); }
-
-menubar.panel,
-.panel menubar {
-  box-shadow: none;
-  border: none; }
-
 .composited-indicator > revealer,
 .composited-indicator > revealer image,
 .composited-indicator > revealer label,

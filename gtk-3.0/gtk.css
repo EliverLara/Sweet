@@ -680,12 +680,12 @@ button.suggested-action {
   border: none;
   box-shadow: none;
   color: white;
-  border-radius: 100px;
+  border-radius: 8px;
   background: linear-gradient(to right, #3BE4EA 0%, #1A93ED 100%); }
   .selection-mode button.titlebutton, button.suggested-action.flat {
     box-shadow: none;
     color: white;
-    border-radius: 100px;
+    border-radius: 8px;
     background: linear-gradient(to right, #3BE4EA 0%, #1A93ED 100%); }
   button.suggested-action:hover {
     color: white;
@@ -790,12 +790,12 @@ button.destructive-action {
   border: none;
   box-shadow: none;
   color: white;
-  border-radius: 100px;
+  border-radius: 8px;
   background: linear-gradient(to right, #ee0979, #ff6a00); }
   button.destructive-action.flat {
     box-shadow: none;
     color: white;
-    border-radius: 100px;
+    border-radius: 8px;
     background: linear-gradient(to right, #3BE4EA 0%, #1A93ED 100%); }
   button.destructive-action:hover {
     color: white;
@@ -5723,21 +5723,6 @@ window.thunar toolbar#location-toolbar entry {
 /*********
  * Panel *
  ********/
-.panel {
-  background-color: transparent;
-  transition: all 100ms ease-in-out; }
-  .panel.maximized {
-    background-color: #222e39; }
-  .panel.translucent {
-    background-color: rgba(34, 46, 57, 0.5); }
-  .panel.color-light.translucent {
-    background-color: rgba(195, 199, 209, 0.85); }
-
-menubar.panel,
-.panel menubar {
-  box-shadow: none;
-  border: none; }
-
 .composited-indicator > revealer,
 .composited-indicator > revealer image,
 .composited-indicator > revealer label,
