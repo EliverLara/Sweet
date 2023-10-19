@@ -2773,7 +2773,7 @@ list {
 
 row {
   background-color: transparent;
-  border-color: #0a0c0d; }
+  border-color: rgba(0, 0, 0, 0.13); }
   row:hover {
     transition: none; }
   row:backdrop {
