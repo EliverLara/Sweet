@@ -5818,6 +5818,12 @@ window.thunar paned > scrolledwindow treeview.view:selected {
 window.thunar toolbar#location-toolbar entry {
   border-radius: 10px; }
 
+/* Vala-appmenu-plugin*/
+.-vala-panel-appmenu-core scrolledwindow,
+.-vala-panel-appmenu-private > menuitem,
+.-vala-panel-appmenu-private > menuitem:first-child > label {
+  color: white; }
+
 /********
  * Gala *
  *******/
