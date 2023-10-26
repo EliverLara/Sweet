@@ -5620,7 +5620,7 @@ window.thunar toolbar#location-toolbar entry {
 .-vala-panel-appmenu-core scrolledwindow,
 .-vala-panel-appmenu-private > menuitem,
 .-vala-panel-appmenu-private > menuitem:first-child > label {
-  color: white; }
+  color: #C3C7D1; }
 
 /********
  * Gala *
