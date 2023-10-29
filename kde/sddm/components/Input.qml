@@ -15,7 +15,7 @@ TextField {
         width: parent.width
         height: width / 9
         border.width: 1
-        border.color: "#121517"
+        border.color: parent.focus ? config.selected_color : "#121517"
         anchors.centerIn: parent
     }
 }
