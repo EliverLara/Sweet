@@ -5746,19 +5746,19 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
     background-color: rgba(0, 0, 0, 0.25);
     box-shadow: inset 0 -2px #0072ff; }
 
-.xfce4-panel.panel button.flat {
+.xfce4-panel.panel button.flat:not(.open_group) {
   color: white;
   border-radius: 0;
   border: none;
   background-color: rgba(25, 26, 31, 0); }
-  .xfce4-panel.panel button.flat:hover {
+  .xfce4-panel.panel button.flat:hover:not(.open_group) {
     border: none;
     background-color: #30323b; }
-  .xfce4-panel.panel button.flat:active, .xfce4-panel.panel button.flat:checked {
+  .xfce4-panel.panel button.flat:active:not(.open_group), .xfce4-panel.panel button.flat:checked:not(.open_group) {
     color: #fefefe;
     border-bottom: 2px solid #0072ff;
     background-color: #25262d; }
-    .xfce4-panel.panel button.flat:active label, .xfce4-panel.panel button.flat:active image, .xfce4-panel.panel button.flat:checked label, .xfce4-panel.panel button.flat:checked image {
+    .xfce4-panel.panel button.flat:active:not(.open_group) label, .xfce4-panel.panel button.flat:active:not(.open_group) image, .xfce4-panel.panel button.flat:checked:not(.open_group) label, .xfce4-panel.panel button.flat:checked:not(.open_group) image {
       color: inherit; }
 
 #whiskermenu-window button {
