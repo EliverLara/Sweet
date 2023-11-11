@@ -298,3 +298,22 @@ window {
 .titlebar{
   @extend %titlebar;
 }
+
+// Gnome 45
+.nautilus-window {
+  .sidebar-pane .top-bar {
+    headerbar, &:backdrop {
+      background-image: linear-gradient(to right, #171e27 40px,
+                                        $_sidebar_color 35px,$_sidebar_color 36px,
+                                        $_sidebar_color 36px,$_sidebar_color 99%, 
+                                        $_sidebar_color 100%);
+      border-top-right-radius: 0;
+      color: #98abb2;
+    }
+    headerbar {  padding: 6px; }
+  }
+  .content-pane .top-bar headerbar {
+    background-color: $base_color;
+    border-top-left-radius: 0;
+  }
+}

@@ -2514,6 +2514,16 @@ window.csd > .titlebar:not(headerbar) {
 .titlebar:not(headerbar) > separator, .titlebar:not(headerbar) > separator:backdrop {
   background: #fff; }
 
+.nautilus-window .sidebar-pane .top-bar headerbar, .nautilus-window .sidebar-pane .top-bar:backdrop {
+  background-image: linear-gradient(to right, #171e27 40px, #222e39 35px, #222e39 36px, #222e39 36px, #222e39 99%, #222e39 100%);
+  border-top-right-radius: 0;
+  color: #98abb2; }
+.nautilus-window .sidebar-pane .top-bar headerbar {
+  padding: 6px; }
+.nautilus-window .content-pane .top-bar headerbar {
+  background-color: #ebf0f5;
+  border-top-left-radius: 0; }
+
 /**************
  * GtkInfoBar *
  **************/
