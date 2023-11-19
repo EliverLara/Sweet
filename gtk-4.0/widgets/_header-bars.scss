@@ -301,16 +301,16 @@ window {
 }
 
 // Gnome 45
-.nautilus-window {
-  .sidebar-pane .top-bar {
-    headerbar {
-      background-color: darken($headerbar_color, 1%);
-      border-top-right-radius: 0;
-      padding: 6px;
+
+.sidebar-pane, .content-pane {
+  .top-bar {
+    &, headerbar {
+      background-color: $headerbar_color;
     }
-    &:backdrop {  background-color: darken($headerbar_color, 2%); }
   }
-  .content-pane .top-bar headerbar {
-    border-top-left-radius: 0;
-  }
+}
+
+.nautilus-window .sidebar-pane .top-bar headerbar {
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
