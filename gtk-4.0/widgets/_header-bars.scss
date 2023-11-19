@@ -319,17 +319,15 @@ window {
 }
 
  // Gnome 45
- .nautilus-window {
-  .sidebar-pane .top-bar {
-    headerbar {
+ .sidebar-pane, .content-pane {
+  .top-bar {
+    &, headerbar {
       background-color: $headerbar_color;
-      border-top-right-radius: 0;
-      padding: 6px;
     }
-    &:backdrop {  background-color: $headerbar_color; }
   }
-  .content-pane .top-bar  {
-    background-color: $headerbar_color;
-    border-top-left-radius: 0;
-  }
+}
+
+.nautilus-window .sidebar-pane .top-bar headerbar {
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
