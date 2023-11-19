@@ -2495,14 +2495,12 @@ window.csd > .titlebar:not(headerbar) {
 .titlebar:not(headerbar) > separator, .titlebar:not(headerbar) > separator:backdrop {
   background: #0c0e14; }
 
+.sidebar-pane .top-bar, .sidebar-pane .top-bar headerbar, .content-pane .top-bar, .content-pane .top-bar headerbar {
+  background-color: #0c0e14; }
+
 .nautilus-window .sidebar-pane .top-bar headerbar {
-  background-color: #0c0e14;
-  border-top-right-radius: 0;
-  padding: 6px; }
-.nautilus-window .sidebar-pane .top-bar:backdrop {
-  background-color: #12151e; }
-.nautilus-window .content-pane .top-bar headerbar {
-  border-top-left-radius: 0; }
+  padding-top: 6px;
+  padding-bottom: 6px; }
 
 /**************
  * GtkInfoBar *
