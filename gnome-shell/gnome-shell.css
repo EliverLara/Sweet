@@ -900,7 +900,7 @@ StScrollBar {
   background-gradient-direction: none; }
   .calendar-day-base:hover, .calendar-day-base:focus, .calendar-day:hover, .calendar-day:focus {
     background-color: #353d43;
-    box-shadow: none; }
+    box-shadow: none !important; }
   .calendar-day-base:active, .calendar-day-base:selected, .calendar-day:active, .calendar-day:selected {
     color: #f7f7f7;
     background-color: #F67E7D;
