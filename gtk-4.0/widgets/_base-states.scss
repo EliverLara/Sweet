@@ -64,10 +64,11 @@
   }
 }
 
-.view,
 textview {
-  text {
+  > text {
     @extend %view;
+
+    background-color: transparent;
 
     selection { &:focus, & { @extend %selected_items; }}
   }
