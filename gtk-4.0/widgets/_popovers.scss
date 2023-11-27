@@ -119,6 +119,10 @@ magnifier {
      background-color: $popover_bg_color;
      color: $fg_color;
      padding: 5px;
+     .view {
+      background-color: transparent;
+      row { margin: 0; }
+     }
    }
  
    &.background separator {
@@ -159,14 +163,14 @@ magnifier {
      margin-right: -2px;
    }
  
-   modelbutton {
+   modelbutton, &.background > contents .view row {
      min-height: 30px;
      min-width: 40px;
      padding: 0 $_menu-padding;
      border-radius: 5px;
  
      &:selected {
-       color: $text-color;
+       &, label { color: $text-color; }
        background-color: $popover_hover_color;
      }
      &:selected:active {
