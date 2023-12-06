@@ -5,10 +5,16 @@
 
   &.panel {
     background-color: $panel_bg_color;
+    color: $panel_fg_color;
     text-shadow: none;
     -gtk-icon-shadow: none;
   
     button.flat:not(.open_group){ @extend %panelbutton; }
+
+    //Systemload plugin
+    progressbar trough {
+      background-color: transparentize(white, 0.85);
+    }
   }
 }
   
