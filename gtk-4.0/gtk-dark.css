@@ -5539,10 +5539,6 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
     background-color: rgba(24, 27, 40, 0.5); }
     .nautilus-window .sidebar .list-row:hover:active {
       background-color: rgba(0, 114, 255, 0.9); }
-.nautilus-window.background {
-  background-color: rgba(18, 21, 31, 0.95); }
-  .nautilus-window.background:backdrop {
-    background-color: rgba(18, 21, 31, 0.95); }
 .nautilus-window #NautilusPathBar {
   background: transparent;
   margin-top: 7px;
