@@ -47,12 +47,6 @@
       }
     }
   }
-  &.background {
-    background-color: transparentize(darken($base_color,3%),0.05);
-    &:backdrop {
-      background-color: transparentize(darken($base_color,3%),0.05);
-    }
-  }
 
   notebook {
     > stack:only-child { // the :not(:only-child) is for "hidden" notebooks
