@@ -127,17 +127,19 @@ placessidebar.sidebar, .nautilus-window .navigation-sidebar {
     &.sidebar-row {
       margin: 0;
       border-radius: 0;
-      padding-top: 2px;
-      padding-bottom: 2px;
+      padding: 2px 11px;
 
-      label { color: #98abb2; }
+      label {
+        color: $fg_color;
+        padding-left: 8px;
+      }
       &.sidebar-row{
         .sidebar-icon {
           margin-left:-14px;
           margin-right: 12px;
           padding-left: 14px;
           padding-right: 12px;
-          color: #98abb2;
+          color: $fg_color;
         }
       }
       &:hover{
