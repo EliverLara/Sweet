@@ -294,6 +294,16 @@ tabbar {
     > tab,
     > tabboxchild > tab {
       border-radius: 0;
+      button.flat {
+        padding: 0;
+        margin: 4px;
+        min-width: 20px;
+        min-height: 20px;
+        border-radius: 10px;
+        &:hover {
+          background-color: $red;
+        }
+      }
       &:checked, &:selected { 
         @include selected-tab(right); 
         color: $fg_color;
