@@ -3103,12 +3103,23 @@ tabbar tabbox {
   tabbar tabbox > tab,
   tabbar tabbox > tabboxchild > tab {
     border-radius: 0; }
+    tabbar tabbox > tab button.flat,
+    tabbar tabbox > tabboxchild > tab button.flat {
+      padding: 0;
+      margin: 4px;
+      min-width: 20px;
+      min-height: 20px;
+      border-radius: 10px; }
+      tabbar tabbox > tab button.flat:hover,
+      tabbar tabbox > tabboxchild > tab button.flat:hover {
+        background-color: #F67E7D; }
     tabbar tabbox > tab:checked, tabbar tabbox > tab:selected,
     tabbar tabbox > tabboxchild > tab:checked,
     tabbar tabbox > tabboxchild > tab:selected {
       background: linear-gradient(to right, #ff005d, #ff8b26) left bottom #171a1d no-repeat;
       background-size: 100% 2px;
-      border: 0; }
+      border: 0;
+      color: #B6B7B9; }
 
 /*********
  * Paned *
