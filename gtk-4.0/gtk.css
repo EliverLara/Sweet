@@ -2732,7 +2732,7 @@ row.activatable:selected:backdrop {
 columnview > listview > row {
   padding: 0; }
   columnview > listview > row > cell {
-    padding: 8px 6px; }
+    padding: 0px 6px; }
     columnview > listview > row > cell:not(:first-child) {
       border-left: 1px solid transparent; }
 columnview.column-separators > listview > row > cell {
