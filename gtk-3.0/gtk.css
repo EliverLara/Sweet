@@ -6005,6 +6005,9 @@ MsdOsdWindow.background.osd {
     border: none;
     border-radius: 5px; }
 
+.mate-panel-menu-bar, .mate-panel-menu-bar button {
+  border-radius: 0; }
+
 /***********************
  * App-Specific Styles *
  ***********************/
