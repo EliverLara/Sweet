@@ -57,3 +57,10 @@ MsdOsdWindow.background.osd {
       border-radius: 5px;
     }
   }
+
+//
+// Mate panel
+//
+.mate-panel-menu-bar {
+  &, button { border-radius: 0; }
+}
