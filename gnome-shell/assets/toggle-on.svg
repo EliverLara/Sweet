@@ -6,7 +6,7 @@
    height="21"
    id="svg2857"
    version="1.1"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
    sodipodi:docname="toggle-on.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -22,7 +22,7 @@
        inkscape:collect="always"
        id="linearGradient836">
       <stop
-         style="stop-color:#bbaacc;stop-opacity:1"
+         style="stop-color:#00a6c9;stop-opacity:1;"
          offset="0"
          id="stop832" />
       <stop
@@ -128,15 +128,15 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="11.826962"
-     inkscape:cx="11.795083"
-     inkscape:cy="9.0471247"
+     inkscape:cx="29.255188"
+     inkscape:cy="9.0048484"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1671"
-     inkscape:window-height="887"
-     inkscape:window-x="30"
-     inkscape:window-y="26"
+     inkscape:window-width="1547"
+     inkscape:window-height="991"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
      inkscape:window-maximized="0"
      borderlayer="true"
      inkscape:showpageshadow="false"
@@ -148,14 +148,20 @@
      showguides="true"
      inkscape:guide-bbox="true"
      showborder="true"
-     inkscape:pagecheckerboard="0">
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        type="xygrid"
        id="grid3078"
        empspacing="5"
        visible="true"
        enabled="true"
-       snapvisiblegridlinesonly="true" />
+       snapvisiblegridlinesonly="true"
+       originx="0"
+       originy="0"
+       spacingy="1"
+       spacingx="1"
+       units="px" />
   </sodipodi:namedview>
   <metadata
      id="metadata2862">
