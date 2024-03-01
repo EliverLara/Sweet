@@ -1670,7 +1670,8 @@ spinbutton:not(.vertical), spinbutton.vertical > text, entry {
     border-radius: 0; }
   spinbutton:focus-within:not(.vertical), spinbutton.vertical > text:focus-within,
   entry:focus-within {
-    border-color: #005bcc; }
+    border-color: #005bcc;
+    box-shadow: 0px 0px 1px 1px #0072ff inset; }
   spinbutton:disabled:not(.vertical), spinbutton.vertical > text:disabled,
   entry:disabled {
     color: #828385;
@@ -1699,7 +1700,8 @@ spinbutton:not(.vertical), spinbutton.vertical > text, entry {
     border-color: #410512; }
     spinbutton.error:focus-within:not(.vertical), spinbutton.vertical > text.error:focus-within,
     entry.error:focus-within {
-      border-color: #410512; }
+      border-color: #410512;
+      box-shadow: 0px 0px 1px 1px #0072ff inset; }
     spinbutton.error:selected:focus:not(.vertical), spinbutton.vertical > text.error:selected:focus, spinbutton.error:selected:not(.vertical), spinbutton.vertical > text.error:selected,
     entry.error:selected:focus,
     entry.error:selected {
@@ -1713,7 +1715,8 @@ spinbutton:not(.vertical), spinbutton.vertical > text, entry {
     border-color: #1a0b00; }
     spinbutton.warning:focus-within:not(.vertical), spinbutton.vertical > text.warning:focus-within,
     entry.warning:focus-within {
-      border-color: #1a0b00; }
+      border-color: #1a0b00;
+      box-shadow: 0px 0px 1px 1px #0072ff inset; }
     spinbutton.warning:selected:focus:not(.vertical), spinbutton.vertical > text.warning:selected:focus, spinbutton.warning:selected:not(.vertical), spinbutton.vertical > text.warning:selected,
     entry.warning:selected:focus,
     entry.warning:selected {
@@ -1793,7 +1796,8 @@ entry {
   border-left-color: #005bcc; }
 .linked:not(.vertical) > spinbutton:focus-within:not(.vertical), spinbutton.vertical.linked:not(.vertical) > text:focus-within, .linked:not(.vertical) >
 entry:focus-within {
-  border-color: #005bcc; }
+  border-color: #005bcc;
+  box-shadow: 0px 0px 1px 1px #0072ff inset; }
 .linked:not(.vertical) > spinbutton:drop(active):not(.vertical) + spinbutton:not(.vertical), spinbutton.vertical.linked:not(.vertical) > text:drop(active) + spinbutton:not(.vertical), spinbutton.vertical.linked:not(.vertical) > spinbutton:drop(active):not(.vertical) + text, spinbutton.vertical.linked:not(.vertical) > text:drop(active) + text, .linked:not(.vertical) > spinbutton:drop(active):not(.vertical) + button, spinbutton.vertical.linked:not(.vertical) > text:drop(active) + button, .linked:not(.vertical) > spinbutton:drop(active):not(.vertical) + combobox > box > button.combo, spinbutton.vertical.linked:not(.vertical) > text:drop(active) + combobox > box > button.combo, .linked:not(.vertical) >
 entry:drop(active) + spinbutton:not(.vertical), spinbutton.vertical.linked:not(.vertical) > entry:drop(active) + text, .linked:not(.vertical) >
 entry:drop(active) + button, .linked:not(.vertical) >
@@ -4131,29 +4135,29 @@ spinbutton {
       border-style: none none none solid;
       border-color: rgba(0, 0, 0, 0.3);
       border-radius: 0;
-      box-shadow: none; }
+      box-shadow: none;
+      background-color: transparent; }
       spinbutton:not(.vertical) > button.image-button.up:not(.flat):dir(rtl),
       spinbutton:not(.vertical) > button.image-button.down:not(.flat):dir(rtl) {
         border-style: none solid none none; }
       spinbutton:not(.vertical) > button.image-button.up:not(.flat):hover,
       spinbutton:not(.vertical) > button.image-button.down:not(.flat):hover {
         color: #F4F5F6;
-        background-color: #30323b; }
+        background-color: #040405; }
       spinbutton:not(.vertical) > button.image-button.up:not(.flat):disabled,
       spinbutton:not(.vertical) > button.image-button.down:not(.flat):disabled {
         color: rgba(130, 131, 133, 0.3);
         background-color: transparent; }
       spinbutton:not(.vertical) > button.image-button.up:not(.flat):active,
       spinbutton:not(.vertical) > button.image-button.down:not(.flat):active {
-        background-color: #373943;
-        box-shadow: inset 0 2px 3px -1px rgba(0, 0, 0, 0.2);
-        color: #fefefe; }
+        background-color: rgba(0, 0, 0, 0.1);
+        box-shadow: inset 0 2px 3px -1px rgba(0, 0, 0, 0.2); }
       spinbutton:not(.vertical) > button.image-button.up:not(.flat):dir(ltr):last-child,
       spinbutton:not(.vertical) > button.image-button.down:not(.flat):dir(ltr):last-child {
-        border-radius: 0 3px 3px 0; }
+        border-radius: 0 6px 6px 0; }
       spinbutton:not(.vertical) > button.image-button.up:not(.flat):dir(rtl):first-child,
       spinbutton:not(.vertical) > button.image-button.down:not(.flat):dir(rtl):first-child {
-        border-radius: 3px 0 0 3px; }
+        border-radius: 6px 0 0 6px; }
   .osd spinbutton:not(.vertical) > button.image-button.up:not(.flat),
   .osd spinbutton:not(.vertical) > button.image-button.down:not(.flat) {
     background-color: transparent;
@@ -4198,10 +4202,10 @@ spinbutton {
       box-shadow: none; }
     .osd spinbutton:not(.vertical) > button.image-button.up:not(.flat):dir(ltr):last-child,
     .osd spinbutton:not(.vertical) > button.image-button.down:not(.flat):dir(ltr):last-child {
-      border-radius: 0 3px 3px 0; }
+      border-radius: 0 6px 6px 0; }
     .osd spinbutton:not(.vertical) > button.image-button.up:not(.flat):dir(rtl):first-child,
     .osd spinbutton:not(.vertical) > button.image-button.down:not(.flat):dir(rtl):first-child {
-      border-radius: 3px 0 0 3px; }
+      border-radius: 6px 0 0 6px; }
   spinbutton.vertical:disabled {
     color: #828385; }
   spinbutton.vertical:drop(active) {
@@ -4216,7 +4220,6 @@ spinbutton {
       background-color: rgba(0, 114, 255, 0.6);
       color: transparent; }
       spinbutton.vertical > text > selection:focus-within {
-        background-color: #0072ff;
         color: #F4F5F6; }
   spinbutton.vertical > button {
     min-height: 32px;
@@ -5652,8 +5655,7 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
     border-radius: 0px 23px 23px 0px; }
 .nautilus-window #NautilusQueryEditor {
   margin-top: 8px;
-  margin-bottom: 8px;
-  box-shadow: none; }
+  margin-bottom: 8px; }
   .nautilus-window #NautilusQueryEditor #NautilusQueryEditorTag > button {
     margin: 0; }
   .nautilus-window #NautilusQueryEditor > menubutton > button {
