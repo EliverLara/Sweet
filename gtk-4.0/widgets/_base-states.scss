@@ -66,12 +66,10 @@
 
 textview {
   > text {
-    @extend %view;
-
-    background-color: transparent;
-
-    selection { &:focus, & { @extend %selected_items; }}
-  }
+   @extend %view;
+   background-color: transparent;
+   selection { &:focus, & { @extend %selected_items; }}
+ }
 }
 
 textview border { background-color: mix($bg_color, $base_color, 50%); }
