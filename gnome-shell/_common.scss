@@ -998,6 +998,7 @@ $slider_size: 16px;
     }
 
     .calendar-month-label {
+      background-color: transparent;
       color: darken($fg_color,5%);
       font-weight: bold;
       padding: 8px 0;
@@ -1037,6 +1038,7 @@ $slider_size: 16px;
       border-radius: 99px;
       color: $fg_color;
       background-gradient-direction: none;
+      background-color: transparent;
 
       &:hover, &:focus { 
         background-color: lighten($bg_color, 12%);
@@ -1049,11 +1051,13 @@ $slider_size: 16px;
         border-color: black; //avoid jumparound due to today
         box-shadow: none !important;
       }
-      &.calendar-day-heading {  //day of week heading
-        color: darken($fg_color, 10%);
-        margin-top: 1em;
-        font-size: 70%;
-      }
+      
+    }
+    .calendar-day-heading {  //day of week heading
+      background-color: transparent;
+      color: darken($fg_color, 10%);
+      margin-top: 1em;
+      font-size: 70%;
     }
       .calendar-day { //border collapse hack - see calendar.js
         border-width: 0;
@@ -1440,7 +1444,8 @@ $slider_size: 16px;
 
   //search results
 
-  %search-section-content-item {  
+  %search-section-content-item { 
+    background-color: transparent; 
     &:focus,
     &:hover,
     &:selected {
