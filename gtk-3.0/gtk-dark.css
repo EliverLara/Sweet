@@ -6171,18 +6171,19 @@ ConversationListView {
     background: #F67E7D;
     color: #f7f7f7; }
 .nemo-window .sidebar {
+  color: #B6B7B9;
   background-color: #16191b; }
   .nemo-window .sidebar .view, .nemo-window .sidebar iconview, .nemo-window .sidebar .iconview, .nemo-window .sidebar row {
-    color: #98abb2;
+    color: #B6B7B9;
     background-color: transparent; }
 .nemo-window .nemo-window-pane widget.entry {
   background-clip: padding-box;
+  background-color: #2c3338;
   min-height: 28px;
   padding: 5px;
   color: #B6B7B9;
-  border: 1px solid #0a0c0d;
-  border-radius: 3px;
-  box-shadow: inset 0 1px rgba(0, 0, 0, 0.9), inset 1px 0 rgba(0, 0, 0, 0.96), inset -1px 0 rgba(0, 0, 0, 0.96), inset 0 -1px rgba(0, 0, 0, 0.98), 0 1px rgba(255, 255, 255, 0.6); }
+  border: 1px solid #F67E7D;
+  border-radius: 3px; }
   .nemo-window .nemo-window-pane widget.entry:selected {
     background-color: #F67E7D;
     color: #f7f7f7; }
@@ -6213,9 +6214,9 @@ ConversationListView {
 .caja-notebook .frame {
   border-width: 0 0 1px; }
 .caja-notebook .entry {
-  background: #1A1E21;
+  background: #2a3035;
   color: #B6B7B9;
-  border-color: #0a0c0d; }
+  border-color: #F67E7D; }
   .caja-notebook .entry:selected {
     background: #F67E7D;
     color: #f7f7f7; }
@@ -6233,7 +6234,7 @@ ConversationListView {
   .caja-side-pane widget .vertical {
     background: #16191b;
     padding: 3px 2px;
-    color: #98abb2; }
+    color: #B6B7B9; }
     .caja-side-pane treeview.view:hover,
     .caja-side-pane textview.view text:hover,
     .caja-side-pane viewport.frame:hover,
