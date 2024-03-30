@@ -6282,12 +6282,12 @@ ConversationListView {
     background-color: transparent; }
 .nemo-window .nemo-window-pane widget.entry {
   background-clip: padding-box;
+  background-color: #252a3f;
   min-height: 28px;
   padding: 5px;
   color: #C3C7D1;
-  border: 1px solid rgba(12, 14, 21, 0.8);
-  border-radius: 3px;
-  box-shadow: inset 0 1px rgba(0, 0, 0, 0.9), inset 1px 0 rgba(0, 0, 0, 0.96), inset -1px 0 rgba(0, 0, 0, 0.96), inset 0 -1px rgba(0, 0, 0, 0.98), 0 1px rgba(255, 255, 255, 0.6); }
+  border: 1px solid #f7b922;
+  border-radius: 3px; }
   .nemo-window .nemo-window-pane widget.entry:selected {
     background-color: #f7b922;
     color: #fefefe; }
@@ -6318,9 +6318,9 @@ ConversationListView {
 .caja-notebook .frame {
   border-width: 0 0 1px; }
 .caja-notebook .entry {
-  background: #161925;
+  background: #23283b;
   color: #C3C7D1;
-  border-color: rgba(12, 14, 21, 0.8); }
+  border-color: #f7b922; }
   .caja-notebook .entry:selected {
     background: #f7b922;
     color: #fefefe; }
@@ -6340,7 +6340,7 @@ ConversationListView {
   .caja-side-pane widget .vertical {
     background: #202127;
     padding: 3px 2px;
-    color: #98abb2; }
+    color: #C3C7D1; }
     .caja-side-pane treeview.view:hover,
     .caja-side-pane textview.view text:hover,
     .caja-side-pane viewport.frame:hover,

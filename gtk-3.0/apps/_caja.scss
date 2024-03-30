@@ -3,9 +3,9 @@
     .frame { border-width: 0 0 1px; }
 
     .entry {
-        background: $bg_color;
+        background: lighten($bg_color, 7%);
         color: $fg_color;
-        border-color: $borders_color;
+        border-color: $selected_bg_color;
         &:selected {
             background: $selected_bg_color;
             color: $selected_fg_color;
@@ -29,7 +29,7 @@
     widget .vertical {
         background: $_sidebar_color;
         padding: 3px 2px;
-        color: #98abb2;
+        color: $fg_color;
         &:hover {
         background-color: transparentize(darken($_sidebar_color, 2%), 0.05);
         }
