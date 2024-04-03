@@ -8,42 +8,44 @@ stage {
 
 /* WIDGETS */
 /* Buttons */
-.button, .app-folder-dialog .edit-folder-button, .quick-settings-system-item .icon-button {
+.button, .icon-button, .app-folder-dialog .edit-folder-button, .quick-settings-system-item .icon-button {
   color: #F4F5F6;
   background-color: #22232a;
   box-shadow: none;
   border: 1px solid #161819;
   text-shadow: 0 1px black;
   icon-shadow: 0 1px black;
-  border: 1px solid #161819;
-  border-radius: 6px;
-  padding: 4px 32px; }
-  .button:focus, .app-folder-dialog .edit-folder-button:focus, .quick-settings-system-item .icon-button:focus {
+  border: 1px solid #161819; }
+  .button:focus, .icon-button:focus, .app-folder-dialog .edit-folder-button:focus, .quick-settings-system-item .icon-button:focus {
     background-color: #2b2d35;
     color: #f7f7f7;
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black;
     box-shadow: none !important;
     border: 1px solid #161819; }
-  .button:insensitive, .app-folder-dialog .edit-folder-button:insensitive, .quick-settings-system-item .icon-button:insensitive {
+  .button:insensitive, .icon-button:insensitive, .app-folder-dialog .edit-folder-button:insensitive, .quick-settings-system-item .icon-button:insensitive {
     color: #828385;
     background-color: rgba(41, 41, 44, 0.66);
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
     border: none;
     text-shadow: none;
     icon-shadow: none; }
-  .button:active, .app-folder-dialog .edit-folder-button:active, .quick-settings-system-item .icon-button:active {
+  .button:active, .icon-button:active, .app-folder-dialog .edit-folder-button:active, .quick-settings-system-item .icon-button:active {
     color: #0072ff;
     background-color: rgba(16, 16, 19, 0.95);
     border: 1px solid #161819;
     text-shadow: none;
     icon-shadow: none; }
-  .button:hover, .app-folder-dialog .edit-folder-button:hover, .quick-settings-system-item .icon-button:hover {
+  .button:hover, .icon-button:hover, .app-folder-dialog .edit-folder-button:hover, .quick-settings-system-item .icon-button:hover {
     background-color: #292a32;
     color: #f7f7f7;
     border: 1px solid #161819;
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black; }
+
+.button {
+  border-radius: 6px;
+  padding: 4px 32px; }
 
 .modal-dialog-linked-button {
   padding: 10px;
@@ -107,7 +109,8 @@ StEntry {
   StEntry:hover {
     border-color: rgba(0, 114, 255, 0.6); }
   StEntry:focus {
-    border-color: rgba(0, 114, 255, 0.6); }
+    border-color: rgba(0, 114, 255, 0.6);
+    box-shadow: none !important; }
   StEntry:insensitive {
     color: #828385;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
@@ -1350,7 +1353,10 @@ StScrollBar {
 .app-well-app,
 .app-well-app.app-folder,
 .show-apps,
-.grid-search-result {
+.grid-search-result,
+.overview-tile,
+.dash-item-container .overview-tile {
+  background-color: transparent;
   border: none; }
   .app-well-app:hover .overview-icon, .app-well-app:focus .overview-icon, .app-well-app:selected .overview-icon,
   .app-well-app.app-folder:hover .overview-icon,
@@ -1361,7 +1367,13 @@ StScrollBar {
   .show-apps:selected .overview-icon,
   .grid-search-result:hover .overview-icon,
   .grid-search-result:focus .overview-icon,
-  .grid-search-result:selected .overview-icon {
+  .grid-search-result:selected .overview-icon,
+  .overview-tile:hover .overview-icon,
+  .overview-tile:focus .overview-icon,
+  .overview-tile:selected .overview-icon,
+  .dash-item-container .overview-tile:hover .overview-icon,
+  .dash-item-container .overview-tile:focus .overview-icon,
+  .dash-item-container .overview-tile:selected .overview-icon {
     background-color: #292a32;
     transition-duration: 0ms;
     border-image: none;
@@ -1372,12 +1384,16 @@ StScrollBar {
   .show-apps:active .overview-icon,
   .show-apps:checked .overview-icon,
   .grid-search-result:active .overview-icon,
-  .grid-search-result:checked .overview-icon {
+  .grid-search-result:checked .overview-icon,
+  .overview-tile:active .overview-icon,
+  .overview-tile:checked .overview-icon,
+  .dash-item-container .overview-tile:active .overview-icon,
+  .dash-item-container .overview-tile:checked .overview-icon {
     background-color: #292a32;
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
     color: #F4F5F6; }
 
-.app-well-app-running-dot {
+.app-well-app-running-dot, .app-grid-running-dot {
   width: 4px;
   height: 4px;
   background-color: #0072ff;
@@ -1388,7 +1404,10 @@ StScrollBar {
 .app-well-app .overview-icon,
 .app-well-app.app-folder .overview-icon,
 .show-apps .overview-icon,
-.grid-search-result .overview-icon {
+.grid-search-result .overview-icon,
+.overview-tile .overview-icon,
+.dash-item-container .overview-tile .overview-icon {
+  background-color: transparent;
   color: #f7f7f7;
   padding: 6px;
   border: none;
@@ -1398,7 +1417,7 @@ StScrollBar {
   border-radius: 18px; }
 
 /* App Folders */
-.app-well-app.app-folder {
+.app-well-app.app-folder, .app-folder .overview-icon {
   background-color: #292a32;
   border-radius: 18px; }
 
@@ -1475,6 +1494,7 @@ StScrollBar {
   padding: 0px 88px 10px 88px; }
 
 .page-navigation-arrow {
+  background-color: transparent;
   margin: 6px;
   padding: 18px;
   width: 24px;

@@ -18,16 +18,19 @@ stage {
 /* WIDGETS */
 
 /* Buttons */
-.button, %button {
+.button, .icon-button, %button {
   @include button(normal);
-  border-radius: 6px;
-  padding: 4px 32px;
   &:focus { @include button(focus); }
   &:insensitive { @include button(insensitive); }
   &:active { @include button(active); }
   &:hover {
     @include button(hover);
   }
+}
+
+.button {
+  border-radius: 6px;
+  padding: 4px 32px;
 }
 
 .modal-dialog-linked-button {
@@ -1562,8 +1565,10 @@ $slider_size: 16px;
   .app-well-app,
   .app-well-app.app-folder,
   .show-apps,
-  .grid-search-result {
-    
+  .grid-search-result,
+  .overview-tile,
+  .dash-item-container .overview-tile{
+    background-color: transparent;
     border: none;
     & .overview-icon {
       @extend %icon_tile;
@@ -1587,7 +1592,7 @@ $slider_size: 16px;
 
   }
 
-  .app-well-app-running-dot { //running apps indicator
+  .app-well-app-running-dot, .app-grid-running-dot { //running apps indicator
     width: 4px; height: 4px;
     background-color: $selected_bg_color;
     border-radius: 10px !important;
@@ -1596,6 +1601,7 @@ $slider_size: 16px;
   }
 
   %icon_tile {
+    background-color: transparent;
     color: $selected_fg_color;
     padding: 6px;
     border: none;
@@ -1606,7 +1612,7 @@ $slider_size: 16px;
   }
 
   /* App Folders */
-.app-well-app.app-folder {
+.app-well-app.app-folder, .app-folder .overview-icon {
   background-color: lighten($base_color, 7%);
   border-radius: 18px;
 }
@@ -1702,7 +1708,7 @@ $slider_size: 16px;
   }
 
 .page-navigation-arrow {
-  
+  background-color: transparent;
   margin: 6px;
   padding: 18px;
   width: 24px;
