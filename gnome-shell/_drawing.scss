@@ -56,7 +56,10 @@
     @include _shadows($depth);
 
   }
-  @if $t==focus { border-color: transparentize($selected_bg_color, 0.4); }
+  @if $t==focus { 
+    border-color: transparentize($selected_bg_color, 0.4); 
+    box-shadow: none !important;
+  }
   @if $t==hover { border-color: transparentize($selected_bg_color, 0.4); }
   @if $t==insensitive {
     color: $insensitive_fg_color;
