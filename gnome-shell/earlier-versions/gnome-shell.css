@@ -106,7 +106,12 @@ StEntry {
   selection-background-color: #0072ff;
   selected-color: #f7f7f7; }
   StEntry:focus {
+<<<<<<< HEAD
     border-color: rgba(0, 114, 255, 0.6); }
+=======
+    border-color: rgba(197, 14, 210, 0.6);
+    box-shadow: none !important; }
+>>>>>>> b52d230 (Gnome-shell: Fix appearance issues in v46)
   StEntry:insensitive {
     color: #6a6c72;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
