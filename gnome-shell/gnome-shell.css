@@ -627,7 +627,8 @@ StScrollBar {
 
 .switcher-list .item-box {
   padding: 8px;
-  border-radius: 4px; }
+  border-radius: 4px;
+  background-color: transparent; }
 
 .switcher-list .item-box:outlined {
   padding: 6px;
@@ -1397,8 +1398,7 @@ StScrollBar {
   height: 4px;
   background-color: #00e8b7;
   border-radius: 10px !important;
-  box-shadow: 0px 0px 5px 4px rgba(0, 232, 183, 0.8);
-  margin-bottom: 0px; }
+  box-shadow: 0px 0px 5px 4px rgba(0, 232, 183, 0.8); }
 
 .app-well-app .overview-icon,
 .app-well-app.app-folder .overview-icon,
@@ -1407,7 +1407,7 @@ StScrollBar {
 .overview-tile .overview-icon,
 .dash-item-container .overview-tile .overview-icon {
   background-color: transparent;
-  color: #272727;
+  color: #C3C7D1;
   padding: 6px;
   border: none;
   transition-duration: 100ms;
