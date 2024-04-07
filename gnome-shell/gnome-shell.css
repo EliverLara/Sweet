@@ -627,7 +627,8 @@ StScrollBar {
 
 .switcher-list .item-box {
   padding: 8px;
-  border-radius: 4px; }
+  border-radius: 4px;
+  background-color: transparent; }
 
 .switcher-list .item-box:outlined {
   padding: 6px;
@@ -1398,8 +1399,7 @@ StScrollBar {
   height: 4px;
   background-color: #F67E7D;
   border-radius: 10px !important;
-  box-shadow: 0px 0px 5px 4px rgba(246, 126, 125, 0.8);
-  margin-bottom: 0px; }
+  box-shadow: 0px 0px 5px 4px rgba(246, 126, 125, 0.8); }
 
 .app-well-app .overview-icon,
 .app-well-app.app-folder .overview-icon,
