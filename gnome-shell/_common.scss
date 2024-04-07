@@ -701,6 +701,7 @@ $slider_size: 16px;
   .switcher-list .item-box {
     padding: 8px;
     border-radius: 4px;
+    background-color: transparent;
   }
 
   .switcher-list .item-box:outlined {
@@ -1597,7 +1598,6 @@ $slider_size: 16px;
     background-color: $selected_bg_color;
     border-radius: 10px !important;
     box-shadow: 0px 0px 5px 4px transparentize($selected_bg_color,0.2);
-    margin-bottom: 0px;
   }
 
   %icon_tile {
