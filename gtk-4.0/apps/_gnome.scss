@@ -186,14 +186,6 @@
       }
     }
   }
-
-  .linked:not(.vertical) > entry { 
-    border-radius: 10px;
-    margin-right: 5px;
-    &:focus {
-      border-color: transparentize($selected_bg_color, 0.4);
-    }
-  }
 }
 
 .nautilus-circular-button {

@@ -1815,14 +1815,20 @@ entry, .linked:not(.vertical) >
 entry:drop(active) +
 entry {
   border-left-color: #71f79f; }
-.linked:not(.vertical) > spinbutton:focus-within:not(.vertical), spinbutton.vertical.linked:not(.vertical) > text:focus-within, .linked:not(.vertical) >
-entry:focus-within {
-  border-color: #0072ff;
-  box-shadow: 0px 0px 1px 1px #0072ff inset; }
-.linked:not(.vertical) > spinbutton:not(.vertical) + .popup button, spinbutton.vertical.linked:not(.vertical) > text + .popup button, .linked:not(.vertical) >
-entry + .popup button {
-  border-radius: 0px 4px 4px 0px;
-  margin-left: 1px; }
+.linked:not(.vertical) > spinbutton:not(.vertical), spinbutton.vertical.linked:not(.vertical) > text, .linked:not(.vertical) >
+entry {
+  border-right-style: solid;
+  border-right-color: transparent; }
+  .linked:not(.vertical) > spinbutton:focus-within:not(.vertical), spinbutton.vertical.linked:not(.vertical) > text:focus-within, .linked:not(.vertical) >
+  entry:focus-within {
+    border-color: #0072ff;
+    box-shadow: 0px 0px 1px 1px #0072ff inset; }
+    .linked:not(.vertical) > spinbutton:focus-within:not(.vertical) + .popup button, spinbutton.vertical.linked:not(.vertical) > text:focus-within + .popup button, .linked:not(.vertical) >
+    entry:focus-within + .popup button {
+      border-left-color: #0072ff; }
+  .linked:not(.vertical) > spinbutton:not(.vertical) + .popup button, spinbutton.vertical.linked:not(.vertical) > text + .popup button, .linked:not(.vertical) >
+  entry + .popup button {
+    border-radius: 0px 3px 3px 0px; }
 .linked.vertical > spinbutton:not(:disabled):not(.vertical) + entry:not(:disabled), spinbutton.vertical.linked > text:not(:disabled) + entry:not(:disabled), .linked.vertical > spinbutton:not(:disabled):not(.vertical) + spinbutton:not(:disabled):not(.vertical), spinbutton.vertical.linked > text:not(:disabled) + spinbutton:not(:disabled):not(.vertical), spinbutton.vertical.linked > spinbutton:not(:disabled):not(.vertical) + text:not(:disabled), spinbutton.vertical.linked > text:not(:disabled) + text:not(:disabled), .linked.vertical >
 entry:not(:disabled) + entry:not(:disabled), .linked.vertical >
 entry:not(:disabled) + spinbutton:not(:disabled):not(.vertical), spinbutton.vertical.linked > entry:not(:disabled) + text:not(:disabled) {
@@ -5707,11 +5713,6 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   color: #0072ff;
   box-shadow: none;
   border: none; }
-.nautilus-window .linked:not(.vertical) > entry {
-  border-radius: 10px;
-  margin-right: 5px; }
-  .nautilus-window .linked:not(.vertical) > entry:focus {
-    border-color: rgba(0, 114, 255, 0.6); }
 
 .nautilus-circular-button {
   border-radius: 20px; }
