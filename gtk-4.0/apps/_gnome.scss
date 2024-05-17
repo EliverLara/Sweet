@@ -184,16 +184,7 @@
         padding: 0 4px;
       }
 
-      > text, > image { margin: 0; }
-    }
-
-  .linked:not(.vertical) > entry { 
-    border-radius: 10px;
-    margin-right: 5px;
-    &:focus {
-      border-color: transparentize($selected_bg_color, 0.4);
-      box-shadow: 0px 0px 1px 1px $selected_bg_color inset;
-    }
+    > text, > image { margin: 0; }
   }
 }
 
