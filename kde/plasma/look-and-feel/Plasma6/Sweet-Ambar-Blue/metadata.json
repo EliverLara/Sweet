@@ -1,0 +1,30 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "eliverlara@gmail.com",
+                "Name": "EliverLara"
+            }
+        ],
+        "Category": "Plasma Look And Feel",
+        "EnabledByDefault": true,
+        "Id": "Sweet-Ambar-Blue",
+        "License": "GPL 3+",
+        "Name": "Sweet-Ambar-Blue",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "Version": "0.1",
+        "Website": "https://github.com/EliverLara/Sweet/tree/Ambar-Blue/kde"
+    },
+    "X-KPackage-Dependencies": [
+        "kns://colorschemes.knsrc/api.kde-look.org/1897307",
+        "kns://plasma-themes.knsrc/api.kde-look.org/1897309",
+        "kns://aurorae.knsrc/api.kde-look.org/1897308",
+        "kns://icons.knsrc/api.kde-look.org/1305251",
+        "kns://wallpaper.knsrc/api.kde-look.org/1309907",
+        "kns://sddmtheme.knsrc/api.kde-look.org/2149362",
+        "kns://xcursor.knsrc/api.kde-look.org/1393084"
+    ]
+}
