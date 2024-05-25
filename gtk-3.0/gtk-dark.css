@@ -6367,7 +6367,8 @@ ConversationListView {
   border-color: transparent;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0);
   text-shadow: none;
-  -gtk-icon-shadow: none; }
+  -gtk-icon-shadow: none;
+  color: white; }
 .caja-navigation-window .primary-toolbar button:hover, .caja-navigation-window .primary-toolbar button:active, .caja-navigation-window .primary-toolbar button:backdrop:active, .caja-navigation-window .primary-toolbar button:backdrop:checked,
 .caja-navigation-window .vertical button.image-button.toggle:not(.text-button):hover,
 .caja-navigation-window .vertical button.image-button.toggle:not(.text-button):active,

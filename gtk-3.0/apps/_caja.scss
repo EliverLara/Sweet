@@ -51,7 +51,10 @@
 
     .primary-toolbar button,
     .vertical  button.image-button.toggle:not(.text-button) {
-        &, &:backdrop { @include button(undecorated); }
+        &, &:backdrop { 
+            @include button(undecorated); 
+            color: $headerbar_fg_color;
+        }
         &:hover,
         &:active,
         &:backdrop:active,
