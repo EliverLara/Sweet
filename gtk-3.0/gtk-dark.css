@@ -6214,9 +6214,9 @@ ConversationListView {
 .caja-notebook .frame {
   border-width: 0 0 1px; }
 .caja-notebook .entry {
-  background: #101013;
+  background: #25262d;
   color: #F4F5F6;
-  border-color: black; }
+  border-color: #0072ff; }
   .caja-notebook .entry:selected {
     background: #0072ff;
     color: #fefefe; }
@@ -6234,7 +6234,7 @@ ConversationListView {
   .caja-side-pane widget .vertical {
     background: #0e0e11;
     padding: 3px 2px;
-    color: #98abb2; }
+    color: #F4F5F6; }
     .caja-side-pane treeview.view:hover,
     .caja-side-pane textview.view text:hover,
     .caja-side-pane viewport.frame:hover,
