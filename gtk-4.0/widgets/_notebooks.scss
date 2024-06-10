@@ -26,6 +26,7 @@
 
           &:checked {
             @include selected-tab(right);
+            box-shadow: none;
           }
         }
       }
