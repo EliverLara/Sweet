@@ -2963,7 +2963,8 @@ notebook > header {
       notebook > header.top > tabs > tab:checked {
         background: linear-gradient(to right, #00f17d, #00f7d2) left bottom white no-repeat;
         background-size: 100% 2px;
-        border: 0; }
+        border: 0;
+        box-shadow: none; }
   notebook > header.bottom {
     border-top-style: solid; }
     notebook > header.bottom > tabs {
