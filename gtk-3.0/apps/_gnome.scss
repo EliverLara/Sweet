@@ -227,3 +227,17 @@
     &:hover { border-color: $selected_bg_color; }
   } 
 }
+
+/*******************
+ * Calendar events *
+********************/
+.color-light {
+  &.timed label {
+    color: $fg_color;
+    opacity: 1;
+  }
+  .week-view &.timed label, & label, .year-view &:not(.timed) label  {
+    color: $bg_color;
+    opacity: 1;
+  }
+}
