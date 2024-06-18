@@ -5507,10 +5507,10 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
  * Calendar events *
 ********************/
 .color-light.timed label {
-  color: #B6B7B9;
+  color: #F4F5F6;
   opacity: 1; }
 .week-view .color-light.timed label, .color-light label, .year-view .color-light:not(.timed) label {
-  color: #1A1E21;
+  color: #101013;
   opacity: 1; }
 
 .xfce4-panel {
