@@ -1,0 +1,30 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "eliverlara@gmail.com",
+                "Name": "EliverLara"
+            }
+        ],
+        "Category": "Plasma Look And Feel",
+        "EnabledByDefault": true,
+        "Id": "Sweet-Mars",
+        "License": "GPL 3+",
+        "Name": "Sweet-Mars",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "Version": "0.1",
+        "Website": "https://github.com/EliverLara/Sweet/tree/mars/kde"
+    },
+    "X-KPackage-Dependencies": [
+        "kns://colorschemes.knsrc/api.kde-look.org/1393486",
+        "kns://plasma-themes.knsrc/api.kde-look.org/1393498",
+        "kns://aurorae.knsrc/api.kde-look.org/1393497",
+        "kns://icons.knsrc/api.kde-look.org/1305251",
+        "kns://wallpaper.knsrc/api.kde-look.org/1309907",
+        "kns://sddmtheme.knsrc/api.kde-look.org/2150662",
+        "kns://plasmoids.knsrc/api.kde-look.org/2144212"
+    ]
+}

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Gravit.io -->
+
+<svg
+   style="isolation:isolate"
+   viewBox="0 0 44 44"
+   width="44pt"
+   height="44pt"
+   version="1.1"
+   id="svg28"
+   sodipodi:docname="busy.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview30"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="pt"
+     showgrid="false"
+     inkscape:zoom="9.375"
+     inkscape:cx="29.493333"
+     inkscape:cy="29.333333"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g24" />
+  <path
+     d=" M 1.505 22 C 1.505 10.686 10.691 1.5 22.005 1.5 C 33.319 1.5 42.505 10.686 42.505 22 C 42.505 33.314 33.319 42.5 22.005 42.5 C 10.691 42.5 1.505 33.314 1.505 22 Z  M 2.505 22 C 2.505 16.83 4.565 11.87 8.215 8.21 C 11.875 4.56 16.835 2.5 22.005 2.5 C 27.175 2.5 32.135 4.56 35.795 8.21 C 39.445 11.87 41.505 16.83 41.505 22 C 41.505 27.17 39.445 32.13 35.795 35.79 C 32.135 39.44 27.175 41.5 22.005 41.5 C 16.835 41.5 11.875 39.44 8.215 35.79 C 4.565 32.13 2.505 27.17 2.505 22 Z "
+     fill-rule="evenodd"
+     fill="rgb(37,39,40)"
+     id="path2" />
+  <defs
+     id="defs15">
+    <filter
+       id="7N4yR6BWXmHgmCi58qmDbur4b1TuNt5c"
+       x="-6.4161755"
+       y="-7.3604728"
+       width="13.832351"
+       height="15.720946"
+       filterUnits="objectBoundingBox"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         in="SourceGraphic"
+         stdDeviation="64.40413594258543"
+         id="feGaussianBlur4" />
+      <feOffset
+         dx="0"
+         dy="0"
+         result="pf_100_offsetBlur"
+         id="feOffset6" />
+      <feFlood
+         flood-color="#FF0000"
+         flood-opacity="0.65"
+         id="feFlood8" />
+      <feComposite
+         in2="pf_100_offsetBlur"
+         operator="in"
+         result="pf_100_dropShadow"
+         id="feComposite10" />
+      <feBlend
+         in="SourceGraphic"
+         in2="pf_100_dropShadow"
+         mode="normal"
+         id="feBlend12" />
+    </filter>
+  </defs>
+  <g
+     filter="url(#7N4yR6BWXmHgmCi58qmDbur4b1TuNt5c)"
+     id="g24">
+    <linearGradient
+       id="_lgradient_0"
+       x1="0.00270673619093844"
+       y1="0.09687499999999982"
+       x2="1.2744139770860718"
+       y2="1.0629766949152546"
+       gradientTransform="matrix(24.16,0,0,21,1.505,21.5)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-opacity="1"
+         style="stop-color:#ff8b26;stop-opacity:1"
+         id="stop17" />
+      <stop
+         offset="98.33333333333333%"
+         stop-opacity="0"
+         style="stop-color:rgb(0,0,0)"
+         id="stop19" />
+    </linearGradient>
+    <path
+       d=" M 25.015 41.27 L 25.015 41.27 C 25.291 41.226 25.549 41.412 25.59 41.685 L 25.59 41.685 C 25.631 41.958 25.445 42.216 25.175 42.26 L 25.175 42.26 C 24.125 42.42 23.065 42.5 22.005 42.5 C 16.575 42.5 11.355 40.34 7.515 36.49 C 3.665 32.65 1.505 27.43 1.505 22 L 1.505 21.5 L 2.505 21.5 L 2.505 22 C 2.505 27.17 4.565 32.13 8.215 35.79 C 11.875 39.44 16.835 41.5 22.005 41.5 C 23.015 41.5 24.025 41.42 25.015 41.27 Z "
+       fill="url(#_lgradient_0)"
+       id="path22" />
+  </g>
+  <path
+     d=" M 2.505 21.64 L 2.495 22.14 L 1.495 22.12 L 1.505 21.62 C 1.515 20.98 1.565 20.34 1.635 19.7 L 1.635 19.7 C 1.663 19.424 1.909 19.225 2.185 19.255 L 2.185 19.255 C 2.461 19.285 2.658 19.534 2.625 19.81 L 2.625 19.81 C 2.555 20.42 2.515 21.03 2.505 21.64 Z "
+     fill="rgb(255,255,255)"
+     id="path26" />
+</svg>
