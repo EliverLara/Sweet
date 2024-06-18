@@ -274,3 +274,17 @@
     &:hover { border-color: $selected_bg_color; }
   } 
 }
+
+/*******************
+ * Calendar events *
+********************/
+.color-light {
+  &.timed label, .event-popover label {
+    color: $fg_color;
+    opacity: 1;
+  }
+  & label {
+    color: $bg_color;
+    opacity: 1;
+  }
+}
