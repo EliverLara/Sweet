@@ -199,6 +199,9 @@ placessidebar.sidebar, .nautilus-window .navigation-sidebar {
 		background-color: transparent; 
 		&:backdrop { background-color: transparent; }
 	}
-  
-  
 }
+.bottom-bar button {
+  background-color: $_sidebar_color;
+  border-radius: 0px;
+}
+
