@@ -50,6 +50,7 @@
     &:active, &:checked {
       color: $panel_fg_color;
       @include selected-tab(right);
+      background-color: lighten($panel_bg_color, 5%);
   
       label, image { color: inherit; }
     }

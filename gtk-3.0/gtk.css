@@ -5583,7 +5583,8 @@ panel-toplevel.background button:not(#tasklist-button) {
     color: #C3C7D1;
     background: linear-gradient(to right, #00f17d, #00f7d2) left bottom #f6f7f7 no-repeat;
     background-size: 100% 2px;
-    border: 0; }
+    border: 0;
+    background-color: #2c3b49; }
     .xfce4-panel.panel button.flat:active:not(.open_group) label, .mate-panel-menu-bar button:active:not(#tasklist-button) label,
     panel-toplevel.background button:active:not(#tasklist-button) label, .xfce4-panel.panel button.flat:active:not(.open_group) image, .mate-panel-menu-bar button:active:not(#tasklist-button) image,
     panel-toplevel.background button:active:not(#tasklist-button) image, .xfce4-panel.panel button.flat:checked:not(.open_group) label, .mate-panel-menu-bar button:checked:not(#tasklist-button) label,
