@@ -41,15 +41,15 @@
     border-radius: 0;
     border: none;
     background-color: transparentize($panel_bg_color, 1);
+    transition: none;
   
     &:hover {
       border: none;
       background-color: lighten($panel_bg_color, 7%);
     }
     &:active, &:checked {
-      color: $selected_fg_color;
-      background-color: lighten($panel_bg_color, 5%);
-      border-bottom: 2px solid $selected_bg_color;
+      color: $panel_fg_color;
+      @include selected-tab(right);
   
       label, image { color: inherit; }
     }
