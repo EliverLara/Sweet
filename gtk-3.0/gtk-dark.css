@@ -5537,14 +5537,16 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   color: white;
   border-radius: 0;
   border: none;
-  background-color: rgba(25, 26, 31, 0); }
+  background-color: rgba(25, 26, 31, 0);
+  transition: none; }
   .xfce4-panel.panel button.flat:hover:not(.open_group) {
     border: none;
     background-color: #30323b; }
   .xfce4-panel.panel button.flat:active:not(.open_group), .xfce4-panel.panel button.flat:checked:not(.open_group) {
-    color: #fefefe;
-    border-bottom: 2px solid #0072ff;
-    background-color: #25262d; }
+    color: white;
+    background: linear-gradient(to right, #00c6ff, #0072ff) left bottom #121216 no-repeat;
+    background-size: 100% 2px;
+    border: 0; }
     .xfce4-panel.panel button.flat:active:not(.open_group) label, .xfce4-panel.panel button.flat:active:not(.open_group) image, .xfce4-panel.panel button.flat:checked:not(.open_group) label, .xfce4-panel.panel button.flat:checked:not(.open_group) image {
       color: inherit; }
 
