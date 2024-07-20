@@ -953,7 +953,7 @@ entry, .linked > combobox > box > button.combo:dir(ltr), .linked > combobox > bo
   border: 1px solid rgba(12, 14, 21, 0.8);
   border-radius: 0;
   border-right-style: none;
-  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1); }
+  box-shadow: none; }
 
 .inline-toolbar button:first-child, .linked > button:first-child, combobox.linked button:nth-child(2):dir(rtl), .linked:not(.vertical) > combobox:first-child > box > button.combo, .linked:not(.vertical) > spinbutton:first-child:not(.vertical), spinbutton.vertical.linked:not(.vertical) > text:first-child, .linked:not(.vertical) >
 entry:first-child {
