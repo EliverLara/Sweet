@@ -646,18 +646,13 @@ $slider_size: 16px;
 .osd-window {
   text-align: center;
   font-weight: bold;
-  spacing: 1em;
-  margin: 32px;
-  min-width: 64px;
-  min-height: 64px;
 
   .osd-monitor-label { font-size: 3em; }
   .level {
     height: 0.4em;
     border-radius: 0.3em;
     color: $osd_fg_color;
-    border: 1px solid $borders_color;
-
+    
     -barlevel-height: 0.4em;
     -barlevel-background-color: $gray;
     -barlevel-active-background-color: $selected_bg_color;
@@ -787,7 +782,7 @@ $slider_size: 16px;
   color: $_bubble_fg_color;
   background-color: $_bubble_bg_color;
   border: none;
-  border-radius: 2px;
+  border-radius: 18px;
   padding: 12px;
 }
 
