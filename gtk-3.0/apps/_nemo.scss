@@ -59,9 +59,9 @@
         }
     }
 
-    .nemo-inactive-pane .view,
+    .nemo-inactive-pane .view:not(:selected),
     .nemo-inactive-pane iconview {
-        background-color: darken($base_color, 2%); 
+        background-color: darken($base_color, 7%); 
     }
     
 }
