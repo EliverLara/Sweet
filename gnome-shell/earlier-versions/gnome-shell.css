@@ -34,8 +34,8 @@ stage {
     text-shadow: none;
     icon-shadow: none; }
   .button:active {
-    color: #f7b922;
-    background-color: rgba(16, 16, 19, 0.95);
+    color: #000000;
+    background-color: #f7b922;
     border: 1px solid #161819;
     text-shadow: none;
     icon-shadow: none; }
@@ -62,8 +62,8 @@ stage {
     text-shadow: none;
     icon-shadow: none; }
   .modal-dialog-linked-button:active {
-    color: #f7b922;
-    background-color: rgba(16, 16, 19, 0.95);
+    color: #000000;
+    background-color: #f7b922;
     border: 1px solid #161819;
     text-shadow: none;
     icon-shadow: none; }
@@ -106,12 +106,8 @@ StEntry {
   selection-background-color: #f7b922;
   selected-color: #000000; }
   StEntry:focus {
-<<<<<<< HEAD
-    border-color: rgba(247, 185, 34, 0.6); }
-=======
-    border-color: rgba(197, 14, 210, 0.6);
+    border-color: rgba(247, 185, 34, 0.6);
     box-shadow: none !important; }
->>>>>>> b52d230 (Gnome-shell: Fix appearance issues in v46)
   StEntry:insensitive {
     color: #6a6c72;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
@@ -1720,8 +1716,8 @@ StScrollBar {
     text-shadow: 0 1px black;
     icon-shadow: 0 1px black; }
   .keyboard-key:active {
-    color: #f7b922;
-    background-color: rgba(16, 16, 19, 0.95);
+    color: #000000;
+    background-color: #f7b922;
     border: 1px solid #161819;
     text-shadow: none;
     icon-shadow: none; }
@@ -1812,7 +1808,7 @@ StScrollBar {
         text-shadow: 0 1px black;
         icon-shadow: 0 1px black; }
       .login-dialog .modal-dialog-button:default:active {
-        color: #f7b922;
+        color: #000000;
         background-color: #f7b922;
         border: 1px solid #161819;
         text-shadow: none;
