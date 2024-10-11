@@ -12,24 +12,25 @@ elif [ "$BRANCH" == "master" ]; then
 fi
 
 for  screen in '' '-hdpi' '-xhdpi'; do
-    for i in assets/*; do  
+
+    case "${screen}" in
+    -hdpi)
+        DPI='144'
+        ;;
+    -xhdpi)
+        DPI='192'
+        ;;
+    *)
+        DPI='96'
+        ;;
+    esac
+
+    ASSETS_DIR="${THEME_NAME}${screen}/xfwm4"
+    mkdir -p $ASSETS_DIR
     
+    for i in assets/*; do  
+
         BASE_FILE_NAME=`basename -s .svg $i`
-        ASSETS_DIR="${THEME_NAME}${screen}/xfwm4"
-
-        case "${screen}" in
-        -hdpi)
-            DPI='144'
-            ;;
-        -xhdpi)
-            DPI='192'
-            ;;
-        *)
-            DPI='96'
-            ;;
-        esac
-
-        mkdir -p $ASSETS_DIR
 
         if [ -f $ASSETS_DIR/$BASE_FILE_NAME.png ]; then
             echo $ASSETS_DIR/$BASE_FILE_NAME.png exists.
