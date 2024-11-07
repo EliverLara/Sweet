@@ -5767,8 +5767,8 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
  * Gnome system monitor graph *
 ******************************/
 #gnome-system-monitor .loadgraph {
-  background: #1A1E21;
-  color: #B6B7B9; }
+  background: #101013;
+  color: #F4F5F6; }
 
 .xfce4-panel.panel {
   background-color: #191a1f;
