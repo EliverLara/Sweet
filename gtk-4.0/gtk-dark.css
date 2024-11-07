@@ -5799,6 +5799,13 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   #gnc-id-main-window .arrow.button.toggle:hover {
     border-color: #f7b922; }
 
+/******************************
+ * Gnome system monitor graph *
+******************************/
+#gnome-system-monitor .loadgraph {
+  background: #161925;
+  color: #C3C7D1; }
+
 .xfce4-panel.panel {
   background-color: #101013;
   text-shadow: none;
