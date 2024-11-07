@@ -288,3 +288,12 @@
     opacity: 1;
   }
 }
+
+/******************************
+ * Gnome system monitor graph *
+******************************/
+
+#gnome-system-monitor .loadgraph  {
+  background: $bg_color;
+  color: $text_color;
+}
