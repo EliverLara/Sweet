@@ -273,3 +273,12 @@
     &:hover { border-color: $selected_bg_color; }
   } 
 }
+
+/******************************
+ * Gnome system monitor graph *
+******************************/
+
+#gnome-system-monitor .loadgraph  {
+  background: $bg_color;
+  color: $text_color;
+}
