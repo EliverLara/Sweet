@@ -3204,6 +3204,72 @@ paned.vertical > separator {
   padding-left: 0;
   padding-right: 0; }
 
+#NautilusPathBar {
+  background: transparent;
+  margin-top: 7px;
+  margin-bottom: 7px; }
+  #NautilusPathBar .dim-label, #NautilusPathBar label.separator, #NautilusPathBar .titlebar .subtitle, .titlebar #NautilusPathBar .subtitle,
+  #NautilusPathBar headerbar .subtitle,
+  headerbar #NautilusPathBar .subtitle {
+    color: transparent;
+    margin-right: -5px; }
+  #NautilusPathBar button .horizontal .dim-label, #NautilusPathBar button .horizontal label.separator, #NautilusPathBar button .horizontal .titlebar .subtitle, .titlebar #NautilusPathBar button .horizontal .subtitle,
+  #NautilusPathBar button .horizontal headerbar .subtitle,
+  headerbar #NautilusPathBar button .horizontal .subtitle {
+    color: #C3C7D1;
+    padding: 3px 12px;
+    margin: 0; }
+  #NautilusPathBar button:hover, #NautilusPathBar button:focus {
+    background-color: transparent;
+    box-shadow: none; }
+    #NautilusPathBar button:hover .dim-label, #NautilusPathBar button:hover label.separator, #NautilusPathBar button:hover .titlebar .subtitle, .titlebar #NautilusPathBar button:hover .subtitle,
+    #NautilusPathBar button:hover headerbar .subtitle,
+    headerbar #NautilusPathBar button:hover .subtitle, #NautilusPathBar button:focus .dim-label, #NautilusPathBar button:focus label.separator, #NautilusPathBar button:focus .titlebar .subtitle, .titlebar #NautilusPathBar button:focus .subtitle,
+    #NautilusPathBar button:focus headerbar .subtitle,
+    headerbar #NautilusPathBar button:focus .subtitle {
+      color: #c50ed2; }
+  #NautilusPathBar button:active {
+    background-color: transparent; }
+  #NautilusPathBar button > .horizontal > image.dim-label, #NautilusPathBar .titlebar button > .horizontal > image.subtitle, .titlebar #NautilusPathBar button > .horizontal > image.subtitle,
+  #NautilusPathBar headerbar button > .horizontal > image.subtitle,
+  headerbar #NautilusPathBar button > .horizontal > image.subtitle {
+    padding: 3px 0px 3px 12px;
+    border-right: none;
+    margin-right: -6px; }
+  #NautilusPathBar button {
+    background: transparent;
+    border: none;
+    margin: 0;
+    padding: 0; }
+  #NautilusPathBar .current-dir label, #NautilusPathBar .current-dir image {
+    padding: 6px 12px;
+    border-radius: 23px;
+    background: linear-gradient(to right, #c50ed2, #8500f7);
+    box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
+    color: white; }
+  #NautilusPathBar .current-dir image {
+    background: #c50ed2; }
+  #NautilusPathBar button.current-dir:only-child image {
+    margin-right: -6px;
+    padding: 0px 0px 0px 12px;
+    border-radius: 23px 0px 0px 23px; }
+  #NautilusPathBar button.current-dir:only-child label {
+    border-radius: 0px 23px 23px 0px; }
+
+#NautilusQueryEditor {
+  margin-top: 8px;
+  margin-bottom: 8px; }
+  #NautilusQueryEditor #NautilusQueryEditorTag > button {
+    margin: 0; }
+  #NautilusQueryEditor > menubutton > button {
+    min-width: 16px;
+    min-height: 16px;
+    margin: 0;
+    -gtk-icon-size: 12px;
+    padding: 0 4px; }
+  #NautilusQueryEditor > text, #NautilusQueryEditor > image {
+    margin: 0; }
+
 /***************
  * Popovers   *
  ***************/
@@ -5631,70 +5697,6 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   color: #c50ed2;
   box-shadow: none;
   border: none; }
-.nautilus-window #NautilusPathBar {
-  background: transparent;
-  margin-top: 7px;
-  margin-bottom: 7px; }
-  .nautilus-window #NautilusPathBar .dim-label, .nautilus-window #NautilusPathBar label.separator, .nautilus-window #NautilusPathBar .titlebar .subtitle, .titlebar .nautilus-window #NautilusPathBar .subtitle,
-  .nautilus-window #NautilusPathBar headerbar .subtitle,
-  headerbar .nautilus-window #NautilusPathBar .subtitle {
-    color: transparent;
-    margin-right: -5px; }
-  .nautilus-window #NautilusPathBar button .horizontal .dim-label, .nautilus-window #NautilusPathBar button .horizontal label.separator, .nautilus-window #NautilusPathBar button .horizontal .titlebar .subtitle, .titlebar .nautilus-window #NautilusPathBar button .horizontal .subtitle,
-  .nautilus-window #NautilusPathBar button .horizontal headerbar .subtitle,
-  headerbar .nautilus-window #NautilusPathBar button .horizontal .subtitle {
-    color: #C3C7D1;
-    padding: 3px 12px;
-    margin: 0; }
-  .nautilus-window #NautilusPathBar button:hover, .nautilus-window #NautilusPathBar button:focus {
-    background-color: transparent;
-    box-shadow: none; }
-    .nautilus-window #NautilusPathBar button:hover .dim-label, .nautilus-window #NautilusPathBar button:hover label.separator, .nautilus-window #NautilusPathBar button:hover .titlebar .subtitle, .titlebar .nautilus-window #NautilusPathBar button:hover .subtitle,
-    .nautilus-window #NautilusPathBar button:hover headerbar .subtitle,
-    headerbar .nautilus-window #NautilusPathBar button:hover .subtitle, .nautilus-window #NautilusPathBar button:focus .dim-label, .nautilus-window #NautilusPathBar button:focus label.separator, .nautilus-window #NautilusPathBar button:focus .titlebar .subtitle, .titlebar .nautilus-window #NautilusPathBar button:focus .subtitle,
-    .nautilus-window #NautilusPathBar button:focus headerbar .subtitle,
-    headerbar .nautilus-window #NautilusPathBar button:focus .subtitle {
-      color: #c50ed2; }
-  .nautilus-window #NautilusPathBar button:active {
-    background-color: transparent; }
-  .nautilus-window #NautilusPathBar button > .horizontal > image.dim-label, .nautilus-window #NautilusPathBar .titlebar button > .horizontal > image.subtitle, .titlebar .nautilus-window #NautilusPathBar button > .horizontal > image.subtitle,
-  .nautilus-window #NautilusPathBar headerbar button > .horizontal > image.subtitle,
-  headerbar .nautilus-window #NautilusPathBar button > .horizontal > image.subtitle {
-    padding: 3px 0px 3px 12px;
-    border-right: none;
-    margin-right: -6px; }
-  .nautilus-window #NautilusPathBar button {
-    background: transparent;
-    border: none;
-    margin: 0;
-    padding: 0; }
-  .nautilus-window #NautilusPathBar .current-dir label, .nautilus-window #NautilusPathBar .current-dir image {
-    padding: 6px 12px;
-    border-radius: 23px;
-    background: linear-gradient(to right, #c50ed2, #8500f7);
-    box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
-    color: white; }
-  .nautilus-window #NautilusPathBar .current-dir image {
-    background: #c50ed2; }
-  .nautilus-window #NautilusPathBar button.current-dir:only-child image {
-    margin-right: -6px;
-    padding: 0px 0px 0px 12px;
-    border-radius: 23px 0px 0px 23px; }
-  .nautilus-window #NautilusPathBar button.current-dir:only-child label {
-    border-radius: 0px 23px 23px 0px; }
-.nautilus-window #NautilusQueryEditor {
-  margin-top: 8px;
-  margin-bottom: 8px; }
-  .nautilus-window #NautilusQueryEditor #NautilusQueryEditorTag > button {
-    margin: 0; }
-  .nautilus-window #NautilusQueryEditor > menubutton > button {
-    min-width: 16px;
-    min-height: 16px;
-    margin: 0;
-    -gtk-icon-size: 12px;
-    padding: 0 4px; }
-  .nautilus-window #NautilusQueryEditor > text, .nautilus-window #NautilusQueryEditor > image {
-    margin: 0; }
 
 .nautilus-circular-button {
   border-radius: 20px; }
