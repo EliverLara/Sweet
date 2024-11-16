@@ -300,7 +300,7 @@ window {
 }
 
 // Gnome 45
-.nautilus-window {
+.nautilus-window, #NautilusFileChooser {
   .sidebar-pane .top-bar {
     headerbar, &:backdrop {
       background-image: linear-gradient(to right, #171e27 40px,
