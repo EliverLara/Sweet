@@ -1163,7 +1163,7 @@ $slider_size: 16px;
         .message {
           &:hover,&:focus { 
             background-color: lighten($bg_color, 6%);
-            box-shadow: 2px 0px 0px 0px $g2 inset;
+            //box-shadow: 2px 0px 0px 0px $g2 inset;
             border-radius: 0px 7px 7px 0px;
            }
           border: 1px solid $borders_color;
@@ -1785,6 +1785,12 @@ $slider_size: 16px;
         @include gradient();
         color: $selected_fg_color;
       }
+    }
+  }
+
+  .notification-buttons-bin {
+    .notification-button {
+      border-radius: 10px !important;
     }
   }
   .summary-source-counter {
