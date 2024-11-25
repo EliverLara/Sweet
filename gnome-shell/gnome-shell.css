@@ -1005,7 +1005,6 @@ StScrollBar {
   box-shadow: none; }
   .message:hover, .message:focus {
     background-color: #272e32;
-    box-shadow: 2px 0px 0px 0px #E1DD8F inset;
     border-radius: 0px 7px 7px 0px; }
 
 .message-secondary-bin > .event-time {
@@ -1572,6 +1571,9 @@ StScrollBar {
       background-gradient-end: #E1DD8F !important;
       background-gradient-direction: horizontal;
       color: #f7f7f7; }
+
+.notification-buttons-bin .notification-button {
+  border-radius: 10px !important; }
 
 .summary-source-counter {
   font-size: 10pt;
