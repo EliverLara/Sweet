@@ -96,7 +96,7 @@ headerbar {
         min-height: 24px;
         margin-top: 5px;
         margin-bottom: 5px;
-        border-radius: 4px;
+        border-radius: 6px;
         @include button(normal, $b_color, white);
         box-shadow: none;
 
@@ -111,7 +111,7 @@ headerbar {
 
         &:backdrop {
           @include button(backdrop, $b_color, white);
-          border-radius: 3px;
+          border-radius: 6px;
         }
 
         &:backdrop:disabled { @include button(backdrop-insensitive, $b_color, white); }
