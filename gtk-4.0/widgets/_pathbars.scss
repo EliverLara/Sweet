@@ -30,11 +30,9 @@
 
 // Nautilus, filechooser(gnome 47) pathbar
 #NautilusPathBar {
-
   background: transparent;
   margin-top: 7px;
   margin-bottom: 7px;
-
   .dim-label { 
     color: transparent; 
     margin-right: -5px;
@@ -93,8 +91,8 @@
 // search entry
 #NautilusQueryEditor { 
 
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 7px;
+  margin-bottom: 7px;
   background: lighten($headerbar_color, 5%); 
   color: $headerbar_fg_color;
   caret-color: $headerbar_fg_color;
@@ -107,11 +105,12 @@
   }
 
   > menubutton > button {
-    min-width: 16px;
-    min-height: 16px;
     margin: 0;
     -gtk-icon-size: 12px;
-    padding: 0 4px;
+    padding: 0 2px;
+    &:hover, &:active, &:checked {
+      image { color: $selected_fg_color; }
+    }
   }
 
   > text, > image { margin: 0; }
