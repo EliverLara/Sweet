@@ -3,8 +3,8 @@
  ***************/
 %titlebar,
 headerbar {
-  padding: 0px 13px;
-  min-height: 34px;
+  padding: 0px 6px;
+  min-height: 38px;
   background: $headerbar_color;
   color: $headerbar_fg_color;
   border-radius: 0;
@@ -33,34 +33,6 @@ headerbar {
   
   button {
     @include button(normal-header);
-    min-height: 14px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    box-shadow: none;
-    &.image-button{
-      padding: 3px 4px;
-    }
-    &.suggested-action{
-      box-shadow: none;
-      border: none;
-      background-image: $suggested_bg_color;
-        &:disabled, &:disabled:backdrop, &:backdrop {
-          border: none;
-          background-image: $suggested_bg_color;
-          &:hover,
-          &:active,
-          &:checked {
-            border: none;
-            background-image: $suggested_bg_color;
-          }
-        }
-        
-      }
-      
-      &.appmenu{
-      background: transparent;
-      &:backdrop{background: transparent;}
-    }
     &:hover,
     &:active,
     &:checked {
@@ -68,7 +40,6 @@ headerbar {
       color: $selected_bg_color;
       box-shadow: none;
       border: none;
-      //@include button(hover-header);
     }
 
     &:backdrop,
@@ -88,55 +59,6 @@ headerbar {
       box-shadow: none;
       }
     }
-
-    @each $b_type, $b_color in (suggested-action, $cyan),
-                              (destructive-action, $destructive_color) {
-      &.#{$b_type} {
-        font-weight: bold;
-        min-height: 24px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        border-radius: 6px;
-        @include button(normal, $b_color, white);
-        box-shadow: none;
-
-        &:hover { @include button(hover, $b_color, white); }
-
-        &:active { @include button(active, $b_color, white); }
-
-        &:disabled {
-          @include button(insensitive, $b_color, white);
-          label {color: transparentize(white,0.5);}
-        }
-
-        &:backdrop {
-          @include button(backdrop, $b_color, white);
-          border-radius: 6px;
-        }
-
-        &:backdrop:disabled { @include button(backdrop-insensitive, $b_color, white); }
-
-      }
-    }
-
-    //Reset style
-    &.titlebutton {
-      color: transparent;
-      box-shadow: none;
-      border: none;
-      background-color: transparent;
-      background-image: none;
-      background-repeat: no-repeat;
-      &:hover,
-      &:active,
-      &:checked,
-      &:backdrop,
-      &:backdrop:hover,* {
-        color: transparent;
-        box-shadow: none;
-        background-color: transparent;
-      }
-    }
   }
   %linked-header {
     border-radius: 23px;
@@ -144,7 +66,6 @@ headerbar {
     border: none;
     box-shadow: none;
     margin: 10px 0px;
-    min-height: 20px;
     &:first-child {
     }
 
@@ -229,13 +150,24 @@ headerbar {
   // add vertical margins to common widget on the headerbar to avoid them spanning the whole height
   entry,
   spinbutton,
-  separator {
-    margin-top: 5px;
-    margin-bottom: 5px;
+  separator:not(.sidebar),
+  button,
+  menubutton {
+    margin-top: 3px;
+    margin-bottom: 3px;
   }
+  // Reset margins for buttons inside menubutton
+  menubutton > button,
+  spinbutton > button,
+  splitbutton > button,
+  splitbutton > menubutton {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
   switch {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   separator { background: transparent; }
 
@@ -300,6 +232,15 @@ window {
 }
 
 // Gnome 45
+.sidebar-pane, .content-pane {
+  .top-bar {
+    &, headerbar {
+      background-color: $headerbar_color;
+    }
+    .linked > button { margin: 0; } // Prevent adding margin to .linked in Setting app
+  }
+}
+
 .nautilus-window, #NautilusFileChooser {
   .sidebar-pane .top-bar {
     headerbar, &:backdrop {
@@ -313,7 +254,7 @@ window {
     headerbar {  padding: 6px; }
   }
   .content-pane .top-bar headerbar {
-    background-color: $base_color;
+    &, &:backdrop { background-color: $base_color; }
     border-top-left-radius: 0;
   }
 }
