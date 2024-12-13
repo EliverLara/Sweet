@@ -58,11 +58,17 @@
             &:active,
             &:checked { @include button(active-header); }
         }
+
+        .flat.image-button {
+            border-radius: 4px;
+        }
     }
 
     .nemo-inactive-pane .view:not(:selected),
     .nemo-inactive-pane iconview {
         background-color: darken($base_color, 7%); 
     }
+
+    grid > paned > separator { background-image: image($_sidebar_color); }
     
 }
