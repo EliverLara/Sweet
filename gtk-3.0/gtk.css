@@ -2465,6 +2465,13 @@ GraniteWidgetsWelcome {
       .titlebar .linked > button:checked:backdrop label,
       headerbar .linked > button:checked:backdrop label {
         color: #ffe6e6; }
+  .titlebar .linked:not(.vertical) > entry,
+  headerbar .linked:not(.vertical) > entry {
+    margin: 10px 0; }
+    .titlebar .linked:not(.vertical) > entry + button,
+    headerbar .linked:not(.vertical) > entry + button {
+      border-radius: 0 4px 4px 0px;
+      box-shadow: none; }
   .selection-mode.titlebar button:backdrop.flat:active, .selection-mode.titlebar button:backdrop.flat:checked, .selection-mode.titlebar button:backdrop:active, .selection-mode.titlebar button:backdrop:checked,
   headerbar.selection-mode button:backdrop.flat:active,
   headerbar.selection-mode button:backdrop.flat:checked,
@@ -2521,10 +2528,6 @@ headerbar viewswitcher > box.horizontal > button.radio, headerbar switcher > box
 window:not(.tiled):not(.maximized) separator:first-child + headerbar:backdrop, window:not(.tiled):not(.maximized) separator:first-child + headerbar, window:not(.tiled):not(.maximized) headerbar:first-child:backdrop, window:not(.tiled):not(.maximized) headerbar:first-child {
   border-top-left-radius: 4px; }
 window:not(.tiled):not(.maximized) headerbar:last-child:backdrop, window:not(.tiled):not(.maximized) headerbar:last-child {
-  border-top-right-radius: 4px; }
-
-window {
-  border-top-left-radius: 4px;
   border-top-right-radius: 4px; }
 
 window.csd > .titlebar:not(headerbar) {
