@@ -6307,9 +6307,13 @@ ConversationListView {
       background: linear-gradient(to right, #eee90a, #f7b922);
       box-shadow: 0px 2px 4px rgba(247, 185, 34, 0.98);
       color: white; }
+  .nemo-window toolbar.primary-toolbar .flat.image-button {
+    border-radius: 4px; }
 .nemo-window .nemo-inactive-pane .view:not(:selected), .nemo-window .nemo-inactive-pane iconview:not(:selected),
 .nemo-window .nemo-inactive-pane iconview {
   background-color: #0e1018; }
+.nemo-window grid > paned > separator {
+  background-image: image(#202127); }
 
 .caja-notebook .frame {
   border-width: 0 0 1px; }
