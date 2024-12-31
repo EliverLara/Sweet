@@ -119,6 +119,6 @@
   padding: 5px;
   button {
     @include button(undecorated);
-    background-color: transparentize(#000, 0.7);
+    background-color: transparentize(#fff, 0.5);
   }
 }

@@ -2503,7 +2503,7 @@ infobar {
   background-color: transparent; }
 
 banner revealer widget {
-  background: linear-gradient(to right, #5433FF, #20BDFF, #A5FECB);
+  background: linear-gradient(to right, #00ffb7 0%, #00d593 100%);
   padding: 5px; }
   banner revealer widget button {
     background-color: transparent;
@@ -2512,7 +2512,7 @@ banner revealer widget {
     box-shadow: inset 0 1px rgba(255, 255, 255, 0);
     text-shadow: none;
     -gtk-icon-shadow: none;
-    background-color: rgba(0, 0, 0, 0.3); }
+    background-color: rgba(255, 255, 255, 0.5); }
 
 levelbar.horizontal trough > block {
   min-height: 5px;
