@@ -113,3 +113,12 @@
    }
  }
  
+// Gnome 47 info bars
+ banner revealer widget {
+  background: $suggested_bg_color;
+  padding: 5px;
+  button {
+    @include button(undecorated);
+    background-color: transparentize(#000, 0.7);
+  }
+}
