@@ -2598,16 +2598,16 @@ button:visited {
 /*********
  * Lists *
  *********/
-list, listview {
+list:not(.boxed-list-separate), listview {
   color: #31363D;
   background-color: #ebf0f5;
   border-color: rgba(0, 0, 0, 0.13); }
-  list:backdrop, listview:backdrop {
+  list:not(.boxed-list-separate):backdrop, listview:backdrop {
     background-color: #e8edf3;
     border-color: rgba(141, 141, 141, 0.217); }
-  list.horizontal row.separator, list.separators.horizontal > row:not(.separator), listview.horizontal row.separator, listview.separators.horizontal > row:not(.separator) {
+  list:not(.boxed-list-separate).horizontal row.separator, list:not(.boxed-list-separate).separators.horizontal > row:not(.separator), listview.horizontal row.separator, listview.separators.horizontal > row:not(.separator) {
     border-left: 1px solid rgba(0, 0, 0, 0.13); }
-  list:not(.horizontal) row.separator, list.separators:not(.horizontal) > row:not(.separator), listview:not(.horizontal) row.separator, listview.separators:not(.horizontal) > row:not(.separator) {
+  list:not(.boxed-list-separate):not(.horizontal) row.separator, list:not(.boxed-list-separate).separators:not(.horizontal) > row:not(.separator), listview:not(.horizontal) row.separator, listview.separators:not(.horizontal) > row:not(.separator) {
     border-bottom: 1px solid rgba(0, 0, 0, 0.13); }
 
 row:hover {
@@ -2626,6 +2626,11 @@ row.activatable:selected.has-open-popup, row.activatable:selected:hover {
   background-color: rgba(0, 114, 255, 0.5); }
 row.activatable:selected:backdrop {
   background-color: rgba(0, 114, 255, 0.6); }
+row.activatable.button {
+  font-weight: normal;
+  color: #31363D;
+  background-color: #eaeff3;
+  text-shadow: none; }
 
 columnview > listview > row {
   padding: 0; }
