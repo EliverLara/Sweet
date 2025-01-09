@@ -1,7 +1,7 @@
 /*********
  * Lists *
  *********/
-list, listview {
+list:not(.boxed-list-separate), listview {
   color: $text_color;
   background-color: $base_color;
   border-color: $borders_color;
@@ -43,6 +43,10 @@ row {
       &:hover { background-color: transparentize($selected_bg_color, 0.5); }
 
       &:backdrop { background-color: $backdrop_selected_bg_color; }
+    }
+
+    &.button {
+      @include button(normal);
     }
   }
 
