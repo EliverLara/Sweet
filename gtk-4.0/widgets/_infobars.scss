@@ -117,6 +117,7 @@
  banner revealer widget {
   background: $suggested_bg_color;
   padding: 5px;
+  color: #fff;
   button {
     @include button(undecorated);
     background-color: transparentize(#fff, 0.5);
