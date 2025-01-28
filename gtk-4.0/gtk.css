@@ -2417,6 +2417,9 @@ window.csd > .titlebar:not(headerbar) {
   .nautilus-window .content-pane .top-bar headerbar, .nautilus-window .content-pane .top-bar headerbar:backdrop, #NautilusFileChooser .content-pane .top-bar headerbar, #NautilusFileChooser .content-pane .top-bar headerbar:backdrop {
     background-color: #ebf0f5; }
 
+.top-bar {
+  background-color: transparent; }
+
 /**************
  * GtkInfoBar *
  **************/
