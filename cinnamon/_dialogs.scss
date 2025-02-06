@@ -166,21 +166,22 @@ $radius: 6px;
   background-gradient-start: $g1;
   background-gradient-end: $g2;
   border: 1px solid $borders_color;
+  color: #000;
 
   &:focus { 
-    @include styled_button(focus, $c: $destructive_color, $style: default); 
+    @include styled_button(focus, $tc: #fff, $c: $destructive_color, $style: default); 
     border-color: $borders_color;
   }
   &:hover { 
-    @include styled_button(hover, $c: $destructive_color, $style: default); 
+    @include styled_button(hover, $tc: #fff, $c: $destructive_color, $style: default); 
     border-color: $borders_color;
   }
   &:active { 
-    @include styled_button(active, $c: $destructive_color, $style: default); 
+    @include styled_button(active, $tc: #fff, $c: $destructive_color, $style: default); 
     border-color: $borders_color;
   }
   &:checked { 
-    @include styled_button(checked, $c: $destructive_color, $style: default);
+    @include styled_button(checked, $tc: #fff, $c: $destructive_color, $style: default);
     border-color: $borders_color;
   }
   &:insensitive {

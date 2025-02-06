@@ -1685,26 +1685,27 @@ StScrollBar {
   background-gradient-start: #eee90a;
   background-gradient-end: #f7b922;
   border: 1px solid #161819;
+  color: #000;
   border: none; }
   .dialog .dialog-button:focus:destructive-action {
     border: 1px solid #F04A50;
-    color: #C3C7D1;
+    color: #fff;
     background-color: #F04A50;
     border: 1px solid #fcd7d9;
     border-color: #161819; }
   .dialog .dialog-button:hover:destructive-action {
     border: 1px solid #F04A50;
-    color: #C3C7D1;
+    color: #fff;
     background-color: #f4797e;
     border-color: #161819; }
   .dialog .dialog-button:active:destructive-action {
     border: 1px solid #F04A50;
-    color: #C3C7D1;
+    color: #fff;
     background-color: #f26267;
     border-color: #161819; }
   .dialog .dialog-button:checked:destructive-action {
     border: 1px solid #F04A50;
-    color: #C3C7D1;
+    color: #fff;
     background-color: #f26267;
     border-color: #161819; }
   .dialog .dialog-button:insensitive:destructive-action {
