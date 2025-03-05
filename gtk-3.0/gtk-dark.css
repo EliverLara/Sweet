@@ -5606,6 +5606,30 @@ window.thunar toolbar#location-toolbar entry {
 .-vala-panel-appmenu-private > menuitem:first-child > label {
   color: white; }
 
+#XfceNotifyWindow {
+  background-color: #0b0b0d;
+  border-radius: 12px;
+  border-width: 1px;
+  border: 1px solid black;
+  color: #F4F5F6;
+  padding: 40px; }
+  #XfceNotifyWindow:hover, #XfceNotifyWindow:focus {
+    background-color: #101013; }
+  #XfceNotifyWindow label, #XfceNotifyWindow image {
+    color: #F4F5F6; }
+  #XfceNotifyWindow button {
+    font-weight: normal;
+    color: #F4F5F6;
+    background-color: #212328;
+    text-shadow: none; }
+    #XfceNotifyWindow button:hover {
+      color: #F4F5F6;
+      outline-color: rgba(244, 245, 246, 0.3);
+      background-color: #0072ff;
+      text-shadow: none; }
+      #XfceNotifyWindow button:hover label {
+        color: #fefefe; }
+
 /********
  * Gala *
  *******/
