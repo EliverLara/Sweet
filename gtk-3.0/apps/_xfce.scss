@@ -129,3 +129,23 @@ window.thunar toolbar#location-toolbar entry {
 .-vala-panel-appmenu-private > menuitem:first-child > label {
     color: $panel_fg_color;
 }
+
+// Notifications
+
+#XfceNotifyWindow {
+  background-color: $panel_bg_color;
+  border-radius: 12px;
+  border-width: 1px;
+  border: 1px solid $borders_color;
+  color: $panel_fg_color;
+  padding: 40px;
+  &:hover, &:focus { background-color: lighten($panel_bg_color, 4%); }
+  label, image { color: $panel_fg_color; }
+  button { 
+    @include button(undecorated); 
+    &:hover {
+      @include button(hover, $selected_bg_color);
+      label { color: $selected_fg_color; }
+    }
+  }
+}
