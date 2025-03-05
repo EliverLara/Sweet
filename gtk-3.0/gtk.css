@@ -5638,16 +5638,16 @@ window.thunar toolbar#location-toolbar entry {
   color: #C3C7D1; }
 
 #XfceNotifyWindow {
-  background-color: #e1e1e1;
+  background-color: #222e39;
   border-radius: 12px;
   border-width: 1px;
   border: 1px solid rgba(0, 0, 0, 0.13);
-  color: #31363d;
+  color: #C3C7D1;
   padding: 40px; }
   #XfceNotifyWindow:hover, #XfceNotifyWindow:focus {
-    background-color: #e6e6e6; }
+    background-color: #2a3846; }
   #XfceNotifyWindow label, #XfceNotifyWindow image {
-    color: #31363d; }
+    color: #C3C7D1; }
   #XfceNotifyWindow button {
     font-weight: normal;
     color: #31363D;
@@ -5656,7 +5656,7 @@ window.thunar toolbar#location-toolbar entry {
     #XfceNotifyWindow button:hover {
       color: #31363D;
       outline-color: rgba(49, 54, 61, 0.3);
-      background-color: #0072ff;
+      background-color: #00D3A7;
       text-shadow: none; }
       #XfceNotifyWindow button:hover label {
         color: #fefefe; }
