@@ -876,7 +876,7 @@ $slider_size: 16px;
 
 
     &:hover {
-      background: lighten($topbar_bg_color, 10%);
+      box-shadow: inset 0 0 0 100px lighten($topbar_bg_color, 15%);
       color: lighten($topbar_color, 10%);
       transition-duration: 200ms;
     }
@@ -902,10 +902,14 @@ $slider_size: 16px;
 
     // Remove default bottom border
     &.clock-display {
-      &:hover, &:active, &:overview, &:focus, &:checked {
-        box-shadow: none;
+      box-shadow: none;
+      &:hover .clock { box-shadow: inset 0 0 0 100px lighten($topbar_bg_color, 15%); }
+      &:active, &:overview, &:focus, &:checked {
+        background-gradient-start: transparent !important;
+        background-gradient-end: transparent !important;
         .clock {
           box-shadow: none;
+          @include gradient();
         }
       }
     }
