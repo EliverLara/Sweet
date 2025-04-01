@@ -188,9 +188,9 @@ read if you used those and something break with a version upgrade you're on your
 
 toast {
   padding: 5px;
-  background-color: #252a3f;
+  background-color: #2c3338;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
-  color: #C3C7D1; }
+  color: #B6B7B9; }
   toast:backdrop {
     background-image: none;
     transition: 200ms ease-out; }
@@ -199,9 +199,9 @@ toast {
   toast button.circular.flat.image-button {
     padding: 2px; }
     toast button.circular.flat.image-button:hover {
-      color: #fefefe;
-      outline-color: rgba(254, 254, 254, 0.3);
-      background-color: #ed254e;
+      color: #f7f7f7;
+      outline-color: rgba(247, 247, 247, 0.3);
+      background-color: #F67E7D;
       text-shadow: none; }
 
 /***************
