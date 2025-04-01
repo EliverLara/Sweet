@@ -188,9 +188,9 @@ read if you used those and something break with a version upgrade you're on your
 
 toast {
   padding: 5px;
-  background-color: #252a3f;
+  background-color: #292a32;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
-  color: #C3C7D1; }
+  color: #F4F5F6; }
   toast:backdrop {
     background-image: none;
     transition: 200ms ease-out; }
