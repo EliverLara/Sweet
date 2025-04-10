@@ -238,15 +238,23 @@ toast {
     color: #fefefe;
     background-color: #0072ff; }
 
-.view, iconview,
+.history-view,
+.view,
+iconview,
 textview > text {
   color: #31363D;
   background-color: #ebf0f5; }
-  .view:backdrop, iconview:backdrop,
+  .history-view:backdrop,
+  .view:backdrop,
+  iconview:backdrop,
   textview > text:backdrop {
     color: #565b61;
     background-color: #e8edf3; }
-  .view:selected:focus, iconview:selected:focus, .view:selected, iconview:selected,
+  .history-view:selected:focus, .history-view:selected,
+  .view:selected:focus,
+  iconview:selected:focus,
+  .view:selected,
+  iconview:selected,
   textview > text:selected:focus,
   textview > text:selected {
     border-radius: 3px; }
@@ -4671,14 +4679,22 @@ headerbar.selection-mode button.titlebutton,
   .titlebar.selection-mode button.titlebutton:backdrop {
     -gtk-icon-shadow: none; }
 
-.view:selected:focus, iconview:selected:focus, .view:selected, iconview:selected,
+.history-view:selected:focus, .history-view:selected,
+.view:selected:focus,
+iconview:selected:focus,
+.view:selected,
+iconview:selected,
 textview > text:selected:focus,
 textview > text:selected, textview > text selection:focus, textview > text selection, flowbox flowboxchild:selected, modelbutton.flat:selected,
 .menuitem.button.flat:selected, calendar:selected, spinbutton:not(.vertical) selection:focus, spinbutton.vertical > text selection:focus, spinbutton:not(.vertical) selection, spinbutton.vertical > text selection,
 entry selection:focus,
 entry selection, row:selected, treeview.view:selected:focus, treeview.view:selected {
   background-color: #0072ff; }
-  row:selected label, label:selected, .selection-mode windowcontrols button, .view:selected:focus, iconview:selected:focus, .view:selected, iconview:selected,
+  row:selected label, label:selected, .selection-mode windowcontrols button, .history-view:selected:focus, .history-view:selected,
+  .view:selected:focus,
+  iconview:selected:focus,
+  .view:selected,
+  iconview:selected,
   textview > text:selected:focus,
   textview > text:selected, textview > text selection:focus, textview > text selection, flowbox flowboxchild:selected, modelbutton.flat:selected,
   .menuitem.button.flat:selected, calendar:selected, spinbutton:not(.vertical) selection:focus, spinbutton.vertical > text selection:focus, spinbutton:not(.vertical) selection, spinbutton.vertical > text selection,
@@ -4687,19 +4703,27 @@ entry selection, row:selected, treeview.view:selected:focus, treeview.view:selec
     color: #fefefe;
     font-weight: normal;
     outline-color: rgba(254, 254, 254, 0.3); }
-    row:selected label:disabled, label:disabled:selected, .selection-mode windowcontrols button:disabled, iconview:disabled:selected:focus, .view:disabled:selected, iconview:disabled:selected,
+    row:selected label:disabled, label:disabled:selected, .selection-mode windowcontrols button:disabled, .history-view:disabled:selected,
+    iconview:disabled:selected:focus,
+    .view:disabled:selected,
+    iconview:disabled:selected,
     textview > text:disabled:selected:focus,
     textview > text:disabled:selected, textview > text selection:disabled, flowbox flowboxchild:disabled:selected, label:disabled selection, modelbutton.flat:disabled:selected,
     .menuitem.button.flat:disabled:selected, calendar:disabled:selected, spinbutton:not(.vertical) selection:disabled, spinbutton.vertical > text selection:disabled,
     entry selection:disabled, row:disabled:selected {
       color: #7fb8ff; }
-    row:selected label:backdrop, label:backdrop:selected, .selection-mode windowcontrols button:backdrop, iconview:backdrop:selected:focus, .view:backdrop:selected, iconview:backdrop:selected,
+    row:selected label:backdrop, label:backdrop:selected, .selection-mode windowcontrols button:backdrop, .history-view:backdrop:selected,
+    iconview:backdrop:selected:focus,
+    .view:backdrop:selected,
+    iconview:backdrop:selected,
     textview > text:backdrop:selected:focus,
     textview > text:backdrop:selected, textview > text selection:backdrop, flowbox flowboxchild:backdrop:selected, label:backdrop selection, modelbutton.flat:backdrop:selected,
     .menuitem.button.flat:backdrop:selected, calendar:backdrop:selected, spinbutton:not(.vertical) selection:backdrop, spinbutton.vertical > text selection:backdrop,
     entry selection:backdrop, row:backdrop:selected {
       color: #fefefe; }
-      row:selected label:backdrop:disabled, label:backdrop:disabled:selected, .selection-mode windowcontrols button:backdrop:disabled, .view:backdrop:disabled:selected, iconview:backdrop:disabled:selected,
+      row:selected label:backdrop:disabled, label:backdrop:disabled:selected, .selection-mode windowcontrols button:backdrop:disabled, .history-view:backdrop:disabled:selected,
+      .view:backdrop:disabled:selected,
+      iconview:backdrop:disabled:selected,
       textview > text:backdrop:disabled:selected, textview > text selection:backdrop:disabled, flowbox flowboxchild:backdrop:disabled:selected, label:disabled selection:backdrop, label:backdrop selection:disabled, modelbutton.flat:backdrop:disabled:selected,
       .menuitem.button.flat:backdrop:disabled:selected, calendar:backdrop:disabled:selected, spinbutton:not(.vertical) selection:backdrop:disabled, spinbutton.vertical > text selection:backdrop:disabled,
       entry selection:backdrop:disabled, row:backdrop:disabled:selected {
