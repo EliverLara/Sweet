@@ -295,6 +295,7 @@ tabbar {
     > tab,
     > tabboxchild > tab {
       border-radius: 0;
+      transition: none;
       button.flat {
         padding: 0;
         margin: 4px;
