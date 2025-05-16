@@ -3020,7 +3020,8 @@ tabbar tabbox {
     border-radius: 0; }
   tabbar tabbox > tab,
   tabbar tabbox > tabboxchild > tab {
-    border-radius: 0; }
+    border-radius: 0;
+    transition: none; }
     tabbar tabbox > tab button.flat,
     tabbar tabbox > tabboxchild > tab button.flat {
       padding: 0;
