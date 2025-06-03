@@ -1083,9 +1083,9 @@ toggle-group {
   toggle-group toggle {
     padding: 0 4px; }
     toggle-group toggle:checked {
-      background-color: #c50ed2; }
+      background-color: #F67E7D; }
       toggle-group toggle:checked, toggle-group toggle:checked label {
-        color: #fefefe; }
+        color: #f7f7f7; }
 
 /************
  * Calendar *
