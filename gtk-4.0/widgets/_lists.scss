@@ -48,6 +48,8 @@ row {
     &.button { @include button(normal); }
   }
 
+  .view { background-color: transparent; }
+
   &:selected { @extend %selected_items; }
 }
 
