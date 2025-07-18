@@ -1097,7 +1097,7 @@ button.accent-button, button.accent-button:backdrop {
   box-shadow: none;
   border: none; }
 button.accent-button:hover {
-  box-shadow: 0 0 0 3px #212638; }
+  box-shadow: 0 0 0 3px rgba(238, 238, 238, 0.1); }
 button.accent-button:checked, button.accent-button:checked:backdrop {
   box-shadow: 0 0 0 3px var(--accent-bg-color); }
 

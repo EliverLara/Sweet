@@ -587,7 +587,7 @@ button.accent-button {
     border: none;
   }
   
-  &:hover { box-shadow: 0 0 0 3px lighten($base_color, 5%); }
+  &:hover { box-shadow: 0 0 0 3px $borders_color; }
 
   &:checked { &, &:backdrop { box-shadow: 0 0 0 3px var(--accent-bg-color); }}
 }
