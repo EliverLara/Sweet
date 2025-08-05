@@ -29,6 +29,6 @@
 }
 
 .overlay_toolbar, .overlay_toolbar_scrollable {
-  background: lighten($base_color, 5%);
+  background: $base_color;
   padding: 10px;
 }
