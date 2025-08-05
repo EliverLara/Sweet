@@ -6498,7 +6498,7 @@ ConversationListView .view .cell, ConversationListView iconview .cell {
     filter: brightness(100%); }
 
 .overlay_toolbar, .overlay_toolbar_scrollable {
-  background: #25262d;
+  background: #212638;
   padding: 10px; }
 
 /*# sourceMappingURL=gtk-dark.css.map */
