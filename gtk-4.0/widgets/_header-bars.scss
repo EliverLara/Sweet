@@ -103,6 +103,19 @@ headerbar {
   .linked > button:backdrop { 
     @extend %linked-header; 
   }
+
+
+  // stackview
+  viewswitcher.wide > button {
+    @include button(normal-header);
+    &:active,
+    &:hover {
+      @include button(hover, transparent, $selected_bg_color);
+    }
+    &:checked {
+     @include button(active-header);
+    }
+  }
   // End reset style
 
   &.selection-mode {
