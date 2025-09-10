@@ -2379,15 +2379,15 @@ GraniteWidgetsWelcome {
     .titlebar viewswitcher.wide > button:active, .titlebar viewswitcher.wide > button:hover,
     headerbar viewswitcher.wide > button:active,
     headerbar viewswitcher.wide > button:hover {
-      color: #c50ed2;
-      outline-color: rgba(197, 14, 210, 0.3);
+      color: #00D3A7;
+      outline-color: rgba(0, 211, 167, 0.3);
       background-color: transparent;
       text-shadow: none; }
     .titlebar viewswitcher.wide > button:checked,
     headerbar viewswitcher.wide > button:checked {
       border-radius: 23px;
-      background: linear-gradient(to right, #c50ed2, #8500f7);
-      box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
+      background: #00e8b7;
+      box-shadow: 0px 2px 4px rgba(177, 177, 177, 0.753);
       color: white; }
   .selection-mode.titlebar button:backdrop.flat:active, .selection-mode.titlebar button:backdrop.flat:checked, .selection-mode.titlebar button:backdrop:active, .selection-mode.titlebar button:backdrop:checked,
   headerbar.selection-mode button:backdrop.flat:active,
