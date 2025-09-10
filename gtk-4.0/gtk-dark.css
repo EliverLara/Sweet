@@ -2363,6 +2363,26 @@ GraniteWidgetsWelcome {
       .titlebar .linked > button:checked:backdrop label,
       headerbar .linked > button:checked:backdrop label {
         color: #ffe6e6; }
+  .titlebar viewswitcher.wide > button,
+  headerbar viewswitcher.wide > button {
+    color: #8b8b8b;
+    text-shadow: none;
+    box-shadow: none;
+    background: transparent;
+    border: none; }
+    .titlebar viewswitcher.wide > button:active, .titlebar viewswitcher.wide > button:hover,
+    headerbar viewswitcher.wide > button:active,
+    headerbar viewswitcher.wide > button:hover {
+      color: #c50ed2;
+      outline-color: rgba(197, 14, 210, 0.3);
+      background-color: transparent;
+      text-shadow: none; }
+    .titlebar viewswitcher.wide > button:checked,
+    headerbar viewswitcher.wide > button:checked {
+      border-radius: 23px;
+      background: linear-gradient(to right, #c50ed2, #8500f7);
+      box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
+      color: white; }
   .selection-mode.titlebar button:backdrop.flat:active, .selection-mode.titlebar button:backdrop.flat:checked, .selection-mode.titlebar button:backdrop:active, .selection-mode.titlebar button:backdrop:checked,
   headerbar.selection-mode button:backdrop.flat:active,
   headerbar.selection-mode button:backdrop.flat:checked,
