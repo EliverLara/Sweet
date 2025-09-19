@@ -212,3 +212,56 @@
   background: $bg_color;
   color: $text_color;
 }
+
+/*******************
+ * Calendar events *
+********************/
+.color-light {
+  &.timed label, .event-popover label {
+    color: $headerbar_fg_color;
+    opacity: 1;
+  }
+  & label {
+    color: $headerbar_fg_color;
+    opacity: 1;
+  }
+}
+
+/*******************
+ * Calendar sidebar *
+********************/
+datechooser {
+  .flat { 
+    @include button(normal-header);
+    &:hover, &:active, &:checked { 
+      @include button(active, $selected_bg_color, $selected_fg_color);
+    }
+  }
+  .circular.day.text-button{ 
+    padding: 6px;
+    border-radius: 50%;
+    min-height: 22px;
+    min-width: 22px;
+    border: none;
+    color: $headerbar_fg_color;
+    &.flat.other-month, &.flat.non-workday {
+      color: $insensitive_fg_color;
+    }
+    &.today { color: $selected_bg_color; }
+    &:active, &:selected { 
+      @include button(active, $selected_bg_color, $selected_fg_color);
+      font-weight: bold;
+    }
+  }
+}
+
+agenda-view list.background {
+  padding: 8px;
+  .caption-heading, .dim-label.no-events {
+    color: $headerbar_fg_color;
+  }
+}
+
+datechooser, agenda-view list.background {
+  &, &:backdrop { background-color: $headerbar_color; }
+}
