@@ -198,3 +198,56 @@
   background: $bg_color;
   color: $text_color;
 }
+
+/*******************
+ * Calendar events *
+********************/
+.color-light {
+  &.timed label, .event-popover label {
+    color: #98abb2;
+    opacity: 1;
+  }
+  & label {
+    color: #98abb2;
+    opacity: 1;
+  }
+}
+
+/*******************
+ * Calendar sidebar *
+********************/
+datechooser {
+  .flat { 
+    color: #98abb2;
+    &:hover, &:active, &:checked { 
+      @include button(active, $selected_bg_color, $selected_fg_color);
+    }
+  }
+  .circular.day.text-button{ 
+    padding: 6px;
+    border-radius: 50%;
+    min-height: 22px;
+    min-width: 22px;
+    border: none;
+    color: #98abb2;
+    &.flat.other-month, &.flat.non-workday {
+      color: $insensitive_fg_color;
+    }
+    &.today { color: $selected_bg_color; }
+    &:active, &:selected { 
+      @include button(active, $selected_bg_color, $selected_fg_color);
+      font-weight: bold;
+    }
+  }
+}
+
+agenda-view list.background {
+  padding: 8px;
+  .caption-heading, .dim-label.no-events {
+    color: #98abb2;
+  }
+}
+
+datechooser, agenda-view list.background {
+  &, &:backdrop { background-color: $_sidebar_color; opacity: 1;}
+}
