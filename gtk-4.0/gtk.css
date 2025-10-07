@@ -3167,56 +3167,66 @@ paned.vertical > separator {
   padding-left: 0;
   padding-right: 0; }
 
-#NautilusPathBar {
+#NautilusPathBar, .pathbar {
   background: transparent;
   margin-top: 7px;
   margin-bottom: 7px; }
   #NautilusPathBar .dim-label, #NautilusPathBar label.separator, #NautilusPathBar .titlebar .subtitle, .titlebar #NautilusPathBar .subtitle,
   #NautilusPathBar headerbar .subtitle,
-  headerbar #NautilusPathBar .subtitle {
+  headerbar #NautilusPathBar .subtitle, .pathbar .dim-label, .pathbar label.separator, .pathbar .titlebar .subtitle, .titlebar .pathbar .subtitle,
+  .pathbar headerbar .subtitle,
+  headerbar .pathbar .subtitle {
     color: transparent;
     margin-right: -5px; }
   #NautilusPathBar button .horizontal .dim-label, #NautilusPathBar button .horizontal label.separator, #NautilusPathBar button .horizontal .titlebar .subtitle, .titlebar #NautilusPathBar button .horizontal .subtitle,
   #NautilusPathBar button .horizontal headerbar .subtitle,
-  headerbar #NautilusPathBar button .horizontal .subtitle {
+  headerbar #NautilusPathBar button .horizontal .subtitle, .pathbar button .horizontal .dim-label, .pathbar button .horizontal label.separator, .pathbar button .horizontal .titlebar .subtitle, .titlebar .pathbar button .horizontal .subtitle,
+  .pathbar button .horizontal headerbar .subtitle,
+  headerbar .pathbar button .horizontal .subtitle {
     color: #C3C7D1;
     padding: 3px 12px;
     margin: 0; }
-  #NautilusPathBar button:hover, #NautilusPathBar button:focus {
+  #NautilusPathBar button:hover, #NautilusPathBar button:focus, .pathbar button:hover, .pathbar button:focus {
     background-color: transparent;
     box-shadow: none; }
     #NautilusPathBar button:hover .dim-label, #NautilusPathBar button:hover label.separator, #NautilusPathBar button:hover .titlebar .subtitle, .titlebar #NautilusPathBar button:hover .subtitle,
     #NautilusPathBar button:hover headerbar .subtitle,
     headerbar #NautilusPathBar button:hover .subtitle, #NautilusPathBar button:focus .dim-label, #NautilusPathBar button:focus label.separator, #NautilusPathBar button:focus .titlebar .subtitle, .titlebar #NautilusPathBar button:focus .subtitle,
     #NautilusPathBar button:focus headerbar .subtitle,
-    headerbar #NautilusPathBar button:focus .subtitle {
+    headerbar #NautilusPathBar button:focus .subtitle, .pathbar button:hover .dim-label, .pathbar button:hover label.separator, .pathbar button:hover .titlebar .subtitle, .titlebar .pathbar button:hover .subtitle,
+    .pathbar button:hover headerbar .subtitle,
+    headerbar .pathbar button:hover .subtitle, .pathbar button:focus .dim-label, .pathbar button:focus label.separator, .pathbar button:focus .titlebar .subtitle, .titlebar .pathbar button:focus .subtitle,
+    .pathbar button:focus headerbar .subtitle,
+    headerbar .pathbar button:focus .subtitle {
       color: #c50ed2; }
-  #NautilusPathBar button:active {
+  #NautilusPathBar button:active, .pathbar button:active {
     background-color: transparent; }
   #NautilusPathBar button > .horizontal > image.dim-label, #NautilusPathBar .titlebar button > .horizontal > image.subtitle, .titlebar #NautilusPathBar button > .horizontal > image.subtitle,
   #NautilusPathBar headerbar button > .horizontal > image.subtitle,
-  headerbar #NautilusPathBar button > .horizontal > image.subtitle {
+  headerbar #NautilusPathBar button > .horizontal > image.subtitle, .pathbar button > .horizontal > image.dim-label, .pathbar .titlebar button > .horizontal > image.subtitle, .titlebar .pathbar button > .horizontal > image.subtitle,
+  .pathbar headerbar button > .horizontal > image.subtitle,
+  headerbar .pathbar button > .horizontal > image.subtitle {
     padding: 3px 0px 3px 12px;
     border-right: none;
     margin-right: -6px; }
-  #NautilusPathBar button {
+  #NautilusPathBar button, .pathbar button {
     background: transparent;
     border: none;
     margin: 0;
     padding: 0; }
-  #NautilusPathBar .current-dir label, #NautilusPathBar .current-dir image {
+  #NautilusPathBar .current-dir label, #NautilusPathBar .current-dir image, .pathbar .current-dir label, .pathbar .current-dir image {
     padding: 6px 12px;
     border-radius: 23px;
     background: linear-gradient(to right, #c50ed2, #8500f7);
     box-shadow: 0px 0px 5px rgba(197, 14, 210, 0.98);
     color: white; }
-  #NautilusPathBar .current-dir image {
+  #NautilusPathBar .current-dir image, .pathbar .current-dir image {
     background: #c50ed2; }
-  #NautilusPathBar button.current-dir:only-child image {
+  #NautilusPathBar button.current-dir:only-child image, .pathbar button.current-dir:only-child image {
     margin-right: -6px;
     padding: 0px 0px 0px 12px;
     border-radius: 23px 0px 0px 23px; }
-  #NautilusPathBar button.current-dir:only-child label {
+  #NautilusPathBar button.current-dir:only-child label, .pathbar button.current-dir:only-child label {
     border-radius: 0px 23px 23px 0px; }
 
 #NautilusQueryEditor {
