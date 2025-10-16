@@ -6594,7 +6594,7 @@ ConversationListView .view .cell, ConversationListView iconview .cell {
     box-shadow: 0px 0px 0px 1.5px #00D3A7, inset 0px -3px 0px 0px @colorpad_fg_color; }
 
 .colorsetter {
-  color: colorsetter_fg_color; }
+  color: @colorsetter_fg_color; }
   .colorsetter, .colorsetter:backdrop, .colorsetter:hover, .colorsetter:hover:backdrop, .colorsetter:active, .colorsetter:active:backdrop, .colorsetter:checked, .colorsetter:checked:backdrop {
     background-color: @colorsetter_color; }
   .colorsetter:hover {
