@@ -19,7 +19,7 @@
   &, &:hover, &:active, &:checked { 
     &, &:backdrop { background-color: #{'@colorsetter_color'}; }
   }
-  color: #{'colorsetter_fg_color'};
+  color: #{'@colorsetter_fg_color'};
 
   &:hover { filter: brightness(93%); }
   
