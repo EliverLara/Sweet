@@ -100,9 +100,11 @@ flowbox {
   }
 }
 
+// Nautilus grid view
 gridview {
+  padding: 10px;
   > child {
-    padding: 6px;
+    padding: 7px;
     box { //cells
       border-spacing: 5px; //label separation
     }
