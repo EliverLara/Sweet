@@ -251,8 +251,11 @@ datechooser {
     &:active, &:selected { 
       @include button(active, $selected_bg_color, $selected_fg_color);
       font-weight: bold;
-    }
+    } 
   }
+  .weekday, .weeknum { color: $insensitive_fg_color;}
+  .weeknum { background-color: lighten($base_color, 4%);}
+  .current-week { background-color: transparentize($insensitive_fg_color, 0.8);}
 }
 
 agenda-view list.background {
@@ -262,6 +265,8 @@ agenda-view list.background {
   }
 }
 
-datechooser, agenda-view list.background {
-  &, &:backdrop { background-color: $headerbar_color; }
+datechooser,
+agenda-view list.background,
+.calendar-list {
+  &, &:backdrop { background-color: $_sidebar_color; }
 }
