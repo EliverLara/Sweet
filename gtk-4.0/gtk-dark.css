@@ -4162,17 +4162,17 @@ placessidebar {
     placessidebar list:backdrop {
       background-color: transparent; }
 
-.sidebar-pane .bottom-bar {
+.sidebar-pane, .sidebar-pane .bottom-bar {
   background-color: #0e0e11; }
-  .sidebar-pane .bottom-bar button {
-    background-color: transparent;
-    background-image: none;
-    border-color: transparent;
-    box-shadow: inset 0 1px rgba(255, 255, 255, 0);
-    text-shadow: none;
-    -gtk-icon-shadow: none; }
-    .sidebar-pane .bottom-bar button .view, .sidebar-pane .bottom-bar button iconview {
-      background-color: transparent; }
+.sidebar-pane .bottom-bar button {
+  background-color: transparent;
+  background-image: none;
+  border-color: transparent;
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0);
+  text-shadow: none;
+  -gtk-icon-shadow: none; }
+  .sidebar-pane .bottom-bar button .view, .sidebar-pane .bottom-bar button iconview {
+    background-color: transparent; }
 
 /*****************
  * GtkSpinButton *
@@ -5768,9 +5768,6 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
 .color-light.timed label, .color-light .event-popover label {
   color: #F4F5F6;
   opacity: 1; }
-.color-light label {
-  color: #F4F5F6;
-  opacity: 1; }
 
 /*******************
  * Calendar sidebar *
@@ -5803,6 +5800,12 @@ datechooser .circular.day.text-button {
     background-color: #0072ff;
     text-shadow: none;
     font-weight: bold; }
+datechooser .weekday, datechooser .weeknum {
+  color: #828385; }
+datechooser .weeknum {
+  background-color: #22232a; }
+datechooser .current-week {
+  background-color: rgba(130, 131, 133, 0.2); }
 
 agenda-view list.background {
   padding: 8px; }
@@ -5811,8 +5814,12 @@ agenda-view list.background {
   headerbar agenda-view list.background .no-events.subtitle {
     color: #F4F5F6; }
 
-datechooser, datechooser:backdrop, agenda-view list.background, agenda-view list.background:backdrop {
-  background-color: #080809; }
+datechooser, datechooser:backdrop,
+agenda-view list.background,
+agenda-view list.background:backdrop,
+.calendar-list,
+.calendar-list:backdrop {
+  background-color: #0e0e11; }
 
 .xfce4-panel.panel {
   background-color: #191a1f;
