@@ -207,10 +207,6 @@
     color: #98abb2;
     opacity: 1;
   }
-  & label {
-    color: #98abb2;
-    opacity: 1;
-  }
 }
 
 /*******************
@@ -237,8 +233,21 @@ datechooser {
     &:active, &:selected { 
       @include button(active, $selected_bg_color, $selected_fg_color);
       font-weight: bold;
-    }
+    } 
   }
+  .weekday, .weeknum { color: $insensitive_fg_color;}
+  .weeknum { background-color: lighten($_sidebar_color, 4%);}
+  .current-week { background-color: transparentize($insensitive_fg_color, 0.8);}
+}
+
+// Calendar popover on Gnome 49
+popover datechooser {
+  background-color: transparent;
+  button { color: $fg_color;}
+  .circular.day.text-button{ 
+    color: $fg_color;
+  }
+  .weeknum { background-color: darken($base_color, 4%);}
 }
 
 agenda-view list.background {
@@ -248,6 +257,14 @@ agenda-view list.background {
   }
 }
 
-datechooser, agenda-view list.background {
-  &, &:backdrop { background-color: $_sidebar_color; opacity: 1;}
+datechooser,
+agenda-view list.background,
+.calendar-list {
+  &, &:backdrop { background-color: $_sidebar_color; }
+}
+
+// List of calendars on Gnome 49
+.calendar-list { 
+  row, label {color: $_sidebar_fg_color; } 
+  row:hover { background-color: lighten($_sidebar_color, 4%);}
 }
