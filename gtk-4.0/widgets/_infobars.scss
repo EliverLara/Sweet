@@ -118,8 +118,14 @@
   background: $suggested_bg_color;
   padding: 5px;
   color: $fg_color;
-  button {
+  button.suggested-action {
     @include button(undecorated);
-    background-color: transparentize(#000, 0.7);
+    background-color: transparentize(#000, 0.5);
+    &:hover, &:active {
+      background-color: transparentize(#000, 0.3);
+    }
+    &:backdrop {
+      background-color: transparentize(#000, 0.7);
+    }
   }
 }
