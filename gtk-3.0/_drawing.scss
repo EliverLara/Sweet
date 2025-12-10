@@ -206,8 +206,8 @@
   @if $t==rounded {
     box-shadow: none;
   //  border: 1px solid $c;
-    color: #fff;
-    label { color:#fff; }
+    color: #000;
+    label { color:#000; }
     border-radius: 8px;
     background: $suggested_bg_color; 
   }

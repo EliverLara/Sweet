@@ -657,18 +657,18 @@ button.osd {
 button.suggested-action {
   border: none;
   box-shadow: none;
-  color: #fff;
+  color: #000;
   border-radius: 8px;
   background: linear-gradient(to right, #5433FF, #20BDFF, #A5FECB); }
   button.suggested-action label {
-    color: #fff; }
+    color: #000; }
   .selection-mode button.titlebutton, button.suggested-action.flat {
     box-shadow: none;
-    color: #fff;
+    color: #000;
     border-radius: 8px;
     background: linear-gradient(to right, #5433FF, #20BDFF, #A5FECB); }
     .selection-mode button.titlebutton label, button.suggested-action.flat label {
-      color: #fff; }
+      color: #000; }
   button.suggested-action:hover {
     color: white;
     outline-color: rgba(255, 255, 255, 0.3);
@@ -781,11 +781,11 @@ button.destructive-action {
     color: #fff; }
   button.destructive-action.flat {
     box-shadow: none;
-    color: #fff;
+    color: #000;
     border-radius: 8px;
     background: linear-gradient(to right, #5433FF, #20BDFF, #A5FECB); }
     button.destructive-action.flat label {
-      color: #fff; }
+      color: #000; }
   button.destructive-action:hover {
     color: white;
     outline-color: rgba(255, 255, 255, 0.3);

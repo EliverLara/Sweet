@@ -121,6 +121,7 @@
   button.suggested-action {
     @include button(undecorated);
     background-color: transparentize(#000, 0.5);
+    label { color: #fff; }
     &:hover, &:active {
       background-color: transparentize(#000, 0.3);
     }
