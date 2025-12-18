@@ -554,8 +554,8 @@ box-shadow: none;
 // top, bottom, right, left
 //
 
-  $_undershoot_color_dark: transparentize(black, 0.8);
-  $_undershoot_color_light: transparentize(white, 0.8);
+  $_undershoot_color_dark: rgba(86, 84, 84, 0.358);
+  $_undershoot_color_light: rgba(86, 84, 84, 0.358);
 
   $_gradient_dir: left;
   $_dash_bg_size: 10px 1px;
