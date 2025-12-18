@@ -1708,7 +1708,7 @@ spinbutton:not(.vertical), spinbutton.vertical > text, entry {
   spinbutton:not(.vertical) undershoot.left, spinbutton.vertical > text undershoot.left,
   entry undershoot.left {
     background-color: transparent;
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.2) 50%, rgba(0, 0, 0, 0.2) 50%);
+    background-image: linear-gradient(to top, rgba(86, 84, 84, 0.358) 50%, rgba(86, 84, 84, 0.358) 50%);
     padding-left: 1px;
     background-size: 1px 10px;
     background-repeat: repeat-y;
@@ -1719,7 +1719,7 @@ spinbutton:not(.vertical), spinbutton.vertical > text, entry {
   spinbutton:not(.vertical) undershoot.right, spinbutton.vertical > text undershoot.right,
   entry undershoot.right {
     background-color: transparent;
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.2) 50%, rgba(0, 0, 0, 0.2) 50%);
+    background-image: linear-gradient(to top, rgba(86, 84, 84, 0.358) 50%, rgba(86, 84, 84, 0.358) 50%);
     padding-right: 1px;
     background-size: 1px 10px;
     background-repeat: repeat-y;
@@ -2079,7 +2079,7 @@ scrolledwindow overshoot.right {
     box-shadow: none; }
 scrolledwindow undershoot.top {
   background-color: transparent;
-  background-image: linear-gradient(to left, rgba(255, 255, 255, 0.2) 50%, rgba(0, 0, 0, 0.2) 50%);
+  background-image: linear-gradient(to left, rgba(86, 84, 84, 0.358) 50%, rgba(86, 84, 84, 0.358) 50%);
   padding-top: 1px;
   background-size: 10px 1px;
   background-repeat: repeat-x;
@@ -2089,7 +2089,7 @@ scrolledwindow undershoot.top {
   box-shadow: none; }
 scrolledwindow undershoot.bottom {
   background-color: transparent;
-  background-image: linear-gradient(to left, rgba(255, 255, 255, 0.2) 50%, rgba(0, 0, 0, 0.2) 50%);
+  background-image: linear-gradient(to left, rgba(86, 84, 84, 0.358) 50%, rgba(86, 84, 84, 0.358) 50%);
   padding-bottom: 1px;
   background-size: 10px 1px;
   background-repeat: repeat-x;
@@ -2099,7 +2099,7 @@ scrolledwindow undershoot.bottom {
   box-shadow: none; }
 scrolledwindow undershoot.left {
   background-color: transparent;
-  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.2) 50%, rgba(0, 0, 0, 0.2) 50%);
+  background-image: linear-gradient(to top, rgba(86, 84, 84, 0.358) 50%, rgba(86, 84, 84, 0.358) 50%);
   padding-left: 1px;
   background-size: 1px 10px;
   background-repeat: repeat-y;
@@ -2109,7 +2109,7 @@ scrolledwindow undershoot.left {
   box-shadow: none; }
 scrolledwindow undershoot.right {
   background-color: transparent;
-  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.2) 50%, rgba(0, 0, 0, 0.2) 50%);
+  background-image: linear-gradient(to top, rgba(86, 84, 84, 0.358) 50%, rgba(86, 84, 84, 0.358) 50%);
   padding-right: 1px;
   background-size: 1px 10px;
   background-repeat: repeat-y;
