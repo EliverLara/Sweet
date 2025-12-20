@@ -37,6 +37,8 @@ PlasmaCore.Dialog {
     // Set to true if the value is meant for progress bar,
     // false for displaying the value as normal text
     property bool showingProgress: false
+    // Maximum value of progress bar (overriden for volume amplification)
+    property int osdMaxValue: 100
 
     mainItem: OsdItem {
         rootItem: root
