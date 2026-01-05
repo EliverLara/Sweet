@@ -343,10 +343,6 @@ popover.background.magnifier > contents, .osd {
     text-shadow: none;
     -gtk-icon-shadow: none; }
 
-*:selected {
-  background: #0072ff;
-  color: #fefefe; }
-
 /***********
  * Buttons *
  ***********/
@@ -2822,8 +2818,9 @@ menubar,
   .menubar > item {
     min-height: 16px;
     padding: 4px 8px; }
-    menubar > item:hover,
-    .menubar > item:hover {
+    menubar > item:hover, menubar > item:selected,
+    .menubar > item:hover,
+    .menubar > item:selected {
       box-shadow: inset 0 -3px #0072ff; }
     menubar > item:disabled,
     .menubar > item:disabled {
@@ -2832,7 +2829,6 @@ menubar,
 
 menu, .menu, .context-menu {
   font: initial;
-  margin: 4px;
   padding: 2px 0px;
   background: linear-gradient(to bottom, #fff 20%, #fff);
   border-radius: 5px; }
