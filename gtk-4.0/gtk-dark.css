@@ -4436,54 +4436,39 @@ switch {
 /************
  * Toolbars *
  ************/
-toolbar, .inline-toolbar, searchbar > revealer > box {
+.toolbar, searchbar > revealer > box {
   padding: 4px;
+  border-spacing: 4px;
   background-color: #101013; }
 
-toolbar {
-  padding: 4px 3px 3px 4px; }
-  .osd toolbar {
-    background-color: transparent; }
-  toolbar.osd {
-    padding: 13px;
-    border: none;
-    border-radius: 5px;
-    background-color: rgba(7, 7, 8, 0.98); }
-    toolbar.osd.left, toolbar.osd.right, toolbar.osd.top, toolbar.osd.bottom {
-      border-radius: 0; }
-  toolbar.horizontal separator {
-    margin: 0 7px 1px 6px; }
-  toolbar.vertical separator {
-    margin: 6px 1px 7px 0; }
-  toolbar:not(.inline-toolbar):not(.osd) switch,
-  toolbar:not(.inline-toolbar):not(.osd) scale,
-  toolbar:not(.inline-toolbar):not(.osd) entry,
-  toolbar:not(.inline-toolbar):not(.osd) spinbutton,
-  toolbar:not(.inline-toolbar):not(.osd) button {
-    margin-right: 1px;
-    margin-bottom: 1px; }
-
-.inline-toolbar {
-  padding: 3px;
-  border-width: 0 1px 1px;
-  border-radius: 0  0 5px 5px; }
+.osd .toolbar {
+  background-color: transparent; }
+.toolbar.osd {
+  padding: 13px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(7, 7, 8, 0.98); }
+  .toolbar.osd.left, .toolbar.osd.right, .toolbar.osd.top, .toolbar.osd.bottom {
+    border-radius: 0; }
+.toolbar.horizontal > separator {
+  margin: 4px 0; }
+.toolbar.vertical > separator {
+  margin: 0 4px; }
 
 searchbar > revealer > box {
-  border-width: 0 0 1px;
-  padding: 5px; }
+  padding: 6px;
+  border-spacing: 6px;
+  border-width: 0 0 1px; }
 
-.inline-toolbar, searchbar > revealer > box {
+searchbar > revealer > box {
   border-style: solid;
   border-color: black;
   background-color: #0b0b0d; }
-  .inline-toolbar:backdrop, searchbar > revealer > box:backdrop {
+  searchbar > revealer > box:backdrop {
     border-color: #020202;
     background-color: #0b0b0d;
     box-shadow: none;
     transition: 200ms ease-out; }
-
-searchbar {
-  background: #191a1f; }
 
 /************
  * Tooltips *
