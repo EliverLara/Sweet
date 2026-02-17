@@ -61,7 +61,7 @@ Item {
 
         visible: rootItem.showingProgress
         minimumValue: 0
-        maximumValue: 100
+        maximumValue: rootItem.osdMaxValue
 
         value: Number(rootItem.osdValue)
     }
