@@ -35,6 +35,8 @@ Item {
     //  | |                | |
     //  | \----------------/ |
     //  |      spacing       |
+    //  |     percentage     |
+    //  |      spacing       |
     //  | [progressbar/text] |
     //  |      spacing       |
     //  \--------------------/
@@ -61,10 +63,30 @@ Item {
 
         visible: rootItem.showingProgress
         minimumValue: 0
-        maximumValue: 100
+        maximumValue: rootItem.osdMaxValue
 
         value: Number(rootItem.osdValue)
+
+        PlasmaExtra.Heading {
+            anchors {
+                bottom: progressBar.top
+                bottomMargin: units.smallSpacing
+                horizontalCenter: parent.horizontalCenter
+            }
+            level: 4
+            text: Math.round(progressBar.value) + "%"
+            color: {
+                if (progressBar.value <= 100) {
+                    return theme.textColor
+                } else if (progressBar.value <= 125) {
+                    return theme.neutralTextColor
+                } else {
+                    return theme.negativeTextColor
+                }
+            }
+        }
     }
+
     PlasmaExtra.Heading {
         id: label
         anchors {
@@ -73,7 +95,6 @@ Item {
             right: parent.right
             margins: Math.floor(units.smallSpacing / 2)
         }
-
         visible: !rootItem.showingProgress
         text: rootItem.showingProgress ? "" : (rootItem.osdValue ? rootItem.osdValue : "")
         horizontalAlignment: Text.AlignHCenter
