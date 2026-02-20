@@ -6,7 +6,7 @@
         .view.cell,
         iconview.cell {
             &:hover {
-                background: transparentize(darken($_sidebar_color, 3%), 0.3);
+                background: lighten($_sidebar_color, 5%);
             }
             &:selected {
                 background: $selected_bg_color;
