@@ -6269,7 +6269,7 @@ ConversationListView {
   -GtkTreeView-vertical-separator: 7; }
   .nemo-window .places-treeview .view.cell:hover, .nemo-window .places-treeview iconview.cell:hover,
   .nemo-window .places-treeview iconview.cell:hover {
-    background: rgba(16, 19, 27, 0.7); }
+    background: #202435; }
   .nemo-window .places-treeview .view.cell:selected, .nemo-window .places-treeview iconview.cell:selected,
   .nemo-window .places-treeview iconview.cell:selected {
     background: #00D3A7;
