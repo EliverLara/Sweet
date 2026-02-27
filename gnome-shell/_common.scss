@@ -1581,30 +1581,41 @@ $slider_size: 16px;
   .app-well-app.app-folder,
   .show-apps,
   .grid-search-result,
-  .overview-tile,
-  .dash-item-container .overview-tile{
+  .overview-tile {
     background-color: transparent;
     border: none;
-    & .overview-icon {
-      @extend %icon_tile;
-    }
-   
-    &:hover .overview-icon,
-    &:focus .overview-icon,
-    &:selected .overview-icon {
+    @extend %icon_tile;
+
+    &:hover,
+    &:focus,
+    &:selected {
       background-color: lighten($base_color, 7%);
       transition-duration: 0ms;
       border-image: none;
       background-image: none;
     }
 
-    &:active .overview-icon,
-    &:checked .overview-icon {
+    &:active,
+    &:checked {
       background-color: lighten($base_color, 7%);
       box-shadow: inset $depth2;
       color: $fg_color;
     }
+  }
 
+  // items on the dash
+  .dash-item-container {
+    .show-apps,
+    .overview-tile {
+      &, .overview-icon { @extend %icon_tile; }
+      &:hover .overview-icon,
+      &:focus .overview-icon,
+      &:selected .overview-icon,
+      &:active .overview-icon,
+      &:checked .overview-icon{
+        background-color: lighten($base_color, 7%);
+      }
+    }
   }
 
   .app-well-app-running-dot, .app-grid-running-dot { //running apps indicator
@@ -1626,8 +1637,8 @@ $slider_size: 16px;
   }
 
   /* App Folders */
-.app-well-app.app-folder, .app-folder .overview-icon {
-  background-color: lighten($bg_color, 5%);
+.app-well-app.app-folder, .app-folder {
+  background-color: lighten($base_color, 5%);
   border-radius: 18px;
 }
 // expanded folder
