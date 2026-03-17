@@ -1261,7 +1261,8 @@ StScrollBar {
   .list-search-result:hover, .search-provider-icon:selected,
   .list-search-result:selected {
     background-color: rgba(244, 245, 246, 0.1);
-    transition-duration: 200ms; }
+    transition-duration: 200ms;
+    box-shadow: none !important; }
   .search-provider-icon:active,
   .list-search-result:active, .search-provider-icon:checked,
   .list-search-result:checked {
@@ -1385,7 +1386,8 @@ StScrollBar {
     background-color: #292a32;
     transition-duration: 0ms;
     border-image: none;
-    background-image: none; }
+    background-image: none;
+    box-shadow: none !important; }
   .app-well-app:active, .app-well-app:checked,
   .app-well-app.app-folder:active,
   .app-well-app.app-folder:checked,

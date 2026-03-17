@@ -1471,6 +1471,7 @@ $slider_size: 16px;
     &:selected {
       background-color: transparentize($osd_fg_color, .9);
       transition-duration: 200ms;
+      box-shadow: none !important;
     }
   
     &:active,
@@ -1594,6 +1595,7 @@ $slider_size: 16px;
       transition-duration: 0ms;
       border-image: none;
       background-image: none;
+      box-shadow: none !important;
     }
 
     &:active,
