@@ -131,20 +131,15 @@ placessidebar {
 
       label {
         color: #98abb2;
-        padding-left: 8px;
+        padding-left: 30px;
       }
-      &.sidebar-row{
-        .sidebar-icon {
-          margin-left:-14px;
-          margin-right: 12px;
-          padding-left: 14px;
-          padding-right: 12px;
-          color: #98abb2;
-        }
+
+      &.sidebar-row .sidebarrow-icon {
+        color: #98abb2;
       }
+      
       &:hover{
         transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-        color: rgba(0,0,0,0.76);
         background-color: transparent; /*rgba(65,67,75,0.4); */
         background-image:linear-gradient(to right, lighten(#171e27, 2%) 40px, lighten($_sidebar_color, 5%) 40px, lighten($_sidebar_color, 5%) 97%);
       }
@@ -165,7 +160,7 @@ placessidebar {
                                 rgba(65,67,75,0) 36px, rgba(65,67,75,0)97%);
         }
 
-        .sidebar-icon {
+        .sidebarrow-icon {
           -gtk-icon-shadow: 0 1px transparentize(#fff, 0.2);
           color: inherit; 
         }
