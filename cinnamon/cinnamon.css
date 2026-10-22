@@ -1973,4 +1973,21 @@ StScrollBar {
   border-radius: 6px;
   padding: 12px; }
 
+.screen-shield .prompt-dialog .user-icon {
+    icon-size: 128px; }
+
+.screen-shield .icon-button:hover,
+.screen-shield .icon-button:focus {
+    background-color: rgba(195, 199, 209, 0.22); }
+
+.screen-shield .icon-button {
+    border-radius: 9999px;
+    min-height: 16px;
+    padding: 1.091em;
+    color: white;
+    border: 1px solid rgba(195, 199, 209, 0.1);
+    background-color: rgba(195, 199, 209, 0.15);
+    margin-left: 6px;
+    margin-right: 6px; }
+
 /*# sourceMappingURL=cinnamon.css.map */
